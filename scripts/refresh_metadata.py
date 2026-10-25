@@ -62,22 +62,32 @@ def record_from_chart(item, region):
         'searchTerm': name, 'developer': item.get('artistName') or '',
         'version': '', 'releaseDate': '',
         'appStoreUrl': item.get('url') or '', 'artwork': item.get('artworkUrl100') or '',
-        'itunesId': int(app_id), 'chartRegions': [region]
+        'itunesId': int(app_id), 'storefront':region, 'chartRegions': [region]
     }
 
 
 def match_search(name, results):
-    target = norm(name)
-    if not target or len(target) < 2:
-        return None
-    exact = [r for r in results if norm(r.get('trackName')) == target and
-             r.get('kind', 'software') == 'software' and
-             r.get('trackViewUrl', '').startswith('https://apps.apple.com/')]
-    if len(exact) == 1:
-        return exact[0]
-    # Reject near matches instead of silently assigning the wrong app icon/developer.
-    return None
+    """Return one unambiguous software listing with the same title/root title.
 
+    The App Store frequently appends '- description' or ': description' to
+    official titles. Never match by arbitrary substring or best-ranked result.
+    """
+    target = norm(name)
+    if len(target) < 2:
+        return None
+    hits = []
+    for item in results:
+        title = str(item.get('trackName') or '').strip()
+        if not title or item.get('kind') != 'software':
+            continue
+        url = str(item.get('trackViewUrl') or '')
+        if not url.startswith('https://apps.apple.com/'):
+            continue
+        if norm(title) == target or any(norm(part) == target for part in
+                re.split(r'\s+[-–—:]\s*|\s*[:：]\s*',title,maxsplit=1)[:1]):
+            hits.append(item)
+    # Multiple matching listings are ambiguous; require a human-verified ID.
+    return hits[0] if len(hits) == 1 else None
 
 def apply_metadata(app, track):
     """App Store fields only — DO NOT touch status, note, sourceUrl or sourceDate."""
@@ -145,7 +155,7 @@ def main():
     # IDs come from public chart feeds or previously verified lookups.
     for country in ('cn', 'us'):
         target = [x for x in apps if x.get('itunesId') and
-                  (country == 'cn') == (x.get('region') == '中国大陆')]
+                  (x.get('storefront') or ('cn' if x.get('region') == '中国大陆' else 'us')) == country]
         # Keep API requests manageable; grouped ID-based lookups.
         for start in range(0,len(target),35):
             group = target[start:start+35]
@@ -182,6 +192,9 @@ def main():
     catalog['lastMetadataSync'] = dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
     DATA.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f'OK: {len(apps)} catalog entries ({found_chart} newly observed chart apps; original {original}).')
+    linked = sum(bool(a.get('itunesId') and a.get('appStoreUrl')) for a in apps)
+    icons = sum(bool(a.get('artwork')) for a in apps)
+    print(f'Official App Store links: {linked}/{len(apps)}; official artwork: {icons}/{len(apps)}')
     print('Compatibility statuses preserved by policy.')
 
 if __name__ == '__main__':
