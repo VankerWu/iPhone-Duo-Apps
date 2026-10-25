@@ -20,7 +20,7 @@ import urllib.request
 from pathlib import Path
 
 DATA = Path(__file__).resolve().parents[1] / 'docs' / 'data' / 'apps.json'
-UA = 'DuoAtlas/0.1 (public App Store directory; rate-limited metadata lookups)'
+UA = 'iPhone-Duo-App/0.2 (public App Store directory; rate-limited metadata lookups)'
 CHART_HOST = 'https://rss.marketingtools.apple.com'
 SEARCH_HOST = 'https://itunes.apple.com'
 MAX_NEW_PER_REGION = 50

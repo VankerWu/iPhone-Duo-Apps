@@ -4,26 +4,27 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#f7f8fa" />
-  <meta name="description" content="Duo Atlas：独立 iPhone Duo 应用适配观察站。查询苹果官方介绍、用户实测与待验证应用，附原始证据来源。" />
-  <meta property="og:title" content="Duo Atlas — iPhone Duo 适配观察站" />
+  <meta name="description" content="iPhone Duo App：独立 iPhone Duo 应用适配观察站。查询苹果官方介绍、用户实测与待验证应用，附原始证据来源。" />
+  <meta property="og:title" content="iPhone Duo App — 应用适配目录" />
   <meta property="og:description" content="哪些 App 适配 iPhone Duo？按类别筛选，核对证据，参与实测。" />
-  <title>Duo Atlas — iPhone Duo App 适配观察站</title>
+  <title>iPhone Duo App — 应用适配目录</title>
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="./assets/styles.css" />
 </head>
 <body>
   <div class="site-shell">
     <header class="topbar container">
-      <a class="brand" href="#top" aria-label="Duo Atlas 首页">
+      <a class="brand" href="#top" aria-label="iPhone Duo App 首页">
         <span class="brand-symbol" aria-hidden="true"><span></span><span></span></span>
-        <span>Duo<span class="brand-lighter">Atlas</span></span>
+        <span>iPhone<span class="brand-lighter"> Duo App</span></span>
       </a>
       <nav class="topnav" aria-label="主导航">
         <a href="#directory">应用目录</a>
         <a href="#method">判断标准</a>
         <a href="#about">关于项目</a>
+        <a href="#support">赞赏作者</a>
       </nav>
-      <div class="top-actions"><button id="themeButton" class="small-icon-button" type="button" aria-label="切换深浅主题"><svg viewBox="0 0 24 24"><path d="M20.2 14A8.5 8.5 0 0 1 10 3.8 8.5 8.5 0 1 0 20.2 14Z"/></svg></button><a class="github-link" id="repoLink" href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+      <div class="top-actions"><button id="themeButton" class="small-icon-button" type="button" aria-label="切换深浅主题"><svg viewBox="0 0 24 24"><path d="M20.2 14A8.5 8.5 0 0 1 10 3.8 8.5 8.5 0 1 0 20.2 14Z"/></svg></button><a class="github-link" id="repoLink" href="https://github.com/VankerWu/iPhone-Duo-Apps" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
     </header>
 
     <main id="top">
@@ -77,9 +78,34 @@
       </section>
 
       <section class="cta container" id="about"><div><div class="section-kicker">BUILT WITH THE COMMUNITY</div><h2>你的一次实测，<br />能帮到更多 Duo 用户。</h2><p>上传适配截图、描述黑边或双栏情况，让结果不只是版本号，而是真实体验。</p><button class="primary-button" id="submitCta" type="button">向 GitHub 提交报告 ↗</button></div><div class="cta-device" aria-hidden="true"><span>外屏</span><i></i><span>内屏</span><i></i><span>半折叠</span></div></section>
+
+      <section class="support container" id="support" aria-labelledby="support-title">
+        <div class="support-copy">
+          <div class="section-kicker">SUPPORT THE PROJECT</div>
+          <h2 id="support-title">喜欢这个项目？<span class="support-accent">请我喝杯咖啡。</span></h2>
+          <p>这个适配目录由个人独立维护，查询和提交反馈始终免费。如果网站对你有帮助，欢迎自愿赞赏，支持后续的信息整理与更新。</p>
+          <p class="support-disclaimer">赞赏完全自愿，不影响任何功能，也不提供付费适配认证。请先核对收款账户信息。</p>
+        </div>
+        <div class="support-grid">
+          <article class="support-card" id="wechatQrCard">
+            <div class="support-card-header"><span class="support-icon wechat" aria-hidden="true">微</span><div><h3>微信赞赏</h3><p>使用微信扫一扫</p></div></div>
+            <div class="support-qr-frame">
+              <img class="support-qr-image" src="./assets/wechat-pay.png" alt="作者的微信赞赏收款码" loading="lazy" decoding="async" />
+              <div class="support-qr-empty" aria-hidden="true"><span class="support-qr-placeholder-icon">＋</span><span>待添加微信赞赏码</span></div>
+            </div>
+          </article>
+          <article class="support-card" id="alipayQrCard">
+            <div class="support-card-header"><span class="support-icon alipay" aria-hidden="true">支</span><div><h3>支付宝赞赏</h3><p>使用支付宝扫一扫</p></div></div>
+            <div class="support-qr-frame">
+              <img class="support-qr-image" src="./assets/alipay-pay.png" alt="作者的支付宝收款码" loading="lazy" decoding="async" />
+              <div class="support-qr-empty" aria-hidden="true"><span class="support-qr-placeholder-icon">＋</span><span>待添加支付宝收款码</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
     </main>
 
-    <footer class="footer container"><div><strong>DuoAtlas</strong><p>独立维护的 iPhone Duo App 适配观察站。<br />非苹果官方项目，与 Apple 无隶属或认可关系。</p></div><div><a href="https://developer.apple.com/iphone-duo/prepare/" target="_blank" rel="noopener noreferrer">Apple 开发指南 ↗</a><a href="https://www.apple.com/newsroom/2026/10/developers-bring-incredible-new-app-experiences-to-iphone-duo/" target="_blank" rel="noopener noreferrer">官方资料来源 ↗</a><a id="footerRepo" href="https://github.com" target="_blank" rel="noopener noreferrer">开源仓库 ↗</a></div><small>应用名称及商标属于各自权利人 · © <span id="year"></span> DuoAtlas</small></footer>
+    <footer class="footer container"><div><strong>iPhone Duo App</strong><p>独立维护的 iPhone Duo App 适配观察站。<br />非苹果官方项目，与 Apple 无隶属或认可关系。</p></div><div><a href="https://developer.apple.com/iphone-duo/prepare/" target="_blank" rel="noopener noreferrer">Apple 开发指南 ↗</a><a href="https://www.apple.com/newsroom/2026/10/developers-bring-incredible-new-app-experiences-to-iphone-duo/" target="_blank" rel="noopener noreferrer">官方资料来源 ↗</a><a href="#support">赞赏作者 ↗</a><a id="footerRepo" href="https://github.com/VankerWu/iPhone-Duo-Apps" target="_blank" rel="noopener noreferrer">开源仓库 ↗</a></div><small>应用名称及商标属于各自权利人 · © <span id="year"></span> iPhone Duo App</small></footer>
   </div>
 
   <dialog id="detailDialog" class="detail-dialog"><div class="dialog-bar"><span>应用详情</span><button type="button" id="dialogClose" aria-label="关闭详情">×</button></div><div id="dialogBody"></div></dialog>

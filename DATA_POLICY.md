@@ -1,4 +1,4 @@
-# DuoAtlas 数据证据标准（必读）
+# iPhone Duo App 数据证据标准（必读）
 
 ## 三种状态
 

@@ -2,7 +2,7 @@
 
 // Set this to the GitHub repository that will host this NEW WEBSITE.
 // Do not point it to the DuoCinema player project unless you want issues there.
-const REPOSITORY = 'VankerWu/DuoAtlas';
+const REPOSITORY = 'VankerWu/iPhone-Duo-Apps';
 const DATA_URL = './data/apps.json';
 const STATUS = {
   apple_featured: { label: '苹果官方介绍', hint: '出现在苹果公开介绍 iPhone Duo 应用的资料中。不是本站实测结论。' },
@@ -91,16 +91,29 @@ function showDetails(app) {
   $('detailDialog').showModal();
 }
 function setupTheme() {
-  const current = localStorage.getItem('duoatlas-theme');
+  const current = localStorage.getItem('iphone-duo-app-theme');
   const dark = current ? current === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
   document.documentElement.dataset.theme = dark ? 'dark' : 'light';
   $('themeButton').addEventListener('click', () => {
     const newMode = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
     document.documentElement.dataset.theme = newMode;
-    localStorage.setItem('duoatlas-theme',newMode);
+    localStorage.setItem('iphone-duo-app-theme',newMode);
   });
 }
+
+function setupDonationQRs() {
+  document.querySelectorAll('.support-card').forEach(card => {
+    const img = card.querySelector('.support-qr-image');
+    if (!img) return;
+    const reflect = () => card.classList.toggle('has-qr', Boolean(img.complete && img.naturalWidth > 0));
+    img.addEventListener('load', reflect);
+    img.addEventListener('error', reflect);
+    reflect();
+  });
+}
+
 async function start() {
+  setupDonationQRs();
   setupTheme();
   $('repoLink').href = `https://github.com/${REPOSITORY}`;
   $('footerRepo').href = `https://github.com/${REPOSITORY}`;
