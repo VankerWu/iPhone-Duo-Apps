@@ -1,30 +1,70 @@
 name: Refresh public App Store data
+
 on:
   workflow_dispatch:
   schedule:
     - cron: '27 3,15 * * *'
+
+# The workflow edits only docs/data/apps.json.
 permissions:
   contents: write
+
 concurrency:
-  group: duoatlas-metadata
+  group: iphone-duo-apps-metadata-main
   cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Check out latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Query public Apple feeds and metadata
-        run: python scripts/refresh_metadata.py
-      - name: Commit updated public metadata (if changed)
+
+      - name: Verify source and catalog
         run: |
+          python -m py_compile scripts/refresh_metadata.py
+          python scripts/refresh_metadata.py --dry-run
+
+      - name: Refresh App Store metadata
+        run: python -u scripts/refresh_metadata.py --no-charts
+
+      - name: Commit refreshed metadata safely
+        shell: bash
+        run: |
+          set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add docs/data/apps.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'chore: refresh public App Store metadata'
-            git push
+          git add -- docs/data/apps.json
+          if git diff --cached --quiet; then
+            echo 'No App Store metadata changes; no commit required.'
+            exit 0
           fi
+          git commit -m 'chore: refresh public App Store metadata'
+          # Never force-push. Incorporate user edits made while this job ran.
+          for attempt in 1 2 3; do
+            echo "Push attempt ${attempt}/3"
+            git fetch origin main
+            if ! git rebase origin/main; then
+              echo 'ERROR: apps.json changed remotely and conflicts with metadata update.' >&2
+              git rebase --abort || true
+              exit 1
+            fi
+            if git push origin HEAD:main; then
+              echo 'Metadata committed and pushed successfully.'
+              exit 0
+            fi
+            echo 'Push rejected: remote may have advanced, be protected, or deny bot writes.' >&2
+            sleep 3
+          done
+          echo 'ERROR: Could not push after 3 safe retries. Check repository token permissions and branch rules.' >&2
+          exit 1

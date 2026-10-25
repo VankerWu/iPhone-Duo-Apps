@@ -34,7 +34,7 @@ def get_json(url, retries=2):
                 if res.status != 200:
                     raise ValueError(f'Unexpected HTTP {res.status}')
                 return json.load(res)
-        except (urllib.error.URLError, ValueError, json.JSONDecodeError) as error:
+        except (urllib.error.URLError, ValueError, json.JSONDecodeError, TimeoutError, OSError) as error:
             if attempt == retries:
                 print(f'WARNING: fetch failed: {url}: {error}', file=sys.stderr)
                 return None
@@ -153,6 +153,8 @@ def main():
             time.sleep(1)
 
     # IDs come from public chart feeds or previously verified lookups.
+    lookup_success_count = 0
+    resolved_tracks_count = 0
     for country in ('cn', 'us'):
         target = [x for x in apps if x.get('itunesId') and
                   (x.get('storefront') or ('cn' if x.get('region') == '中国大陆' else 'us')) == country]
@@ -162,10 +164,13 @@ def main():
             ids = ','.join(str(x['itunesId']) for x in group)
             url = f'{SEARCH_HOST}/lookup?' + urllib.parse.urlencode({'id': ids,'country': country,'entity':'software'})
             info = get_json(url)
+            if isinstance(info, dict) and isinstance(info.get('results'), list):
+                lookup_success_count += 1
             fetched = {str(t.get('trackId')): t for t in (info or {}).get('results', [])}
             for entry in group:
                 meta = fetched.get(str(entry['itunesId']))
                 if meta:
+                    resolved_tracks_count += 1
                     apply_metadata(entry,meta)
             time.sleep(1.2)
 
@@ -180,15 +185,23 @@ def main():
             url = f'{SEARCH_HOST}/search?' + urllib.parse.urlencode(
                 {'term': term, 'country': country, 'media':'software', 'entity':'software','limit':12})
             info = get_json(url)
+            if isinstance(info, dict) and isinstance(info.get('results'), list):
+                lookup_success_count += 1
             hit = match_search(term,(info or {}).get('results',[])) if info else None
             if hit:
+                resolved_tracks_count += 1
                 apply_metadata(app,hit)
                 break
             time.sleep(1.15)
         if idx and idx % 10 == 0:
             print(f'Name lookups: {idx}/{len(missing)}')
 
-    # This timestamp means metadata was attempted, not that every app was successfully matched.
+    # Do not claim a fresh successful sync if Apple's lookup API did not respond.
+    if lookup_success_count == 0:
+        print('WARNING: Apple lookup API returned no usable responses. Existing catalog and sync timestamp left unchanged.')
+        return
+    print(f'Apple lookup requests succeeded: {lookup_success_count}; matched listings: {resolved_tracks_count}')
+    # This timestamp means at least one metadata request succeeded, not every app was matched.
     catalog['lastMetadataSync'] = dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
     DATA.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f'OK: {len(apps)} catalog entries ({found_chart} newly observed chart apps; original {original}).')
