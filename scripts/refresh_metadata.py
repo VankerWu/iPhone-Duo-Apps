@@ -61,7 +61,7 @@ def record_from_chart(item, region):
         'sourceLabel': '', 'sourceUrl': '', 'sourceDate': '', 'verifiedDate': '',
         'searchTerm': name, 'developer': item.get('artistName') or '',
         'version': '', 'releaseDate': '',
-        'appStoreUrl': item.get('url') or '', 'artwork': '',
+        'appStoreUrl': item.get('url') or '', 'artwork': item.get('artworkUrl100') or '',
         'itunesId': int(app_id), 'chartRegions': [region]
     }
 
@@ -70,7 +70,9 @@ def match_search(name, results):
     target = norm(name)
     if not target or len(target) < 2:
         return None
-    exact = [r for r in results if norm(r.get('trackName')) == target]
+    exact = [r for r in results if norm(r.get('trackName')) == target and
+             r.get('kind', 'software') == 'software' and
+             r.get('trackViewUrl', '').startswith('https://apps.apple.com/')]
     if len(exact) == 1:
         return exact[0]
     # Reject near matches instead of silently assigning the wrong app icon/developer.
@@ -130,6 +132,10 @@ def main():
                     peers[0]['itunesId'] = candidate['itunesId']
                     by_id[key] = peers[0]
                     peers[0].setdefault('chartRegions', []).append(country)
+                    if not peers[0].get('appStoreUrl'):
+                        peers[0]['appStoreUrl'] = candidate['appStoreUrl']
+                    if not peers[0].get('artwork'):
+                        peers[0]['artwork'] = candidate['artwork']
                 else:
                     apps.append(candidate)
                     by_id[key] = candidate

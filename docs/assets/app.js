@@ -29,6 +29,24 @@ function cleanURL(url) {
     return ['https:', 'http:'].includes(parsed.protocol) ? parsed.href : '';
   } catch { return ''; }
 }
+// Only link to Apple-owned Store pages, never arbitrary third-party URLs.
+function officialStoreURL(app) {
+  const url = cleanURL(app.appStoreUrl);
+  if (!url) return '';
+  try {
+    const parsed = new URL(url);
+    return parsed.protocol === 'https:' && ['apps.apple.com','itunes.apple.com'].includes(parsed.hostname.toLowerCase()) ? parsed.href : '';
+  } catch { return ''; }
+}
+// Unmatched entries must NOT masquerade as an exact App Store listing.
+function storeDestination(app) {
+  const exact = officialStoreURL(app);
+  if (exact) return {url:exact,label:'App Store', verified:true};
+  const country = app.region === '中国大陆' ? 'cn' : 'us';
+  const term = app.searchTerm || app.name;
+  return {url:`https://apps.apple.com/${country}/iphone/search?term=${encodeURIComponent(term)}`,
+    label:'商店搜索',verified:false};
+}
 function iconFor(app, large = false) {
   const short = app.name.replace(/\s/g,'').slice(0,2);
   const hash = Array.from(app.id).reduce((total, c) => total + c.charCodeAt(0), 0);
@@ -66,10 +84,19 @@ function renderApps() {
   const visible = getVisibleApps();
   $('resultsText').textContent = `显示 ${visible.length} / ${state.apps.length} 款应用`;
   $('emptyState').hidden = visible.length > 0;
-  $('appGrid').innerHTML = visible.map(a => `<button class="app-card" type="button" data-app-id="${safe(a.id)}" aria-label="查看 ${safe(a.name)} 详情">
-    <div class="app-card-top">${iconFor(a)}<div class="app-title-wrap"><div class="app-title">${safe(a.name)}</div><div class="app-subtitle">${safe(a.developer || a.english)} · ${safe(a.category)}</div></div></div>
-    <p class="app-note">${safe(a.note)}</p>
-    <div class="app-bottom"><span class="status-pill ${safe(a.status)}">${safe((STATUS[a.status] || STATUS.unverified).label)}</span><span class="app-arrow">↗</span></div></button>`).join('');
+  $('appGrid').innerHTML = visible.map(a => {
+    const dest = storeDestination(a);
+    const label = dest.verified ? '前往 App Store' : '在 App Store 搜索';
+    return `<article class="app-card">
+      <button class="app-card-main" type="button" data-app-id="${safe(a.id)}" aria-label="查看 ${safe(a.name)} 详情">
+        <div class="app-card-top">${iconFor(a)}<div class="app-title-wrap"><div class="app-title">${safe(a.name)}</div><div class="app-subtitle">${safe(a.developer || a.english)} · ${safe(a.category)}</div></div></div>
+        <p class="app-note">${safe(a.note)}</p>
+      </button>
+      <div class="app-bottom"><span class="status-pill ${safe(a.status)}">${safe((STATUS[a.status] || STATUS.unverified).label)}</span>
+        <a class="app-store-link${dest.verified ? '' : ' store-search'}" href="${safe(dest.url)}" target="_blank" rel="noopener noreferrer" aria-label="${safe(a.name)}：${label}" title="${label}">${safe(dest.label)} ↗</a>
+      </div>
+    </article>`;
+  }).join('');
 }
 function reportURL(app) {
   const title = app ? `反馈：${app.name} 在 iPhone Duo 的显示情况` : '提交一款 iPhone Duo 适配应用';
@@ -80,14 +107,15 @@ function showDetails(app) {
   if (!app) return;
   const st = STATUS[app.status] || STATUS.unverified;
   const source = cleanURL(app.sourceUrl);
-  const store = cleanURL(app.appStoreUrl);
+  const store = storeDestination(app);
   $('dialogBody').innerHTML = `<div class="detail-header">${iconFor(app,true)}<div><h2>${safe(app.name)}</h2><p>${safe(app.developer || app.english)} · ${safe(app.category)}</p></div></div>
     <div class="detail-main"><span class="status-pill ${safe(app.status)}">${safe(st.label)}</span><p>${safe(app.note)}</p><p style="font-size:11px">${safe(st.hint)}</p></div>
     <dl><div class="detail-info"><dt>主要地区</dt><dd>${safe(app.region)}</dd></div>
     <div class="detail-info"><dt>版本信息</dt><dd>${safe(app.version || '尚未同步 App Store 元数据')}</dd></div>
     <div class="detail-info"><dt>公开依据</dt><dd>${source ? `<a href="${safe(source)}" target="_blank" rel="noopener noreferrer">${safe(app.sourceLabel || '查看原始资料')} ↗</a>` : '暂无可靠适配证据'}</dd></div>
     <div class="detail-info"><dt>来源日期</dt><dd>${safe(app.sourceDate || '待验证')}</dd></div></dl>
-    <div class="detail-buttons">${store ? `<a class="main" target="_blank" rel="noopener noreferrer" href="${safe(store)}">App Store ↗</a>` : ''}<a href="${safe(reportURL(app))}" target="_blank" rel="noopener noreferrer">提交实测 / 纠错 ↗</a></div>`;
+    <div class="detail-buttons"><a class="main" target="_blank" rel="noopener noreferrer" href="${safe(store.url)}">${store.verified ? '前往 App Store ↗' : '在 App Store 搜索 ↗'}</a><a href="${safe(reportURL(app))}" target="_blank" rel="noopener noreferrer">提交实测 / 纠错 ↗</a></div>
+    ${store.verified ? '' : '<p class="detail-store-note">尚未可靠匹配到具体 App Store 条目，将打开商店搜索页，请核对开发者和应用名称。</p>'}`;
   $('detailDialog').showModal();
 }
 function setupTheme() {
