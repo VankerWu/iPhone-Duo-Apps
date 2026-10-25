@@ -1,50 +1,63 @@
-# iPhone Duo App — 折叠屏应用适配目录
+# iPhone Duo App
 
-查询 iPhone Duo 应用适配资料，区分苹果官方介绍、用户实测和待确认状态。
-网站地址：https://vankerwu.github.io/iPhone-Duo-Apps/
+**专注 iPhone Duo 的应用适配目录。**
 
-## App Store 官方图标与直达链接（V4）
+了解哪些应用针对折叠屏进行了优化，查看相关证据、App Store 官方页面，并分享实际使用体验。
 
-- 45 款首批应用已根据 **Apple 官方 App Store 商品页**预置准确的 **App ID**，页面内每个 App 都有直达详情页的链接（不是搜索页）。
-- 图标并非手绘、抓取其他网站或以文字充当官方图标。官方图标由 Apple iTunes Lookup API 提供。页面打开后会尝试按 ID 实时载入；GitHub Actions 也会定期把 URL/版本/图标地址写入 `docs/data/apps.json`。
-- 苹果暂时未返回图片或访客网络无法访问时，显示中性占位图；**不会把假图标说成 App Store 图标**。
-- `App Store` 链接是官方应用页面，**不代表该 App 已经得到 Duo 适配实测确认**。访问者所在地区可能需要切换 App Store 区域。
+**[访问网站](https://vankerwu.github.io/iPhone-Duo-Apps/)** · **[提交反馈](https://github.com/VankerWu/iPhone-Duo-Apps/issues/new/choose)** · **[支持项目](https://vankerwu.github.io/iPhone-Duo-Apps/#support)**
 
-### 使图标长期稳定显示（必做一次）
+---
 
-1. 在 GitHub 上传/覆盖这个版本的文件并 Push。
-2. 打开仓库 **Actions → Refresh public App Store data → Run workflow**，选 `main` 分支运行。
-3. 检查运行日志，观察 `official artwork: N/45`。成功后工作流会将元数据更新提交回 `main`，Pages 自动部署。
-4. 以后每 12 小时自动更新。不强制把名称相似的 App 匹配在一起。
+## 项目介绍
 
-如果 Actions 无权限写回仓库：**Settings → Actions → General → Workflow permissions → Read and write permissions**。修改仓库设置之前应确认自己了解相应权限。
+iPhone Duo App 是一个独立维护、免费开放的应用适配信息网站。我们希望把零散的官方发布信息、应用商店资料与用户反馈整理成**可查询、可核实、可持续更新**的目录，帮助用户了解应用在 iPhone Duo 不同使用姿态下的表现。
 
-### 直接本地运行同步脚本（可选）
+它不是应用下载商店，也不是官方兼容性认证平台。
 
-<<<<<<< HEAD
-```bash
-python3 scripts/refresh_metadata.py --no-charts
-```
+## 网站功能
 
-这个脚本需要电脑联网。它仅获取公开 App Store 资料，不抓取账号、下载 IPA 或修改任何适配判定。
+- **应用目录**：按关键词、类型、地区及适配状态搜索与筛选。
+- **适配资料**：展示已公开的介绍或实测证据，并说明仍需验证的部分。
+- **App Store 直达**：对已确认应用身份的条目提供官方商店详情页链接，并在可获取时展示 App Store 图标、版本和开发者信息。
+- **用户反馈**：通过 GitHub Issues 提交新应用、适配体验或信息纠错。
+- **持续维护**：通过公开接口同步应用元数据；适配结论仍需证据和人工核查。
 
-## 网站源码
+## 适配状态说明
 
-- `docs/index.html` — GitHub Pages 入口
-- `docs/assets/app.js` / `styles.css` — 交互和样式
-- `docs/data/apps.json` — 目录及商店 ID
-- `.github/workflows/refresh-metadata.yml` — 定时图标/版本同步
-- `scripts/refresh_metadata.py` — 苹果 API 数据同步代码
+| 状态 | 含义 |
+| --- | --- |
+| 苹果官方介绍 | Apple 在公开资料中提到或展示该应用的 iPhone Duo 使用体验；**不等于本站实测通过**。 |
+| 用户实测确认 | 有具体版本、使用姿态及可核查证据，经人工核对的使用报告。 |
+| 待确认 | 已纳入观察名单，但暂无足够证据判断其适配表现。 |
 
-## 关于站点
+**特别说明：** App 能在设备上运行、最近更新过，或者拥有 App Store 页面，均不代表已完整适配 iPhone Duo。不同版本、地区及内外屏姿态的表现可能存在差异。
 
-这是第三方独立项目，与 Apple 及各应用开发者无官方隶属关系。App 图标、名称与商标归各自权利人所有。使用 Apple 官方 API 中的宣传素材时，请遵守 Apple 相关条款，并将图标与商店入口一起展示。
-=======
-## 数据与版权
+## 数据来源
 
-App 名称、品牌和图标属于各自权利人；目录整理以可核查证据为原则，禁止无证据宣称已适配。详情参考 [DATA_POLICY.md](DATA_POLICY.md)。
+适配记录以 Apple 公开资料、应用开发者说明及经核查的社区反馈为依据。应用名称、图标、开发者、版本和商店入口等元数据通过 Apple 的公开服务获取；部分地区或应用可能暂时无法获取完整资料。
 
-该项目与 Apple 及被收录应用开发者无官方关联。仓库原创代码依仓库内 LICENSE 授权；第三方内容不因此获得授权。
+自动同步**不会**仅凭名称相似、上架时间或更新日志关键词，把应用改成「已确认适配」。数据采集及证据规则详见 [DATA_POLICY.md](DATA_POLICY.md)。
 
-欢迎通过 [Issues](https://github.com/VankerWu/iPhone-Duo-Apps/issues) 提交适配反馈。
->>>>>>> 83f162f60cf9779fe7eb6437f86b06b7e6002f5d
+## 参与完善
+
+欢迎通过 **[GitHub Issues](https://github.com/VankerWu/iPhone-Duo-Apps/issues/new/choose)** 提交：
+
+- 尚未收录的应用及其 App Store 链接；
+- 外屏、内屏或半折叠状态下的实际表现；
+- 应用版本、iOS 版本、使用姿态，以及可公开分享的截图或视频；
+- 错误链接、错误图标及不准确的适配信息。
+
+请勿在公开反馈中提交私人聊天、账号凭据或其他敏感信息。参与方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## 赞赏与支持
+
+本网站免费访问，提交反馈无需付费。若内容对你有帮助，可通过网站底部的 **[「赞赏作者」](https://vankerwu.github.io/iPhone-Duo-Apps/#support)** 自愿支持日常维护与信息整理。赞赏不影响适配结论，也不提供付费认证。
+
+## 开源与声明
+
+- **网站地址：** https://vankerwu.github.io/iPhone-Duo-Apps/
+- **开源许可证：** [MIT](LICENSE)（适用于本仓库中有权授权的原创代码和文档）。
+- **权利归属：** Apple、App Store 及各应用的名称、图标和商标归相应权利人所有；第三方素材不因本仓库采用 MIT 许可证而获得重新授权。
+- **独立项目：** 本站与 Apple 及所收录应用的开发者不存在官方隶属、认可或合作关系。
+
+信息仅供参考，具体兼容性与下载可用性请以应用开发者、App Store 及实际设备体验为准。
