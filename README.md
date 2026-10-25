@@ -21,6 +21,7 @@
 
 ### 直接本地运行同步脚本（可选）
 
+<<<<<<< HEAD
 ```bash
 python3 scripts/refresh_metadata.py --no-charts
 ```
@@ -38,3 +39,12 @@ python3 scripts/refresh_metadata.py --no-charts
 ## 关于站点
 
 这是第三方独立项目，与 Apple 及各应用开发者无官方隶属关系。App 图标、名称与商标归各自权利人所有。使用 Apple 官方 API 中的宣传素材时，请遵守 Apple 相关条款，并将图标与商店入口一起展示。
+=======
+## 数据与版权
+
+App 名称、品牌和图标属于各自权利人；目录整理以可核查证据为原则，禁止无证据宣称已适配。详情参考 [DATA_POLICY.md](DATA_POLICY.md)。
+
+该项目与 Apple 及被收录应用开发者无官方关联。仓库原创代码依仓库内 LICENSE 授权；第三方内容不因此获得授权。
+
+欢迎通过 [Issues](https://github.com/VankerWu/iPhone-Duo-Apps/issues) 提交适配反馈。
+>>>>>>> 83f162f60cf9779fe7eb6437f86b06b7e6002f5d
