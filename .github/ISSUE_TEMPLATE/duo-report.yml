@@ -1,0 +1,40 @@
+name: "提交 App 适配实测"
+description: "分享真实 iPhone Duo 内外屏、折叠姿态的使用结果"
+title: "[实测] App 名称 - 系统 / 版本"
+labels: ["user-report"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: App 名称及 App Store 链接
+      placeholder: "例如：某某 App — https://apps.apple.com/..."
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App 版本 / iOS 版本
+      placeholder: "例如：3.2.1 / iOS 27.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: pose
+    attributes:
+      label: 测试姿态
+      options: ["外屏", "内屏完全展开", "内屏上下半折叠", "内屏左右半折叠", "其他（请描述）"]
+    validations:
+      required: true
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: 实际表现
+      options: ["原生双栏/折叠交互", "完整铺满但只是拉伸", "有黑边/小窗口", "无法正常使用", "无法判断"]
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图、视频与说明
+      description: "请上传你自己拍摄或得到许可的画面；勿包含账号、聊天记录、个人信息。"
+    validations:
+      required: true
