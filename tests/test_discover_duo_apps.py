@@ -42,6 +42,8 @@ class DiscoveryTests(unittest.TestCase):
             return {'feed': {'results': [{'id': str(x['trackId'])} for x in self.items]}}
         if '/api/v2/us/apps/' in url:
             return {'feed': {'results': []}}
+        if '/search?' in url:
+            return {'results': []}
         if '/lookup?' in url:
             from urllib.parse import parse_qs, urlsplit
             q = parse_qs(urlsplit(url).query)
@@ -55,10 +57,10 @@ class DiscoveryTests(unittest.TestCase):
         inserted, signals, responses = module.discover(
             self.catalog, self.queue, fetch=self.fetcher,
             checked_at='2026-10-26T00:00:00+00:00')
-        self.assertEqual((inserted, signals), (2, 3))
+        self.assertEqual((inserted, signals), (1, 2))
         self.assertGreater(responses, 0)
-        self.assertEqual(len(self.catalog['apps']), 3)
-        self.assertEqual({x['itunesId'] for x in self.queue['candidates']}, {10, 22, 25})
+        self.assertEqual(len(self.catalog['apps']), 2)
+        self.assertEqual({x['itunesId'] for x in self.queue['candidates']}, {10, 22})
         new = next(x for x in self.catalog['apps'] if x['itunesId'] == 22)
         self.assertEqual(new['status'], 'unverified')
         self.assertEqual(new['category'], '新适配线索')
@@ -73,11 +75,53 @@ class DiscoveryTests(unittest.TestCase):
                         checked_at='2026-10-25T00:00:00+00:00')
         module.discover(self.catalog, self.queue, fetch=self.fetcher,
                         checked_at='2026-10-26T00:00:00+00:00')
-        self.assertEqual(len(self.catalog['apps']), 3)
-        self.assertEqual(len(self.queue['candidates']), 3)
+        self.assertEqual(len(self.catalog['apps']), 2)
+        self.assertEqual(len(self.queue['candidates']), 2)
         for r in self.queue['candidates']:
             self.assertEqual(r['firstSeen'], '2026-10-25T00:00:00+00:00')
             self.assertEqual(r['lastSeen'], '2026-10-26T00:00:00+00:00')
+
+    def test_search_discovers_app_outside_charts(self):
+        def fetch(url):
+            if '/api/v2/' in url:
+                return {'feed': {'results': []}}
+            if '/search?' in url:
+                return {'results': [{'trackId': 22}]}
+            return self.fetcher(url)
+        module.discover(self.catalog, self.queue, fetch=fetch)
+        self.assertIn(22, [a['itunesId'] for a in self.catalog['apps']])
+
+    def test_review_fields_and_rejected_decision_survive(self):
+        self.queue['candidates'] = [{
+            'itunesId': 22, 'reviewStatus': 'rejected',
+            'reviewer': 'owner', 'reviewNote': '不符合', 'firstSeen': '2026-01-01'}]
+        module.discover(self.catalog, self.queue, fetch=self.fetcher)
+        reviewed = next(c for c in self.queue['candidates'] if c['itunesId'] == 22)
+        self.assertEqual(reviewed['reviewNote'], '不符合')
+        self.assertEqual(reviewed['reviewer'], 'owner')
+        self.assertEqual(reviewed['firstSeen'], '2026-01-01')
+        self.assertNotIn(22, [a['itunesId'] for a in self.catalog['apps']])
+
+    def test_preserve_pending_app_human_note(self):
+        self.original.update(status='unverified', note='列入观察名单，人工批注')
+        module.discover(self.catalog, self.queue, fetch=self.fetcher)
+        self.assertEqual(self.original['note'], '列入观察名单，人工批注')
+
+    def test_negative_and_future_mentions_do_not_publish(self):
+        for notes in ('iPhone Duo not supported yet.', '暂不支持 iPhone Duo',
+                      'iPhone Duo support coming soon', '计划支持 iPhone Duo', 'Read our iPhone Duo news',
+                      'Bug fixes for all devices'):
+            with self.subTest(notes=notes):
+                self.assertIsNone(module.candidate_record(sample(22, 'App', notes), 'cn', 'now'))
+
+    def test_chart_success_lookup_failure_is_not_successful_sync(self):
+        def fetch(url):
+            if '/lookup?' in url:
+                return None
+            return self.fetcher(url)
+        with self.assertRaises(RuntimeError):
+            module.discover(self.catalog, self.queue, fetch=fetch)
+        self.assertNotIn('lastDiscoverySync', self.catalog)
 
     def test_untrusted_url_rejected(self):
         self.assertEqual(module.safe_apple_url('https://bad.tld/app/id22'), '')

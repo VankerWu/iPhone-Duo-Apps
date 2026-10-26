@@ -1,0 +1,53 @@
+name: Discover Duo app leads and refresh metadata
+
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iphone-duo-apps-catalog-main
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run offline regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Refresh and discover against the latest catalog
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git checkout -B main origin/main
+            python scripts/refresh_metadata.py --no-charts
+            python scripts/discover_duo_apps.py
+            git add -- docs/data/apps.json docs/data/duo-review-queue.json
+            if git diff --cached --quiet; then
+              echo 'No data changes.'
+              exit 0
+            fi
+            git commit -m 'data: refresh official metadata and discover pending Duo leads'
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            # Rerun against the new remote data; never force-push old review decisions.
+            sleep 3
+          done
+          echo 'Could not push safely; inspect permissions or concurrent commits.' >&2
+          exit 1
