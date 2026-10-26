@@ -992,6 +992,30 @@
       "itunesId": 554499054,
       "storefront": "cn",
       "storeMatch": "official_id_verified"
+    },
+    {
+      "id": "community-issue-app-392899425",
+      "name": "招商银行",
+      "english": "招商银行",
+      "category": "金融理财",
+      "region": "中国大陆",
+      "status": "unverified",
+      "note": "社区提供了 iPhone Duo 适配线索；尚未完成独立实机核验。",
+      "sourceLabel": "社区提交 · GitHub Issues（待核验）",
+      "sourceUrl": "https://github.com/VankerWu/iPhone-Duo-Apps/issues/2",
+      "sourceDate": "2026-10-26",
+      "verifiedDate": "",
+      "searchTerm": "招商银行",
+      "developer": "招商银行",
+      "version": "14.4.8",
+      "releaseDate": "2026-10-23T04:20:14Z",
+      "appStoreUrl": "https://apps.apple.com/cn/app/id392899425",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/f7/ff/7df7ffc4-106c-9c24-4b82-933720e82d42/AppIcon26-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "itunesId": 392899425,
+      "storefront": "cn",
+      "communityIssueReports": [
+        "https://github.com/VankerWu/iPhone-Duo-Apps/issues/2"
+      ]
     }
   ]
 }
