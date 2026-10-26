@@ -1,118 +1,16 @@
 {
-  "time": "2026-10-26T13:56:42+00:00",
+  "time": "2026-10-26T14:10:28+00:00",
   "added": [
     {
-      "id": "signal-1104649246",
-      "name": "我的月相",
-      "version": "26.6.1",
-      "appStoreUrl": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%9C%88%E7%9B%B8/id1104649246?uo=4",
-      "status": "unverified"
-    },
-    {
-      "id": "signal-1104649303",
-      "name": "我的月相专业版",
-      "version": "26.6.2",
-      "appStoreUrl": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%9C%88%E7%9B%B8%E4%B8%93%E4%B8%9A%E7%89%88/id1104649303?uo=4",
-      "status": "unverified"
-    },
-    {
-      "id": "signal-357404131",
-      "name": "慢快门相机 (Slow Shutter Cam)",
-      "version": "6.4.2",
-      "appStoreUrl": "https://apps.apple.com/cn/app/id357404131",
+      "id": "community-issue-app-6459478672",
+      "name": "豆包",
+      "version": "15.5.0",
+      "appStoreUrl": "https://apps.apple.com/cn/app/id6459478672",
       "status": "unverified"
     }
   ],
-  "updated": [
-    {
-      "id": "apple-014",
-      "name": "Instagram",
-      "version": "453.0",
-      "appStoreUrl": "https://apps.apple.com/cn/app/instagram/id389801252?uo=4",
-      "status": "apple_featured",
-      "previousVersion": "452.0.0"
-    },
-    {
-      "id": "signal-505367096",
-      "name": "世界迷雾",
-      "version": "3.8.3",
-      "appStoreUrl": "https://apps.apple.com/cn/app/%E4%B8%96%E7%95%8C%E8%BF%B7%E9%9B%BE/id505367096?uo=4",
-      "status": "unverified",
-      "previousVersion": "3.8.2"
-    }
-  ],
-  "signals": [
-    {
-      "id": "apple-020",
-      "name": "微博",
-      "version": "16.10.2",
-      "appStoreUrl": "https://apps.apple.com/cn/app/%E5%BE%AE%E5%8D%9A/id350962117?uo=4",
-      "status": "apple_featured",
-      "evidence": {
-        "type": "app_store_page_release_notes",
-        "version": "16.10.2",
-        "excerpt": "适配 iPhone Duo，开合之间，新鲜事尽收眼底。",
-        "url": "https://apps.apple.com/cn/app/id350962117",
-        "date": "2026-10-21"
-      }
-    },
-    {
-      "id": "signal-1142928979",
-      "name": "Authenticator App - OneAuth",
-      "version": "4.4.3",
-      "appStoreUrl": "https://apps.apple.com/cn/app/authenticator-app-oneauth/id1142928979?uo=4",
-      "status": "unverified",
-      "evidence": {
-        "type": "app_store_release_notes_mention",
-        "version": "4.4.3",
-        "excerpt": "Zoho OneAuth for iOS 27 is here. OneAuth, unfolded: Built to adapt to iPhone Duo's wide display, OneAuth resizes fluidly — in landscape or during iPhone mirroring on iPad and Mac — so your codes stay open side-by-side while you work in other apps. Ask the OneAuth assistant to perform quick actions: OneAuth Assistant can take action directly from th…",
-        "url": "https://apps.apple.com/cn/app/authenticator-app-oneauth/id1142928979?uo=4",
-        "date": "2026-10-22"
-      }
-    },
-    {
-      "id": "signal-1104649246",
-      "name": "我的月相",
-      "version": "26.6.1",
-      "appStoreUrl": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%9C%88%E7%9B%B8/id1104649246?uo=4",
-      "status": "unverified",
-      "evidence": {
-        "type": "app_store_release_notes_mention",
-        "version": "26.6.1",
-        "excerpt": "- 改进了 App 的设计。 - 支持 iPhone Duo。",
-        "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%9C%88%E7%9B%B8/id1104649246?uo=4",
-        "date": "2026-10-19"
-      }
-    },
-    {
-      "id": "signal-1104649303",
-      "name": "我的月相专业版",
-      "version": "26.6.2",
-      "appStoreUrl": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%9C%88%E7%9B%B8%E4%B8%93%E4%B8%9A%E7%89%88/id1104649303?uo=4",
-      "status": "unverified",
-      "evidence": {
-        "type": "app_store_release_notes_mention",
-        "version": "26.6.2",
-        "excerpt": "- 改进了 App 的设计。 - 支持 iPhone Duo。",
-        "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%9C%88%E7%9B%B8%E4%B8%93%E4%B8%9A%E7%89%88/id1104649303?uo=4",
-        "date": "2026-10-25"
-      }
-    },
-    {
-      "id": "signal-357404131",
-      "name": "慢快门相机 (Slow Shutter Cam)",
-      "version": "6.4.2",
-      "appStoreUrl": "https://apps.apple.com/cn/app/id357404131",
-      "status": "unverified",
-      "evidence": {
-        "type": "app_store_page_release_notes",
-        "version": "6.4.2",
-        "excerpt": "针对 iPad 和 iPhone Duo 的界面布局调整。",
-        "url": "https://apps.apple.com/cn/app/id357404131",
-        "date": "2026-10-25"
-      }
-    }
-  ],
+  "updated": [],
+  "signals": [],
   "coverageCN": {
     "poolSize": 4836,
     "lookupScheduled": 600,
