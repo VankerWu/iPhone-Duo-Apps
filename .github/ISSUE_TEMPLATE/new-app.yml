@@ -1,0 +1,55 @@
+name: 提交一款 iPhone Duo App
+description: 推荐新应用或适配线索。所有未经核验的新应用仅会标记为「待确认」。
+title: '[收录] '
+labels: ['app-request']
+body:
+  - type: markdown
+    attributes:
+      value: '请提供准确的 App 名称和 App Store 商品链接。网友提交后，站长审核通过才会自动收录。'
+  - type: input
+    id: name
+    attributes:
+      label: App 名称
+      placeholder: 例如：招商银行
+    validations:
+      required: true
+  - type: input
+    id: appstore
+    attributes:
+      label: App Store 链接
+      description: 尽量提供准确的商品页，避免同名 App 匹配错误。
+      placeholder: https://apps.apple.com/cn/app/id392899425
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: 应用分类
+      options:
+        - 影音娱乐
+        - 效率办公
+        - 社交通讯
+        - 摄影创作
+        - 购物生活
+        - 出行导航
+        - 阅读
+        - 体育
+        - 健康运动
+        - 金融理财
+        - 其他应用
+    validations:
+      required: true
+  - type: dropdown
+    id: region
+    attributes:
+      label: 主要地区
+      options: [中国大陆, 美国, 全球]
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 适配证据（如有）
+      placeholder: 开发者公告、微博反馈、版本与测试姿态等；未经核验只标注「待确认」
+    validations:
+      required: false

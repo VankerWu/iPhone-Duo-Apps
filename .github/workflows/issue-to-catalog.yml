@@ -1,0 +1,70 @@
+name: Add approved App reports to site
+
+on:
+  issues:
+    types: [opened]
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: iphone-duo-apps-catalog-main
+  cancel-in-progress: false
+
+jobs:
+  add-to-catalog:
+    # Owner's own [收录] issue: auto-publish as '待确认'.
+    # Fan's issue: owner explicitly approves with a comment exactly /收录.
+    if: >-
+      (github.event_name == 'issues' &&
+       github.event.issue.user.login == github.repository_owner &&
+       startsWith(github.event.issue.title, '[收录]')) ||
+      (github.event_name == 'issue_comment' &&
+       github.event.comment.user.login == github.repository_owner &&
+       github.event.comment.body == '/收录')
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Update catalog from approved issue without overwriting new commits
+        id: ingest
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git checkout -B main origin/main
+            python scripts/ingest_issue.py "$GITHUB_EVENT_PATH"
+            git add -- docs/data/apps.json
+            if git diff --cached --quiet; then
+              echo 'No changes needed, or issue needs more information.'
+              exit 0
+            fi
+            git commit -m "data: add approved Duo app lead from issue #${{ github.event.issue.number }}"
+            if git push origin HEAD:main; then
+              echo 'New pending app data pushed. GitHub Pages will update automatically.'
+              exit 0
+            fi
+            sleep 3
+          done
+          echo 'Remote changed repeatedly or workflow lacks contents: write permission.' >&2
+          exit 1
+      - name: Explain incomplete reports on the issue
+        if: steps.ingest.outputs.status == 'needs-info'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+          NOTE: ${{ steps.ingest.outputs.message }}
+        run: gh issue comment "$ISSUE_URL" --body "$NOTE"
