@@ -69,6 +69,7 @@ function getVisibleApps() {
     if (!needle) return true;
     return [a.name,a.english,a.category,a.developer,a.note].join(' ').toLocaleLowerCase('zh-CN').includes(needle);
   }).sort((a,b) => {
+    if (state.sort === 'added') return (b.addedAt || '').localeCompare(a.addedAt || '');
     if (state.sort === 'name') return a.name.localeCompare(b.name,'zh-CN');
     if (state.sort === 'recent') return (b.releaseDate || b.sourceDate || '').localeCompare(a.releaseDate || a.sourceDate || '');
     return 0; // Preserve editorial order in the JSON data.
@@ -267,3 +268,15 @@ async function start() {
   hydrateStoreIcons().catch(error => console.info(error));
 }
 document.addEventListener('DOMContentLoaded',start);
+
+fetch('./updates/latest.json', {cache: 'no-store'}).then(r => {
+  if (!r.ok) throw new Error('No report yet');
+  return r.json();
+}).then(report => {
+  const node = document.getElementById('syncReport');
+  if (!node) return;
+  const items = Array.isArray(report.added) ? report.added : [];
+  node.innerHTML = `<p>${safe(report.time)} · 新增 ${items.length} 款</p>` +
+    (items.length ? `<ul>${items.map(a => `<li>${safe(a.name)}（待核验）</li>`).join('')}</ul>` : '<p>本轮无新增收录。</p>') +
+    '<a href="./updates/latest.md" target="_blank" rel="noopener">完整更新清单与微博文案 ↗</a>';
+}).catch(() => {});

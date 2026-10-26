@@ -12,6 +12,7 @@ compatibility verdicts or datasets from third-party directory sites.
 from __future__ import annotations
 
 import argparse
+import html
 import datetime as dt
 import json
 import re
@@ -33,17 +34,52 @@ USER_AGENT = 'iPhone-Duo-Apps/1.0 (Apple public metadata; conservative evidence 
 MENTION = re.compile(r'iphone[\s\-\u2013\u2014]*duo', flags=re.IGNORECASE)
 SUPPORT = re.compile(r'support|compatib|optimi[sz]|adapt|layout|split[ -]?screen|支持|适配|兼容|优化|佈局|布局|分屏', re.I)
 MAX_CHART = 100
-SEARCH_TERMS = ("iPhone Duo", "iPhone-Duo")
+SEARCH_TERMS = ("iPhone Duo", "iPhone-Duo", "适配 iPhone Duo", "iPhone Duo 折叠屏")
+# Apple's App Store application genre IDs. Feed availability varies by genre.
+GENRES = (6000, 6001, 6002, 6003, 6004, 6005, 6006, 6007, 6008, 6009,
+          6010, 6011, 6012, 6013, 6014, 6015, 6016, 6017, 6018,
+          6020, 6023, 6024, 6026, 6027)
+GENRES_PER_RUN = 8
+LOOKUPS_PER_RUN = 600
+
+
+def rotate(values, cursor, limit):
+    values = sorted(set(values))
+    if not values:
+        return [], 0
+    cursor = int(cursor) % len(values)
+    chosen = (values[cursor:] + values[:cursor])[:limit]
+    return chosen, (cursor + len(chosen)) % len(values)
+
+
+def category_ids(payload):
+    feed = payload.get('feed', {}) if isinstance(payload, dict) else {}
+    entries = feed.get('entry', []) if isinstance(feed, dict) else []
+    if isinstance(entries, dict):
+        entries = [entries]
+    found = set()
+    for item in entries if isinstance(entries, list) else []:
+        raw = item.get('id', {}).get('attributes', {}).get('im:id') if isinstance(item, dict) else None
+        if str(raw or '').isdigit() and int(raw) > 0:
+            found.add(int(raw))
+    return found
+
 NEGATIVE = re.compile(r"not\s+(?:yet\s+)?support|unsupported|coming\s+soon|future\s+(?:update|support)|planned|尚不支持|暂不支持|不支持|尚未|暂未|即将|计划|敬请期待", re.I)
 BATCH_SIZE = 30
 
 
-def get_json(url: str, *, retries: int = 2) -> dict | None:
+_last_json_request = 0.0
+
+
+def get_json(url: str, *, retries: int = 1) -> dict | None:
+    global _last_json_request
     for attempt in range(retries + 1):
+        time.sleep(max(0, 3.1 - (time.monotonic() - _last_json_request)))
+        _last_json_request = time.monotonic()
         try:
             req = urllib.request.Request(url, headers={
                 'Accept': 'application/json', 'User-Agent': USER_AGENT})
-            with urllib.request.urlopen(req, timeout=18) as response:
+            with urllib.request.urlopen(req, timeout=12) as response:
                 if response.status != 200:
                     raise ValueError(f'HTTP {response.status}')
                 value = json.load(response)
@@ -148,6 +184,7 @@ def candidate_record(track: dict, region: str, checked_at: str) -> dict | None:
 def new_catalog_entry(candidate: dict) -> dict:
     region = candidate['storefront']
     return {
+        'addedAt': candidate['firstSeen'],
         'id': 'signal-' + str(candidate['itunesId']),
         'name': candidate['name'], 'english': '', 'category': '新适配线索',
         'region': '中国大陆' if region == 'cn' else '美国',
@@ -188,23 +225,23 @@ def discover(catalog: dict, queue: dict, fetch=get_json,
     apps = catalog['apps']
     by_id = {int(a['itunesId']): a for a in apps if str(a.get('itunesId') or '').isdigit()}
     previously = {int(c['itunesId']): c for c in queue.get('candidates', []) if str(c.get('itunesId') or '').isdigit()}
-    targets: dict[str, set[int]] = {'cn': set(), 'us': set()}
+    targets: dict[str, set[int]] = {'cn': set()}
 
     # Existing catalog entries need ongoing version checks even when they fall
     # off the charts. Region-specific lookups respect catalog storefronts.
     for key, app in by_id.items():
         region = app.get('storefront') or ('cn' if app.get('region') == '中国大陆' else 'us')
-        targets[region if region in targets else 'us'].add(key)
+        targets['cn'].add(key)
 
     # Continue watching queued candidates even after they leave the charts.
     for key, item in previously.items():
         region = item.get('storefront', 'us')
-        targets[region if region in targets else 'us'].add(key)
+        targets['cn'].add(key)
 
     responses = 0
     lookup_responses = 0
     chart_returned = 0
-    for region in ('cn', 'us'):
+    for region in ('cn',):
         for chart in ('top-free', 'top-paid'):
             url = f'{CHART_HOST}/api/v2/{region}/apps/{chart}/{MAX_CHART}/apps.json'
             data = fetch(url)
@@ -234,9 +271,33 @@ def discover(catalog: dict, queue: dict, fetch=get_json,
             if pause:
                 time.sleep(.65)
 
+    genres, next_genre = rotate(GENRES, queue.get('genreCursorCN', 0), GENRES_PER_RUN)
+    category_success = 0
+    for genre in genres:
+        for chart in ('topfreeapplications', 'toppaidapplications'):
+            url = f'https://itunes.apple.com/cn/rss/{chart}/limit=100/genre={genre}/json'
+            data = fetch(url)
+            if isinstance(data, dict) and isinstance(data.get('feed'), dict):
+                category_success += 1
+                targets['cn'].update(category_ids(data))
+            if pause:
+                time.sleep(1)
+    queue['genreCursorCN'] = next_genre
+    pool = {int(x) for x in queue.get('discoveryPoolCN', []) if str(x).isdigit() and int(x) > 0}
+    pool.update(targets['cn'])
+    selected, next_lookup = rotate(pool, queue.get('lookupCursorCN', 0), LOOKUPS_PER_RUN)
+    targets['cn'] = set(selected)
+    queue['discoveryPoolCN'] = sorted(pool)
+    queue['lookupCursorCN'] = next_lookup
+    queue['coverageCN'] = {'poolSize': len(pool), 'lookupScheduled': len(selected),
+        'categoryFeedsSucceeded': category_success, 'categoryFeedsAttempted': len(genres) * 2,
+        'genreIds': genres, 'time': checked_at}
+    print(f'CN pool={len(pool)}; scheduled lookup={len(selected)}; '
+          f'category feeds succeeded={category_success}/{len(genres)*2}')
+
     signals = 0
     inserted = 0
-    for region in ('cn', 'us'):
+    for region in ('cn',):
         identifiers = sorted(targets[region])
         for offset in range(0, len(identifiers), BATCH_SIZE):
             batch = identifiers[offset:offset + BATCH_SIZE]
@@ -252,6 +313,17 @@ def discover(catalog: dict, queue: dict, fetch=get_json,
                     continue
                 if track.get('trackId') not in batch:
                     continue
+                # Update official metadata independently from compatibility claims.
+                if track.get('trackId') in by_id:
+                    app = by_id[track['trackId']]
+                    if str(track.get('currentVersionReleaseDate', '')) >= str(app.get('releaseDate', '')):
+                        for field, source in [('version', 'version'), ('releaseDate', 'currentVersionReleaseDate'), ('developer', 'artistName')]:
+                            if track.get(source):
+                                app[field] = track[source]
+                        if safe_artwork(track.get('artworkUrl512') or track.get('artworkUrl100')):
+                            app['artwork'] = safe_artwork(track.get('artworkUrl512') or track.get('artworkUrl100'))
+                        if safe_apple_url(track.get('trackViewUrl')):
+                            app['appStoreUrl'] = safe_apple_url(track['trackViewUrl'])
                 candidate = candidate_record(track, region, checked_at)
                 if not candidate:
                     continue
@@ -259,6 +331,8 @@ def discover(catalog: dict, queue: dict, fetch=get_json,
                 signals += 1
                 if ident in previously:
                     original = previously[ident]
+                    if original.get('releaseDate', '') > candidate.get('releaseDate', ''):
+                        continue  # A lagging lookup must not replace newer page evidence.
                     candidate['firstSeen'] = original.get('firstSeen') or checked_at
                     # Preserve human decisions about items in the review queue.
                     candidate = {**original, **candidate,
@@ -280,6 +354,7 @@ def discover(catalog: dict, queue: dict, fetch=get_json,
         raise RuntimeError('No usable Apple lookup responses. No catalog changes were written.')
 
     catalog['lastDiscoverySync'] = checked_at
+    catalog['lastMetadataSync'] = checked_at
     queue['lastChecked'] = checked_at
     queue['candidates'] = sorted(previously.values(),
                                  key=lambda c: (c.get('reviewStatus') != 'pending',
@@ -288,6 +363,85 @@ def discover(catalog: dict, queue: dict, fetch=get_json,
           f'({chart_returned} chart entries), found {signals} mentions, '
           f'added {inserted} pending-verification apps; existing confirmed statuses preserved.')
     return inserted, signals, responses
+
+
+def page_versions(markup):
+    """Read only version-history list items, never reviews or descriptions."""
+    versions = []
+    for block in re.findall(r'<li\b[^>]*>(.*?)</li>', markup, re.S):
+        note = re.search(r'<!-- HTML_TAG_START -->(.*?)<!-- HTML_TAG_END -->', block, re.S)
+        meta = re.search(r'class="metadata[^"]*"[^>]*>\s*<span[^>]*>([0-9][^<]*)</span>\s*<time[^>]*datetime="([^"]+)"', block, re.S)
+        if note and meta:
+            notes = html.unescape(re.sub(r'<[^>]+>', ' ', note[1])).strip()
+            versions.append((meta[1].strip(), meta[2], notes))
+    return versions
+
+
+def check_pages(catalog, queue, limit=60):
+    # Bounded rotating coverage avoids fetching hundreds of pages every run.
+    apps = catalog['apps']
+    known = {int(a['itunesId']): a for a in apps if str(a.get('itunesId', '')).isdigit()}
+    ids = sorted(set(known) | {int(c['itunesId']) for c in queue['candidates']} | set(queue.get('discoveryPoolCN', [])))
+    cursor = int(queue.get('pageCursor', 0)) % max(1, len(ids))
+    rotation = (ids[cursor:] + ids[:cursor])[:limit]
+    targets = list(dict.fromkeys([952059546, 444934666] + rotation))
+    queue['pageCursor'] = (cursor + len(rotation)) % max(1, len(ids))
+    now = dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
+    candidates = {int(c['itunesId']): c for c in queue['candidates']}
+    succeeded = 0
+    for ident in targets:
+        app = known.get(ident, {})
+        region = 'cn'
+        url = f'https://apps.apple.com/{region}/app/id{ident}'
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
+            with urllib.request.urlopen(req, timeout=10) as response:
+                markup = response.read(3000000).decode('utf-8')
+            versions = page_versions(markup)
+            if not versions:
+                print(f'WARNING: no parseable version history: {url}')
+                continue
+            succeeded += 1
+            # Keep historical claims as version-specific evidence, not a current verdict.
+            for version, date, notes in versions[:30]:
+                if not MENTION.search(notes):
+                    continue
+                meta = get_json(APPLE_LOOKUP + '?' + urllib.parse.urlencode({'id': ident, 'country': region, 'entity': 'software'}))
+                track = next((t for t in (meta or {}).get('results', []) if t.get('trackId') == ident), None)
+                if not track:
+                    continue
+                candidate = candidate_record({**track, 'version': version,
+                    'releaseNotes': notes, 'currentVersionReleaseDate': date,
+                    'trackViewUrl': url}, region, now)
+                if not candidate:
+                    continue
+                candidate['evidenceType'] = 'app_store_page_release_notes'
+                previous = candidates.get(ident, {})
+                candidate = {**previous, **candidate,
+                    'firstSeen': previous.get('firstSeen', now),
+                    'reviewStatus': previous.get('reviewStatus', 'pending')}
+                candidates[ident] = candidate
+                if candidate['reviewStatus'] == 'pending':
+                    if ident not in known:
+                        entry = new_catalog_entry(candidate)
+                        entry['addedAt'] = now
+                        apps.append(entry)
+                        known[ident] = entry
+                    else:
+                        apply_candidate(known[ident], candidate)
+                    # Version metadata comes from the newest page item, even if
+                    # the compatibility claim was found in an older version.
+                    latest_version, latest_date, _ = versions[0]
+                    if latest_date >= str(known[ident].get('releaseDate', ''))[:10]:
+                        known[ident]['version'] = latest_version
+                        known[ident]['releaseDate'] = latest_date
+                break
+        except (OSError, ValueError) as exc:
+            print(f'WARNING: page check failed for {ident}: {exc}')
+        time.sleep(.5)
+    queue['candidates'] = list(candidates.values())
+    queue['lastPageCheck'] = {'attempted': len(targets), 'parsed': succeeded, 'time': now}
+    print(f'App Store pages parsed: {succeeded}/{len(targets)}; remaining IDs rotate next run.')
 
 
 def main() -> None:
@@ -307,6 +461,7 @@ def main() -> None:
               f'candidate queue {len(queue["candidates"])}; no network or writes')
         return
     discover(catalog, queue, pause=True)
+    check_pages(catalog, queue)
     args.catalog.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n', 'utf-8')
     args.queue.parent.mkdir(parents=True, exist_ok=True)
     args.queue.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + '\n', 'utf-8')

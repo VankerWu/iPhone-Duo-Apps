@@ -15,7 +15,7 @@ concurrency:
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with:
@@ -35,9 +35,11 @@ jobs:
           for attempt in 1 2 3; do
             git fetch origin main
             git checkout -B main origin/main
-            python scripts/refresh_metadata.py --no-charts
+            cp docs/data/apps.json /tmp/duo-before.json
+            python scripts/refresh_metadata.py --no-charts --country cn
             python scripts/discover_duo_apps.py
-            git add -- docs/data/apps.json docs/data/duo-review-queue.json
+            python scripts/report_sync.py /tmp/duo-before.json
+            git add -- docs/data/apps.json docs/data/duo-review-queue.json docs/updates
             if git diff --cached --quiet; then
               echo 'No data changes.'
               exit 0

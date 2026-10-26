@@ -93,6 +93,8 @@ def apply_metadata(app, track):
     """App Store fields only — DO NOT touch status, note, sourceUrl or sourceDate."""
     if track.get('kind') not in (None, 'software') and track.get('wrapperType') != 'software':
         return
+    if str(track.get('currentVersionReleaseDate', '')) < str(app.get('releaseDate', '')):
+        return  # Do not downgrade newer page metadata with an older API response.
     app['itunesId'] = track.get('trackId') or app.get('itunesId')
     for field, key in [('developer', 'artistName'), ('version', 'version'),
                        ('releaseDate', 'currentVersionReleaseDate'),
@@ -108,7 +110,9 @@ def main():
     argparser = argparse.ArgumentParser()
     argparser.add_argument('--no-charts', action='store_true', help='Only update known apps')
     argparser.add_argument('--dry-run', action='store_true', help='Read source file but do not contact the network/write')
+    argparser.add_argument('--country', choices=('cn', 'us'), help='Limit all Apple requests to one storefront')
     args = argparser.parse_args()
+    countries = (args.country,) if args.country else ('cn', 'us')
     catalog = json.loads(DATA.read_text(encoding='utf-8'))
     apps = catalog['apps']
     original = len(apps)
@@ -119,7 +123,7 @@ def main():
     by_id = {str(x['itunesId']): x for x in apps if x.get('itunesId')}
     found_chart = 0
     if not args.no_charts:
-        for country in ('cn', 'us'):
+        for country in countries:
             url = f'{CHART_HOST}/api/v2/{country}/apps/top-free/50/apps.json'
             data = get_json(url)
             results = (data or {}).get('feed', {}).get('results', [])
@@ -155,9 +159,9 @@ def main():
     # IDs come from public chart feeds or previously verified lookups.
     lookup_success_count = 0
     resolved_tracks_count = 0
-    for country in ('cn', 'us'):
+    for country in countries:
         target = [x for x in apps if x.get('itunesId') and
-                  (x.get('storefront') or ('cn' if x.get('region') == '中国大陆' else 'us')) == country]
+                  (args.country or x.get('storefront') or ('cn' if x.get('region') == '中国大陆' else 'us')) == country]
         # Keep API requests manageable; grouped ID-based lookups.
         for start in range(0,len(target),35):
             group = target[start:start+35]
@@ -178,7 +182,7 @@ def main():
     # Exact normalized title match only, for a conservative policy.
     missing = [a for a in apps if not a.get('itunesId')]
     for idx,app in enumerate(missing):
-        country = 'cn' if app.get('region') == '中国大陆' else 'us'
+        country = args.country or ('cn' if app.get('region') == '中国大陆' else 'us')
         candidates = [app.get('name'), app.get('english'), app.get('searchTerm')]
         candidates = [x for x in dict.fromkeys(candidates) if x]
         for term in candidates[:2]:

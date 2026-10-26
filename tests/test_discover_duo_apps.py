@@ -38,6 +38,10 @@ class DiscoveryTests(unittest.TestCase):
         ]
 
     def fetcher(self, url):
+        self.assertNotIn('/us/', url)
+        self.assertNotIn('country=us', url)
+        if '/rss/' in url:
+            return {'feed': {'entry': []}}
         if '/api/v2/cn/apps/' in url:
             return {'feed': {'results': [{'id': str(x['trackId'])} for x in self.items]}}
         if '/api/v2/us/apps/' in url:

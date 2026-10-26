@@ -46,8 +46,13 @@ jobs:
           for attempt in 1 2 3 4; do
             git fetch origin main
             git checkout -B main origin/main
+            cp docs/data/apps.json /tmp/duo-before.json
             python scripts/ingest_issue.py "$GITHUB_EVENT_PATH"
+            if ! cmp -s /tmp/duo-before.json docs/data/apps.json; then
+              python scripts/report_sync.py /tmp/duo-before.json
+            fi
             git add -- docs/data/apps.json
+            if [ -d docs/updates ]; then git add -- docs/updates; fi
             if git diff --cached --quiet; then
               echo 'No changes needed, or issue needs more information.'
               exit 0
