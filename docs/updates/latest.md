@@ -1,113 +1,109 @@
 # 本轮抓取报告
-2026-10-27T19:32:44+00:00
+2026-10-27T23:54:16+00:00
 
 新增收录、版本更新和适配线索分开统计；不代表本站实测。
 
 ## 国区扫描范围
-候选池 5211 个 ID；本轮计划检查 600 个；分类榜单成功 16/16。
+候选池 5303 个 ID；本轮计划检查 600 个；分类榜单成功 16/16。
 候选池不等于适配数量，未完成的部分后续轮询。
 
-## 新增 App（19）
-- 排班表 & 工作日历 - Shift2Cal AI助手｜2.1
-- Loopback：内网服务浏览器｜2.2
-- PulseOSC: VRChat实时心率显示｜2.3
-- CodeMan - VSCode｜1.7
-- OrangeTable - 你的智能课表｜2.2
-- 塞勒涅 月相日历｜2.0.1
-- Oldi - Phone Camera｜1.6.3
-- Brewwww!｜1.3.4
-- 浮影｜3.3
-- WristDict-手表离线英汉互译词典｜1.4.0
-- 三眼监控 - 远程看家与宝宝监护｜1.1.6
-- BaroWatch Barometer｜1.3
-- 随手网页-移动端 HTML 查看器｜1.12.0
-- Mynu - 个人菜谱与美食日记｜1.2.0
-- Rosetta：AI笔记、链接、待办｜1.6.1
-- Var课程表-优雅，简洁，干净的课程表｜1.1.0
-- Fontbridge：字体安装器｜1.1.0
-- 金贝鼓：指尖上的非洲鼓｜4.3.0
-- Grays Anatomy Premium Edition｜2.0
+## 新增 App（17）
+- iXpenseIt Pro: 管理财务｜11.3.0
+- Shazam 音乐神搜｜27.2
+- 同花顺-炒股、股票｜12.15.03
+- Tempo - Metronome 节拍器｜5.2
+- Harry's LapTimer Rookie｜26.0.0
+- SPL Meter｜11.14
+- SportVitals: Daily Readiness｜2.7.0
+- 小六壬 · 诸葛马前课｜1.3.4
+- T3 Code - Remote Claude & more｜2.1.0
+- 悟碟 - 手碟乐谱与节奏练习｜1.2.3
+- AirBuild: AI App Teammates｜1.3
+- ColorfulCam｜1.9.20
+- 净览: Safari 广告拦截器｜1.0.4
+- 共话｜1.3
+- 闪念备忘｜1.0.1
+- 婧音宝盒｜1.0.1
+- Citymapper｜11.53
 
-## 已有 App 版本更新（3）
-- Gigs: Concert Tracker｜2.1.2 → 2.1.3
-- AudioTools，dB，声音与音频｜18.14 → 18.15
-- 天气和微件 Weawow｜3.1.4 → 3.1.5
+## 已有 App 版本更新（1）
+- Doc Scan Pro - PDF Fax 文档扫描仪｜19.9 → 19.9.1
 
 ## 新增或变化的适配线索（23）
-- 高德地图｜17.2.1
-  证据版本：17.2.1；全面适配 iPhone Duo，大屏查看地图，出行更从容。 1.导航Live，下一代出行 全模态、全双工、全场景陪伴 2.高德扫街榜2026 十亿人用脚投票的全球化榜单 3.十一避雷指南 行前一键排雷，出行少踩坑 4.高德顺风车 真顺路、真省钱 5.AI探索，发现好去处 AI替你发现周边好去处 6.高德AI懂你所需 去哪、多少钱、怎么走、问AI就好 7.一个高德畅游世界 200+国家、78种语言都能用 8.骑行安全，鹰眼守护 鹰眼守护升级新增骑行场景 9.飞行街景2.0自由逛可感知、可交互、可探索的3D空间 10.位置口令全球首发 6位数字锁定精确坐标一搜即达
-  https://apps.apple.com/cn/app/id461703208
-- Gigs: Concert Tracker｜2.1.3
-  证据版本：2.1.3；Gigs 现已全面支持全新 iPhone Duo。无论使用紧凑、竖屏、横屏还是笔记本模式，布局都能灵活适配，让你轻松探索即将到来的活动，重温往日演出。 ● 你的回忆，你的手账 全新历史手账，让每段回忆都有归处。随心装饰，打造属于自己的手账。更大的活动卡片让往日演出成为焦点，活动详情则展示你一路解锁的成就。 ● 更多精彩等你探索 - 在艺人详情中发现专辑和书籍，订阅 Apple Music 即可播放专辑。 - 查看每场活动解锁的成就，探索新增成就和贴纸设计。 - 拖放即可为活动添加媒体内容，支持图片、PDF、网址和 Apple Music 艺人链接。 - 从文件和网页链接创建海报，体…
-  https://apps.apple.com/cn/app/gigs-concert-history/id6755610665?uo=4
-- 天气预报-精准15日天气预报｜8.8.3
-  证据版本：8.8.3；- 适配 iPhone Duo - 适配 iOS 27 - 修复已知 bug，持续优化用户体验
-  https://apps.apple.com/cn/app/id455611831
-- Device Lab｜1.8.1
-  证据版本：1.8.1；新增与优化 • 添加 Pro Display XDR 设备信息及增强现实模型。 • 添加 Apple 设备尺寸图纸快捷入口到苹果网站摘汇。 • 适配 iPhone Duo，收录 iPhone Duo CMOS 摄像头信息。 • 优化在 iPadOS 系统上软件整体内容布局展示。 • 补全部分 Apple 设备 CPU、GPU 频率信息。 • 更新诊断日志分析助手解析层，支持分析 Duo 第二块屏幕信息。 • 更新部分 Apple 设备技术规格及维修手册地址。 • 更新部分工具相关技术术语说明文字。 修复与改进 • 修正部分 Mac 的型号识别及显示器芯片标注的问题。 • 修正部分 M 芯片 GPU 频率信息。 • 修复已知问题，提升稳定性及细节体验。
-  https://apps.apple.com/cn/app/device-lab/id6757624445?uo=4
-- 排班表 & 工作日历 - Shift2Cal AI助手｜2.1
-  证据版本：2.1；Shift2Cal 新功能 你好，iPhone Duo！ Shift2Cal 现已全面支持 iPhone Duo，让你的排班在任何屏幕上都清晰美观。 终于看得明白的统计 • 薪资现在直接显示在报酬下方，让你一眼看清赚了多少 • 设置已重新整理，让你更快找到所需内容 • 无薪班次现在默认不计入，合计更准确 • 如果某个班次未设置薪资，会有友好的提示告诉你 更聪明的 AI 我们的 AI 接受了额外训练：现在能更准确地从照片和 PDF 中识别你的班次，即使休息室排班表的照片拍得不太完美也没问题。 更安稳的键盘 输入现在更流畅、更稳定，不会再出现突然跳动。 始终保持最新 每次重新打开应用时，班次…
-  https://apps.apple.com/cn/app/%E6%8E%92%E7%8F%AD%E8%A1%A8-%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%8E%86-shift2cal-ai%E5%8A%A9%E6%89%8B/id6755889602?uo=4
-- Loopback：内网服务浏览器｜2.2
-  证据版本：2.2；• 适配 iPhone Duo：展开后服务器和设置左右分栏，半折时内容自动让开折痕 • 新图标和新配色 • Tailscale 设备可以起别名，设备列表可以收起 • 卸载重装后还是原来那台设备，不会再多出一台 • 性能改进和问题修复：SSH 断线重连更及时，大页面占用内存更少
-  https://apps.apple.com/cn/app/loopback-%E5%86%85%E7%BD%91%E6%9C%8D%E5%8A%A1%E6%B5%8F%E8%A7%88%E5%99%A8/id6757280702?uo=4
-- PulseOSC: VRChat实时心率显示｜2.3
-  证据版本：2.3；- 新增实时活动：在支持的设备上，可通过锁定屏幕和灵动岛查看心率、可选显示的活动能量及体能训练暂停状态。 - 实时活动支持预览VRChat聊天框文本或OSC模型参数，可在设置中开关实时活动及其预览内容。 - 适配iPhone Duo与iOS 27，优化主界面、设置和统计页面在宽屏及窗口尺寸变化时的布局。 - 系统支持变更：为适配iPhone Duo与iOS 27，项目已升级至Xcode 27。由于Xcode 27不再支持为watchOS 8构建应用，本版本相应停止支持watchOS 8，Apple Watch最低系统要求提升至watchOS 9。iPhone和iPad仍支持iOS/iPadOS 16及以上版本；实时活动需要iOS/iPadOS 16.2及以上版本。
-  https://apps.apple.com/cn/app/pulseosc-vrchat%E5%AE%9E%E6%97%B6%E5%BF%83%E7%8E%87%E6%98%BE%E7%A4%BA/id6757429299?uo=4
-- CodeMan - VSCode｜1.7
-  证据版本：1.7；iPhone Duo support
-  https://apps.apple.com/cn/app/codeman-vscode/id6759809062?uo=4
-- OrangeTable - 你的智能课表｜2.2
-  证据版本：2.2；What's New in v2.2 iPhone Duo 折叠屏适配 摊开内屏：左侧课表总览与右侧课程列表并排，一次看全，不用来回翻页 半折叠立起：上半课表、下半今日课程两栏并排，折痕处自动断开，课程不会被折痕压住 合上外屏：内容自动变成窄栏单栏，日常照用；折页处的摄像头与折痕区域都做了避让 三种形态来回折，状态不丢：你在看第几周、滚到哪儿，都还在 系统把工具栏与标签栏竖排到屏幕侧边时，内容会相应留出间距，不再被栏压住 新增功能 粘贴文本导入：把教务系统的课程列表整段复制进来就能生成课表；规则识别不出时可由 AI 兜底解析 搜索：课程名、教师、教室都能搜，列表与图形课表下都可以用 分享课表…
-  https://apps.apple.com/cn/app/orangetable-%E4%BD%A0%E7%9A%84%E6%99%BA%E8%83%BD%E8%AF%BE%E8%A1%A8/id6760576895?uo=4
-- 塞勒涅 月相日历｜2.0.1
-  证据版本：2.0.1；…；双击或重置按钮恢复原始大小。宽屏视图左侧显示月球，右侧显示控件。Watch 月球全屏视图提供放大镜，从 watchOS 11 起还支持双指缩放 1–4×；Digital Crown 仍控制时间。 2.0: 新增：支持 iPhone Duo。 2.0.1: 适用于 iPhone Duo 的新构建版本。
-  https://apps.apple.com/cn/app/%E5%A1%9E%E5%8B%92%E6%B6%85-%E6%9C%88%E7%9B%B8%E6%97%A5%E5%8E%86/id6760661273?uo=4
-- Oldi - Phone Camera｜1.6.3
-  证据版本：1.6.3；现已支持 iPhone Duo。
-  https://apps.apple.com/cn/app/oldi-phone-camera/id6760838876?uo=4
-- Brewwww!｜1.3.4
-  证据版本：1.3.4；1. 添加对 iPhone Duooooooo 的适配！ 2. 优化了部分UI，修复了一些Bug
-  https://apps.apple.com/cn/app/brewwww/id6761394593?uo=4
-- 浮影｜3.3
-  证据版本：3.3；- 支持外接显示器播放； - 修复iPhone/iPad 使用Air Play播放音频无效的bug； - 增加删除视频或照片的功能； - 支持 Air Play 后台播放 - 适配 iPhone Duo
-  https://apps.apple.com/cn/app/%E6%B5%AE%E5%BD%B1/id6761550200?uo=4
-- WristDict-手表离线英汉互译词典｜1.4.0
-  证据版本：1.4.0；新增watchOS端的扩展词库管理，新增针对iPhone duo系列机型的适配
-  https://apps.apple.com/cn/app/wristdict-%E6%89%8B%E8%A1%A8%E7%A6%BB%E7%BA%BF%E8%8B%B1%E6%B1%89%E4%BA%92%E8%AF%91%E8%AF%8D%E5%85%B8/id6764551392?uo=4
-- 三眼监控 - 远程看家与宝宝监护｜1.1.6
-  证据版本：1.1.6；适配 iPhone Duo，优化界面显示与使用体验。
-  https://apps.apple.com/cn/app/%E4%B8%89%E7%9C%BC%E7%9B%91%E6%8E%A7-%E8%BF%9C%E7%A8%8B%E7%9C%8B%E5%AE%B6%E4%B8%8E%E5%AE%9D%E5%AE%9D%E7%9B%91%E6%8A%A4/id6765831627?uo=4
-- BaroWatch Barometer｜1.3
-  证据版本：1.3；• 支持全新 iPhone Duo。 • 多项细节改进与问题修复。
-  https://apps.apple.com/cn/app/barowatch-barometer/id6766528041?uo=4
-- 随手网页-移动端 HTML 查看器｜1.12.0
-  证据版本：1.12.0；新增对 iPhone Duo 的适配。
-  https://apps.apple.com/cn/app/%E9%9A%8F%E6%89%8B%E7%BD%91%E9%A1%B5-%E7%A7%BB%E5%8A%A8%E7%AB%AF-html-%E6%9F%A5%E7%9C%8B%E5%99%A8/id6767142789?uo=4
-- Mynu - 个人菜谱与美食日记｜1.2.0
-  证据版本：1.2.0；• 提前排餐对免费用户开放 • 备份及恢复你的菜单和食记数据 • 长按分类或食材标签就能改名或删除 • 会员新盘子上架：心形盘、椭圆盘 • 已适配 iPhone Duo • 问题修复及改进
-  https://apps.apple.com/cn/app/mynu-%E4%B8%AA%E4%BA%BA%E8%8F%9C%E8%B0%B1%E4%B8%8E%E7%BE%8E%E9%A3%9F%E6%97%A5%E8%AE%B0/id6767801514?uo=4
-- Rosetta：AI笔记、链接、待办｜1.6.1
-  证据版本：1.6.1；Rosetta 现已支持 iPhone Duo，界面布局和操作控件会随设备的展开、折叠和旋转而调整。
-  https://apps.apple.com/cn/app/rosetta-ai%E7%AC%94%E8%AE%B0-%E9%93%BE%E6%8E%A5-%E5%BE%85%E5%8A%9E/id6771149420?uo=4
-- Var课程表-优雅，简洁，干净的课程表｜1.1.0
-  证据版本：1.1.0；新增iPhone duo系列设备的支持，优化组件更新逻辑
-  https://apps.apple.com/cn/app/var%E8%AF%BE%E7%A8%8B%E8%A1%A8-%E4%BC%98%E9%9B%85-%E7%AE%80%E6%B4%81-%E5%B9%B2%E5%87%80%E7%9A%84%E8%AF%BE%E7%A8%8B%E8%A1%A8/id6772577448?uo=4
-- Fontbridge：字体安装器｜1.1.0
-  证据版本：1.1.0；….1.0 更新内容 - 支持一次选择并导入多个字体文件 - ZIP 字体包导入更完善，自动跳过已存在的字体 - 文档检查新增“全部安装”，可一次安装多个可用的缺失字体 - 优化大型文档的字体检查与结果展开体验 - 适配 iPhone Duo，在展开与折叠形态下都有更好的界面表现 - 修复若干问题并提升整体稳定性
-  https://apps.apple.com/cn/app/fontbridge-%E5%AD%97%E4%BD%93%E5%AE%89%E8%A3%85%E5%99%A8/id6772857601?uo=4
-- 金贝鼓：指尖上的非洲鼓｜4.3.0
-  证据版本：4.3.0；为你的节奏焕新外观。 - 焕新应用图标。 - 展开、折叠 iPhone Duo 或调整应用大小时，鼓面布局会自动适配。 - 缩放和声音设置按钮新增动画，并支持“减弱动态效果”。
-  https://apps.apple.com/cn/app/id463564503
-- Grays Anatomy Premium Edition｜2.0
-  证据版本：2.0；…igned for iOS 27 with a modern Liquid Glass look • Optimised layouts for every screen size, including the new iPhone Duo • Cleaner plate reader with the plate title shown above the chapter name • Plate descriptions now follow your Dynamic Type text size • Notes now update as you swipe between plates • Removed Ask and Omni Medical Search from Look Up Online, as both no longer work • Gener…
-  https://apps.apple.com/cn/app/id468314731
+- 酷狗音乐 - 就是歌多｜20.8.7
+  证据版本：20.8.7；「体验优化」性能提升，播放更流畅、更稳定 「适配iPhone Duo」全面适配折叠屏，折叠、立起播放多种模式，听歌体验更多面 「CarPlay蝰蛇全景声」汽车座舱专属调音，发挥多扬声器优势，空间声场还原现场沉浸感 「蝰蛇母带」性能全面升级，母带级细腻音质，播放流畅不卡顿 「刷歌模式」新增刷歌模式，上下滑即切歌，好歌一首接一首 「可视化听歌报告」AI 读懂你的听歌偏好、歌手回忆，让音乐轨迹看得见 【如果您在使用过程中遇到问题，请您移步“APP内-侧边栏-帮助与反馈“提交反馈，谢谢】
+  https://apps.apple.com/cn/app/id472208016
+- 星空 - 让您不再迷失｜27.1
+  证据版本：27.1；27.1 版本带来以下功能和改进： + 全面支持 iPhone Duo，并针对其进行了优化。 + 全新 Aura Tonight Tour 布局，专为将 iPhone Duo 像笔记本电脑一样半折叠放在桌面上使用而设计。 + 修复了其他错误。 喜欢 Night Sky 吗？欢迎在 App Store 上留下您的评价。如需任何帮助或支持，请通过 Support@NightSky.com 联系我们的团队。 祝您观星愉快！
+  https://apps.apple.com/cn/app/id475772902
+- iReal Pro｜2026.9
+  证据版本：2026.9；- 录制一段你演奏或跟着伴奏曲一起唱歌的视频，并附上和弦图表：点击“分享”按钮旁的麦克风按钮开始 - 添加对 iPhone Duo 的支持 - 编辑器中移动人员的文字回复更快，箭头按钮在第一和最后一位置变暗 - 播放和音频导出运行在 FluidSynth 音频引擎的最新版本上（2.6.1） - 固定实鼓在歌曲的第一拍中通过断奏演奏 - iPad 库屏幕上的固定查找（⌘F） - 修复了在iPad上搜索时，箭头键会改变歌曲而不是移动光标的问题 - iPad 上的搜索行为已固定 - 修复了在iPad的分屏视图中显示和处理选择的方式 - 对转位进行进一步改进 - 更新AirTurn到4.10.1
+  https://apps.apple.com/cn/app/ireal-pro/id298206806?uo=4
+- Audio Memos Pro｜6.3.1
+  证据版本：6.3.1；•针对 iPhone Duo 进行了优化。 •许多其他改进。
+  https://apps.apple.com/cn/app/audio-memos-pro/id290160980?uo=4
+- TripView｜6.6.2
+  证据版本：6.6.2；- Added iPhone Duo support - Fixed Dropbox authentication - Fixed rail map animations
+  https://apps.apple.com/cn/app/tripview/id294730339?uo=4
+- Doc Scan Pro - PDF Fax 文档扫描仪｜19.9.1
+  证据版本：19.9；全新优化 UI 设计以完美适配 iPhone Duo 屏幕，并修复 iOS 27 的相关兼容性问题。
+  https://apps.apple.com/cn/app/id478861246
+- iXpenseIt Pro: 管理财务｜11.3.0
+  证据版本：11.3.0；感谢您使用 iXpenseIt Pro！本次更新带来多项改进，助您轻松掌控财务。 * 针对 iPhone Duo 优化 * 自动记录钱包通知中的交易 * 优化支出与现金流摘要 * 对本次更新有疑问？请联系 support@ixpenseit.com，我们很乐意为您提供帮助
+  https://apps.apple.com/cn/app/ixpenseit-pro-%E7%AE%A1%E7%90%86%E8%B4%A2%E5%8A%A1/id284947174?uo=4
+- Shazam 音乐神搜｜27.2
+  证据版本：27.2；《Shazam》现已在 iPhone、iPad 和 iPhone Duo 上适配不同的设备方向和屏幕尺寸，让你无论如何握持设备，都能轻松识别音乐、回顾近期发现的歌曲。
+  https://apps.apple.com/cn/app/shazam-%E9%9F%B3%E4%B9%90%E7%A5%9E%E6%90%9C/id284993459?uo=4
+- 同花顺-炒股、股票｜12.15.03
+  证据版本：12.15.03；1、适配iPhone Duo 2、优化产品性能，股票看盘更流畅
+  https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA-%E7%82%92%E8%82%A1-%E8%82%A1%E7%A5%A8/id303191318?uo=4
+- Tempo - Metronome 节拍器｜5.2
+  证据版本：5.2；• 支持 iPhone Duo • 修复了 iPhone Air 上的布局问题 • 改进了所有设备上的布局和尺寸
+  https://apps.apple.com/cn/app/tempo-metronome-%E8%8A%82%E6%8B%8D%E5%99%A8/id304731501?uo=4
+- Harry's LapTimer Rookie｜26.0.0
+  证据版本：26.0.0；用户界面 - 全面支持全新 iPhone Duo，包括外屏和超大内屏 - 更新界面设计，使其符合 iOS 26/27 的风格 - 改进磁贴配置和显示选项，以适应不同屏幕尺寸 - 优化多处图标、间距、配色和布局 - 重新设计 Speed 和 Classic 计时视图（以数字形式显示速度和时间） 媒体 - 修复了添加视频叠加层后媒体库访问卡死的问题 - 消除了较长视频缩略图列表中的闪烁现象 传感器 - 此前仅限 GrandPrix 版本的所有专业传感器支持现已向所有版本开放 - 改进了 OBD 结果解析 数据 - 更新并扩展了 VBO 导入功能，提高了与第三方应用的兼容性 - 为 VB…
+  https://apps.apple.com/cn/app/harrys-laptimer-rookie/id307688598?uo=4
+- SPL Meter｜11.14
+  证据版本：11.14；New in this release: - Ready for iPhone Duo: every screen adapts to closed, open, book and tent, with controls in the side strip. - iOS 26 appearance adopted. - Bug fixes and stability improvements
+  https://apps.apple.com/cn/app/spl-meter/id309206756?uo=4
+- SportVitals: Daily Readiness｜2.7.0
+  证据版本：2.7.0；版本 2.7.0 的新功能： IPHONE DUO 自适应布局 • iPhone Duo 专属体验：为双屏及大屏设备优化分栏与多列布局，全面覆盖仪表盘、睡眠、历史、AI 教练及设置。 全新压力负荷 (STRAIN) 趋势图 • 目标区间与移动平均线：全新设计的每日负荷图表，具备色彩标识柱状图、虚线目标区间，并叠加 7 天滑动平均线，负荷进展清晰直观。 睡眠与夜间心率下降率 (HR DIP) • 夜间心率下降率 (HR Dip)：追踪白天静息心率与睡眠心率之间的百分比降幅，深度洞察自主神经恢复与深睡质量。 • 原生睡眠唤醒闹钟：专设唤醒日程，支持 AlarmKit、自然白噪音音效及跨时…
+  https://apps.apple.com/cn/app/sportvitals-daily-readiness/id6781699989?uo=4
+- 小六壬 · 诸葛马前课｜1.3.4
+  证据版本：1.3.4；适配 iPhone Duo。
+  https://apps.apple.com/cn/app/%E5%B0%8F%E5%85%AD%E5%A3%AC-%E8%AF%B8%E8%91%9B%E9%A9%AC%E5%89%8D%E8%AF%BE/id6787324608?uo=4
+- T3 Code - Remote Claude & more｜2.1.0
+  证据版本：2.1.0；This update brings native pull request reviews, iPhone Duo support, and a smoother experience across the app. • Pull requests on the go: Browse changes, follow guided reviews, check activity, and link pull requests to threads. Previously loaded pull requests remain available offline. • Built for iPhone Duo and iPad: Improved s…
+  https://apps.apple.com/cn/app/t3-code-remote-claude-more/id6787819824?uo=4
+- 悟碟 - 手碟乐谱与节奏练习｜1.2.3
+  证据版本：1.2.3；带来更灵活的屏幕适配，让演奏与读谱更顺手。 • 适配 iPhone Duo：展开后手碟与乐谱并排显示，折叠后呈现适合随身练习的手碟界面。 • 优化 iPhone 横屏布局：放大手碟，精简控制，让演奏和读谱保持清晰。 • 优化 iPad 横屏体验：充分利用可用屏幕空间，手碟与乐谱两栏自适应显示。 • 改善乐谱区域布局与滚动体验，让播放时的高亮跟随更自然。 • 更新原生启动机制，提升与新系统的兼容性。
+  https://apps.apple.com/cn/app/%E6%82%9F%E7%A2%9F-%E6%89%8B%E7%A2%9F%E4%B9%90%E8%B0%B1%E4%B8%8E%E8%8A%82%E5%A5%8F%E7%BB%83%E4%B9%A0/id6787988917?uo=4
+- AirBuild: AI App Teammates｜1.3
+  证据版本：1.3；AirBuild 现已推出 Apple Watch 应用，并优化了 iPhone Duo 的使用体验。
+  https://apps.apple.com/cn/app/airbuild-ai-app-teammates/id6795428458?uo=4
+- ColorfulCam｜1.9.20
+  证据版本：1.9.20；中文 • 更新适配 iPhone Duo 界面 UI • 修复部分 Bug • 多掉了几根头发 English • Updated UI for iPhone Duo • Fixed some bugs
+  https://apps.apple.com/cn/app/colorfulcam/id6803455206?uo=4
+- 净览: Safari 广告拦截器｜1.0.4
+  证据版本：1.0.4；• 适配 iPhone Duo，折叠大屏体验更佳 • 优化应用体验
+  https://apps.apple.com/cn/app/%E5%87%80%E8%A7%88-safari-%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E5%99%A8/id6806185151?uo=4
+- 共话｜1.3
+  证据版本：1.3；新增 iPhone Duo 适配。
+  https://apps.apple.com/cn/app/%E5%85%B1%E8%AF%9D/id6818028010?uo=4
+- 闪念备忘｜1.0.1
+  证据版本：1.0.1；• 支持 iPhone Duo，保留熟悉的列表与行内编辑体验，优化折叠、展开、旋转、大字模式和键盘避让。 • 新手引导新增“上一步”，方便返回查看。 • 新增“语音自动置顶”设置。App 内语音按开关置顶；锁屏语音在开关开启且置顶数少于 3 条（单列）或 6 条（双列）时自动置顶。 • 修复反复归档、恢复后的事项状态异常，以及添加小组件后的活动卡片状态问题。 • 提升归档提示的可见性，统一设置开关开启时的绿色显示。
+  https://apps.apple.com/cn/app/%E9%97%AA%E5%BF%B5%E5%A4%87%E5%BF%98/id6820398112?uo=4
+- 婧音宝盒｜1.0.1
+  证据版本：1.0.1；UI适配 iPhone Duo 修复在深色主题模式下每次车机开启后与Carplay首次连接出现的崩溃问题
+  https://apps.apple.com/cn/app/%E5%A9%A7%E9%9F%B3%E5%AE%9D%E7%9B%92/id6823883116?uo=4
+- Citymapper｜11.53
+  证据版本：11.53；Now supporting iPhone Duo.
+  https://apps.apple.com/cn/app/id469463298
 
 ## 可复制微博文案
 
 iPhone Duo App 适配目录更新：
-本次新增收录 19 款：排班表 & 工作日历 - Shift2Cal AI助手、Loopback：内网服务浏览器、PulseOSC: VRChat实时心率显示、CodeMan - VSCode、OrangeTable - 你的智能课表、塞勒涅 月相日历、Oldi - Phone Camera、Brewwww!、浮影、WristDict-手表离线英汉互译词典、三眼监控 - 远程看家与宝宝监护、BaroWatch Barometer、随手网页-移动端 HTML 查看器、Mynu - 个人菜谱与美食日记、Rosetta：AI笔记、链接、待办、Var课程表-优雅，简洁，干净的课程表、Fontbridge：字体安装器、金贝鼓：指尖上的非洲鼓、Grays Anatomy Premium Edition。
+本次新增收录 17 款：iXpenseIt Pro: 管理财务、Shazam 音乐神搜、同花顺-炒股、股票、Tempo - Metronome 节拍器、Harry's LapTimer Rookie、SPL Meter、SportVitals: Daily Readiness、小六壬 · 诸葛马前课、T3 Code - Remote Claude & more、悟碟 - 手碟乐谱与节奏练习、AirBuild: AI App Teammates、ColorfulCam、净览: Safari 广告拦截器、共话、闪念备忘、婧音宝盒、Citymapper。
 新增条目先进入待确认，开发者适配声明与用户实测结论分别标注。
-另有 3 款已有 App 版本资料更新；普通版本更新不代表新增适配。
+另有 1 款已有 App 版本资料更新；普通版本更新不代表新增适配。
 https://vankerwu.github.io/iPhone-Duo-Apps/
