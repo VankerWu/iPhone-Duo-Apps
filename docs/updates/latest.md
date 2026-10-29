@@ -1,71 +1,70 @@
 # 本轮抓取报告
-2026-10-29T00:07:30+00:00
+2026-10-29T06:03:11+00:00
 
 新增收录、版本更新和适配线索分开统计；不代表本站实测。
 
 ## 国区扫描范围
-候选池 5614 个 ID；本轮计划检查 600 个；分类榜单成功 16/16。
+候选池 5665 个 ID；本轮计划检查 600 个；分类榜单成功 16/16。
 候选池不等于适配数量，未完成的部分后续轮询。
 
 ## 新增 App（5）
-- Apple 支持｜5.17
-- Exif Manager PRO｜4.2
-- InstaCal: 菜单栏日历｜3.9.4
-- Sofa: Downtime Organizer｜5.4.4
-- AirTerminal - BLE Terminal｜2.3.0
+- 大家的日本语 初级 第二版｜2.0
+- Health Export CSV｜3.14.0
+- 什么时辰 - 生辰文字时钟小组件Widgets｜2.5.5
+- 时光小屋® -宝宝成长相册｜8.7.0
+- PocketRadar：实时降雨雷达、动画雨量地图与天气预报｜4.5.0
 
-## 已有 App 版本更新（8）
-- Calendars – 日历、待办事项列表和日程表｜5.41 → 5.41.1
-- Structured: Daily Planner Todo｜4.6.6 → 4.6.7
-- Gigs: Concert Tracker｜2.1.3 → 2.1.5
-- 天文通 - 星图、观星指数、极光天象、星空指南｜3.5.4 → 3.6.0
-- BookBuddy Pro: 书库管理器｜10.4.0 → 10.4.1
-- 此刻心-心情日记情绪理解和调节｜3.2026.15 → 3.2026.16
-- T3 Code - Remote Claude & more｜2.1.0 → 2.2.0
-- 概念画板｜6.37 → 6.37.1
+## 已有 App 版本更新（1）
+- 训记 - 训练计划专家｜7.00.409 → 7.00.410
 
-## 新增或变化的适配线索（12）
-- Draw on Endless Paper｜5.0.3
-  证据版本：5.0.3；Flow 5 来了，并已为 iPhone Duo 做好准备。装进口袋的无限笔记本。 但这次更新远不止 iPhone Duo。这是我们有史以来最大的一次更新，几乎花了今年一整年的时间打造，加入了大家呼声最高的功能：模板、完整的 PDF 支持、搜索、文本标签等等。 - iPhone Duo：在外屏上随手画草图，展开后即可获得更大的空间，并会根据你的握持方式自动适配 - 模板：可将任意 PDF 或图片导入为模板，包括带链接的多页计划本，还可将任意笔记本存储为模板 - 搜索：查找你手写或手绘的任何内容，以及照片和 PDF 中的文本。私密，且完全在设备上处理。 - 文本标签：真正可编辑的文本…
-  https://apps.apple.com/cn/app/draw-on-endless-paper/id1271361459?uo=4
-- HealthFit｜12.16.4
-  证据版本：12.16.4；• iPhone Duo Ready HealthFit is fully optimized for iPhone Duo, with adaptive layouts designed to make the most of its unique display. • New Medium Up Next Widget See your upcoming workouts for the next 4 weeks at a glance. • Recovery HRV Export HealthFit can now export Recovery HR…
-  https://apps.apple.com/cn/app/healthfit/id1202650514?uo=4
-- 天气和微件 Weawow｜3.1.5
-  证据版本：3.1.5；修复了iPhone Duo上的布局问题。 修复了上一版本中导致每日通知无法正常工作的问题。请更新应用程序。
-  https://apps.apple.com/cn/app/%E5%A4%A9%E6%B0%94%E5%92%8C%E5%BE%AE%E4%BB%B6-weawow/id1209810737?uo=4
-- Infuse｜8.5.9
-  证据版本：8.5.9；新增 - 新增对 iPhone Duo 的支持 - 新增 Now Playing API（firecore.com/api） - 新增覆盖字幕内嵌样式的独立设置 - 新增禁用 SMB IAKERB 的选项 改进 - 提升实时预览性能 - 改进对光鸭云盘（GuangYaPan）的支持 修复 - 修复 Jellyfin 12 上的文件夹处理问题 - 修复应用启动时媒体服务器的主屏幕分区无法加载的问题 - 修复部分外挂字幕的播放问题 - 修复通过 Google Cast 播放字幕的问题 - 其他小修复和改进 完整更新详情请访问：firecore.com/releases 感谢您…
-  https://apps.apple.com/cn/app/infuse/id1136220934?uo=4
-- Termius - Modern SSH Client｜8.0.6
-  证据版本：8.0.6；- Added iPhone Duo support. - Fixed terminal text selection when using a mouse. - Fixed input delay caused by shell integration (autocomplete) after connecting to some hosts. - Fixed RTL rendering issues in the terminal. - Other stability improvements.
-  https://apps.apple.com/cn/app/id549039908
-- 豆瓣阅读｜6.12.11
-  证据版本：6.12.11；• 适配 iPhone Duo • 适配 Liquid Glass 风格 • iPhone 支持横屏和镜像窗口缩放 • 问题修复和体验优化
-  https://apps.apple.com/cn/app/id560068813
-- 概念画板｜6.37.1
-  证据版本：6.37；6.37 - iPhone Duo 概念画板的界面现已适配 iPhone Duo！当您折叠或展开设备时，您的画廊、画布和工具都会无缝切换，让控件始终位于您需要的位置。我们还修复了一个问题：在 iPad 上绘制并在 iPhone 上打开时，画作会被旋转 90 度。 请访问https://concepts.app/ios/roadmap了解更多内容。如果您认可我们的努力，欢迎发送反馈或留下评价！
-  https://apps.apple.com/cn/app/id560586497
-- Apple 支持｜5.17
-  证据版本：5.17；• 添加了对 iOS 27.1 和 iPhone Duo 的支持 • 性能改进和错误修复
-  https://apps.apple.com/cn/app/apple-%E6%94%AF%E6%8C%81/id1130498044?uo=4
-- Exif Manager PRO｜4.2
-  证据版本：4.2；感谢使用 Exif Manager。本次更新： • 新增对 iPhone Duo 的支持。 • 提升了照片和元数据的加载性能。 • 修复了错误并提升了稳定性。 如有问题或反馈，请联系：ibrightsider@gmail.com。
-  https://apps.apple.com/cn/app/exif-manager-pro/id1209739795?uo=4
-- InstaCal: 菜单栏日历｜3.9.4
-  证据版本：3.9.4；• InstaCal 现已适配 iPhone Duo。打开后，日历和日程列表会在折痕两侧并排显示，分屏比例和按钮位置都可以自选。无论折叠还是展开，你正在进行的操作都会保持原样。 • 轻点事件中的航班号，即可查看实时航班状态，包括登机口和时间。 • “快速添加”会在你输入时为已识别的词语着色。轻点其中一个，即可只修改该项细节，比如时间或地点。 • 先显示开始时间，再倒计时：“实时倒计时”和小组件会先显示事件的开始时间，在开始前几分钟切换为倒计时。切换时发出的“开始倒计时”通知会启动实时倒计时；你还可以在任意事件的编辑器中将其添加到“倒计时”。 • 待机显示和智能叠放：“下一个事件”“现在…
-  https://apps.apple.com/cn/app/instacal-%E8%8F%9C%E5%8D%95%E6%A0%8F%E6%97%A5%E5%8E%86/id1247292524?uo=4
-- Sofa: Downtime Organizer｜5.4.4
-  证据版本：5.4.4；…tras and choose Delete Permanently. - The podcast player's artwork briefly jumping in size when opening it on iPhone Duo's outer display. - Fixed the Lock Screen and Control Center sometimes showing "Loading…" with no artwork while a podcast was playing. - Fixed resuming a podcast after a long pause sometimes playing the first second or two of the episode before jumping back to your spot…
-  https://apps.apple.com/cn/app/sofa-downtime-organizer/id1276554886?uo=4
-- AirTerminal - BLE Terminal｜2.3.0
-  证据版本：2.3.0；1. 适配 iPhone Duo 2. 支持画中画浮窗 3. 在 iPad 和 iPhone Duo 上支持多窗口
-  https://apps.apple.com/cn/app/airterminal-ble-terminal/id1296588408?uo=4
+## 新增或变化的适配线索（14）
+- Structured: Daily Planner Todo｜4.6.7
+  证据版本：4.6.7；Structured 4.6.5 brings support for iPhone Duo, a new Smart Task Icons beta, and fixes to make everyday planning smoother. What's new: - Ready for iPhone Duo: layouts adapt as you fold and unfold, with a Focus Timer designed for book and tabletop positions. - Try Smart Task Icons 2.0 beta for updated icon suggestio…
+  https://apps.apple.com/cn/app/structured-%E6%97%A5%E7%A8%8B%E8%A7%84%E5%88%92/id1499198946?uo=4
+- Sky Guide - 3D星座星图指南｜13.1.2
+  证据版本：13.1.2；修复了一些小错误 13.1 版新功能： + 支持 iPhone Duo Sky Guide 现已针对 iPhone Duo 进行优化，展开屏幕时画面随之优美扩展，带来更广阔、更具沉浸感的宇宙视野。
+  https://apps.apple.com/cn/app/id576588894
+- 训记 - 训练计划专家｜7.00.410
+  证据版本：7.00.410；本次更新： - 优化 iPhone Duo 训练页面、弹窗和侧边栏的显示与操作体验。 - 修复每组计时器在 iPhone Duo 上显示不完整的问题。 - 修复 iPhone Duo 上生成下个周期时确认弹窗消失、无法继续的问题。
+  https://apps.apple.com/cn/app/%E8%AE%AD%E8%AE%B0-%E8%AE%AD%E7%BB%83%E8%AE%A1%E5%88%92%E4%B8%93%E5%AE%B6/id1464915553?uo=4
+- OffScreen - 自律番茄钟，不做手机控｜3.22.2
+  证据版本：3.22.2；- 支持 iPhone Duo，适配内外屏显示。 - 优化专注、屏幕时间和设置页面布局，适应设备折叠、展开及窗口大小调整。 近期更新： - 修复了打开通知中心可能导致拿起次数误增的问题。 - 修复了 Apple Watch App 可能在启动时闪退的问题。 - 修复了 Apple Watch 上屏幕使用时间和拿起次数图表中的柱状条与日期标签可能错位的问题。 - 修复了非 AOD（不支持全天候显示）设备在最新系统上锁屏后仍可能持续累计屏幕使用时间的问题。
+  https://apps.apple.com/cn/app/offscreen-%E8%87%AA%E5%BE%8B%E7%95%AA%E8%8C%84%E9%92%9F-%E4%B8%8D%E5%81%9A%E6%89%8B%E6%9C%BA%E6%8E%A7/id1474340105?uo=4
+- 小宇宙·一起听播客｜3.4.0
+  证据版本：3.4.0；SPACELOG126 你试过一边跑步一边听播客吗？ 最近更新 - 新增播放列表中的”运动电台“模式 - 支持iPhone Duo - 优化Apple Watch端体验 - 小范围测试首页改版 - 可以在设置中关闭“下载单集完播后自动删除” - 大量体验优化与问题修复 近期更新 - 支持Apple Watch，完整适配iPad - 大幅提升Mac端体验 - 支持和其他应用同时播放，在“设置-播放设置”中可以选择
+  https://apps.apple.com/cn/app/%E5%B0%8F%E5%AE%87%E5%AE%99-%E4%B8%80%E8%B5%B7%E5%90%AC%E6%92%AD%E5%AE%A2/id1488894313?uo=4
+- 酷安｜16.7
+  证据版本：16.7；适配iPhone Duo，支持折叠屏专属导航栏、tab栏 搜索热榜页全新设计，更加适配液态玻璃风格 主页到搜索页支持一镜到底动画效果 新增【我关注的收藏单】页面 新增支持抖音登录 新增动态详情页的长按选择复制功能 优化查看大图的体验，优化不同比例屏幕上的效果 优化GIF的加载体验，增加加载进度显示 修复iOS26系统下底栏tab的各种错误 修复个别网页丢失登录状态的问题
+  https://apps.apple.com/cn/app/%E9%85%B7%E5%AE%89-%E5%88%86%E4%BA%AB%E7%BE%8E%E5%A5%BD%E7%A7%91%E6%8A%80%E7%94%9F%E6%B4%BB/id1422581869?uo=4
+- 每日英语听力-每天更新的英语泛听资源库｜26.10.2
+  证据版本：26.10.2；【本次更新】 - 针对 iPhone Duo 进行适配，支持多种折叠模式 - 全新 重点内容划线标记、批注功能 - 全新 段落工具栏，可以在文本设置中开启 - 新增 优化竖屏短视频播放体验 - 新增 段落解析新增丰富模板，支持自定义提示词 - 新增 可以设置查词时是否暂停播放 - 新增 文字高亮模式新增「逐句背景高亮」 - 新增 重点词汇扫描支持「做练习」功能 - 新增 队友投票后，可以继续组队 - 新增 单词PK支持邀请好友参加 - 优化 提升离线发音库音质 - 优化 卡片播放无法选择默认发音引擎 - 优化 「我的资源」AI精校字幕支持重新生成 - 优化 支持WebM格式视频…
+  https://apps.apple.com/cn/app/id570118289
+- Tesla｜4.62.3
+  证据版本：4.62.3；支持平板电脑和 iPhone Duo
+  https://apps.apple.com/cn/app/id582007913
+- 潮汐在身边｜4.1.0
+  证据版本：4.1.0；4.1 新增功能 • 专为 iPhone Duo 打造：潮位站页面适配每种折叠方式。 • 地图上标注海湾、港口和航道。 • 适合夜间使用的深色地图。 • 潮位站页面新增海洋天气：风、海浪、水温、能见度和警告（如有）。 • 更简洁的潮位站页面，包含三个标签页：现在、周和地图。 • 新增地图图层：水深图、风与浪、天气雷达和动态潮汐。 • iPhone 现在支持横屏。
+  https://apps.apple.com/cn/app/id585223877
+- 大家的日本语 初级 第二版｜2.0
+  证据版本：2.0；适配IOS27和iPhone Duo新机型
+  https://apps.apple.com/cn/app/%E5%A4%A7%E5%AE%B6%E7%9A%84%E6%97%A5%E6%9C%AC%E8%AF%AD-%E5%88%9D%E7%BA%A7-%E7%AC%AC%E4%BA%8C%E7%89%88/id1477854253?uo=4
+- Health Export CSV｜3.14.0
+  证据版本：3.14.0；Optimized for iPhone Duo, with improved layouts and side-by-side charts.
+  https://apps.apple.com/cn/app/health-export-csv/id1477944755?uo=4
+- 什么时辰 - 生辰文字时钟小组件Widgets｜2.5.5
+  证据版本：2.5.5；… • 新增节日筛选和日历内容自定义，按自己的习惯安排页面。 • 日期选择支持公历、农历切换，查找日期更便捷。 • 新增干支、四柱和今日安排小组件，桌面一眼掌握日常信息。 • 丰富节气与物候详情，感受四时变化。 • 适配 iPhone Duo，优化大屏幕使用体验。 • 优化 iPad 和横竖屏布局，修复日历刷新及小组件显示问题。
+  https://apps.apple.com/cn/app/%E4%BB%80%E4%B9%88%E6%97%B6%E8%BE%B0-%E7%94%9F%E8%BE%B0%E6%96%87%E5%AD%97%E6%97%B6%E9%92%9F%E5%B0%8F%E7%BB%84%E4%BB%B6widgets/id1533372181?uo=4
+- 时光小屋® -宝宝成长相册｜8.7.0
+  证据版本：8.6.9；本次更新 - 新增对 iPhone Duo 的适配 - 修复已知问题 - 优化使用体验 感谢使用时光小屋
+  https://apps.apple.com/cn/app/id565951606
+- PocketRadar：实时降雨雷达、动画雨量地图与天气预报｜4.5.0
+  证据版本：4.4.1；• 优化了 iPhone Duo 的布局及从右向左书写语言的控件。 • 改进了天气加载、位置选择和地名显示。 • 提升了地图稳定性，并修复了风迹中可见的接缝。
+  https://apps.apple.com/cn/app/id574399713
 
 ## 可复制微博文案
 
 iPhone Duo App 适配目录更新：
-本次新增收录 5 款：Apple 支持、Exif Manager PRO、InstaCal: 菜单栏日历、Sofa: Downtime Organizer、AirTerminal - BLE Terminal。
+本次新增收录 5 款：大家的日本语 初级 第二版、Health Export CSV、什么时辰 - 生辰文字时钟小组件Widgets、时光小屋® -宝宝成长相册、PocketRadar：实时降雨雷达、动画雨量地图与天气预报。
 新增条目先进入待确认，开发者适配声明与用户实测结论分别标注。
-另有 8 款已有 App 版本资料更新；普通版本更新不代表新增适配。
+另有 1 款已有 App 版本资料更新；普通版本更新不代表新增适配。
 https://vankerwu.github.io/iPhone-Duo-Apps/
