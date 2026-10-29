@@ -1,67 +1,126 @@
 (() => {
   'use strict';
-  const node=document.getElementById('syncReport');
-  const select=document.getElementById('updateRun');
-  const textbox=document.getElementById('weiboText');
-  const status={unverified:'待确认',apple_featured:'苹果官方介绍',community_verified:'用户实测'};
-  const kinds=[['software','软件'],['game','游戏'],['unknown','类型待同步']];
-  let seed={}, catalog={};
-  const date=value=>new Date(value).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false});
-  const group=items=>kinds.map(([kind,label])=>[kind,label,items.filter(a=>a.appType===kind||((!a.appType||a.appType==='unknown')&&kind==='unknown'))]);
-  function paragraph(text, parent=node) {const p=document.createElement('p');p.textContent=text;parent.append(p);}
-  function enrich(report) {
-    return {...report, added:report.added.map(a=>{
-      if(a.appType) return a;
-      const app=catalog[a.id] || a;
-      return {...a,appType:window.DuoCatalog.type(app,seed)};
-    })};
+  const node = document.getElementById('syncReport');
+  const select = document.getElementById('updateRun');
+  if (!node || !select) return;
+  const status = {unverified: '待确认', apple_featured: '苹果官方介绍', community_verified: '用户实测'};
+  const kinds = [['software', '新增软件'], ['game', '新增游戏'], ['unknown', '其他新增']];
+  let seed = {}, catalog = {};
+  const date = value => {
+    const parsed = new Date(value);
+    return Number.isNaN(parsed.getTime()) ? '时间未知' : parsed.toLocaleString('zh-CN', {
+      timeZone: 'Asia/Shanghai', hour12: false, year: 'numeric', month: '2-digit',
+      day: '2-digit', hour: '2-digit', minute: '2-digit'
+    });
+  };
+  function textElement(tag, className, text) {
+    const element = document.createElement(tag);
+    element.className = className;
+    element.textContent = text;
+    return element;
+  }
+  function appType(app) {
+    // Resolve old reports using today's authoritative genre metadata when possible.
+    const current = catalog[app.id];
+    if (current && window.DuoCatalog) return window.DuoCatalog.type(current, seed);
+    return app.appType === 'software' || app.appType === 'game' ? app.appType : 'unknown';
+  }
+  function storeURL(value) {
+    try {
+      const url = new URL(value);
+      return url.protocol === 'https:' && url.hostname === 'apps.apple.com' && !url.username && !url.password ? url.href : '';
+    } catch { return ''; }
+  }
+  function appRow(app, kind) {
+    const item = textElement('li', 'update-row', '');
+    const main = textElement('div', 'update-row-main', '');
+    const url = storeURL(app.appStoreUrl);
+    const name = textElement(url ? 'a' : 'span', 'update-app-name', app.name || '未命名 App');
+    if (url) {name.href = url; name.target = '_blank'; name.rel = 'noopener noreferrer';}
+    main.append(name);
+    const version = kind === 'updated' && app.previousVersion
+      ? `${app.previousVersion} → ${app.version || '—'}`
+      : (kind === 'signals' ? app.evidence?.version : app.version);
+    if (version) main.append(textElement('span', 'update-version', version));
+    item.append(main);
+    if (kind === 'added') item.append(textElement('span', 'update-status', status[app.status] || '状态待核对'));
+    if (kind === 'signals' && app.evidence?.excerpt) {
+      item.append(textElement('p', 'update-excerpt', app.evidence.excerpt));
+    }
+    return item;
+  }
+  function addList(parent, title, items, kind) {
+    if (!items.length) return;
+    const section = textElement('section', 'update-group', '');
+    section.append(textElement('h3', 'update-group-title', `${title} · ${items.length}`));
+    const list = textElement('ul', 'update-list', '');
+    const initial = 6;
+    items.slice(0, initial).forEach(app => list.append(appRow(app, kind)));
+    section.append(list);
+    if (items.length > initial) {
+      const more = textElement('button', 'update-more', `展开其余 ${items.length - initial} 款`);
+      more.type = 'button'; more.setAttribute('aria-expanded', 'false');
+      more.addEventListener('click', () => {
+        const expanded = more.getAttribute('aria-expanded') === 'true';
+        if (expanded) {
+          while (list.children.length > initial) list.lastElementChild.remove();
+        } else items.slice(initial).forEach(app => list.append(appRow(app, kind)));
+        more.setAttribute('aria-expanded', String(!expanded));
+        more.textContent = expanded ? `展开其余 ${items.length - initial} 款` : '收起';
+      });
+      section.append(more);
+    }
+    parent.append(section);
   }
   function render(report) {
-    report=enrich(report);node.replaceChildren();
-    paragraph(`${date(report.time)}（北京时间） · 新增收录 ${report.added.length} 款 · 版本资料更新 ${report.updated.length} 款 · 适配线索变化 ${report.signals.length} 款`);
-    const counts=document.createElement('div');counts.className='update-counts';
-    for(const [,label,items] of group(report.added)){const span=document.createElement('span');span.textContent=`新增${label} ${items.length} 款`;counts.append(span);}
+    node.replaceChildren();
+    const counts = textElement('div', 'update-counts', '');
+    [['新增', report.added.length], ['版本更新', report.updated.length], ['适配线索', report.signals.length]].forEach(([label, count]) => {
+      const countItem = textElement('span', 'update-count', label + ' ');
+      countItem.append(textElement('strong', '', String(count)));
+      counts.append(countItem);
+    });
     node.append(counts);
-    function listSection(title,items,signal=false) {
-      const details=document.createElement('details');details.open=title.startsWith('新增');
-      const summary=document.createElement('summary');summary.textContent=`${title}（${items.length}）`;details.append(summary);
-      const list=document.createElement('ul');
-      for(const app of items) {
-        const item=document.createElement('li');
-        item.textContent=`${app.name} · ${app.previousVersion?app.previousVersion+' → ':''}${app.version||'版本未知'} · ${status[app.status]||'状态待核对'}`;
-        if(signal) item.textContent+=` · ${app.evidence?.excerpt||''}`;
-        list.append(item);
-      }
-      if(!items.length) paragraph('本轮无此类更新。',details);
-      details.append(list);node.append(details);
+    if (!report.added.length) node.append(textElement('p', 'report-empty', '本轮暂无新增应用。'));
+    for (const [kind, title] of kinds) addList(node, title, report.added.filter(app => appType(app) === kind), 'added');
+    if (report.updated.length || report.signals.length) {
+      const details = document.createElement('details'); details.className = 'update-secondary';
+      details.append(textElement('summary', '', '其他更新'));
+      addList(details, '版本更新', report.updated, 'updated');
+      addList(details, '适配线索', report.signals, 'signals');
+      node.append(details);
     }
-    group(report.added).forEach(([,label,items])=>{if(items.length||label!=='类型待同步')listSection('新增'+label,items);});
-    listSection('已有 App 版本资料更新',report.updated);
-    listSection('适配线索变化',report.signals,true);
-    const c=report.coverageCN;
-    if(c) paragraph(`国区候选池 ${c.poolSize} 个；计划查询 ${c.lookupScheduled} 个${Number.isInteger(c.lookupReturned)?'，接口返回 '+c.lookupReturned+' 个':''}${Number.isInteger(c.gameFeedsAttempted)?'；游戏子分类榜单成功 '+c.gameFeedsSucceeded+'/'+c.gameFeedsAttempted:''}。候选池不代表全部国区 App。`);
-    paragraph('普通版本更新不代表适配。自动发现的新条目进入待确认，人工审核结论单独保留。');
-    const names=group(report.added).filter(([, ,items])=>items.length).map(([,label,items])=>`新增${label} ${items.length} 款：${items.map(a=>a.name).join('、')}。`).join('\n');
-    textbox.value=report.addedCounts&&report.weiboText ? report.weiboText : `iPhone Duo App 适配目录更新：\n${names||'本轮没有新增收录 App。'}\n自动发现的条目待确认，开发者声明不代表本站实测。\nhttps://vankerwu.github.io/iPhone-Duo-Apps/`;
-    document.getElementById('copyStatus').textContent='';
+    node.append(textElement('p', 'update-note', '自动发现的新增应用待确认，适配状态以各应用的证据为准。'));
+    node.setAttribute('aria-busy', 'false');
   }
-  async function read(path){const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw Error(r.status);return r.json();}
+  async function read(path) {
+    const response = await fetch(path, {cache: 'no-store'});
+    if (!response.ok) throw new Error(response.status);
+    return response.json();
+  }
   async function start() {
     try {
-      const latest=await read('./updates/latest.json');
-      const results=await Promise.allSettled(['./updates/history.json','./data/app-categories-cn.json','./data/apps.json'].map(read));
-      const history=results[0].status==='fulfilled'&&Array.isArray(results[0].value)?results[0].value:[];
-      if(results[1].status==='fulfilled')seed=results[1].value.apps||{};
-      if(results[2].status==='fulfilled')catalog=Object.fromEntries(results[2].value.apps.map(a=>[a.id,a]));
-      const seen=new Set();
-      const reports=[latest,...history].filter(r=>r&&Array.isArray(r.added)&&Array.isArray(r.updated)&&Array.isArray(r.signals)&&!seen.has(r.time)&&seen.add(r.time));
-      reports.forEach((r,i)=>{const option=document.createElement('option');option.value=i;option.textContent=`${date(r.time)} · 新增 ${r.added.length} 款`;select.append(option);});
-      select.addEventListener('change',()=>render(reports[Number(select.value)]));render(reports[0]);
-    } catch {node.textContent='暂时无法读取更新报告，请稍后刷新或查看历史报告。';}
+      const latest = await read('./updates/latest.json');
+      const results = await Promise.allSettled(['./updates/history.json', './data/app-categories-cn.json', './data/apps.json'].map(read));
+      const history = results[0].status === 'fulfilled' && Array.isArray(results[0].value) ? results[0].value : [];
+      if (results[1].status === 'fulfilled') seed = results[1].value.apps || {};
+      if (results[2].status === 'fulfilled') catalog = Object.fromEntries(results[2].value.apps.map(app => [app.id, app]));
+      const seen = new Set();
+      const reports = [latest, ...history].filter(report => report && Array.isArray(report.added) && Array.isArray(report.updated) && Array.isArray(report.signals) && !seen.has(report.time) && seen.add(report.time));
+      if (!reports.length) throw new Error('No valid reports');
+      select.replaceChildren();
+      reports.forEach((report, index) => {
+        const option = document.createElement('option'); option.value = index;
+        option.textContent = `${date(report.time)} · 新增 ${report.added.length}`; select.append(option);
+      });
+      select.disabled = false;
+      select.addEventListener('change', () => render(reports[Number(select.value)]));
+      render(reports[0]);
+    } catch {
+      select.replaceChildren(new Option('暂无记录', '')); select.disabled = true;
+      node.replaceChildren(textElement('p', 'report-empty', '更新记录暂不可用，请稍后刷新。'));
+      node.setAttribute('aria-busy', 'false');
+    }
   }
-  document.getElementById('copyWeibo').addEventListener('click',async()=>{
-    try {await navigator.clipboard.writeText(textbox.value);document.getElementById('copyStatus').textContent='已复制';}
-    catch {textbox.focus();textbox.select();document.getElementById('copyStatus').textContent='请长按或按 Ctrl/Cmd+C 复制选中的文案。';}
-  });
   start();
 })();

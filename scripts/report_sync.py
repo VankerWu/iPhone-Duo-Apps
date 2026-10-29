@@ -49,22 +49,12 @@ def render(report):
                 e = app['evidence']
                 lines += [f"  证据版本：{e.get('version', '')}；{e.get('excerpt', '').replace(chr(10), ' ')}", f"  {e.get('url', '')}"]
         if not report[key]:
-            lines.append('无。')
+            lines.append('本轮没有新增收录 App。' if key == 'added' else '无。')
     groups = [('software', '软件'), ('game', '游戏'), ('unknown', '类型待同步')]
     for kind, label in groups:
         items = [a for a in report['added'] if a.get('appType', 'unknown') == kind]
         lines += ['', f'## 新增{label}（{len(items)}）'] + ([f"- {a['name']}｜{a.get('category', '分类待同步')}" for a in items] or ['无。'])
-    lines += ['', '## 可复制微博文案', '', 'iPhone Duo App 适配目录更新：']
-    if report['added']:
-        for kind, label in groups:
-            items = [a for a in report['added'] if a.get('appType', 'unknown') == kind]
-            if items:
-                lines += [f'新增{label} {len(items)} 款：' + '、'.join(a['name'] for a in items) + '。']
-        lines += ['自动发现的新增条目先进入待确认；人工审核结论单独标注。']
-    else:
-        lines += ['本轮没有新增收录 App。']
-    lines += [f"另有 {len(report['updated'])} 款已有 App 版本资料更新；普通版本更新不代表新增适配。",
-              'https://vankerwu.github.io/iPhone-Duo-Apps/']
+    lines += ['', '自动发现的新条目进入待确认，普通版本更新不代表适配；人工审核结论单独保留。']
     return '\n'.join(lines) + '\n'
 
 
@@ -91,7 +81,6 @@ def main():
     data.write_text(json.dumps(after, ensure_ascii=False, indent=2) + '\n')
     folder = Path('docs/updates'); folder.mkdir(exist_ok=True)
     content = render(report)
-    report['weiboText'] = content.split('## 可复制微博文案\n\n', 1)[1]
     save_history(folder, report)
     name = report['time'].replace(':', '-') + '.md'
     (folder/name).write_text(content)

@@ -87,8 +87,9 @@ class CategoriesTests(unittest.TestCase):
         report=m.build({'apps':[original]},after)
         self.assertEqual(report['addedCounts'],{'software':1,'game':1,'unknown':1})
         text=m.render(report)
-        self.assertIn('新增游戏 1 款：新游戏',text)
-        self.assertIn('新增软件 1 款：新软件',text)
+        self.assertIn('## 新增游戏（1）',text)
+        self.assertNotIn('微博文案',text)
+        self.assertIn('## 新增软件（1）',text)
         self.assertIn('类型待同步',text)
         self.assertNotIn('原有应用',text)
 
