@@ -19,6 +19,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+from store_categories import apply as apply_store_category
+
 DATA = Path(__file__).resolve().parents[1] / 'docs' / 'data' / 'apps.json'
 UA = 'iPhone-Duo-App/0.2 (public App Store directory; rate-limited metadata lookups)'
 CHART_HOST = 'https://rss.marketingtools.apple.com'
@@ -89,10 +91,11 @@ def match_search(name, results):
     # Multiple matching listings are ambiguous; require a human-verified ID.
     return hits[0] if len(hits) == 1 else None
 
-def apply_metadata(app, track):
+def apply_metadata(app, track, country='cn'):
     """App Store fields only — DO NOT touch status, note, sourceUrl or sourceDate."""
     if track.get('kind') not in (None, 'software') and track.get('wrapperType') != 'software':
         return
+    apply_store_category(app, track, country)
     if str(track.get('currentVersionReleaseDate', '')) < str(app.get('releaseDate', '')):
         return  # Do not downgrade newer page metadata with an older API response.
     app['itunesId'] = track.get('trackId') or app.get('itunesId')
@@ -175,7 +178,7 @@ def main():
                 meta = fetched.get(str(entry['itunesId']))
                 if meta:
                     resolved_tracks_count += 1
-                    apply_metadata(entry,meta)
+                    apply_metadata(entry,meta,country)
             time.sleep(1.2)
 
     # Resolve App names not yet attached to an iTunes ID.
@@ -194,7 +197,7 @@ def main():
             hit = match_search(term,(info or {}).get('results',[])) if info else None
             if hit:
                 resolved_tracks_count += 1
-                apply_metadata(app,hit)
+                apply_metadata(app,hit,country)
                 break
             time.sleep(1.15)
         if idx and idx % 10 == 0:

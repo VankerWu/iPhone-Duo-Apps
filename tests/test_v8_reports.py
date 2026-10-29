@@ -3,6 +3,8 @@ import pathlib
 import unittest
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
+import sys
+sys.path.insert(0, str(ROOT/'scripts'))
 def load(name):
     spec = importlib.util.spec_from_file_location(name, ROOT/'scripts'/f'{name}.py')
     module = importlib.util.module_from_spec(spec); spec.loader.exec_module(module)

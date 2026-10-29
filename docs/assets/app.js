@@ -12,7 +12,10 @@ const STATUS = {
   unverified: { label: '待确认', hint: '收录在观察名单中，目前没有足够证据判断适配情况。' }
 };
 const $ = id => document.getElementById(id);
-const state = { apps: [], query: '', status: 'all', region: 'all', category: 'all', sort: 'recommended', lastSync: null };
+const state = { apps: [], query: '', status: 'all', region: 'all', category: 'all', sort: 'recommended', lastSync: null, type: 'all', leadOnly: false };
+const categoriesState = {taxonomy:{main:{},games:{}}, seed:{}};
+const catalogRules = window.DuoCatalog;
+const categoryLabel = app => catalogRules.label(app, categoriesState.seed, categoriesState.taxonomy);
 
 function safe(text) {
   return String(text ?? '').replace(/[&<>"']/g, x => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]));
@@ -50,6 +53,9 @@ function iconFor(app, large = false) {
 }
 function countByStatus(status) { return state.apps.filter(a => a.status === status).length; }
 function updateCounts() {
+  $('typeAll').textContent = state.apps.length;
+  $('typeSoftware').textContent = state.apps.filter(a=>catalogRules.type(a,categoriesState.seed)==='software').length;
+  $('typeGame').textContent = state.apps.filter(a=>catalogRules.type(a,categoriesState.seed)==='game').length;
   $('statTotal').textContent = state.apps.length;
   $('statOfficial').textContent = countByStatus('apple_featured');
   $('statVerified').textContent = countByStatus('community_verified');
@@ -61,14 +67,7 @@ function updateCounts() {
   $('metaSync').textContent = state.lastSync ? `App Store 元数据更新 ${state.lastSync.slice(0,10)}` : '首批证据整理：2026.10.22';
 }
 function getVisibleApps() {
-  const needle = state.query.trim().toLocaleLowerCase('zh-CN');
-  return state.apps.filter(a => {
-    if (state.status !== 'all' && a.status !== state.status) return false;
-    if (state.category !== 'all' && a.category !== state.category) return false;
-    if (state.region !== 'all' && a.region !== state.region && a.region !== '全球') return false;
-    if (!needle) return true;
-    return [a.name,a.english,a.category,a.developer,a.note].join(' ').toLocaleLowerCase('zh-CN').includes(needle);
-  }).sort((a,b) => {
+  return state.apps.filter(a => catalogRules.matches(a,state,categoriesState.seed,categoriesState.taxonomy)).sort((a,b) => {
     if (state.sort === 'added') return (b.addedAt || '').localeCompare(a.addedAt || '');
     if (state.sort === 'name') return a.name.localeCompare(b.name,'zh-CN');
     if (state.sort === 'recent') return (b.releaseDate || b.sourceDate || '').localeCompare(a.releaseDate || a.sourceDate || '');
@@ -89,8 +88,9 @@ function renderApps() {
     <button class="app-card-main" type="button" data-app-id="${safe(a.id)}" aria-label="查看 ${safe(a.name)} 详情">
       <div class="app-card-top">${iconFor(a)}<div class="app-title-wrap">
         <div class="app-title">${safe(a.name)}</div>
-        <div class="app-subtitle">${safe(a.developer || a.english)} · ${safe(a.category)}</div>
+        <div class="app-subtitle">${safe(a.developer || a.english)} · ${safe(categoryLabel(a))}</div>
       </div></div>
+      ${catalogRules.isLead(a) ? '<span class="discovery-tag">新适配线索</span>' : ''}
       <p class="app-note">${safe(a.note)}</p>
     </button>
     <div class="app-bottom"><span class="status-pill ${safe(a.status)}">${safe((STATUS[a.status] || STATUS.unverified).label)}</span>
@@ -111,13 +111,15 @@ function showDetails(app) {
   const storeControl = store
     ? `<a class="main" target="_blank" rel="noopener noreferrer" href="${safe(store)}">在 App Store 查看 / 下载 ↗</a>`
     : `<span class="detail-store-unmatched">尚未核实官方 App Store 条目</span>`;
-  $('dialogBody').innerHTML = `<div class="detail-header">${iconFor(app,true)}<div><h2>${safe(app.name)}</h2><p>${safe(app.developer || app.english)} · ${safe(app.category)}</p></div></div>
+  $('dialogBody').innerHTML = `<div class="detail-header">${iconFor(app,true)}<div><h2>${safe(app.name)}</h2><p>${safe(app.developer || app.english)} · ${safe(categoryLabel(app))}</p></div></div>
     <div class="detail-main"><span class="status-pill ${safe(app.status)}">${safe(st.label)}</span><p>${safe(app.note)}</p><p style="font-size:11px">${safe(st.hint)}</p></div>
     <dl><div class="detail-info"><dt>主要地区</dt><dd>${safe(app.region)}</dd></div>
+    <div class="detail-info"><dt>App Store 分类</dt><dd>${safe((catalogRules.metadata(app,categoriesState.seed).genres || []).join(' / ') || '分类待同步')}</dd></div>
     <div class="detail-info"><dt>App Store 版本</dt><dd>${safe(app.version || '苹果官方版本信息同步中')}</dd></div>
     <div class="detail-info"><dt>商店来源</dt><dd>${store ? 'Apple App Store 官方应用页面' : '尚未核实'}</dd></div>
     <div class="detail-info"><dt>适配依据</dt><dd>${source ? `<a href="${safe(source)}" target="_blank" rel="noopener noreferrer">${safe(app.sourceLabel || '查看原始资料')} ↗</a>` : '暂无可靠适配证据'}</dd></div>
     <div class="detail-info"><dt>来源日期</dt><dd>${safe(app.sourceDate || '待验证')}</dd></div></dl>
+    ${app.duoDiscovery ? `<div class="detail-evidence"><strong>开发者适配声明 · 待核验</strong><p>${safe(app.duoDiscovery.excerpt)}</p><p>证据版本 ${safe(app.duoDiscovery.version)} · ${safe(app.duoDiscovery.date)}；不代表本站实测。</p></div>` : ''}
     <div class="detail-buttons">${storeControl}<a href="${safe(reportURL(app))}" target="_blank" rel="noopener noreferrer">提交实测 / 纠错 ↗</a></div>
     <p class="detail-store-note">应用图标、版本和官方商店页面来自 Apple 的公开资料；这不代表 App 已通过本站折叠屏适配实测。</p>`;
   $('detailDialog').showModal();
@@ -213,6 +215,31 @@ function setupDonationQRs() {
   });
 }
 
+async function loadCategories() {
+  const paths=['./data/app-store-genres.json','./data/app-categories-cn.json'];
+  const results=await Promise.allSettled(paths.map(async path=>{const r=await fetch(path,{cache:'no-cache'});if(!r.ok)throw Error(r.status);return r.json();}));
+  if(results[0].status==='fulfilled') categoriesState.taxonomy=results[0].value;
+  if(results[1].status==='fulfilled') categoriesState.seed=results[1].value.apps || {};
+}
+function populateCategories() {
+  const select=$('categorySelect');select.replaceChildren(new Option('全部分类','all'));
+  const taxonomy=categoriesState.taxonomy;
+  const apps=state.apps.filter(a=>state.type==='all'||catalogRules.type(a,categoriesState.seed)===state.type);
+  const known=new Set(apps.flatMap(a=>catalogRules.ids(a,categoriesState.seed)));
+  const group=(title,entries)=>{
+    const node=document.createElement('optgroup');node.label=title;
+    entries.filter(([id])=>known.has(id)).sort((a,b)=>a[1].name.localeCompare(b[1].name,'zh-CN')).forEach(([id,genre])=>node.append(new Option(genre.name,id)));
+    if(node.children.length)select.append(node);
+  };
+  if(state.type!=='game') group('软件主分类与其他分类',Object.entries(taxonomy.main).filter(([id])=>state.type==='all'||id!=='6014'));
+  if(state.type!=='software') group('游戏子分类',Object.entries(taxonomy.games));
+  if(apps.some(a=>catalogRules.type(a,categoriesState.seed)==='game'&&!catalogRules.ids(a,categoriesState.seed).some(id=>taxonomy.games[id])))select.append(new Option('游戏 · 子分类待同步','game-unspecified'));
+  if(apps.some(a=>!catalogRules.metadata(a,categoriesState.seed).primaryGenreId))select.append(new Option('分类待同步','unclassified'));
+  const unknown=state.apps.filter(a=>catalogRules.type(a,categoriesState.seed)==='unknown').length;
+  $('categoryHelp').textContent='按国区 App Store 分类整理，主分类展示，筛选包含其他返回分类。'+(unknown?`另有 ${unknown} 款分类待同步，可在“全部”查看。`:'');
+  $('categoryLabel').textContent=state.type==='game'?'游戏子分类':'App Store 分类';
+}
+
 async function start() {
   setupDonationQRs();
   setupTheme();
@@ -222,6 +249,12 @@ async function start() {
   const openReport = () => window.open(reportURL(null),'_blank','noopener,noreferrer');
   for (const id of ['submitHero','submitFooter','submitEmpty','submitCta']) $(id).addEventListener('click',openReport);
   $('searchInput').addEventListener('input', e => { state.query = e.target.value; renderApps(); });
+  document.querySelectorAll('.type-tab').forEach(button=>button.addEventListener('click',()=>{
+    state.type=button.dataset.type;state.category='all';
+    document.querySelectorAll('.type-tab').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});
+    populateCategories();renderApps();
+  }));
+  $('leadOnly').addEventListener('change',e=>{state.leadOnly=e.target.checked;renderApps();});
   $('categorySelect').addEventListener('change', e => { state.category = e.target.value; renderApps(); });
   $('regionSelect').addEventListener('change', e => { state.region = e.target.value; renderApps(); });
   $('sortSelect').addEventListener('change', e => { state.sort = e.target.value; renderApps(); });
@@ -261,22 +294,10 @@ async function start() {
   }
   state.apps = result.apps.filter(x => x.name && STATUS[x.status]);
   state.lastSync = result.lastMetadataSync;
-  const categories = [...new Set(state.apps.map(a => a.category))].sort((a,b) => a.localeCompare(b,'zh-CN'));
-  $('categorySelect').insertAdjacentHTML('beforeend',categories.map(c => `<option value="${safe(c)}">${safe(c)}</option>`).join(''));
+  await loadCategories();
+  populateCategories();
   updateCounts(); renderApps();
   // Non-blocking icon retrieval. Direct App Store IDs are available immediately.
   hydrateStoreIcons().catch(error => console.info(error));
 }
 document.addEventListener('DOMContentLoaded',start);
-
-fetch('./updates/latest.json', {cache: 'no-store'}).then(r => {
-  if (!r.ok) throw new Error('No report yet');
-  return r.json();
-}).then(report => {
-  const node = document.getElementById('syncReport');
-  if (!node) return;
-  const items = Array.isArray(report.added) ? report.added : [];
-  node.innerHTML = `<p>${safe(report.time)} · 新增 ${items.length} 款</p>` +
-    (items.length ? `<ul>${items.map(a => `<li>${safe(a.name)}（待核验）</li>`).join('')}</ul>` : '<p>本轮无新增收录。</p>') +
-    '<a href="./updates/latest.md" target="_blank" rel="noopener">完整更新清单与微博文案 ↗</a>';
-}).catch(() => {});

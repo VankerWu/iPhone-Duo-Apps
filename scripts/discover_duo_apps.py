@@ -23,6 +23,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+from store_categories import MAIN, GAMES, from_track, apply as apply_store_category
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'docs' / 'data' / 'apps.json'
 REVIEW = ROOT / 'docs' / 'data' / 'duo-review-queue.json'
@@ -34,13 +36,19 @@ USER_AGENT = 'iPhone-Duo-Apps/1.0 (Apple public metadata; conservative evidence 
 MENTION = re.compile(r'iphone[\s\-\u2013\u2014]*duo', flags=re.IGNORECASE)
 SUPPORT = re.compile(r'support|compatib|optimi[sz]|adapt|layout|split[ -]?screen|支持|适配|兼容|优化|佈局|布局|分屏', re.I)
 MAX_CHART = 100
-SEARCH_TERMS = ("iPhone Duo", "iPhone-Duo", "适配 iPhone Duo", "iPhone Duo 折叠屏")
+SEARCH_TERMS = ("iPhone Duo", "iPhone-Duo", "适配 iPhone Duo", "iPhone Duo 折叠屏", "iPhone Duo 游戏", "iPhone Duo game")
 # Apple's App Store application genre IDs. Feed availability varies by genre.
-GENRES = (6000, 6001, 6002, 6003, 6004, 6005, 6006, 6007, 6008, 6009,
-          6010, 6011, 6012, 6013, 6014, 6015, 6016, 6017, 6018,
-          6020, 6023, 6024, 6026, 6027)
+GENRES = tuple(sorted(int(v) for v in MAIN if v != '6025'))
+GAME_GENRES = tuple(sorted(map(int, GAMES)))
+GAME_GENRES_PER_RUN = 6
 GENRES_PER_RUN = 8
 LOOKUPS_PER_RUN = 600
+
+
+def priority_ids():
+    """Watchlist is a discovery source, never compatibility evidence."""
+    items = json.loads((ROOT / "scripts/priority_apps_cn.json").read_text())
+    return {int(item["itunesId"]) for item in items}
 
 
 def rotate(values, cursor, limit):
@@ -178,6 +186,7 @@ def candidate_record(track: dict, region: str, checked_at: str) -> dict | None:
         'firstSeen': checked_at,
         'lastSeen': checked_at,
         'reviewStatus': 'pending',
+        **({'storeCategory': meta} if (meta := from_track(track, region)) else {}),
     }
 
 
@@ -186,7 +195,7 @@ def new_catalog_entry(candidate: dict) -> dict:
     return {
         'addedAt': candidate['firstSeen'],
         'id': 'signal-' + str(candidate['itunesId']),
-        'name': candidate['name'], 'english': '', 'category': '新适配线索',
+        'name': candidate['name'], 'english': '', 'category': candidate.get('storeCategory', {}).get('primaryGenreName', '分类待同步'),
         'region': '中国大陆' if region == 'cn' else '美国',
         'status': 'unverified',
         'note': 'App Store 更新说明提及 iPhone Duo；是否真正适配仍待核验。',
@@ -195,6 +204,7 @@ def new_catalog_entry(candidate: dict) -> dict:
         'version': candidate['version'], 'releaseDate': candidate['releaseDate'],
         'appStoreUrl': candidate['appStoreUrl'], 'artwork': candidate['artwork'],
         'itunesId': candidate['itunesId'], 'storefront': region,
+        **({'storeCategory': candidate['storeCategory']} if candidate.get('storeCategory') else {}),
         'duoDiscovery': {
             'type': candidate['evidenceType'],
             'version': candidate['version'],
@@ -207,6 +217,8 @@ def new_catalog_entry(candidate: dict) -> dict:
 
 def apply_candidate(app: dict, candidate: dict) -> None:
     # NEVER overwrite human reviewed statuses, notes, citations or dates.
+    if candidate.get('storeCategory'):
+        app['storeCategory'] = candidate['storeCategory']
     app['duoDiscovery'] = {
         'type': candidate['evidenceType'],
         'version': candidate['version'],
@@ -272,28 +284,35 @@ def discover(catalog: dict, queue: dict, fetch=get_json,
                 time.sleep(.65)
 
     genres, next_genre = rotate(GENRES, queue.get('genreCursorCN', 0), GENRES_PER_RUN)
+    game_genres, next_game = rotate(GAME_GENRES, queue.get('gameGenreCursorCN', 0), GAME_GENRES_PER_RUN)
     category_success = 0
-    for genre in genres:
+    game_success = 0
+    for genre in genres + game_genres:
         for chart in ('topfreeapplications', 'toppaidapplications'):
             url = f'https://itunes.apple.com/cn/rss/{chart}/limit=100/genre={genre}/json'
             data = fetch(url)
             if isinstance(data, dict) and isinstance(data.get('feed'), dict):
                 category_success += 1
+                if genre in game_genres:
+                    game_success += 1
                 targets['cn'].update(category_ids(data))
             if pause:
                 time.sleep(1)
     queue['genreCursorCN'] = next_genre
+    queue['gameGenreCursorCN'] = next_game
     pool = {int(x) for x in queue.get('discoveryPoolCN', []) if str(x).isdigit() and int(x) > 0}
     pool.update(targets['cn'])
     selected, next_lookup = rotate(pool, queue.get('lookupCursorCN', 0), LOOKUPS_PER_RUN)
-    targets['cn'] = set(selected)
+    targets['cn'] = set(selected) | priority_ids()
     queue['discoveryPoolCN'] = sorted(pool)
     queue['lookupCursorCN'] = next_lookup
-    queue['coverageCN'] = {'poolSize': len(pool), 'lookupScheduled': len(selected),
-        'categoryFeedsSucceeded': category_success, 'categoryFeedsAttempted': len(genres) * 2,
+    queue['coverageCN'] = {'poolSize': len(pool), 'lookupScheduled': len(targets['cn']), 'priorityScheduled': len(priority_ids()), 'lookupReturned': 0,
+        'categoryFeedsSucceeded': category_success, 'categoryFeedsAttempted': (len(genres) + len(game_genres)) * 2,
+        'gameFeedsSucceeded': game_success, 'gameFeedsAttempted': len(game_genres) * 2,
+        'gameGenreIds': game_genres,
         'genreIds': genres, 'time': checked_at}
-    print(f'CN pool={len(pool)}; scheduled lookup={len(selected)}; '
-          f'category feeds succeeded={category_success}/{len(genres)*2}')
+    print(f"CN pool={len(pool)}; scheduled lookup={len(targets['cn'])}; "
+          f'category feeds succeeded={category_success}/{(len(genres)+len(game_genres))*2}')
 
     signals = 0
     inserted = 0
@@ -313,9 +332,11 @@ def discover(catalog: dict, queue: dict, fetch=get_json,
                     continue
                 if track.get('trackId') not in batch:
                     continue
+                queue['coverageCN']['lookupReturned'] += 1
                 # Update official metadata independently from compatibility claims.
                 if track.get('trackId') in by_id:
                     app = by_id[track['trackId']]
+                    apply_store_category(app, track, region)
                     if str(track.get('currentVersionReleaseDate', '')) >= str(app.get('releaseDate', '')):
                         for field, source in [('version', 'version'), ('releaseDate', 'currentVersionReleaseDate'), ('developer', 'artistName')]:
                             if track.get(source):
@@ -384,7 +405,7 @@ def check_pages(catalog, queue, limit=60):
     ids = sorted(set(known) | {int(c['itunesId']) for c in queue['candidates']} | set(queue.get('discoveryPoolCN', [])))
     cursor = int(queue.get('pageCursor', 0)) % max(1, len(ids))
     rotation = (ids[cursor:] + ids[:cursor])[:limit]
-    targets = list(dict.fromkeys([952059546, 444934666] + rotation))
+    targets = list(dict.fromkeys(sorted(priority_ids()) + rotation))
     queue['pageCursor'] = (cursor + len(rotation)) % max(1, len(ids))
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
     candidates = {int(c['itunesId']): c for c in queue['candidates']}

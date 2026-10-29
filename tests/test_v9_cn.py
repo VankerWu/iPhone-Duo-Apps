@@ -1,13 +1,15 @@
 import importlib.util
 from pathlib import Path
 import unittest
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'scripts'))
 spec = importlib.util.spec_from_file_location('cn_discover', Path(__file__).resolve().parents[1]/'scripts/discover_duo_apps.py')
 m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
 
 class ChinaCoverage(unittest.TestCase):
     def test_rotating_categories_cover_all(self):
         seen = set(); cursor = 0
-        for _ in range(3):
+        for _ in range((len(m.GENRES)+7)//8):
             selected, cursor = m.rotate(m.GENRES, cursor, 8)
             seen.update(selected)
         self.assertEqual(seen, set(m.GENRES))
@@ -30,7 +32,7 @@ class ChinaCoverage(unittest.TestCase):
 
     def test_rotating_pool_is_bounded(self):
         values = list(range(1500)); cursor = 0; seen = set()
-        for _ in range(3):
+        for _ in range((len(m.GENRES)+7)//8):
             batch, cursor = m.rotate(values, cursor, 600)
             self.assertEqual(len(batch), 600); seen.update(batch)
         self.assertEqual(seen, set(values))

@@ -4,6 +4,8 @@ import copy
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parents[1]
+import sys
+sys.path.insert(0, str(BASE/'scripts'))
 spec = importlib.util.spec_from_file_location('issueingest', BASE/'scripts/ingest_issue.py')
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)

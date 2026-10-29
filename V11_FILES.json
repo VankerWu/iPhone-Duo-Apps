@@ -1,0 +1,123 @@
+{
+  "version": "V11-final",
+  "baseCommit": "7bdaa3f4de0ac7b576ef658ff59987941726b50e",
+  "preserved": [
+    "README.md",
+    "docs/data/apps.json",
+    "docs/data/duo-review-queue.json",
+    ".github/",
+    "docs/updates/"
+  ],
+  "files": [
+    {
+      "path": "V11_UPGRADE.md",
+      "action": "add",
+      "sha256": "76c5c90e52ab22ff79851c591598a0693903d0f4efeb8a2750b69051c78577d2"
+    },
+    {
+      "path": "docs/assets/app.js",
+      "action": "replace",
+      "sha256": "f687d22fc739d12f377d885e7ead4a2975a23e196c41cfd4e529231ea8a72985"
+    },
+    {
+      "path": "docs/assets/catalog.js",
+      "action": "add",
+      "sha256": "cbcb4d4763c90897ff90fd9a62acd04dbe06e2f78d7d8f0de3664f763a7e9596"
+    },
+    {
+      "path": "docs/assets/styles.css",
+      "action": "replace",
+      "sha256": "327feeaf27f9a8e90f889a983d4284298c1e5c191c124d1d4b1b00ff951a8d7c"
+    },
+    {
+      "path": "docs/assets/updates.js",
+      "action": "add",
+      "sha256": "b649f8a4aeffde2f2722018df286c6f28524f7d7587d5f36cc9be885ae574c6c"
+    },
+    {
+      "path": "docs/data/app-categories-cn.json",
+      "action": "add",
+      "sha256": "5a31df60592161d462ad42dcaef62ced653f403e526f19831cb288f53e2110c3"
+    },
+    {
+      "path": "docs/data/app-store-genres.json",
+      "action": "add",
+      "sha256": "032237e98579eac87386b97bc8740faec883b000a17854132c264cf0098cd74b"
+    },
+    {
+      "path": "docs/index.html",
+      "action": "replace",
+      "sha256": "3cfdcbf5a90d12154490b3e631616a48a4b6dc1e5bcea961c5b35cffe2bd4d50"
+    },
+    {
+      "path": "scripts/discover_duo_apps.py",
+      "action": "replace",
+      "sha256": "9aae7db768a037ec1c2e15f667bf3dc042d5df4cad4bd3c7d6677a612c59b9c5"
+    },
+    {
+      "path": "scripts/ingest_issue.py",
+      "action": "replace",
+      "sha256": "12b0e188ac935696131c5d65a7717c554f414e35f4bc600a6e56130926fba978"
+    },
+    {
+      "path": "scripts/priority_apps_cn.json",
+      "action": "add",
+      "sha256": "111589059c19236de137d49852ba813316c9184c66e38932606cc3bfba05906a"
+    },
+    {
+      "path": "scripts/refresh_metadata.py",
+      "action": "replace",
+      "sha256": "d5518b8f0b1423bc49c0ff841e8e28fc8d1bfb4ff4e25c9348381886e48eb321"
+    },
+    {
+      "path": "scripts/report_sync.py",
+      "action": "replace",
+      "sha256": "117c0537c7c21720a807763637a5f5e0e09a783d1f05d15e41981afb7da72773"
+    },
+    {
+      "path": "scripts/store_categories.py",
+      "action": "add",
+      "sha256": "5e65ffe57834c6f91ceb4782a7176476a14c7c98cd64c46377ce7428ec384883"
+    },
+    {
+      "path": "scripts/sync_categories.py",
+      "action": "add",
+      "sha256": "6c691acb328c0a865a8d80d641779fb721dbf8e8d4d6fb0e31489c167a4ea2d8"
+    },
+    {
+      "path": "tests/test_catalog.cjs",
+      "action": "add",
+      "sha256": "799b629c9bc6b242639ce09dc1e79afdf40975831f521b6564e1d30f725c6d3b"
+    },
+    {
+      "path": "tests/test_discover_duo_apps.py",
+      "action": "replace",
+      "sha256": "66d9719d3d40a1628d9b3de9504f0b31883a097b4f1fd53a3defc7340296de72"
+    },
+    {
+      "path": "tests/test_ingest_issue.py",
+      "action": "replace",
+      "sha256": "05d9d872ce58cf3c4ff655e48ca959170fcae9cdfa9dbe3d9424e96949c02ce4"
+    },
+    {
+      "path": "tests/test_v10_upgrade.py",
+      "action": "add",
+      "sha256": "ad2acfff4e8a62d6730d1e9d3dc6c37cee25ee8f88bd842f4ed44c0540e48cce"
+    },
+    {
+      "path": "tests/test_v11_categories.py",
+      "action": "add",
+      "sha256": "76c7db30718e107efa4dbbe9a75366176c145ae91a6dff93d042f54669ccb260"
+    },
+    {
+      "path": "tests/test_v8_reports.py",
+      "action": "replace",
+      "sha256": "0043ba4eb7b5ccc5833a7e70b61e19c2879cc4a86e73024146c8d5321a03f4e0"
+    },
+    {
+      "path": "tests/test_v9_cn.py",
+      "action": "replace",
+      "sha256": "a78b8eb94b7071f981064ec41204f934186cc223d5477e07445740b13b69ba9e"
+    }
+  ]
+}

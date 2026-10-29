@@ -17,6 +17,8 @@ import urllib.parse
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
+from store_categories import from_track
+
 CATALOG = ROOT / 'docs/data/apps.json'
 MAX_NAME = 100
 
@@ -185,6 +187,7 @@ def update_catalog(catalog: dict, record: dict, issue: dict, repo: str, today: s
         'itunesId':app_id,
         'storefront':country,
         'communityIssueReports':[issue_url],
+        **({'storeCategory': metadata} if (metadata := from_track(track, country)) else {}),
     })
     return 'added'
 

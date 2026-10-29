@@ -1,0 +1,21 @@
+// Run with: node tests/test_catalog.cjs (no external dependencies).
+const assert=require('node:assert/strict');
+const rules=require('../docs/assets/catalog.js');
+const taxonomy=require('../docs/data/app-store-genres.json');
+const base={type:'all',status:'all',region:'all',category:'all',query:'',leadOnly:false};
+const game={name:'测试游戏',region:'中国大陆',status:'unverified',category:'新适配线索',storeCategory:{storefront:'cn',primaryGenreId:6014,primaryGenreName:'游戏',appType:'game',genreIds:[6014,6016,7001,7017],genres:['游戏','娱乐','动作','策略']}};
+const software={name:'测试软件',region:'中国大陆',status:'community_verified',note:'人工确认',storeCategory:{storefront:'cn',primaryGenreId:6024,primaryGenreName:'购物',appType:'software',genreIds:[6024,6012],genres:['购物','生活']}};
+assert(rules.matches(game,{...base,type:'game',category:'7001',status:'unverified'}, {},taxonomy));
+assert(!rules.matches(game,{...base,type:'software'}, {},taxonomy));
+assert(!rules.matches(game,{...base,type:'game',status:'community_verified'}, {},taxonomy));
+assert(rules.matches(software,{...base,type:'software',category:'6012'}, {},taxonomy));
+assert(rules.matches(game,{...base,query:'策略',leadOnly:true}, {},taxonomy));
+assert(!rules.matches(software,{...base,leadOnly:true}, {},taxonomy));
+assert.equal(rules.type({name:'赛车游戏'}),'unknown');
+assert(rules.matches({name:'待分类'},{...base,category:'unclassified'}, {},taxonomy));
+assert(!rules.matches({name:'待分类'},{...base,type:'software'}, {},taxonomy));
+assert(rules.label(game,{},taxonomy).includes('动作 / 策略'));
+assert.equal(rules.type({itunesId:1},{'1':software.storeCategory}),'software');
+assert.equal(rules.type({itunesId:1,storeCategory:game.storeCategory},{'1':software.storeCategory}),'game');
+assert.equal(software.status,'community_verified');
+console.log('Catalog behavior checks passed: type, secondary genres, statuses, search, discovery tags, unknowns and category cache.');

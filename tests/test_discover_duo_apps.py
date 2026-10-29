@@ -4,6 +4,8 @@ import pathlib
 import unittest
 
 SCRIPT = pathlib.Path(__file__).resolve().parents[1] / 'scripts' / 'discover_duo_apps.py'
+import sys
+sys.path.insert(0, str(SCRIPT.parent))
 spec = importlib.util.spec_from_file_location('discover_duo_apps', SCRIPT)
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
@@ -67,7 +69,7 @@ class DiscoveryTests(unittest.TestCase):
         self.assertEqual({x['itunesId'] for x in self.queue['candidates']}, {10, 22})
         new = next(x for x in self.catalog['apps'] if x['itunesId'] == 22)
         self.assertEqual(new['status'], 'unverified')
-        self.assertEqual(new['category'], '新适配线索')
+        self.assertEqual(new['category'], '分类待同步')
         self.assertTrue(new['artwork'].startswith('https://is1-ssl.mzstatic.com'))
         self.assertEqual(self.original['status'], 'community_verified')
         self.assertEqual(self.original['note'], '经人工测试多姿态')
