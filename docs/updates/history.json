@@ -1,5 +1,120 @@
 [
   {
+    "time": "2026-10-30T01:14:33+00:00",
+    "added": [],
+    "updated": [
+      {
+        "id": "signal-1062022008",
+        "name": "LumaFusion",
+        "version": "5.6.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/lumafusion/id1062022008?uo=4",
+        "status": "unverified",
+        "itunesId": 1062022008,
+        "appType": "software",
+        "category": "摄影与录像",
+        "previousVersion": "5.6.0"
+      },
+      {
+        "id": "signal-1474340105",
+        "name": "OffScreen - 自律番茄钟，不做手机控",
+        "version": "3.22.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/offscreen-%E8%87%AA%E5%BE%8B%E7%95%AA%E8%8C%84%E9%92%9F-%E4%B8%8D%E5%81%9A%E6%89%8B%E6%9C%BA%E6%8E%A7/id1474340105?uo=4",
+        "status": "unverified",
+        "itunesId": 1474340105,
+        "appType": "software",
+        "category": "健康健美",
+        "previousVersion": "3.22.2"
+      }
+    ],
+    "signals": [
+      {
+        "id": "signal-648518560",
+        "name": "Gymaholic: Workout Tracker",
+        "version": "16.7",
+        "appStoreUrl": "https://apps.apple.com/cn/app/gymaholic-%E5%81%A5%E8%BA%AB%E5%A2%9E%E8%82%8C%E8%AE%B0%E5%BD%95/id648518560?uo=4",
+        "status": "unverified",
+        "itunesId": 648518560,
+        "appType": "software",
+        "category": "健康健美",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "16.7",
+          "excerpt": "- 针对 iPhone Duo 优化：精心适配全新折叠式设计，带来更直观、流畅且沉浸式的使用体验。 - 性能与稳定性：修复了已知问题并进行了多项优化，让应用运行更快速、流畅且可靠。",
+          "url": "https://apps.apple.com/cn/app/id648518560",
+          "date": "2026-10-15"
+        }
+      },
+      {
+        "id": "signal-646277024",
+        "name": "两步路-记录户外精彩生活",
+        "version": "9.2.10",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E4%B8%A4%E6%AD%A5%E8%B7%AF-%E8%AE%B0%E5%BD%95%E6%88%B7%E5%A4%96%E7%B2%BE%E5%BD%A9%E7%94%9F%E6%B4%BB/id646277024?uo=4",
+        "status": "unverified",
+        "itunesId": 646277024,
+        "appType": "software",
+        "category": "导航",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "9.2.9",
+          "excerpt": "1. 适配 iOS 26「液态玻璃」视觉，底部导航栏支持拖移滑块； 2. 适配 iPhone Duo 折叠屏布局； 3. 热力图弱网、无网环境使用体验优化； 4. 领队认证门槛简化，申请流程更友好； 5. 轨迹分享新增支持猎动穿戴设备； 6.「更多设置」支持自定义开关推荐推送。",
+          "url": "https://apps.apple.com/cn/app/id646277024",
+          "date": "2026-10-25"
+        }
+      },
+      {
+        "id": "signal-6470341051",
+        "name": "PhotonCam: 专业相机和照片编辑",
+        "version": "2.1.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/photoncam-%E4%B8%93%E4%B8%9A%E7%9B%B8%E6%9C%BA%E5%92%8C%E7%85%A7%E7%89%87%E7%BC%96%E8%BE%91/id6470341051?uo=4",
+        "status": "unverified",
+        "itunesId": 6470341051,
+        "appType": "software",
+        "category": "摄影与录像",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "2.1.3",
+          "excerpt": "感谢选择 PhotonCam，此版本： - 进一步优化了在 iPhone Duo 上的体验以及 Bug 修复。 - 优化了日期水印的外观。 - 在“照片编辑设置”中新增选项：无论照片方向如何，都可将日期水印始终放置在右下角。 - 支持为照片附加 Soft Skin（柔肤）、Grain（颗粒）和 Film（胶片）摄影风格元数据，让 iPhone 17 Pro 等旧机型也能在“照片” App 中进行类似的摄影风格编辑。需要 iOS 27，并需先在“实验室”设置中打开新的开关。 - 编辑器现在支持调节照片的水平和垂直透视。 - 更新了 app 内教程，支持更多语言。",
+          "url": "https://apps.apple.com/cn/app/photoncam-%E4%B8%93%E4%B8%9A%E7%9B%B8%E6%9C%BA%E5%92%8C%E7%85%A7%E7%89%87%E7%BC%96%E8%BE%91/id6470341051?uo=4",
+          "date": "2026-10-28"
+        }
+      }
+    ],
+    "addedCounts": {
+      "software": 0,
+      "game": 0,
+      "unknown": 0
+    },
+    "coverageCN": {
+      "poolSize": 6768,
+      "lookupScheduled": 605,
+      "priorityScheduled": 5,
+      "lookupReturned": 605,
+      "categoryFeedsSucceeded": 28,
+      "categoryFeedsAttempted": 28,
+      "gameFeedsSucceeded": 12,
+      "gameFeedsAttempted": 12,
+      "gameGenreIds": [
+        7007,
+        7008,
+        7009,
+        7011,
+        7012,
+        7013
+      ],
+      "genreIds": [
+        6008,
+        6009,
+        6010,
+        6011,
+        6012,
+        6013,
+        6014,
+        6015
+      ],
+      "time": "2026-10-30T01:10:14+00:00"
+    }
+  },
+  {
     "time": "2026-10-29T21:20:50+00:00",
     "added": [
       {
