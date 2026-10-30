@@ -1,5 +1,56 @@
 [
   {
+    "time": "2026-10-30T10:26:31+00:00",
+    "added": [
+      {
+        "id": "community-issue-app-1087897068",
+        "name": "企业微信",
+        "version": "5.0.15",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id1087897068",
+        "status": "unverified",
+        "itunesId": 1087897068,
+        "appType": "software",
+        "category": "商务"
+      }
+    ],
+    "updated": [],
+    "signals": [],
+    "addedCounts": {
+      "software": 1,
+      "game": 0,
+      "unknown": 0
+    },
+    "coverageCN": {
+      "poolSize": 7249,
+      "lookupScheduled": 605,
+      "priorityScheduled": 5,
+      "lookupReturned": 604,
+      "categoryFeedsSucceeded": 28,
+      "categoryFeedsAttempted": 28,
+      "gameFeedsSucceeded": 12,
+      "gameFeedsAttempted": 12,
+      "gameGenreIds": [
+        7014,
+        7015,
+        7016,
+        7017,
+        7018,
+        7019
+      ],
+      "genreIds": [
+        6016,
+        6017,
+        6018,
+        6020,
+        6021,
+        6022,
+        6023,
+        6024
+      ],
+      "time": "2026-10-30T07:18:49+00:00"
+    }
+  },
+  {
     "time": "2026-10-30T07:24:16+00:00",
     "added": [
       {
