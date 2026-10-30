@@ -1,51 +1,181 @@
 {
-  "time": "2026-10-30T10:26:31+00:00",
+  "time": "2026-10-30T14:26:47+00:00",
   "added": [
     {
-      "id": "community-issue-app-1087897068",
-      "name": "企业微信",
-      "version": "5.0.15",
-      "appStoreUrl": "https://apps.apple.com/cn/app/id1087897068",
+      "id": "signal-6749835845",
+      "name": "飓风相机 - 实时电影感拍摄",
+      "version": "2.0.1",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E9%A3%93%E9%A3%8E%E7%9B%B8%E6%9C%BA-%E5%AE%9E%E6%97%B6%E7%94%B5%E5%BD%B1%E6%84%9F%E6%8B%8D%E6%91%84/id6749835845?uo=4",
       "status": "unverified",
-      "itunesId": 1087897068,
+      "itunesId": 6749835845,
       "appType": "software",
-      "category": "商务"
+      "category": "摄影与录像"
+    },
+    {
+      "id": "signal-6751886569",
+      "name": "AI背书匠-高效背书神器",
+      "version": "2.4.5",
+      "appStoreUrl": "https://apps.apple.com/cn/app/ai%E8%83%8C%E4%B9%A6%E5%8C%A0-%E9%AB%98%E6%95%88%E8%83%8C%E4%B9%A6%E7%A5%9E%E5%99%A8/id6751886569?uo=4",
+      "status": "unverified",
+      "itunesId": 6751886569,
+      "appType": "software",
+      "category": "效率"
     }
   ],
   "updated": [],
-  "signals": [],
+  "signals": [
+    {
+      "id": "apple-009",
+      "name": "Fantastical",
+      "version": "4.2.4",
+      "appStoreUrl": "https://apps.apple.com/cn/app/fantastical-calendar/id718043190?uo=4",
+      "status": "apple_featured",
+      "itunesId": 718043190,
+      "appType": "software",
+      "category": "效率",
+      "evidence": {
+        "type": "app_store_page_release_notes",
+        "version": "4.2.4",
+        "excerpt": "- Added support for iPhone Duo - Improved duration handling for Todoist tasks created with the natural language parser - The parser no longer erases manually set due dates when the new sentence doesn't include dates - Fixed an issue where creating a task in Todoist would add an extra alarm - Fixed a…",
+        "url": "https://apps.apple.com/cn/app/id718043190",
+        "date": "2026-10-23"
+      }
+    },
+    {
+      "id": "signal-6752317272",
+      "name": "系统电池分析-手机配置查询·电池健康分析",
+      "version": "2.4.5",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E7%B3%BB%E7%BB%9F%E7%94%B5%E6%B1%A0%E5%88%86%E6%9E%90-%E6%89%8B%E6%9C%BA%E9%85%8D%E7%BD%AE%E6%9F%A5%E8%AF%A2-%E7%94%B5%E6%B1%A0%E5%81%A5%E5%BA%B7%E5%88%86%E6%9E%90/id6752317272?uo=4",
+      "status": "unverified",
+      "itunesId": 6752317272,
+      "appType": "software",
+      "category": "工具",
+      "evidence": {
+        "type": "app_store_release_notes_mention",
+        "version": "2.4.5",
+        "excerpt": "界面 • 悬浮窗新增竖向和迷你布局，并分别记住显示项目与顺序。 • 精简灵动点展开界面，让监控数据更清晰。 优化 • 完善 iPhone Duo 配置查询与电池健康适配，优化内外屏、摄像头及双电芯信息展示。 • 配置查询教程合并为完整视频，查找和导入文件更方便。 • 优化充电功率估算、历史平均功率及拔电后的记录保存。 Bug 修复 • 修复配置占比在网络恢复后未及时刷新的问题。",
+        "url": "https://apps.apple.com/cn/app/%E7%B3%BB%E7%BB%9F%E7%94%B5%E6%B1%A0%E5%88%86%E6%9E%90-%E6%89%8B%E6%9C%BA%E9%85%8D%E7%BD%AE%E6%9F%A5%E8%AF%A2-%E7%94%B5%E6%B1%A0%E5%81%A5%E5%BA%B7%E5%88%86%E6%9E%90/id6752317272?uo=4",
+        "date": "2026-10-28"
+      }
+    },
+    {
+      "id": "signal-718659370",
+      "name": "脉脉-找人脉找工作求职招聘职场社交平台",
+      "version": "6.7.68",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E8%84%89%E8%84%89-ai%E6%97%B6%E4%BB%A3%E7%9A%84%E6%B1%82%E8%81%8C%E6%8B%9B%E8%81%98%E5%B9%B3%E5%8F%B0/id718659370?uo=4",
+      "status": "unverified",
+      "itunesId": 718659370,
+      "appType": "software",
+      "category": "商务",
+      "evidence": {
+        "type": "app_store_page_release_notes",
+        "version": "6.7.64",
+        "excerpt": "适配iPhone DUO",
+        "url": "https://apps.apple.com/cn/app/id718659370",
+        "date": "2026-10-22"
+      }
+    },
+    {
+      "id": "signal-712286167",
+      "name": "Pedometer++",
+      "version": "8.2.1",
+      "appStoreUrl": "https://apps.apple.com/cn/app/pedometer/id712286167?uo=4",
+      "status": "unverified",
+      "itunesId": 712286167,
+      "appType": "software",
+      "category": "健康健美",
+      "evidence": {
+        "type": "app_store_page_release_notes",
+        "version": "8.2.1",
+        "excerpt": "Support for the iPhone Duo.",
+        "url": "https://apps.apple.com/cn/app/id712286167",
+        "date": "2026-10-23"
+      }
+    },
+    {
+      "id": "signal-731781859",
+      "name": "Oz Weather Plus",
+      "version": "4.7.5",
+      "appStoreUrl": "https://apps.apple.com/cn/app/oz-weather-plus/id731781859?uo=4",
+      "status": "unverified",
+      "itunesId": 731781859,
+      "appType": "software",
+      "category": "天气",
+      "evidence": {
+        "type": "app_store_page_release_notes",
+        "version": "4.7.5",
+        "excerpt": "v4.7.5 * FIXED - Crash on startup on iPhone Duo. Optimisation for iPhone Duo screens and poses is in planning.",
+        "url": "https://apps.apple.com/cn/app/id731781859",
+        "date": "2026-10-27"
+      }
+    },
+    {
+      "id": "signal-6749835845",
+      "name": "飓风相机 - 实时电影感拍摄",
+      "version": "2.0.1",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E9%A3%93%E9%A3%8E%E7%9B%B8%E6%9C%BA-%E5%AE%9E%E6%97%B6%E7%94%B5%E5%BD%B1%E6%84%9F%E6%8B%8D%E6%91%84/id6749835845?uo=4",
+      "status": "unverified",
+      "itunesId": 6749835845,
+      "appType": "software",
+      "category": "摄影与录像",
+      "evidence": {
+        "type": "app_store_release_notes_mention",
+        "version": "2.0.1",
+        "excerpt": "飓风相机迎来一周年，感谢大家一年以来的支持！ 本次更新带来以下内容： - 适配iPhone Duo，支持多种姿态使用以及双屏预览。 - 新增2个标准影调：澳门、开罗，以及3个Log影调：云梦、伊犁、清迈。 - UI细节优化与调整。 - 支持照片分辨率调节设置。 - 支持自动闪光灯模式下的闪光灯启用提示。 - 支持系统相册素材直接使用标准影调预览和导出。 - 麦克风接入按钮与音频电平视图合并。 - 对焦提示框新增曝光补偿滑动调节。 - 更多细节优化与Bug修复。",
+        "url": "https://apps.apple.com/cn/app/%E9%A3%93%E9%A3%8E%E7%9B%B8%E6%9C%BA-%E5%AE%9E%E6%97%B6%E7%94%B5%E5%BD%B1%E6%84%9F%E6%8B%8D%E6%91%84/id6749835845?uo=4",
+        "date": "2026-10-30"
+      }
+    },
+    {
+      "id": "signal-6751886569",
+      "name": "AI背书匠-高效背书神器",
+      "version": "2.4.5",
+      "appStoreUrl": "https://apps.apple.com/cn/app/ai%E8%83%8C%E4%B9%A6%E5%8C%A0-%E9%AB%98%E6%95%88%E8%83%8C%E4%B9%A6%E7%A5%9E%E5%99%A8/id6751886569?uo=4",
+      "status": "unverified",
+      "itunesId": 6751886569,
+      "appType": "software",
+      "category": "效率",
+      "evidence": {
+        "type": "app_store_release_notes_mention",
+        "version": "2.4.5",
+        "excerpt": "iPhone Duo -AI 背书匠 已适配 iPhone Duo！在紧凑屏幕上快速回顾要点，展开设备享受更大的书写空间。 一致体验 -优化书写工具栏、默写与编辑控制，让背诵、默写在 iPhone、iPad、iPhone Duo 上保持一致的体验。 新增 -全面适配 iOS 27 与 iPhone Duo；原生支持 Apple Pencil 手写默写，还原纸笔作答体验。 更新 -完善书籍浏览体验，翻页、定位更流畅。 调整编辑模式，学习内容组织更清晰。",
+        "url": "https://apps.apple.com/cn/app/ai%E8%83%8C%E4%B9%A6%E5%8C%A0-%E9%AB%98%E6%95%88%E8%83%8C%E4%B9%A6%E7%A5%9E%E5%99%A8/id6751886569?uo=4",
+        "date": "2026-10-29"
+      }
+    }
+  ],
   "addedCounts": {
-    "software": 1,
+    "software": 2,
     "game": 0,
     "unknown": 0
   },
   "coverageCN": {
-    "poolSize": 7249,
+    "poolSize": 7297,
     "lookupScheduled": 605,
     "priorityScheduled": 5,
-    "lookupReturned": 604,
+    "lookupReturned": 601,
     "categoryFeedsSucceeded": 28,
     "categoryFeedsAttempted": 28,
     "gameFeedsSucceeded": 12,
     "gameFeedsAttempted": 12,
     "gameGenreIds": [
-      7014,
-      7015,
-      7016,
-      7017,
-      7018,
-      7019
+      7001,
+      7002,
+      7003,
+      7004,
+      7005,
+      7006
     ],
     "genreIds": [
-      6016,
-      6017,
-      6018,
-      6020,
-      6021,
-      6022,
-      6023,
-      6024
+      6026,
+      6027,
+      6000,
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
     ],
-    "time": "2026-10-30T07:18:49+00:00"
+    "time": "2026-10-30T14:21:49+00:00"
   }
 }

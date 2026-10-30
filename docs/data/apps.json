@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastMetadataSync": "2026-10-30T07:18:49+00:00",
+  "lastMetadataSync": "2026-10-30T14:21:49+00:00",
   "description": "独立编辑数据库；状态与元数据分离。苹果介绍 ≠ 真机验证。",
   "apps": [
     {
@@ -251,17 +251,17 @@
       "searchTerm": "Fantastical",
       "developer": "Flexibits Inc.",
       "version": "4.2.4",
-      "releaseDate": "2026-10-23T14:01:51Z",
+      "releaseDate": "2026-10-23",
       "appStoreUrl": "https://apps.apple.com/cn/app/fantastical-calendar/id718043190?uo=4",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/48/9d/25489d17-651c-298b-bc6e-891084b59f6d/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
       "itunesId": 718043190,
       "storefront": "us",
       "storeMatch": "official_id_verified",
       "duoDiscovery": {
-        "type": "app_store_release_notes_mention",
+        "type": "app_store_page_release_notes",
         "version": "4.2.4",
         "excerpt": "- Added support for iPhone Duo - Improved duration handling for Todoist tasks created with the natural language parser - The parser no longer erases manually set due dates when the new sentence doesn't include dates - Fixed an issue where creating a task in Todoist would add an extra alarm - Fixed a…",
-        "url": "https://apps.apple.com/cn/app/fantastical-calendar/id718043190?uo=4",
+        "url": "https://apps.apple.com/cn/app/id718043190",
         "date": "2026-10-23"
       },
       "storeCategory": {
@@ -297,7 +297,7 @@
       "version": "4.1.11",
       "releaseDate": "2026-10-22T18:47:43Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/notewise-ai-%E7%AC%94%E8%AE%B0-pdf-%E6%96%87%E6%A1%A3/id6480045936?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/77/3f/a1773fd5-facd-2d1a-a227-087c5529c345/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/77/3f/a1773fd5-facd-2d1a-a227-087c5529c345/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/100x100bb.jpg",
       "itunesId": 6480045936,
       "storefront": "us",
       "storeMatch": "official_id_verified",
@@ -489,7 +489,7 @@
       "version": "453.1",
       "releaseDate": "2026-10-27T23:10:03Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/edits-%E8%A7%86%E9%A2%91%E7%BC%96%E8%BE%91%E5%99%A8/id6738967378?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/14/15/7f/14157fec-8bf5-d040-26ab-d06bbae88121/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/14/15/7f/14157fec-8bf5-d040-26ab-d06bbae88121/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-85-220.png/100x100bb.jpg",
       "itunesId": 6738967378,
       "storefront": "us",
       "storeMatch": "official_id_verified",
@@ -3260,7 +3260,7 @@
       "version": "2.5.0",
       "releaseDate": "2026-10-24T06:00:38Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/joyway-%E5%B0%B1%E4%BD%8D-%E8%B7%91%E6%AD%A5%E9%AA%91%E8%A1%8C%E5%BE%92%E6%AD%A5%E8%BF%90%E5%8A%A8%E5%81%A5%E5%BA%B7%E7%9D%A1%E7%9C%A0%E5%88%86%E6%9E%90%E8%AE%A1%E6%AD%A5%E5%99%A8/id6499191511?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/18/e6/fa18e6e3-d004-755d-b84b-30fd587fd7b2/Joyway_Default-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/18/e6/fa18e6e3-d004-755d-b84b-30fd587fd7b2/Joyway_Default-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.jpg",
       "itunesId": 6499191511,
       "storefront": "cn",
       "duoDiscovery": {
@@ -3303,7 +3303,7 @@
       "version": "1.28.4",
       "releaseDate": "2026-10-28T16:57:17Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/koco-widgets-%E5%B0%8F%E7%BB%84%E4%BB%B6-%E7%9B%B4%E6%8E%A5%E8%B7%B3%E8%BD%AC/id6702013570?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/f9/09/faf90907-020c-9c3f-ebb2-b37e92e1783b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/f9/09/faf90907-020c-9c3f-ebb2-b37e92e1783b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
       "itunesId": 6702013570,
       "storefront": "cn",
       "duoDiscovery": {
@@ -3346,7 +3346,7 @@
       "version": "2.7.1",
       "releaseDate": "2026-10-23T04:08:33Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/deepseek-ai-%E6%99%BA%E8%83%BD%E5%8A%A9%E6%89%8B/id6737597349?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/25/fd/2025fdfa-c8aa-e444-445f-165a0da6459c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/25/fd/2025fdfa-c8aa-e444-445f-165a0da6459c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
       "itunesId": 6737597349,
       "storefront": "cn",
       "duoDiscovery": {
@@ -3387,7 +3387,7 @@
       "version": "2.1.0",
       "releaseDate": "2026-10-23T01:40:46Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/placify-%E5%9C%B0%E7%82%B9%E6%94%B6%E8%97%8F-%E6%97%85%E8%A1%8C%E8%AE%A1%E5%88%92-%E8%A1%8C%E7%A8%8B%E8%AE%B0%E5%BD%95-%E4%B8%93%E5%B1%9E%E5%9C%B0%E5%9B%BE/id6739698007?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/15/5b/1c155b4d-5985-2108-2cf6-7668f8195e76/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/15/5b/1c155b4d-5985-2108-2cf6-7668f8195e76/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/100x100bb.jpg",
       "itunesId": 6739698007,
       "storefront": "cn",
       "duoDiscovery": {
@@ -3430,7 +3430,7 @@
       "version": "2.4",
       "releaseDate": "2026-10-27T22:35:34Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/%E5%92%8C%E5%BC%A6%E4%B8%8E%E8%B0%83%E9%9F%B3%E5%99%A8-guitar-wiz/id6740015002?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/cf/4d/40cf4d1c-3f15-d2c3-5b9c-b50d5dbed1b9/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/cf/4d/40cf4d1c-3f15-d2c3-5b9c-b50d5dbed1b9/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
       "itunesId": 6740015002,
       "storefront": "cn",
       "duoDiscovery": {
@@ -3473,15 +3473,15 @@
       "version": "2.4.5",
       "releaseDate": "2026-10-28T19:17:05Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/%E7%B3%BB%E7%BB%9F%E7%94%B5%E6%B1%A0%E5%88%86%E6%9E%90-%E6%89%8B%E6%9C%BA%E9%85%8D%E7%BD%AE%E6%9F%A5%E8%AF%A2-%E7%94%B5%E6%B1%A0%E5%81%A5%E5%BA%B7%E5%88%86%E6%9E%90/id6752317272?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/4b/69/554b69cd-a996-db16-3da5-28d100233e9b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/4b/69/554b69cd-a996-db16-3da5-28d100233e9b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "itunesId": 6752317272,
       "storefront": "cn",
       "duoDiscovery": {
         "type": "app_store_release_notes_mention",
-        "version": "2.4.3",
-        "excerpt": "【界面】 • 完善 iPhone Duo 适配，新增铰链开合检测，优化电池健康度计算、折叠切换及页面显示。 • 配置查询教程新增章节导航，查找使用步骤和注意事项更方便。 【优化】 • 全面兼容 iPhone Duo 电池健康读取。 • 优化灵动岛操作按钮与配置结果排版。 • 排名获取失败时可查看具体原因，重试提示更清晰。 【Bug修复】 • 修复配置占比标签可能错误显示为“独占”的问题。 • 修复屏幕检测在部分情况下无法正常退出的问题。",
+        "version": "2.4.5",
+        "excerpt": "界面 • 悬浮窗新增竖向和迷你布局，并分别记住显示项目与顺序。 • 精简灵动点展开界面，让监控数据更清晰。 优化 • 完善 iPhone Duo 配置查询与电池健康适配，优化内外屏、摄像头及双电芯信息展示。 • 配置查询教程合并为完整视频，查找和导入文件更方便。 • 优化充电功率估算、历史平均功率及拔电后的记录保存。 Bug 修复 • 修复配置占比在网络恢复后未及时刷新的问题。",
         "url": "https://apps.apple.com/cn/app/%E7%B3%BB%E7%BB%9F%E7%94%B5%E6%B1%A0%E5%88%86%E6%9E%90-%E6%89%8B%E6%9C%BA%E9%85%8D%E7%BD%AE%E6%9F%A5%E8%AF%A2-%E7%94%B5%E6%B1%A0%E5%81%A5%E5%BA%B7%E5%88%86%E6%9E%90/id6752317272?uo=4",
-        "date": "2026-10-25"
+        "date": "2026-10-28"
       },
       "storeCategory": {
         "source": "apple_lookup",
@@ -3858,7 +3858,7 @@
       "searchTerm": "Gymaholic: Workout Tracker",
       "developer": "Devenyi Gabor",
       "version": "16.7",
-      "releaseDate": "2026-10-15",
+      "releaseDate": "2026-10-15T06:24:45Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/gymaholic-%E5%81%A5%E8%BA%AB%E5%A2%9E%E8%82%8C%E8%AE%B0%E5%BD%95/id648518560?uo=4",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/e9/f2/b1e9f211-f451-85df-f1d3-6e474b7b3d3e/GymaholicIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/100x100bb.jpg",
       "itunesId": 648518560,
@@ -4428,7 +4428,7 @@
       "version": "2.1.5",
       "releaseDate": "2026-10-28T21:17:33Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/gigs-concert-history/id6755610665?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/95/e6/4c95e652-352d-fadc-f1d1-da11de2d37d8/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/100x100bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/95/e6/4c95e652-352d-fadc-f1d1-da11de2d37d8/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
       "itunesId": 6755610665,
       "storefront": "us",
       "duoDiscovery": {
@@ -5383,16 +5383,16 @@
       "searchTerm": "脉脉-找人脉找工作求职招聘职场社交平台",
       "developer": "Taou",
       "version": "6.7.68",
-      "releaseDate": "2026-10-29T07:20:53Z",
+      "releaseDate": "2026-10-29",
       "appStoreUrl": "https://apps.apple.com/cn/app/%E8%84%89%E8%84%89-ai%E6%97%B6%E4%BB%A3%E7%9A%84%E6%B1%82%E8%81%8C%E6%8B%9B%E8%81%98%E5%B9%B3%E5%8F%B0/id718659370?uo=4",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/5b/34/b85b34a4-1017-3472-a578-ca0028ae8548/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
       "itunesId": 718659370,
       "storefront": "cn",
       "duoDiscovery": {
-        "type": "app_store_release_notes_mention",
+        "type": "app_store_page_release_notes",
         "version": "6.7.64",
         "excerpt": "适配iPhone DUO",
-        "url": "https://apps.apple.com/cn/app/%E8%84%89%E8%84%89-%E6%89%BE%E4%BA%BA%E8%84%89%E6%89%BE%E5%B7%A5%E4%BD%9C%E6%B1%82%E8%81%8C%E6%8B%9B%E8%81%98%E8%81%8C%E5%9C%BA%E7%A4%BE%E4%BA%A4%E5%B9%B3%E5%8F%B0/id718659370?uo=4",
+        "url": "https://apps.apple.com/cn/app/id718659370",
         "date": "2026-10-22"
       },
       "storeCategory": {
@@ -5559,7 +5559,7 @@
       "searchTerm": "两步路-记录户外精彩生活",
       "developer": "Shenzhen 2bulu Information Technology Co. Ltd.",
       "version": "9.2.10",
-      "releaseDate": "2026-10-29",
+      "releaseDate": "2026-10-29T07:02:23Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/%E4%B8%A4%E6%AD%A5%E8%B7%AF-%E8%AE%B0%E5%BD%95%E6%88%B7%E5%A4%96%E7%B2%BE%E5%BD%A9%E7%94%9F%E6%B4%BB/id646277024?uo=4",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/11/8c/5b118c88-fc4a-34a2-f2ec-4592ae461937/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
       "itunesId": 646277024,
@@ -8014,7 +8014,7 @@
       "version": "3.1.0",
       "releaseDate": "2026-10-09T21:22:52Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/diskio-ssd%E4%B8%8E%E7%A3%81%E7%9B%98%E6%B5%8B%E9%80%9F/id6467768299?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/37/c2/3237c242-3026-c0ae-a38f-1b1d25bf3185/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/37/c2/3237c242-3026-c0ae-a38f-1b1d25bf3185/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
       "itunesId": 6467768299,
       "storefront": "cn",
       "duoDiscovery": {
@@ -8058,7 +8058,7 @@
       "version": "2.1.3",
       "releaseDate": "2026-10-28T00:13:26Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/photoncam-%E4%B8%93%E4%B8%9A%E7%9B%B8%E6%9C%BA%E5%92%8C%E7%85%A7%E7%89%87%E7%BC%96%E8%BE%91/id6470341051?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/58/c7/0558c7f2-cbb5-0f7b-10a0-eda84a09b3d0/PhotonCamAppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/58/c7/0558c7f2-cbb5-0f7b-10a0-eda84a09b3d0/PhotonCamAppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/100x100bb.jpg",
       "itunesId": 6470341051,
       "storefront": "cn",
       "duoDiscovery": {
@@ -8333,7 +8333,7 @@
       "version": "3.1.0",
       "releaseDate": "2026-10-25T23:08:35Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/%E4%B8%80%E7%A7%92%E7%AC%94%E8%AE%B0-%E6%82%AC%E6%B5%AEmarkdown/id6476831073?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/e9/19/dde919fb-8474-ae2b-64bb-219f22927889/2511-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/e9/19/dde919fb-8474-ae2b-64bb-219f22927889/2511-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
       "itunesId": 6476831073,
       "storefront": "cn",
       "duoDiscovery": {
@@ -8377,7 +8377,7 @@
       "version": "5.4.2",
       "releaseDate": "2026-10-07T22:18:20Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/retroman-%E7%BA%A2%E7%99%BD%E6%9C%BA-%E6%B8%B8%E6%88%8F%E6%9C%BA%E4%B8%8E%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%8D%87%E7%BA%A7%E7%89%88%E6%A8%A1%E6%8B%9F%E5%99%A8/id6502994389?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/bf/6f/bcbf6fdb-615b-efbc-3b01-b77f79053608/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/bf/6f/bcbf6fdb-615b-efbc-3b01-b77f79053608/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
       "itunesId": 6502994389,
       "storefront": "cn",
       "duoDiscovery": {
@@ -8463,7 +8463,7 @@
       "version": "3.7.3",
       "releaseDate": "2026-10-24T22:41:48Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/awaybook-%E5%85%A8%E7%90%83%E9%85%92%E5%BA%97%E8%B6%B3%E8%BF%B9-%E5%B8%B8%E6%97%85%E5%AE%A2%E6%89%8B%E8%AE%B0/id6670343794?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/af/87/23/af872319-89b8-9763-81ea-040b671a5347/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/af/87/23/af872319-89b8-9763-81ea-040b671a5347/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
       "itunesId": 6670343794,
       "storefront": "cn",
       "duoDiscovery": {
@@ -8507,7 +8507,7 @@
       "version": "2.21.0",
       "releaseDate": "2026-10-24T13:00:34Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/%E5%B0%8F%E4%B9%96%E8%A7%A3%E5%8E%8B-hrv%E5%BF%83%E7%90%86%E5%8E%8B%E5%8A%9B%E7%9B%91%E6%B5%8B-%E5%81%A5%E5%BA%B7%E4%B9%A0%E6%83%AF%E5%85%BB%E6%88%90/id6737716136?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/95/26/0b952600-2575-9476-f9af-a8f6ce1112b3/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/95/26/0b952600-2575-9476-f9af-a8f6ce1112b3/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.jpg",
       "itunesId": 6737716136,
       "storefront": "cn",
       "duoDiscovery": {
@@ -8637,7 +8637,7 @@
       "version": "1.3.0",
       "releaseDate": "2026-10-21T15:48:14Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/%E9%92%93%E9%B1%BC%E9%A2%84%E5%BD%95%E7%9B%B8%E6%9C%BA/id6744694923?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cc/2e/05/cc2e058d-f17f-ad96-9f43-96dd76168a46/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/100x100bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cc/2e/05/cc2e058d-f17f-ad96-9f43-96dd76168a46/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg",
       "itunesId": 6744694923,
       "storefront": "cn",
       "duoDiscovery": {
@@ -8679,7 +8679,7 @@
       "version": "3.5.12",
       "releaseDate": "2026-10-28T18:48:41Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/voidlink/id6747717070?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/3a/37/e33a3719-5be0-367e-1149-cf0ce0e63521/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/3a/37/e33a3719-5be0-367e-1149-cf0ce0e63521/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "itunesId": 6747717070,
       "storefront": "cn",
       "duoDiscovery": {
@@ -8723,7 +8723,7 @@
       "version": "1.4.6",
       "releaseDate": "2026-10-23T05:40:06Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/vemus%E6%9C%AA%E9%9F%B3-%E9%85%B7%E7%8B%97%E5%85%88%E9%94%8B%E7%89%88/id6752596179?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/49/1b/a0491b80-e129-61a3-25d8-b9caab5de287/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/49/1b/a0491b80-e129-61a3-25d8-b9caab5de287/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "itunesId": 6752596179,
       "storefront": "cn",
       "duoDiscovery": {
@@ -8897,7 +8897,7 @@
       "version": "2.1",
       "releaseDate": "2026-10-27T09:28:07Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/%E6%8E%92%E7%8F%AD%E8%A1%A8-%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%8E%86-shift2cal-ai%E5%8A%A9%E6%89%8B/id6755889602?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/05/be/c105be2c-62e5-1594-b704-7df231b2951c/icon_composer-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/05/be/c105be2c-62e5-1594-b704-7df231b2951c/icon_composer-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "itunesId": 6755889602,
       "storefront": "cn",
       "duoDiscovery": {
@@ -8941,7 +8941,7 @@
       "version": "2.2",
       "releaseDate": "2026-10-25T18:44:45Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/loopback-%E5%86%85%E7%BD%91%E6%9C%8D%E5%8A%A1%E6%B5%8F%E8%A7%88%E5%99%A8/id6757280702?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/6d/88/256d88ae-58d7-5970-f982-ed6834b69f34/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/6d/88/256d88ae-58d7-5970-f982-ed6834b69f34/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "itunesId": 6757280702,
       "storefront": "cn",
       "duoDiscovery": {
@@ -10808,16 +10808,16 @@
       "searchTerm": "Pedometer++",
       "developer": "Cross Forward Consulting, LLC",
       "version": "8.2.1",
-      "releaseDate": "2026-10-23T05:19:16Z",
+      "releaseDate": "2026-10-23",
       "appStoreUrl": "https://apps.apple.com/cn/app/pedometer/id712286167?uo=4",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/e3/b2/c2e3b2f0-15d8-f2ef-e25d-3f83a6ca46d3/Pedometer_U002b_U002b-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-85-220.png/100x100bb.jpg",
       "itunesId": 712286167,
       "storefront": "cn",
       "duoDiscovery": {
-        "type": "app_store_release_notes_mention",
+        "type": "app_store_page_release_notes",
         "version": "8.2.1",
         "excerpt": "Support for the iPhone Duo.",
-        "url": "https://apps.apple.com/cn/app/pedometer/id712286167?uo=4",
+        "url": "https://apps.apple.com/cn/app/id712286167",
         "date": "2026-10-23"
       },
       "storeCategory": {
@@ -10852,16 +10852,16 @@
       "searchTerm": "Oz Weather Plus",
       "developer": "ozPDA",
       "version": "4.7.5",
-      "releaseDate": "2026-10-27T14:00:41Z",
+      "releaseDate": "2026-10-27",
       "appStoreUrl": "https://apps.apple.com/cn/app/oz-weather-plus/id731781859?uo=4",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/17/33/9117337b-8381-177e-a551-5eafb8eb5b08/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
       "itunesId": 731781859,
       "storefront": "cn",
       "duoDiscovery": {
-        "type": "app_store_release_notes_mention",
+        "type": "app_store_page_release_notes",
         "version": "4.7.5",
         "excerpt": "v4.7.5 * FIXED - Crash on startup on iPhone Duo. Optimisation for iPhone Duo screens and poses is in planning.",
-        "url": "https://apps.apple.com/cn/app/oz-weather-plus/id731781859?uo=4",
+        "url": "https://apps.apple.com/cn/app/id731781859",
         "date": "2026-10-27"
       },
       "storeCategory": {
@@ -12200,7 +12200,7 @@
       "version": "2.0.1.0",
       "releaseDate": "2026-10-30T01:39:36Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/%E7%BB%84%E4%BB%B6%E5%B2%9Bwidget-island-%E6%89%8B%E6%9C%BA%E9%94%81%E5%B1%8F%E6%A1%8C%E9%9D%A2%E7%BB%84%E4%BB%B6%E4%B8%BB%E9%A2%98%E5%A3%81%E7%BA%B8/id6478436772?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/bd/f4/ffbdf46f-b9f2-c408-ffcf-aa5b34a8cf0c/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/bd/f4/ffbdf46f-b9f2-c408-ffcf-aa5b34a8cf0c/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/100x100bb.jpg",
       "itunesId": 6478436772,
       "storefront": "cn",
       "storeCategory": {
@@ -12244,7 +12244,7 @@
       "version": "2.6.2",
       "releaseDate": "2026-10-27T19:44:27Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/genk-%E5%BE%AE%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%A4%9A%E5%85%83%E4%B8%BB%E9%A2%98/id6612027371?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/00/21/6200213f-aa30-91ea-3ec9-600cf5b8e08c/GenKi__U0028black_background_U0029-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/00/21/6200213f-aa30-91ea-3ec9-600cf5b8e08c/GenKi__U0028black_background_U0029-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
       "itunesId": 6612027371,
       "storefront": "cn",
       "storeCategory": {
@@ -12288,7 +12288,7 @@
       "version": "2.6.15",
       "releaseDate": "2026-10-28T03:36:49Z",
       "appStoreUrl": "https://apps.apple.com/cn/app/ima-%E8%85%BE%E8%AE%AFai%E7%9F%A5%E8%AF%86%E7%AE%A1%E5%AE%B6/id6737188438?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/72/4c/13724cd8-6d8d-0f36-4115-da5a6328f173/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/72/4c/13724cd8-6d8d-0f36-4115-da5a6328f173/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
       "itunesId": 6737188438,
       "storefront": "cn",
       "storeCategory": {
@@ -12328,8 +12328,8 @@
       "developer": "Tencent Technology (Shenzhen) Company Limited",
       "version": "5.0.15",
       "releaseDate": "2026-10-29T15:43:28Z",
-      "appStoreUrl": "https://apps.apple.com/cn/app/id1087897068",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/b3/92/6db39257-641a-95f3-bf53-c6bce6361d77/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1/id1087897068?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/b3/92/6db39257-641a-95f3-bf53-c6bce6361d77/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
       "itunesId": 1087897068,
       "storefront": "cn",
       "communityIssueReports": [
@@ -12351,7 +12351,93 @@
         "appType": "software"
       },
       "addedAt": "2026-10-30T10:26:31+00:00"
+    },
+    {
+      "addedAt": "2026-10-30T14:21:49+00:00",
+      "id": "signal-6749835845",
+      "name": "飓风相机 - 实时电影感拍摄",
+      "english": "",
+      "category": "摄影与录像",
+      "region": "中国大陆",
+      "status": "unverified",
+      "note": "App Store 更新说明提及 iPhone Duo；是否真正适配仍待核验。",
+      "sourceLabel": "",
+      "sourceUrl": "",
+      "sourceDate": "",
+      "verifiedDate": "",
+      "searchTerm": "飓风相机 - 实时电影感拍摄",
+      "developer": "Hangzhou Ostar Media Co.,Ltd.",
+      "version": "2.0.1",
+      "releaseDate": "2026-10-30T01:48:42Z",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E9%A3%93%E9%A3%8E%E7%9B%B8%E6%9C%BA-%E5%AE%9E%E6%97%B6%E7%94%B5%E5%BD%B1%E6%84%9F%E6%8B%8D%E6%91%84/id6749835845?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/72/75/137275d5-ab35-7711-9099-76f5716f385c/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "itunesId": 6749835845,
+      "storefront": "cn",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "cn",
+        "primaryGenreId": 6008,
+        "primaryGenreName": "摄影与录像",
+        "genreIds": [
+          6008
+        ],
+        "genres": [
+          "摄影与录像"
+        ],
+        "appType": "software"
+      },
+      "duoDiscovery": {
+        "type": "app_store_release_notes_mention",
+        "version": "2.0.1",
+        "excerpt": "飓风相机迎来一周年，感谢大家一年以来的支持！ 本次更新带来以下内容： - 适配iPhone Duo，支持多种姿态使用以及双屏预览。 - 新增2个标准影调：澳门、开罗，以及3个Log影调：云梦、伊犁、清迈。 - UI细节优化与调整。 - 支持照片分辨率调节设置。 - 支持自动闪光灯模式下的闪光灯启用提示。 - 支持系统相册素材直接使用标准影调预览和导出。 - 麦克风接入按钮与音频电平视图合并。 - 对焦提示框新增曝光补偿滑动调节。 - 更多细节优化与Bug修复。",
+        "url": "https://apps.apple.com/cn/app/%E9%A3%93%E9%A3%8E%E7%9B%B8%E6%9C%BA-%E5%AE%9E%E6%97%B6%E7%94%B5%E5%BD%B1%E6%84%9F%E6%8B%8D%E6%91%84/id6749835845?uo=4",
+        "date": "2026-10-30"
+      }
+    },
+    {
+      "addedAt": "2026-10-30T14:21:49+00:00",
+      "id": "signal-6751886569",
+      "name": "AI背书匠-高效背书神器",
+      "english": "",
+      "category": "效率",
+      "region": "中国大陆",
+      "status": "unverified",
+      "note": "App Store 更新说明提及 iPhone Duo；是否真正适配仍待核验。",
+      "sourceLabel": "",
+      "sourceUrl": "",
+      "sourceDate": "",
+      "verifiedDate": "",
+      "searchTerm": "AI背书匠-高效背书神器",
+      "developer": "Pixentia Limited",
+      "version": "2.4.5",
+      "releaseDate": "2026-10-29T02:52:30Z",
+      "appStoreUrl": "https://apps.apple.com/cn/app/ai%E8%83%8C%E4%B9%A6%E5%8C%A0-%E9%AB%98%E6%95%88%E8%83%8C%E4%B9%A6%E7%A5%9E%E5%99%A8/id6751886569?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/d9/77/10d977e8-61c8-f84f-cc29-723007b172ee/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "itunesId": 6751886569,
+      "storefront": "cn",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "cn",
+        "primaryGenreId": 6007,
+        "primaryGenreName": "效率",
+        "genreIds": [
+          6007,
+          6017
+        ],
+        "genres": [
+          "效率",
+          "教育"
+        ],
+        "appType": "software"
+      },
+      "duoDiscovery": {
+        "type": "app_store_release_notes_mention",
+        "version": "2.4.5",
+        "excerpt": "iPhone Duo -AI 背书匠 已适配 iPhone Duo！在紧凑屏幕上快速回顾要点，展开设备享受更大的书写空间。 一致体验 -优化书写工具栏、默写与编辑控制，让背诵、默写在 iPhone、iPad、iPhone Duo 上保持一致的体验。 新增 -全面适配 iOS 27 与 iPhone Duo；原生支持 Apple Pencil 手写默写，还原纸笔作答体验。 更新 -完善书籍浏览体验，翻页、定位更流畅。 调整编辑模式，学习内容组织更清晰。",
+        "url": "https://apps.apple.com/cn/app/ai%E8%83%8C%E4%B9%A6%E5%8C%A0-%E9%AB%98%E6%95%88%E8%83%8C%E4%B9%A6%E7%A5%9E%E5%99%A8/id6751886569?uo=4",
+        "date": "2026-10-29"
+      }
     }
   ],
-  "lastDiscoverySync": "2026-10-30T07:18:49+00:00"
+  "lastDiscoverySync": "2026-10-30T14:21:49+00:00"
 }
