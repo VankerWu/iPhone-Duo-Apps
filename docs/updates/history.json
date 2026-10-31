@@ -1,5 +1,325 @@
 [
   {
+    "time": "2026-10-31T21:49:12+00:00",
+    "added": [
+      {
+        "id": "signal-983145797",
+        "name": "超注音",
+        "version": "2.4.5",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E8%B6%85%E6%B3%A8%E9%9F%B3/id983145797?uo=4",
+        "status": "unverified",
+        "itunesId": 983145797,
+        "appType": "software",
+        "category": "工具"
+      },
+      {
+        "id": "signal-1038175626",
+        "name": "WalletApp",
+        "version": "6.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/walletapp/id1038175626?uo=4",
+        "status": "unverified",
+        "itunesId": 1038175626,
+        "appType": "software",
+        "category": "财务"
+      },
+      {
+        "id": "signal-1039749242",
+        "name": "知识星球 - 连接一千位铁杆粉丝",
+        "version": "v5.48.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E7%9F%A5%E8%AF%86%E6%98%9F%E7%90%83-%E8%BF%9E%E6%8E%A5%E4%B8%80%E5%8D%83%E4%BD%8D%E9%93%81%E6%9D%86%E7%B2%89%E4%B8%9D/id1039749242?uo=4",
+        "status": "unverified",
+        "itunesId": 1039749242,
+        "appType": "software",
+        "category": "商务"
+      }
+    ],
+    "updated": [
+      {
+        "id": "apple-016",
+        "name": "VLLO",
+        "version": "15.1.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/vllo-ai%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91%E5%99%A8/id952050883?uo=4",
+        "status": "apple_featured",
+        "itunesId": 952050883,
+        "appType": "software",
+        "category": "摄影与录像",
+        "previousVersion": "15.1.1"
+      },
+      {
+        "id": "apple-031",
+        "name": "Tripsy",
+        "version": "3.10.7",
+        "appStoreUrl": "https://apps.apple.com/cn/app/tripsy-%E6%97%85%E8%A1%8C%E8%AE%A1%E5%88%92%E4%B8%8E%E8%A1%8C%E7%A8%8B%E8%A7%84%E5%88%92/id1429967544?uo=4",
+        "status": "apple_featured",
+        "itunesId": 1429967544,
+        "appType": "software",
+        "category": "旅游",
+        "previousVersion": "3.10.6"
+      },
+      {
+        "id": "signal-1457445491",
+        "name": "PRESETS: Filters for Pictures",
+        "version": "4.0.4",
+        "appStoreUrl": "https://apps.apple.com/cn/app/presets-%E7%85%A7%E7%89%87-%E5%A4%84%E7%90%86-%E5%9B%BE%E5%83%8F-%E7%BC%96%E8%BE%91%E5%99%A8-%E7%89%B9%E6%95%88%E6%9E%9C/id1457445491?uo=4",
+        "status": "unverified",
+        "itunesId": 1457445491,
+        "appType": "software",
+        "category": "摄影与录像",
+        "previousVersion": "4.0.3"
+      },
+      {
+        "id": "signal-331441694",
+        "name": "iSpazio",
+        "version": "5.13",
+        "appStoreUrl": "https://apps.apple.com/cn/app/ispazio-notizie-apple/id331441694?uo=4",
+        "status": "unverified",
+        "itunesId": 331441694,
+        "appType": "software",
+        "category": "新闻",
+        "previousVersion": "5.12"
+      },
+      {
+        "id": "signal-6741017695",
+        "name": "元气专注 - 激励型番茄钟学习计时器",
+        "version": "2026.30",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%85%83%E6%B0%94%E4%B8%93%E6%B3%A8-%E6%BF%80%E5%8A%B1%E5%9E%8B%E7%95%AA%E8%8C%84%E9%92%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E6%97%B6%E5%99%A8/id6741017695?uo=4",
+        "status": "unverified",
+        "itunesId": 6741017695,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "2026.28"
+      },
+      {
+        "id": "signal-804031883",
+        "name": "My Tide Times Pro - Tide Chart",
+        "version": "26.4.4",
+        "appStoreUrl": "https://apps.apple.com/cn/app/my-tide-times-pro-tide-chart/id804031883?uo=4",
+        "status": "unverified",
+        "itunesId": 804031883,
+        "appType": "software",
+        "category": "天气",
+        "previousVersion": "26.4.3"
+      },
+      {
+        "id": "signal-6781949759",
+        "name": "好女子",
+        "version": "1.0.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%A5%BD%E5%A5%B3%E5%AD%90/id6781949759?uo=4",
+        "status": "unverified",
+        "itunesId": 6781949759,
+        "appType": "software",
+        "category": "社交",
+        "previousVersion": "1.0.2"
+      }
+    ],
+    "signals": [
+      {
+        "id": "apple-032",
+        "name": "SmartGym",
+        "version": "8.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/smartgym-gym-home-workouts/id922744883?uo=4",
+        "status": "apple_featured",
+        "itunesId": 922744883,
+        "appType": "software",
+        "category": "健康健美",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "8.1",
+          "excerpt": "8.1 SmartGym is ready for iPhone Duo, with an interface that adapts as you fold, unfold and move through your workout. EVERY POSE Enjoy layouts designed for every pose: Closed, Book Style, Fully Opened, Seated and Tent. SmartGym adjusts automatically, keeping your workout with you as the screen changes. U…",
+          "url": "https://apps.apple.com/cn/app/id922744883",
+          "date": "2026-10-16"
+        }
+      },
+      {
+        "id": "signal-912698955",
+        "name": "World Clock Time Converter",
+        "version": "2026.15",
+        "appStoreUrl": "https://apps.apple.com/cn/app/world-clock-time-converter/id912698955?uo=4",
+        "status": "unverified",
+        "itunesId": 912698955,
+        "appType": "software",
+        "category": "工具",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "2026.14",
+          "excerpt": "世界时钟现已适配 iPhone Duo。打开应用，时钟会显示在侧边栏；轻点其中一个，旁边就会显示悉尼妈妈头顶的天空、她的一天与你的时间如何对应，以及她所在地区的时钟下次何时调整。像合上书一样折叠设备，应用会从首次设置页面开始，整齐地沿折痕分开。合上设备后，依然是你熟悉的世界时钟。 全新会议规划工具“制定计划”，帮助你找到适合你、妈妈和柏林办公室的时间。在 Duo 上使用效果更佳：折痕一侧显示你的日历，另一侧显示每个人的一天。拖动会议时间，即可立即查看是否适合所有人、是否超出某人的工作时间、是否会吵醒别人，以及是否与日历中的现有安排冲突。 找到合适的时间后，可以将会议添加到…",
+          "url": "https://apps.apple.com/cn/app/id912698955",
+          "date": "2026-10-19"
+        }
+      },
+      {
+        "id": "signal-1062022008",
+        "name": "LumaFusion",
+        "version": "5.6.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/lumafusion/id1062022008?uo=4",
+        "status": "unverified",
+        "itunesId": 1062022008,
+        "appType": "software",
+        "category": "摄影与录像",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "5.6.1",
+          "excerpt": "新功能： * 五种全新 Reflected Tiles 效果 * 支持 iPhone Duo 修复： * 外部显示器无法正确检测 * 在 macOS 上重新排序效果有时不起作用 * 由于屏幕录制使用非标准色彩空间值，导出可能会失败 * 优化某些媒体时可能导致文件显著变大 * 部分 iPhone 上剪辑编辑器布局不正确 * 稳定性和性能改进 在即将发布的版本中，我们将继续添加新功能，并持续改进 LumaFusion 的各个方面。教程、参考指南、问题解答及直接联系我们，请访问 lumatouch.co/support",
+          "url": "https://apps.apple.com/cn/app/lumafusion/id1062022008?uo=4",
+          "date": "2026-10-29"
+        }
+      },
+      {
+        "id": "signal-1003715695",
+        "name": "我的天气 · MyWeather - 十五日天气预报",
+        "version": "3.5.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E5%A4%A9%E6%B0%94-myweather-%E5%8D%81%E4%BA%94%E6%97%A5%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5/id1003715695?uo=4",
+        "status": "unverified",
+        "itunesId": 1003715695,
+        "appType": "software",
+        "category": "天气",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "3.5.1",
+          "excerpt": "- 现已适配 iPhone Duo，展开手机，预见未来",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E5%A4%A9%E6%B0%94-myweather-%E5%8D%81%E4%BA%94%E6%97%A5%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5/id1003715695?uo=4",
+          "date": "2026-10-31"
+        }
+      },
+      {
+        "id": "signal-954724812",
+        "name": "同花顺至尊版-股票软件",
+        "version": "12.16.00",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E8%87%B3%E5%B0%8A%E7%89%88-%E8%82%A1%E7%A5%A8%E8%BD%AF%E4%BB%B6/id954724812?uo=4",
+        "status": "unverified",
+        "itunesId": 954724812,
+        "appType": "software",
+        "category": "财务",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "12.16.00",
+          "excerpt": "1、适配iPhone Duo 2、优化产品性能，股票看盘更流畅",
+          "url": "https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E8%87%B3%E5%B0%8A%E7%89%88-%E8%82%A1%E7%A5%A8%E8%BD%AF%E4%BB%B6/id954724812?uo=4",
+          "date": "2026-10-29"
+        }
+      },
+      {
+        "id": "signal-1067198688",
+        "name": "彩云天气Pro",
+        "version": "7.63.5",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%BD%A9%E4%BA%91%E5%A4%A9%E6%B0%94pro/id1067198688?uo=4",
+        "status": "unverified",
+        "itunesId": 1067198688,
+        "appType": "software",
+        "category": "天气",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "7.63.5",
+          "excerpt": "1. 新增 iPhone Duo 适配，使用更流畅 2. 修复了一些已知问题",
+          "url": "https://apps.apple.com/cn/app/%E5%BD%A9%E4%BA%91%E5%A4%A9%E6%B0%94pro/id1067198688?uo=4",
+          "date": "2026-10-30"
+        }
+      },
+      {
+        "id": "signal-910513149",
+        "name": "全民K歌-你其实很会唱歌",
+        "version": "11.3.38",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%85%A8%E6%B0%91k%E6%AD%8C-%E4%BD%A0%E5%85%B6%E5%AE%9E%E5%BE%88%E4%BC%9A%E5%94%B1%E6%AD%8C/id910513149?uo=4",
+        "status": "unverified",
+        "itunesId": 910513149,
+        "appType": "software",
+        "category": "娱乐",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "11.3.38",
+          "excerpt": "「iPhone Duo全新适配」Duo一面，唱歌多一面：一屏发现更多好歌 「iPhone Duo全新适配」大屏刷，佳作满屏来：海量作品随心刷 「iPhone Duo全新适配」展开点，情绪更足点：词曲铺满 主角即刻就位 「iPhone Duo全新适配」KTV，大点更沉浸：大屏看 MV，状态开口就来",
+          "url": "https://apps.apple.com/cn/app/id910513149",
+          "date": "2026-10-30"
+        }
+      },
+      {
+        "id": "signal-983145797",
+        "name": "超注音",
+        "version": "2.4.5",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E8%B6%85%E6%B3%A8%E9%9F%B3/id983145797?uo=4",
+        "status": "unverified",
+        "itunesId": 983145797,
+        "appType": "software",
+        "category": "工具",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "2.4.5",
+          "excerpt": "Ver 2.4.5: • 支持 iPhone Duo，内外屏幕各自记住键盘高度与字体大小 • “AI 润饰”不再列出 OpenAI 已停用的模型，默认模型改为 gpt-6-luna",
+          "url": "https://apps.apple.com/cn/app/%E8%B6%85%E6%B3%A8%E9%9F%B3/id983145797?uo=4",
+          "date": "2026-10-29"
+        }
+      },
+      {
+        "id": "signal-1038175626",
+        "name": "WalletApp",
+        "version": "6.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/walletapp/id1038175626?uo=4",
+        "status": "unverified",
+        "itunesId": 1038175626,
+        "appType": "software",
+        "category": "财务",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "6.1",
+          "excerpt": "Added iPhone Duo support.",
+          "url": "https://apps.apple.com/cn/app/walletapp/id1038175626?uo=4",
+          "date": "2026-10-10"
+        }
+      },
+      {
+        "id": "signal-1039749242",
+        "name": "知识星球 - 连接一千位铁杆粉丝",
+        "version": "v5.48.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E7%9F%A5%E8%AF%86%E6%98%9F%E7%90%83-%E8%BF%9E%E6%8E%A5%E4%B8%80%E5%8D%83%E4%BD%8D%E9%93%81%E6%9D%86%E7%B2%89%E4%B8%9D/id1039749242?uo=4",
+        "status": "unverified",
+        "itunesId": 1039749242,
+        "appType": "software",
+        "category": "商务",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "v5.48.0",
+          "excerpt": "- 完成 iPhone Duo 适配 - 修复已知问题，提升用户体验",
+          "url": "https://apps.apple.com/cn/app/%E7%9F%A5%E8%AF%86%E6%98%9F%E7%90%83-%E8%BF%9E%E6%8E%A5%E4%B8%80%E5%8D%83%E4%BD%8D%E9%93%81%E6%9D%86%E7%B2%89%E4%B8%9D/id1039749242?uo=4",
+          "date": "2026-10-29"
+        }
+      }
+    ],
+    "addedCounts": {
+      "software": 3,
+      "game": 0,
+      "unknown": 0
+    },
+    "coverageCN": {
+      "poolSize": 7740,
+      "lookupScheduled": 604,
+      "priorityScheduled": 5,
+      "lookupReturned": 603,
+      "categoryFeedsSucceeded": 28,
+      "categoryFeedsAttempted": 28,
+      "gameFeedsSucceeded": 12,
+      "gameFeedsAttempted": 12,
+      "gameGenreIds": [
+        7001,
+        7002,
+        7003,
+        7004,
+        7005,
+        7006
+      ],
+      "genreIds": [
+        6021,
+        6022,
+        6023,
+        6024,
+        6026,
+        6027,
+        6000,
+        6001
+      ],
+      "time": "2026-10-31T21:44:57+00:00"
+    }
+  },
+  {
     "time": "2026-10-31T17:55:17+00:00",
     "added": [
       {
