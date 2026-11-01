@@ -1,5 +1,245 @@
 [
   {
+    "time": "2026-11-01T01:22:17+00:00",
+    "added": [
+      {
+        "id": "signal-1102002812",
+        "name": "斗地主经典版-单机游戏欢乐版棋牌残局闯关",
+        "version": "9.0.11",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E6%96%97%E5%9C%B0%E4%B8%BB%E7%BB%8F%E5%85%B8%E7%89%88-%E5%8D%95%E6%9C%BA%E6%B8%B8%E6%88%8F%E6%AC%A2%E4%B9%90%E7%89%88%E6%A3%8B%E7%89%8C%E6%AE%8B%E5%B1%80%E9%97%AF%E5%85%B3/id1102002812?uo=4",
+        "status": "unverified",
+        "itunesId": 1102002812,
+        "appType": "game",
+        "category": "游戏"
+      },
+      {
+        "id": "signal-1129429340",
+        "name": "RaceChrono Pro",
+        "version": "10.3.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/racechrono-pro/id1129429340?uo=4",
+        "status": "unverified",
+        "itunesId": 1129429340,
+        "appType": "software",
+        "category": "体育"
+      },
+      {
+        "id": "signal-1203032512",
+        "name": "Fishing Points: Map & Forecast",
+        "version": "4.2.9",
+        "appStoreUrl": "https://apps.apple.com/cn/app/fishing-points-map-forecast/id1203032512?uo=4",
+        "status": "unverified",
+        "itunesId": 1203032512,
+        "appType": "software",
+        "category": "体育"
+      },
+      {
+        "id": "signal-1216074913",
+        "name": "捕鱼风暴-单机街机游戏打鱼大咖来了",
+        "version": "5.2.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E6%8D%95%E9%B1%BC%E9%A3%8E%E6%9A%B4-%E5%8D%95%E6%9C%BA%E8%A1%97%E6%9C%BA%E6%B8%B8%E6%88%8F%E6%89%93%E9%B1%BC%E5%A4%A7%E5%92%96%E6%9D%A5%E4%BA%86/id1216074913?uo=4",
+        "status": "unverified",
+        "itunesId": 1216074913,
+        "appType": "game",
+        "category": "游戏"
+      },
+      {
+        "id": "signal-1233738041",
+        "name": "克拉壁纸 - 日常之美，跃然屏上",
+        "version": "9.1.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%85%8B%E6%8B%89%E5%A3%81%E7%BA%B8-%E6%97%A5%E5%B8%B8%E4%B9%8B%E7%BE%8E-%E8%B7%83%E7%84%B6%E5%B1%8F%E4%B8%8A/id1233738041?uo=4",
+        "status": "unverified",
+        "itunesId": 1233738041,
+        "appType": "software",
+        "category": "摄影与录像"
+      }
+    ],
+    "updated": [
+      {
+        "id": "signal-1068039220",
+        "name": "GoodTask: 待办清单与任务管理，每日计划与时间安排",
+        "version": "8.6.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/goodtask-%E5%BE%85%E5%8A%9E%E6%B8%85%E5%8D%95%E4%B8%8E%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86-%E6%AF%8F%E6%97%A5%E8%AE%A1%E5%88%92%E4%B8%8E%E6%97%B6%E9%97%B4%E5%AE%89%E6%8E%92/id1068039220?uo=4",
+        "status": "unverified",
+        "itunesId": 1068039220,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "8.6.1"
+      }
+    ],
+    "signals": [
+      {
+        "id": "signal-930368978",
+        "name": "钉钉",
+        "version": "9.0.6",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E9%92%89%E9%92%89/id930368978?uo=4",
+        "status": "unverified",
+        "itunesId": 930368978,
+        "appType": "software",
+        "category": "商务",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "9.0.6",
+          "excerpt": "【抢鲜】 适配 iPhone Duo 【钉钉，让沟通更年轻】 导航栏支持用户进行自定义应用管理； 快捷操作栏支持用户新建日程； AI语音自动热词功能； AI语音移动端按住说话场景优化； 免打扰分组支持编辑； 增加横向常用消息分组设置； 长按点赞按钮可选择更多点赞样式。 【AI听记】 纪要支持溯源：每一句结论，都能点回原话； MCP开放标签与纪要模板：让Agent帮你建、帮你管。 【会议AI】 开启等候室，仅可见入会后听记。 【语音通话】 语音通话听记支持区分发言人。 【AI表格】 版本回退让误操作更容易恢复； 自动化发送消息支持按动态用户组、部门和角色发送； 自定义AI…",
+          "url": "https://apps.apple.com/cn/app/id930368978",
+          "date": "2026-10-26"
+        }
+      },
+      {
+        "id": "signal-944118456",
+        "name": "EXIF Viewer：照片元数据",
+        "version": "7.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/exif-viewer-%E7%85%A7%E7%89%87%E5%85%83%E6%95%B0%E6%8D%AE/id944118456?uo=4",
+        "status": "unverified",
+        "itunesId": 944118456,
+        "appType": "software",
+        "category": "摄影与录像",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "7.1",
+          "excerpt": "…re，搜索“EXIF Viewer by Fluntro”即可下载。 初次使用 EXIF Viewer by Fluntro？ 一次购买，即可在 iPhone、iPad 和 Mac 上畅享使用。 本次更新还包含： 支持 iPhone Duo 以及 iPhone 18、iPhone 18 Pro Max 支持 iOS 27 新增从其他照片或自定义预设中复制元数据的功能 修复了 iOS 15.x 和 iOS 16.x 用户的闪退问题 性能与稳定性提升 感谢每一位使用 EXIF Viewer、向我们反馈问题、提出功能建议并留下好评的用户。正是因为你们，这款应用才能在 12 年后依然充满活力。",
+          "url": "https://apps.apple.com/cn/app/id944118456",
+          "date": "2026-10-26"
+        }
+      },
+      {
+        "id": "signal-932687167",
+        "name": "iSpreadsheet™ : 电子计算表",
+        "version": "27.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/ispreadsheet-%E7%94%B5%E5%AD%90%E8%AE%A1%E7%AE%97%E8%A1%A8/id932687167?uo=4",
+        "status": "unverified",
+        "itunesId": 932687167,
+        "appType": "software",
+        "category": "财务",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "27.1",
+          "excerpt": "iPhone Duo Support",
+          "url": "https://apps.apple.com/cn/app/id932687167",
+          "date": "2026-10-30"
+        }
+      },
+      {
+        "id": "signal-1102002812",
+        "name": "斗地主经典版-单机游戏欢乐版棋牌残局闯关",
+        "version": "9.0.11",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E6%96%97%E5%9C%B0%E4%B8%BB%E7%BB%8F%E5%85%B8%E7%89%88-%E5%8D%95%E6%9C%BA%E6%B8%B8%E6%88%8F%E6%AC%A2%E4%B9%90%E7%89%88%E6%A3%8B%E7%89%8C%E6%AE%8B%E5%B1%80%E9%97%AF%E5%85%B3/id1102002812?uo=4",
+        "status": "unverified",
+        "itunesId": 1102002812,
+        "appType": "game",
+        "category": "游戏",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "9.0.11",
+          "excerpt": "斗地主经典版，完美单机！ 强力AI随时开局，支持单机无网络！ 多人对战，海量玩法！ 适配 iphone duo，横竖屏切换！ 优化iWatch玩法，新增手表新玩法！ 修复已知问题，优化性能！",
+          "url": "https://apps.apple.com/cn/app/%E6%96%97%E5%9C%B0%E4%B8%BB%E7%BB%8F%E5%85%B8%E7%89%88-%E5%8D%95%E6%9C%BA%E6%B8%B8%E6%88%8F%E6%AC%A2%E4%B9%90%E7%89%88%E6%A3%8B%E7%89%8C%E6%AE%8B%E5%B1%80%E9%97%AF%E5%85%B3/id1102002812?uo=4",
+          "date": "2026-10-26"
+        }
+      },
+      {
+        "id": "signal-1129429340",
+        "name": "RaceChrono Pro",
+        "version": "10.3.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/racechrono-pro/id1129429340?uo=4",
+        "status": "unverified",
+        "itunesId": 1129429340,
+        "appType": "software",
+        "category": "体育",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "10.3.1",
+          "excerpt": "- Added iPhone Duo support - Added bar gauge for video overlay and live screen - Added support for Dexian D1 and DigSpice IV GPS receivers - Many fixes",
+          "url": "https://apps.apple.com/cn/app/racechrono-pro/id1129429340?uo=4",
+          "date": "2026-10-29"
+        }
+      },
+      {
+        "id": "signal-1203032512",
+        "name": "Fishing Points: Map & Forecast",
+        "version": "4.2.9",
+        "appStoreUrl": "https://apps.apple.com/cn/app/fishing-points-map-forecast/id1203032512?uo=4",
+        "status": "unverified",
+        "itunesId": 1203032512,
+        "appType": "software",
+        "category": "体育",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "4.2.9",
+          "excerpt": "- iPhone Duo and iOS27 support - Redesigned catches list with search, sort and grouping - Live activities for navigation, recording and anchor mode - Liquid Glass Design: Enjoy our biggest redesign ever: polished, intuitive, and easier to use - Resolved Login with Facebook issues -…",
+          "url": "https://apps.apple.com/cn/app/fishing-points-map-forecast/id1203032512?uo=4",
+          "date": "2026-10-24"
+        }
+      },
+      {
+        "id": "signal-1216074913",
+        "name": "捕鱼风暴-单机街机游戏打鱼大咖来了",
+        "version": "5.2.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E6%8D%95%E9%B1%BC%E9%A3%8E%E6%9A%B4-%E5%8D%95%E6%9C%BA%E8%A1%97%E6%9C%BA%E6%B8%B8%E6%88%8F%E6%89%93%E9%B1%BC%E5%A4%A7%E5%92%96%E6%9D%A5%E4%BA%86/id1216074913?uo=4",
+        "status": "unverified",
+        "itunesId": 1216074913,
+        "appType": "game",
+        "category": "游戏",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "5.2.3",
+          "excerpt": "不花一分钱！一样玩捕鱼！ 单机休闲！无限鱼币随便打！ 轻松回本！不破产！爆率超级高！ 折扣福利送不停！玩一下停不下来！ 适配 iphone duo，横竖屏切换！ 全新美术效果升级！ 修复已知bug，提升用户体验！",
+          "url": "https://apps.apple.com/cn/app/%E6%8D%95%E9%B1%BC%E9%A3%8E%E6%9A%B4-%E5%8D%95%E6%9C%BA%E8%A1%97%E6%9C%BA%E6%B8%B8%E6%88%8F%E6%89%93%E9%B1%BC%E5%A4%A7%E5%92%96%E6%9D%A5%E4%BA%86/id1216074913?uo=4",
+          "date": "2026-10-27"
+        }
+      },
+      {
+        "id": "signal-1233738041",
+        "name": "克拉壁纸 - 日常之美，跃然屏上",
+        "version": "9.1.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%85%8B%E6%8B%89%E5%A3%81%E7%BA%B8-%E6%97%A5%E5%B8%B8%E4%B9%8B%E7%BE%8E-%E8%B7%83%E7%84%B6%E5%B1%8F%E4%B8%8A/id1233738041?uo=4",
+        "status": "unverified",
+        "itunesId": 1233738041,
+        "appType": "software",
+        "category": "摄影与录像",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "9.1.2",
+          "excerpt": "修复了快捷指令教程、小组件显示异常等问题，并带来一些细节优化，让克拉壁纸的使用体验更加稳定、顺畅。 近期重要更新： 我们为新系统与 iPhone Duo 重新设计并构建了克拉壁纸，带来更自然、流畅的使用体验。 分享你的作品：现在支持投稿原创摄影、设计作品和 AI 壁纸。AI 作品还可以附上创作提示词，与大家分享灵感和创作过程。 为不同屏幕而设计：每日更新精选壁纸，每周推出新的竖屏与宽屏专题，针对 iPhone、iPhone Duo、iPad 和 Mac 优化展示效果。下载前，还可以预览锁屏与主屏幕的实际效果。 小组件与自动更换：新增超大尺寸的桌面小组件，并持续支持通过快捷指令自动更换壁纸，让喜欢的画面更容易出现在你的屏幕上。",
+          "url": "https://apps.apple.com/cn/app/%E5%85%8B%E6%8B%89%E5%A3%81%E7%BA%B8-%E6%97%A5%E5%B8%B8%E4%B9%8B%E7%BE%8E-%E8%B7%83%E7%84%B6%E5%B1%8F%E4%B8%8A/id1233738041?uo=4",
+          "date": "2026-10-29"
+        }
+      }
+    ],
+    "addedCounts": {
+      "software": 3,
+      "game": 2,
+      "unknown": 0
+    },
+    "coverageCN": {
+      "poolSize": 7803,
+      "lookupScheduled": 605,
+      "priorityScheduled": 5,
+      "lookupReturned": 605,
+      "categoryFeedsSucceeded": 28,
+      "categoryFeedsAttempted": 28,
+      "gameFeedsSucceeded": 12,
+      "gameFeedsAttempted": 12,
+      "gameGenreIds": [
+        7007,
+        7008,
+        7009,
+        7011,
+        7012,
+        7013
+      ],
+      "genreIds": [
+        6002,
+        6003,
+        6004,
+        6005,
+        6006,
+        6007,
+        6008,
+        6009
+      ],
+      "time": "2026-11-01T01:17:34+00:00"
+    }
+  },
+  {
     "time": "2026-10-31T21:49:12+00:00",
     "added": [
       {
