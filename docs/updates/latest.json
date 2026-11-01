@@ -1,51 +1,279 @@
 {
-  "time": "2026-11-01T13:12:54+00:00",
+  "time": "2026-11-01T15:23:14+00:00",
   "added": [
     {
-      "id": "community-issue-app-6818190145",
-      "name": "AskZine",
-      "version": "1.0.3",
-      "appStoreUrl": "https://apps.apple.com/cn/app/id6818190145",
+      "id": "signal-1451559391",
+      "name": "Phone Buddy Phone Lost Alert",
+      "version": "7.9.0",
+      "appStoreUrl": "https://apps.apple.com/cn/app/phone-buddy-phone-lost-alert/id1451559391?uo=4",
       "status": "unverified",
-      "itunesId": 6818190145,
+      "itunesId": 1451559391,
       "appType": "software",
-      "category": "娱乐"
+      "category": "效率"
+    },
+    {
+      "id": "signal-1470936215",
+      "name": "力扣 LeetCode",
+      "version": "2.19.4",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E5%8A%9B%E6%89%A3-leetcode/id1470936215?uo=4",
+      "status": "unverified",
+      "itunesId": 1470936215,
+      "appType": "software",
+      "category": "软件开发工具"
+    },
+    {
+      "id": "signal-1483319712",
+      "name": "全民找茬 - 正版唯美画风",
+      "version": "2.0.5",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E5%85%A8%E6%B0%91%E6%89%BE%E8%8C%AC-%E6%AD%A3%E7%89%88%E5%94%AF%E7%BE%8E%E7%94%BB%E9%A3%8E/id1483319712?uo=4",
+      "status": "unverified",
+      "itunesId": 1483319712,
+      "appType": "game",
+      "category": "游戏"
     }
   ],
-  "updated": [],
-  "signals": [],
+  "updated": [
+    {
+      "id": "apple-006",
+      "name": "Zoom",
+      "version": "7.2.5",
+      "appStoreUrl": "https://apps.apple.com/cn/app/zoom-workplace/id546505307?uo=4",
+      "status": "apple_featured",
+      "itunesId": 546505307,
+      "appType": "software",
+      "category": "商务",
+      "previousVersion": "7.2.3"
+    },
+    {
+      "id": "signal-1534704608",
+      "name": "我的桌面 · iScreen - 桌面小组件主题壁纸",
+      "version": "5.1.25",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%A1%8C%E9%9D%A2-iscreen-%E6%A1%8C%E9%9D%A2%E5%B0%8F%E7%BB%84%E4%BB%B6%E4%B8%BB%E9%A2%98%E5%A3%81%E7%BA%B8/id1534704608?uo=4",
+      "status": "unverified",
+      "itunesId": 1534704608,
+      "appType": "software",
+      "category": "图形与设计",
+      "previousVersion": "5.1.21"
+    },
+    {
+      "id": "signal-1048454034",
+      "name": "Gymverse: Gym Workout Planner",
+      "version": "9.1030",
+      "appStoreUrl": "https://apps.apple.com/cn/app/gymverse-gym-workout-planner/id1048454034?uo=4",
+      "status": "unverified",
+      "itunesId": 1048454034,
+      "appType": "software",
+      "category": "健康健美",
+      "previousVersion": "9.1020"
+    },
+    {
+      "id": "signal-6747717070",
+      "name": "VoidLink",
+      "version": "3.5.13",
+      "appStoreUrl": "https://apps.apple.com/cn/app/voidlink/id6747717070?uo=4",
+      "status": "unverified",
+      "itunesId": 6747717070,
+      "appType": "software",
+      "category": "工具",
+      "previousVersion": "3.5.12"
+    },
+    {
+      "id": "signal-6760661273",
+      "name": "塞勒涅 月相日历",
+      "version": "2.0.2",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E5%A1%9E%E5%8B%92%E6%B6%85-%E6%9C%88%E7%9B%B8%E6%97%A5%E5%8E%86/id6760661273?uo=4",
+      "status": "unverified",
+      "itunesId": 6760661273,
+      "appType": "software",
+      "category": "天气",
+      "previousVersion": "2.0.1"
+    },
+    {
+      "id": "signal-284947174",
+      "name": "iXpenseIt Pro: 管理财务",
+      "version": "11.3.1",
+      "appStoreUrl": "https://apps.apple.com/cn/app/ixpenseit-pro-%E7%AE%A1%E7%90%86%E8%B4%A2%E5%8A%A1/id284947174?uo=4",
+      "status": "unverified",
+      "itunesId": 284947174,
+      "appType": "software",
+      "category": "财务",
+      "previousVersion": "11.3.0"
+    },
+    {
+      "id": "signal-6478436772",
+      "name": "组件岛Widget Island-手机锁屏桌面组件主题壁纸",
+      "version": "2.0.2.0",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E7%BB%84%E4%BB%B6%E5%B2%9Bwidget-island-%E6%89%8B%E6%9C%BA%E9%94%81%E5%B1%8F%E6%A1%8C%E9%9D%A2%E7%BB%84%E4%BB%B6%E4%B8%BB%E9%A2%98%E5%A3%81%E7%BA%B8/id6478436772?uo=4",
+      "status": "unverified",
+      "itunesId": 6478436772,
+      "appType": "software",
+      "category": "图形与设计",
+      "previousVersion": "2.0.1.0"
+    },
+    {
+      "id": "signal-6749835845",
+      "name": "飓风相机 - 实时电影感拍摄",
+      "version": "2.0.3",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E9%A3%93%E9%A3%8E%E7%9B%B8%E6%9C%BA-%E5%AE%9E%E6%97%B6%E7%94%B5%E5%BD%B1%E6%84%9F%E6%8B%8D%E6%91%84/id6749835845?uo=4",
+      "status": "unverified",
+      "itunesId": 6749835845,
+      "appType": "software",
+      "category": "摄影与录像",
+      "previousVersion": "2.0.2"
+    },
+    {
+      "id": "signal-6781949759",
+      "name": "好女子",
+      "version": "1.0.4",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E5%A5%BD%E5%A5%B3%E5%AD%90/id6781949759?uo=4",
+      "status": "unverified",
+      "itunesId": 6781949759,
+      "appType": "software",
+      "category": "社交",
+      "previousVersion": "1.0.3"
+    },
+    {
+      "id": "signal-6784084452",
+      "name": "PicSlicer",
+      "version": "6.0.14",
+      "appStoreUrl": "https://apps.apple.com/cn/app/picslicer/id6784084452?uo=4",
+      "status": "unverified",
+      "itunesId": 6784084452,
+      "appType": "software",
+      "category": "旅游",
+      "previousVersion": "6.0.12"
+    },
+    {
+      "id": "signal-6814736751",
+      "name": "框住了：3D截图套壳",
+      "version": "1.5.2",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E6%A1%86%E4%BD%8F%E4%BA%86-3d%E6%88%AA%E5%9B%BE%E5%A5%97%E5%A3%B3/id6814736751?uo=4",
+      "status": "unverified",
+      "itunesId": 6814736751,
+      "appType": "software",
+      "category": "图形与设计",
+      "previousVersion": "1.5.1"
+    }
+  ],
+  "signals": [
+    {
+      "id": "signal-961390574",
+      "name": "CARROT 天气: 预警与雷达",
+      "version": "6.9.2",
+      "appStoreUrl": "https://apps.apple.com/cn/app/carrot-%E5%A4%A9%E6%B0%94-%E9%A2%84%E8%AD%A6%E4%B8%8E%E9%9B%B7%E8%BE%BE/id961390574?uo=4",
+      "status": "unverified",
+      "itunesId": 961390574,
+      "appType": "software",
+      "category": "天气",
+      "evidence": {
+        "type": "app_store_page_release_notes",
+        "version": "6.9.2",
+        "excerpt": "…with their neighbors. Naturally, I’ve been busy building another update to your favorite weather app. - Added iPhone Duo support. - Added multi-window support. - Improved Super Res Radar’s dual-pane mode so that it can now split vertically in portrait and horizontally in landscape on larger screens. - Fixed truncated Live Activities on iPhone 18. Happy Halloween, meatbags! Enjoy dressing…",
+        "url": "https://apps.apple.com/cn/app/id961390574",
+        "date": "2026-10-09"
+      }
+    },
+    {
+      "id": "signal-957061929",
+      "name": "PDF扫描仪：日期水印",
+      "version": "1.2",
+      "appStoreUrl": "https://apps.apple.com/cn/app/pdf%E6%89%AB%E6%8F%8F%E4%BB%AA-%E6%97%A5%E6%9C%9F%E6%B0%B4%E5%8D%B0/id957061929?uo=4",
+      "status": "unverified",
+      "itunesId": 957061929,
+      "appType": "software",
+      "category": "商务",
+      "evidence": {
+        "type": "app_store_page_release_notes",
+        "version": "1.2",
+        "excerpt": "**更新内容** • 新增对 iPhone Duo 的支持，针对折叠和展开状态提供自适应布局。 • 优化文档预览与编辑体验，更充分地利用展开后的屏幕空间。 • 改进页面裁剪、标注、滤镜和 PDF 创建界面的布局。 • 优化文档扫描、印章设置和 PDF 导出界面，以适应不同屏幕尺寸。 • 提升界面响应速度、布局稳定性及与最新 iOS 版本的兼容性。 • 其他界面细节优化和问题修复。",
+        "url": "https://apps.apple.com/cn/app/id957061929",
+        "date": "2026-10-23"
+      }
+    },
+    {
+      "id": "signal-1451559391",
+      "name": "Phone Buddy Phone Lost Alert",
+      "version": "7.9.0",
+      "appStoreUrl": "https://apps.apple.com/cn/app/phone-buddy-phone-lost-alert/id1451559391?uo=4",
+      "status": "unverified",
+      "itunesId": 1451559391,
+      "appType": "software",
+      "category": "效率",
+      "evidence": {
+        "type": "app_store_release_notes_mention",
+        "version": "7.9.0",
+        "excerpt": "…this release brings that new foundation to your iPhone and Apple Watch, along with support for watchOS 27 and iPhone Duo. WATCHOS 27 Phone Buddy is now fully compatible with watchOS 27. The watch face complication has been rebuilt on WidgetKit so it keeps showing your Phone Lost Alert status on the latest watchOS. Your existing complication slots move over automatically. NEW BLUETOOTH EN…",
+        "url": "https://apps.apple.com/cn/app/phone-buddy-phone-lost-alert/id1451559391?uo=4",
+        "date": "2026-10-31"
+      }
+    },
+    {
+      "id": "signal-1470936215",
+      "name": "力扣 LeetCode",
+      "version": "2.19.4",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E5%8A%9B%E6%89%A3-leetcode/id1470936215?uo=4",
+      "status": "unverified",
+      "itunesId": 1470936215,
+      "appType": "software",
+      "category": "软件开发工具",
+      "evidence": {
+        "type": "app_store_release_notes_mention",
+        "version": "2.19.4",
+        "excerpt": "针对 iPhone Duo 与 iPad 全面优化，带来更出色的大屏体验。",
+        "url": "https://apps.apple.com/cn/app/%E5%8A%9B%E6%89%A3-leetcode/id1470936215?uo=4",
+        "date": "2026-10-30"
+      }
+    },
+    {
+      "id": "signal-1483319712",
+      "name": "全民找茬 - 正版唯美画风",
+      "version": "2.0.5",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E5%85%A8%E6%B0%91%E6%89%BE%E8%8C%AC-%E6%AD%A3%E7%89%88%E5%94%AF%E7%BE%8E%E7%94%BB%E9%A3%8E/id1483319712?uo=4",
+      "status": "unverified",
+      "itunesId": 1483319712,
+      "appType": "game",
+      "category": "游戏",
+      "evidence": {
+        "type": "app_store_release_notes_mention",
+        "version": "2.0.5",
+        "excerpt": "• 适配 iPhone Duo，支持折叠、展开与半折叠时的界面切换。 • 优化找不同画面布局和小屋家具的触控摆放。",
+        "url": "https://apps.apple.com/cn/app/%E5%85%A8%E6%B0%91%E6%89%BE%E8%8C%AC-%E6%AD%A3%E7%89%88%E5%94%AF%E7%BE%8E%E7%94%BB%E9%A3%8E/id1483319712?uo=4",
+        "date": "2026-11-01"
+      }
+    }
+  ],
   "addedCounts": {
-    "software": 1,
-    "game": 0,
+    "software": 2,
+    "game": 1,
     "unknown": 0
   },
   "coverageCN": {
-    "poolSize": 7864,
-    "lookupScheduled": 604,
+    "poolSize": 7928,
+    "lookupScheduled": 605,
     "priorityScheduled": 5,
-    "lookupReturned": 603,
+    "lookupReturned": 602,
     "categoryFeedsSucceeded": 28,
     "categoryFeedsAttempted": 28,
     "gameFeedsSucceeded": 12,
     "gameFeedsAttempted": 12,
     "gameGenreIds": [
-      7014,
-      7015,
-      7016,
-      7017,
-      7018,
-      7019
+      7001,
+      7002,
+      7003,
+      7004,
+      7005,
+      7006
     ],
     "genreIds": [
-      6010,
-      6011,
-      6012,
-      6013,
-      6014,
-      6015,
-      6016,
-      6017
+      6018,
+      6020,
+      6021,
+      6022,
+      6023,
+      6024,
+      6026,
+      6027
     ],
-    "time": "2026-11-01T07:40:32+00:00"
+    "time": "2026-11-01T15:18:46+00:00"
   }
 }
