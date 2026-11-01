@@ -1,5 +1,169 @@
 [
   {
+    "time": "2026-11-01T23:46:44+00:00",
+    "added": [
+      {
+        "id": "signal-1615288664",
+        "name": "法环地图艾尔登冒险指南",
+        "version": "3.5.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E6%B3%95%E7%8E%AF%E5%9C%B0%E5%9B%BE%E8%89%BE%E5%B0%94%E7%99%BB%E5%86%92%E9%99%A9%E6%8C%87%E5%8D%97/id1615288664?uo=4",
+        "status": "unverified",
+        "itunesId": 1615288664,
+        "appType": "software",
+        "category": "工具"
+      },
+      {
+        "id": "signal-1627691759",
+        "name": "小鸡专注-番茄钟自律学习计时器极简治愈学霸必备",
+        "version": "4.8.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%B0%8F%E9%B8%A1%E4%B8%93%E6%B3%A8-%E7%95%AA%E8%8C%84%E9%92%9F%E8%87%AA%E5%BE%8B%E5%AD%A6%E4%B9%A0%E8%AE%A1%E6%97%B6%E5%99%A8%E6%9E%81%E7%AE%80%E6%B2%BB%E6%84%88%E5%AD%A6%E9%9C%B8%E5%BF%85%E5%A4%87/id1627691759?uo=4",
+        "status": "unverified",
+        "itunesId": 1627691759,
+        "appType": "software",
+        "category": "效率"
+      }
+    ],
+    "updated": [],
+    "signals": [
+      {
+        "id": "apple-028",
+        "name": "Airmail",
+        "version": "27.0.7",
+        "appStoreUrl": "https://apps.apple.com/cn/app/airmail-for-gmail-outlook-imap/id993160329?uo=4",
+        "status": "apple_featured",
+        "itunesId": 993160329,
+        "appType": "software",
+        "category": "效率",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "27.0.5",
+          "excerpt": "iPhone Duo support",
+          "url": "https://apps.apple.com/cn/app/id993160329",
+          "date": "2026-10-14"
+        }
+      },
+      {
+        "id": "signal-989178902",
+        "name": "日历 - Family organizer planner",
+        "version": "5.2.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E6%97%A5%E5%8E%86-family-organizer-planner/id989178902?uo=4",
+        "status": "unverified",
+        "itunesId": 989178902,
+        "appType": "software",
+        "category": "效率",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "5.2.2",
+          "excerpt": "Timepage 现已支持 iPhone Duo。 合上时，它就是你熟悉又喜爱的那款日历。打开后，你的日程会在更大的屏幕上展开。全新的竖向导航专为 iPhone Duo 设计，界面也会随你的使用方式自动适配。 而且不只是 iPhone Duo：Timepage 现在也支持在 iPad 上使用多个窗口。将两个 Timepage 窗口并排打开，一边显示今天精确到分钟的日程，另一边显示整个月，或者按你喜欢的方式自由安排。 我们是一支由真实的人组成的小团队，非常期待听到你的反馈。欢迎发送邮件至 timepage@bonobolabs.com 和我们打个招呼。",
+          "url": "https://apps.apple.com/cn/app/id989178902",
+          "date": "2026-10-25"
+        }
+      },
+      {
+        "id": "signal-6449542999",
+        "name": "香芋壁纸-高清壁纸与8K超清手机平板壁纸",
+        "version": "2.1.4",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E9%A6%99%E8%8A%8B%E5%A3%81%E7%BA%B8-%E9%AB%98%E6%B8%85%E5%A3%81%E7%BA%B8%E4%B8%8E8k%E8%B6%85%E6%B8%85%E6%89%8B%E6%9C%BA%E5%B9%B3%E6%9D%BF%E5%A3%81%E7%BA%B8/id6449542999?uo=4",
+        "status": "unverified",
+        "itunesId": 6449542999,
+        "appType": "software",
+        "category": "图形与设计",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "2.1.4",
+          "excerpt": "本次更新： • 全新「一键换壁纸」：在详情页点一下，直接换到锁屏和主屏幕 • 快捷指令换壁纸新增主屏幕效果：自动、模糊、原图三种可选 • 适配 iPhone Duo 感谢你的支持，我们会持续打磨每一个细节～",
+          "url": "https://apps.apple.com/cn/app/%E9%A6%99%E8%8A%8B%E5%A3%81%E7%BA%B8-%E9%AB%98%E6%B8%85%E5%A3%81%E7%BA%B8%E4%B8%8E8k%E8%B6%85%E6%B8%85%E6%89%8B%E6%9C%BA%E5%B9%B3%E6%9D%BF%E5%A3%81%E7%BA%B8/id6449542999?uo=4",
+          "date": "2026-10-30"
+        }
+      },
+      {
+        "id": "signal-983145797",
+        "name": "超注音",
+        "version": "2.4.5",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E8%B6%85%E6%B3%A8%E9%9F%B3/id983145797?uo=4",
+        "status": "unverified",
+        "itunesId": 983145797,
+        "appType": "software",
+        "category": "工具",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "2.4.5",
+          "excerpt": "Ver 2.4.5: • 支持 iPhone Duo，内外屏幕各自记住键盘高度与字体大小 • “AI 润饰”不再列出 OpenAI 已停用的模型，默认模型改为 gpt-6-luna",
+          "url": "https://apps.apple.com/cn/app/id983145797",
+          "date": "2026-10-29"
+        }
+      },
+      {
+        "id": "signal-1615288664",
+        "name": "法环地图艾尔登冒险指南",
+        "version": "3.5.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E6%B3%95%E7%8E%AF%E5%9C%B0%E5%9B%BE%E8%89%BE%E5%B0%94%E7%99%BB%E5%86%92%E9%99%A9%E6%8C%87%E5%8D%97/id1615288664?uo=4",
+        "status": "unverified",
+        "itunesId": 1615288664,
+        "appType": "software",
+        "category": "工具",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "3.5.2",
+          "excerpt": "适配 iPhone Duo.",
+          "url": "https://apps.apple.com/cn/app/%E6%B3%95%E7%8E%AF%E5%9C%B0%E5%9B%BE%E8%89%BE%E5%B0%94%E7%99%BB%E5%86%92%E9%99%A9%E6%8C%87%E5%8D%97/id1615288664?uo=4",
+          "date": "2026-10-30"
+        }
+      },
+      {
+        "id": "signal-1627691759",
+        "name": "小鸡专注-番茄钟自律学习计时器极简治愈学霸必备",
+        "version": "4.8.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%B0%8F%E9%B8%A1%E4%B8%93%E6%B3%A8-%E7%95%AA%E8%8C%84%E9%92%9F%E8%87%AA%E5%BE%8B%E5%AD%A6%E4%B9%A0%E8%AE%A1%E6%97%B6%E5%99%A8%E6%9E%81%E7%AE%80%E6%B2%BB%E6%84%88%E5%AD%A6%E9%9C%B8%E5%BF%85%E5%A4%87/id1627691759?uo=4",
+        "status": "unverified",
+        "itunesId": 1627691759,
+        "appType": "software",
+        "category": "效率",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "4.8.2",
+          "excerpt": "- 已针对 iPhone Duo 优化、支持 iOS 27 - 新动物：鹦鹉「小太阳」登场！ - 初代小鸡全新配色「栗子」登场！ - 专注记录备份新增云端备份选项，数据安全更有保障！ - 优化其他已知问题。",
+          "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E9%B8%A1%E4%B8%93%E6%B3%A8-%E7%95%AA%E8%8C%84%E9%92%9F%E8%87%AA%E5%BE%8B%E5%AD%A6%E4%B9%A0%E8%AE%A1%E6%97%B6%E5%99%A8%E6%9E%81%E7%AE%80%E6%B2%BB%E6%84%88%E5%AD%A6%E9%9C%B8%E5%BF%85%E5%A4%87/id1627691759?uo=4",
+          "date": "2026-10-29"
+        }
+      }
+    ],
+    "addedCounts": {
+      "software": 2,
+      "game": 0,
+      "unknown": 0
+    },
+    "coverageCN": {
+      "poolSize": 8043,
+      "lookupScheduled": 604,
+      "priorityScheduled": 5,
+      "lookupReturned": 603,
+      "categoryFeedsSucceeded": 28,
+      "categoryFeedsAttempted": 28,
+      "gameFeedsSucceeded": 12,
+      "gameFeedsAttempted": 12,
+      "gameGenreIds": [
+        7014,
+        7015,
+        7016,
+        7017,
+        7018,
+        7019
+      ],
+      "genreIds": [
+        6008,
+        6009,
+        6010,
+        6011,
+        6012,
+        6013,
+        6014,
+        6015
+      ],
+      "time": "2026-11-01T23:42:21+00:00"
+    }
+  },
+  {
     "time": "2026-11-01T19:53:35+00:00",
     "added": [
       {

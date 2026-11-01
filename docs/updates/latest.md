@@ -1,68 +1,43 @@
 # 本轮抓取报告
-2026-11-01T19:53:35+00:00
+2026-11-01T23:46:44+00:00
 
 新增收录、版本更新和适配线索分开统计；不代表本站实测。
 
 ## 国区扫描范围
-候选池 7982 个 ID；本轮计划检查 605 个；分类榜单成功 28/28。
+候选池 8043 个 ID；本轮计划检查 604 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
 
-## 新增 App（7）
-- 蓝牙调试助手｜2.9.6
-- Prodrafts - 无限笔记&草稿｜5.1.9
-- 白云天气 - 感知自然呼吸｜2.81
-- Meets Link｜2.0
-- V2er-只为V2EX｜1.3.9
-- WPS协作｜5.56.1
-- Paste – 剪贴板管理工具｜7.0.4
+## 新增 App（2）
+- 法环地图艾尔登冒险指南｜3.5.2
+- 小鸡专注-番茄钟自律学习计时器极简治愈学霸必备｜4.8.2
 
 ## 已有 App 版本更新（0）
 无。
 
-## 新增或变化的适配线索（11）
-- Sunset Predictions: Alpenglow｜12.1.4
-  证据版本：12.1.4；• Support for iPhone Duo: screens throughout Alpenglow are optimized for iPhone Duo. • Couple of bug fixes to iPhone Duo support. • Vantage Point: Long-press the map in Direction mode to stand anywhere and see the real terrain, buildings, sun, moon and stars at any time (Requires Alpenglow Pro…
-  https://apps.apple.com/cn/app/id978589174
-- 我的桌面 · iScreen - 桌面小组件主题壁纸｜5.1.25
-  证据版本：5.1.25；全新适配 iPhone Duo 和 iOS27，优化使用体验。
-  https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%A1%8C%E9%9D%A2-iscreen-%E6%A1%8C%E9%9D%A2%E5%B0%8F%E7%BB%84%E4%BB%B6%E4%B8%BB%E9%A2%98%E5%A3%81%E7%BA%B8/id1534704608?uo=4
-- My Earthquake Alerts Pro｜26.6.3
-  证据版本：26.6.3；- The design of the app has been improved. - iPhone Duo support.
-  https://apps.apple.com/cn/app/id975770717
-- Colorful Widget彩虹小组件-万能桌面主题壁纸｜19.0.0
-  证据版本：19.0.0；- iPhone Duo 全新适配，为不同屏幕设计精美主题、壁纸、组件桌搭 - (ฅ´ω`ฅ)非常期待收到您的反馈！请留下您的宝贵评论，以便于我们进一步优化 Colorful Widget
-  https://apps.apple.com/cn/app/colorful-widget%E5%BD%A9%E8%99%B9%E5%B0%8F%E7%BB%84%E4%BB%B6-%E4%B8%87%E8%83%BD%E6%A1%8C%E9%9D%A2%E4%B8%BB%E9%A2%98%E5%A3%81%E7%BA%B8/id1538946171?uo=4
-- 蓝牙调试助手｜2.9.6
-  证据版本：2.9.6；* 适配iPhone duo * 一些细节优化
-  https://apps.apple.com/cn/app/%E8%93%9D%E7%89%99%E8%B0%83%E8%AF%95%E5%8A%A9%E6%89%8B/id1536579599?uo=4
-- Prodrafts - 无限笔记&草稿｜5.1.9
-  证据版本：5.1.9；…向所有用户开放。 • 改进即时涂抹删除与油漆刷填色体验。 • 优化大型 PDF 加载时的界面响应，改进页面拓展，并支持选择外部 PDF 的插入位置。 • 提升套索截图与复制图片的清晰度，优化大选区的内存使用。 • 优化 iPhone Duo、Apple Pencil、笔盒设置与多窗口交互，并修复多项使用细节。
-  https://apps.apple.com/cn/app/prodrafts-%E6%97%A0%E9%99%90%E7%AC%94%E8%AE%B0-%E8%8D%89%E7%A8%BF/id1545810067?uo=4
-- 白云天气 - 感知自然呼吸｜2.81
-  证据版本：2.81；- 「天气仪表」小组件适配透明模式 - 「天气仪表」小组件可选择收藏位置 近期更新： - 新增 4x6 超大尺寸小组件「天气仪表」 - 焕然一新的动态天气效果 - 性能优化与体验提升 - 适配 iPhone Duo
-  https://apps.apple.com/cn/app/%E7%99%BD%E4%BA%91%E5%A4%A9%E6%B0%94-%E6%84%9F%E7%9F%A5%E8%87%AA%E7%84%B6%E5%91%BC%E5%90%B8/id1575901953?uo=4
-- Meets Link｜2.0
-  证据版本：2.0；• 重新设计界面，优化浏览和搜索体验。 • 新增壁纸编辑器，支持相册选图、拍照和实时预览。 • 新增 iCloud 手动备份、自动备份与恢复。 • 收藏列表增加物品图片，新增回收站。 • 适配 iPhone Duo 展开与合上后的布局。
-  https://apps.apple.com/cn/app/meets-link/id1590563221?uo=4
-- V2er-只为V2EX｜1.3.9
-  证据版本：1.3.9；适配 iPhone Duo。
-  https://apps.apple.com/cn/app/v2er-%E5%8F%AA%E4%B8%BAv2ex/id1596137027?uo=4
-- WPS协作｜5.56.1
-  证据版本：5.56.1；• 适配 iPhone DUO 屏幕，提升使用稳定性
-  https://apps.apple.com/cn/app/wps%E5%8D%8F%E4%BD%9C/id1596842861?uo=4
-- Paste – 剪贴板管理工具｜7.0.4
-  证据版本：7.0.3；• Paste 已支持 iPhone Duo。展开时使用更宽的布局，工具栏的排列与 iPad 相同。折叠时保持 iPhone 布局。 • 打开搜索时，列表保持在原位。 • 如果 Paste 的本地数据库已损坏，Paste 现在会提供“重置本地数据”，让你可以重新开始。 • 修复了数据库无法打开后，最近的更改可能丢失的问题。 • Paste 键盘和小组件更加可靠。 • 稳定性和性能改进。
-  https://apps.apple.com/cn/app/id967805235
+## 新增或变化的适配线索（6）
+- Airmail｜27.0.7
+  证据版本：27.0.5；iPhone Duo support
+  https://apps.apple.com/cn/app/id993160329
+- 日历 - Family organizer planner｜5.2.2
+  证据版本：5.2.2；Timepage 现已支持 iPhone Duo。 合上时，它就是你熟悉又喜爱的那款日历。打开后，你的日程会在更大的屏幕上展开。全新的竖向导航专为 iPhone Duo 设计，界面也会随你的使用方式自动适配。 而且不只是 iPhone Duo：Timepage 现在也支持在 iPad 上使用多个窗口。将两个 Timepage 窗口并排打开，一边显示今天精确到分钟的日程，另一边显示整个月，或者按你喜欢的方式自由安排。 我们是一支由真实的人组成的小团队，非常期待听到你的反馈。欢迎发送邮件至 timepage@bonobolabs.com 和我们打个招呼。
+  https://apps.apple.com/cn/app/id989178902
+- 香芋壁纸-高清壁纸与8K超清手机平板壁纸｜2.1.4
+  证据版本：2.1.4；本次更新： • 全新「一键换壁纸」：在详情页点一下，直接换到锁屏和主屏幕 • 快捷指令换壁纸新增主屏幕效果：自动、模糊、原图三种可选 • 适配 iPhone Duo 感谢你的支持，我们会持续打磨每一个细节～
+  https://apps.apple.com/cn/app/%E9%A6%99%E8%8A%8B%E5%A3%81%E7%BA%B8-%E9%AB%98%E6%B8%85%E5%A3%81%E7%BA%B8%E4%B8%8E8k%E8%B6%85%E6%B8%85%E6%89%8B%E6%9C%BA%E5%B9%B3%E6%9D%BF%E5%A3%81%E7%BA%B8/id6449542999?uo=4
+- 超注音｜2.4.5
+  证据版本：2.4.5；Ver 2.4.5: • 支持 iPhone Duo，内外屏幕各自记住键盘高度与字体大小 • “AI 润饰”不再列出 OpenAI 已停用的模型，默认模型改为 gpt-6-luna
+  https://apps.apple.com/cn/app/id983145797
+- 法环地图艾尔登冒险指南｜3.5.2
+  证据版本：3.5.2；适配 iPhone Duo.
+  https://apps.apple.com/cn/app/%E6%B3%95%E7%8E%AF%E5%9C%B0%E5%9B%BE%E8%89%BE%E5%B0%94%E7%99%BB%E5%86%92%E9%99%A9%E6%8C%87%E5%8D%97/id1615288664?uo=4
+- 小鸡专注-番茄钟自律学习计时器极简治愈学霸必备｜4.8.2
+  证据版本：4.8.2；- 已针对 iPhone Duo 优化、支持 iOS 27 - 新动物：鹦鹉「小太阳」登场！ - 初代小鸡全新配色「栗子」登场！ - 专注记录备份新增云端备份选项，数据安全更有保障！ - 优化其他已知问题。
+  https://apps.apple.com/cn/app/%E5%B0%8F%E9%B8%A1%E4%B8%93%E6%B3%A8-%E7%95%AA%E8%8C%84%E9%92%9F%E8%87%AA%E5%BE%8B%E5%AD%A6%E4%B9%A0%E8%AE%A1%E6%97%B6%E5%99%A8%E6%9E%81%E7%AE%80%E6%B2%BB%E6%84%88%E5%AD%A6%E9%9C%B8%E5%BF%85%E5%A4%87/id1627691759?uo=4
 
-## 新增软件（7）
-- 蓝牙调试助手｜软件开发工具
-- Prodrafts - 无限笔记&草稿｜效率
-- 白云天气 - 感知自然呼吸｜天气
-- Meets Link｜工具
-- V2er-只为V2EX｜社交
-- WPS协作｜商务
-- Paste – 剪贴板管理工具｜效率
+## 新增软件（2）
+- 法环地图艾尔登冒险指南｜工具
+- 小鸡专注-番茄钟自律学习计时器极简治愈学霸必备｜效率
 
 ## 新增游戏（0）
 无。
