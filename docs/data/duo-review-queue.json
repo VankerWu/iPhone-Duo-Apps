@@ -1995,7 +1995,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/af/87/23/af872319-89b8-9763-81ea-040b671a5347/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "developer": "Away Studio LLC",
       "firstSeen": "2026-10-27T12:25:52+00:00",
-      "lastSeen": "2026-10-30T07:18:49+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -2025,7 +2025,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/00/21/6200213f-aa30-91ea-3ec9-600cf5b8e08c/GenKi__U0028black_background_U0029-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "developer": "NOERDEN",
       "firstSeen": "2026-10-30T07:18:49+00:00",
-      "lastSeen": "2026-10-30T07:18:49+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -2055,7 +2055,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/b2/cf/94b2cff0-8a61-3a13-5ab5-49871469ddcc/app-0-0-1x_U007ephone-0-0-0-1-0-85-220.png/512x512bb.jpg",
       "developer": "Verse Technology Co., Ltd.",
       "firstSeen": "2026-10-27T12:25:52+00:00",
-      "lastSeen": "2026-10-30T07:18:49+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -2083,7 +2083,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/bf/6f/bcbf6fdb-615b-efbc-3b01-b77f79053608/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "developer": "Konstantinos Papadakis",
       "firstSeen": "2026-10-27T12:25:52+00:00",
-      "lastSeen": "2026-10-30T07:18:49+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -2113,7 +2113,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/18/e6/fa18e6e3-d004-755d-b84b-30fd587fd7b2/Joyway_Default-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "developer": "QM Soft Studio",
       "firstSeen": "2026-10-26T04:27:45+00:00",
-      "lastSeen": "2026-10-30T07:18:49+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -2127,6 +2127,34 @@
         "genres": [
           "健康健美",
           "体育"
+        ],
+        "appType": "software"
+      }
+    },
+    {
+      "itunesId": 6480446430,
+      "name": "元宝-腾讯全能AI助手",
+      "storefront": "cn",
+      "version": "2.91.10",
+      "releaseDate": "2026-11-02T02:16:05Z",
+      "evidenceType": "app_store_release_notes_mention",
+      "evidenceExcerpt": "录音笔总结升级，录音完成后自动生成结构化图文纪要，无需手动整理，一张图看懂重点 新增 iPhone Duo 适配，优化使用体验",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E5%85%83%E5%AE%9D-%E8%85%BE%E8%AE%AF%E5%85%A8%E8%83%BDai%E5%8A%A9%E6%89%8B/id6480446430?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/a0/8c/e3a08c05-ac36-b833-0687-1beef7ee13fe/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "developer": "Tencent Technology (Shenzhen) Company Limited",
+      "firstSeen": "2026-11-02T06:28:31+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
+      "reviewStatus": "pending",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "cn",
+        "primaryGenreId": 6007,
+        "primaryGenreName": "效率",
+        "genreIds": [
+          6007
+        ],
+        "genres": [
+          "效率"
         ],
         "appType": "software"
       }
@@ -2173,7 +2201,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/e9/19/dde919fb-8474-ae2b-64bb-219f22927889/2511-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "developer": "editoy Inc.",
       "firstSeen": "2026-10-27T12:25:52+00:00",
-      "lastSeen": "2026-10-30T07:18:49+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -2187,6 +2215,64 @@
         "genres": [
           "效率",
           "工具"
+        ],
+        "appType": "software"
+      }
+    },
+    {
+      "itunesId": 6475028592,
+      "name": "OtterLife: AI运动健康&HRV压力提醒&习惯养成",
+      "storefront": "cn",
+      "version": "2.0.21",
+      "releaseDate": "2026-10-30T16:25:02Z",
+      "evidenceType": "app_store_release_notes_mention",
+      "evidenceExcerpt": "本次更新： - 连胜功能更新，现已支持自定义连胜目标 - 优化首页卡片编辑功能 - 优化 iPhone Duo 使用体验 - 修复生命体征图表显示、修复连胜记录问题 - 修复已知问题，提升稳定性 近期重要更新： - 全新周期功能现已上线。卵泡期、排卵期、黄体期、经期，每个阶段一目了然。全新支持记录每日出血情况与感受，支持围绝经期与绝经期追踪。还有经期异常通知，帮你更了解自己的身体。 - 官方训练计划功能上线！训练没有唯一答案。按场景、难度、时长、目标、器械与部位，找到符合当下状态的官方计划。少一点盲目选择，多一点从容开始。 - 热量锁功能优化：减脂期总是管不住嘴？开启热量锁，帮你锁住外卖软件。支持热量超标自动开启，轻断食期间自动开启，和自定义…",
+      "appStoreUrl": "https://apps.apple.com/cn/app/otterlife-ai%E8%BF%90%E5%8A%A8%E5%81%A5%E5%BA%B7-hrv%E5%8E%8B%E5%8A%9B%E6%8F%90%E9%86%92-%E4%B9%A0%E6%83%AF%E5%85%BB%E6%88%90/id6475028592?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/49/4c/68494c4c-cce3-b147-5092-5b900958c829/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "developer": "If Tech",
+      "firstSeen": "2026-11-02T06:28:31+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
+      "reviewStatus": "pending",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "cn",
+        "primaryGenreId": 6013,
+        "primaryGenreName": "健康健美",
+        "genreIds": [
+          6013
+        ],
+        "genres": [
+          "健康健美"
+        ],
+        "appType": "software"
+      }
+    },
+    {
+      "itunesId": 6473148424,
+      "name": "圆周旅迹—旅游出行AI助手智能规划,复制行程攻略地图路线记录",
+      "storefront": "cn",
+      "version": "5.16",
+      "releaseDate": "2026-11-01T12:07:15Z",
+      "evidenceType": "app_store_release_notes_mention",
+      "evidenceExcerpt": "展开旅行，看见全局 - iPhone Duo 适配已上线",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E5%9C%86%E5%91%A8%E6%97%85%E8%BF%B9-%E6%97%85%E6%B8%B8%E5%87%BA%E8%A1%8Cai%E5%8A%A9%E6%89%8B%E6%99%BA%E8%83%BD%E8%A7%84%E5%88%92-%E5%A4%8D%E5%88%B6%E8%A1%8C%E7%A8%8B%E6%94%BB%E7%95%A5%E5%9C%B0%E5%9B%BE%E8%B7%AF%E7%BA%BF%E8%AE%B0%E5%BD%95/id6473148424?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/23/cf/e023cfda-01d8-4211-2729-b7adc8b0f49d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "developer": "Chaoshi Technology (Shanghai) Co., Ltd.",
+      "firstSeen": "2026-11-02T06:28:31+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
+      "reviewStatus": "pending",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "cn",
+        "primaryGenreId": 6003,
+        "primaryGenreName": "旅游",
+        "genreIds": [
+          6003,
+          6012
+        ],
+        "genres": [
+          "旅游",
+          "生活"
         ],
         "appType": "software"
       }
@@ -2222,6 +2308,36 @@
       }
     },
     {
+      "itunesId": 6469688331,
+      "name": "番茄坐姿 - 能低头提醒的自律番茄钟",
+      "storefront": "cn",
+      "version": "7.0.0",
+      "releaseDate": "2026-10-31T14:17:15Z",
+      "evidenceType": "app_store_release_notes_mention",
+      "evidenceExcerpt": "7.0 是目前为止最大的一次更新。 整个 App 都重新设计了，一共带来 30 多项新功能和改进。 - 重磅更新：全新适配 iPhone Duo。 - 重磅更新：全新界面。主页、专注页、洞察、数据统计和设置都重新设计了。 - 重磅更新：全新适配 iOS 26 / 27 的 Liquid Glass 视觉效果。 - 重磅更新：标签支持时长预设。每个标签可以设自己的默认时长和计时方式，选好标签就能直接开始。 专注 - 新设计：背景换成了地平线暖光，跟着计时缓缓升起。 - 优化：专注不到 1 分钟就结束时，会提示「本次未计入记录」。 - 优化：按下开始更跟手，过渡动画更连贯，也去掉了开始音效。 - 优化：专注时底栏隐藏和出现会有过渡动画。 - 优化：计时圆圈上会显示耳机状态和头部角…",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E7%95%AA%E8%8C%84%E5%9D%90%E5%A7%BF-%E8%83%BD%E4%BD%8E%E5%A4%B4%E6%8F%90%E9%86%92%E7%9A%84%E8%87%AA%E5%BE%8B%E7%95%AA%E8%8C%84%E9%92%9F/id6469688331?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/32/00/5332002d-ecf6-d4d2-17f4-a293b0e07d6a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/512x512bb.jpg",
+      "developer": "Manjun Tech",
+      "firstSeen": "2026-11-02T06:28:31+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
+      "reviewStatus": "pending",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "cn",
+        "primaryGenreId": 6007,
+        "primaryGenreName": "效率",
+        "genreIds": [
+          6007,
+          6012
+        ],
+        "genres": [
+          "效率",
+          "生活"
+        ],
+        "appType": "software"
+      }
+    },
+    {
       "itunesId": 6467768299,
       "name": "Diskio：SSD与磁盘测速",
       "storefront": "cn",
@@ -2233,7 +2349,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/37/c2/3237c242-3026-c0ae-a38f-1b1d25bf3185/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "developer": "Sergii Khliustin",
       "firstSeen": "2026-10-27T05:16:33+00:00",
-      "lastSeen": "2026-10-30T07:18:49+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -2252,6 +2368,36 @@
       }
     },
     {
+      "itunesId": 6466401057,
+      "name": "身份验证器-验证器, 安全令牌, 动码令, 二次验证器",
+      "storefront": "cn",
+      "version": "1.1.5",
+      "releaseDate": "2026-10-30T17:06:18Z",
+      "evidenceType": "app_store_release_notes_mention",
+      "evidenceExcerpt": "- 新增对 iPhone Duo 的支持",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E5%99%A8-%E9%AA%8C%E8%AF%81%E5%99%A8-%E5%AE%89%E5%85%A8%E4%BB%A4%E7%89%8C-%E5%8A%A8%E7%A0%81%E4%BB%A4-%E4%BA%8C%E6%AC%A1%E9%AA%8C%E8%AF%81%E5%99%A8/id6466401057?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/f6/e0/87f6e09e-2eb8-02d7-1ab4-023a9cec73cd/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/512x512bb.jpg",
+      "developer": "YCMobile",
+      "firstSeen": "2026-11-02T06:28:31+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
+      "reviewStatus": "pending",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "cn",
+        "primaryGenreId": 6000,
+        "primaryGenreName": "商务",
+        "genreIds": [
+          6000,
+          6006
+        ],
+        "genres": [
+          "商务",
+          "参考资料"
+        ],
+        "appType": "software"
+      }
+    },
+    {
       "itunesId": 6464237904,
       "name": "自由笔记 - AI记事本与随手记",
       "storefront": "cn",
@@ -2263,7 +2409,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/5a/03/be5a0391-4d2c-f979-2581-e99df1ddde71/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "developer": "Free Notes AI Note Taker LTD",
       "firstSeen": "2026-10-26T04:27:45+00:00",
-      "lastSeen": "2026-10-30T01:10:14+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -2293,7 +2439,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/67/16/c767166c-9b4b-e543-1b5f-954ee45e4d95/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "developer": "If Tech",
       "firstSeen": "2026-10-27T05:16:33+00:00",
-      "lastSeen": "2026-10-30T01:10:14+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -2323,7 +2469,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/bd/f6/8dbdf657-556f-4aec-fe85-ec6d8a2b2625/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
       "developer": "FishFun",
       "firstSeen": "2026-10-27T05:16:33+00:00",
-      "lastSeen": "2026-10-30T01:10:14+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -2351,7 +2497,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/8f/62/268f62aa-89e7-2415-4fb7-586cd925f27d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "developer": "Kyle Halevi",
       "firstSeen": "2026-10-27T05:16:33+00:00",
-      "lastSeen": "2026-11-01T23:42:21+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -2381,7 +2527,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/44/b7/fe44b79e-1d4a-7534-ae1f-d4be8b68e0eb/AppIcon-0-0-1x_U007epad-0-9-0-85-220.png/512x512bb.jpg",
       "developer": "Blackmagic Design Inc",
       "firstSeen": "2026-10-27T05:16:33+00:00",
-      "lastSeen": "2026-11-01T23:42:21+00:00",
+      "lastSeen": "2026-11-02T06:28:31+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -2872,7 +3018,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/27/18/71271894-5303-f01e-a014-f5d4b369ec1f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "developer": "Tencent Technology (Shenzhen) Company Limited",
       "firstSeen": "2026-10-27T05:16:33+00:00",
-      "lastSeen": "2026-11-01T23:45:16+00:00",
+      "lastSeen": "2026-11-02T06:31:42+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -4542,7 +4688,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/89/59/ac8959e8-ebfa-2d41-223a-f5814dfdd5a1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
       "developer": "Shenzhen CoolApk Internet Technology Co.,Ltd.",
       "firstSeen": "2026-10-29T05:59:35+00:00",
-      "lastSeen": "2026-11-01T23:45:16+00:00",
+      "lastSeen": "2026-11-02T06:31:42+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -5716,14 +5862,14 @@
       "name": "我的天气 · MyWeather - 十五日天气预报",
       "storefront": "cn",
       "version": "3.5.1",
-      "releaseDate": "2026-10-31T05:13:46Z",
-      "evidenceType": "app_store_release_notes_mention",
+      "releaseDate": "2026-10-31",
+      "evidenceType": "app_store_page_release_notes",
       "evidenceExcerpt": "- 现已适配 iPhone Duo，展开手机，预见未来",
-      "appStoreUrl": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E5%A4%A9%E6%B0%94-myweather-%E5%8D%81%E4%BA%94%E6%97%A5%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5/id1003715695?uo=4",
+      "appStoreUrl": "https://apps.apple.com/cn/app/id1003715695",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/02/95/c10295da-8dba-6fdf-f8c4-404016202670/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "developer": "iDaily Corp.",
       "firstSeen": "2026-10-26T13:18:42+00:00",
-      "lastSeen": "2026-10-31T21:44:57+00:00",
+      "lastSeen": "2026-11-02T06:31:42+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -5746,14 +5892,14 @@
       "name": "Spark Mail: AI 邮件助手",
       "storefront": "cn",
       "version": "3.20.5",
-      "releaseDate": "2026-10-28T17:01:03Z",
-      "evidenceType": "app_store_release_notes_mention",
+      "releaseDate": "2026-10-28",
+      "evidenceType": "app_store_page_release_notes",
       "evidenceExcerpt": "Spark 自 iPhone Duo 发布第一天即率先适配！ 收件箱与已打开的邮件并排显示，一目了然。无论设备处于合上、展开还是半折叠状态，您都能使用相同的操作和内容。展开 iPhone Duo，阅读、撰写邮件、搜索和查看日历都将拥有更宽广的空间。即刻更新并与我们分享您的体验！",
-      "appStoreUrl": "https://apps.apple.com/cn/app/spark-mail-ai-%E9%82%AE%E4%BB%B6%E5%8A%A9%E6%89%8B/id997102246?uo=4",
+      "appStoreUrl": "https://apps.apple.com/cn/app/id997102246",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/7d/b0/557db0e9-8840-b8fb-6695-ad92747c9abd/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
       "developer": "Readdle Technologies Limited",
       "firstSeen": "2026-10-26T04:27:45+00:00",
-      "lastSeen": "2026-10-31T21:44:57+00:00",
+      "lastSeen": "2026-11-02T06:31:42+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -5767,6 +5913,36 @@
         "genres": [
           "效率",
           "工具"
+        ],
+        "appType": "software"
+      }
+    },
+    {
+      "itunesId": 993160329,
+      "name": "Airmail for Gmail Outlook IMAP",
+      "storefront": "cn",
+      "version": "27.0.5",
+      "releaseDate": "2026-10-14",
+      "evidenceType": "app_store_page_release_notes",
+      "evidenceExcerpt": "iPhone Duo support",
+      "appStoreUrl": "https://apps.apple.com/cn/app/id993160329",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/dd/b6/90ddb68d-fee5-26c9-8651-bec6b594589d/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "developer": "Bloop S.R.L.",
+      "firstSeen": "2026-11-01T23:45:16+00:00",
+      "lastSeen": "2026-11-02T06:31:42+00:00",
+      "reviewStatus": "pending",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "cn",
+        "primaryGenreId": 6007,
+        "primaryGenreName": "效率",
+        "genreIds": [
+          6007,
+          6000
+        ],
+        "genres": [
+          "效率",
+          "商务"
         ],
         "appType": "software"
       }
@@ -6064,7 +6240,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/8e/f6/038ef6ec-c9cc-47db-a0f3-f29e4394cf8f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
       "developer": "Tencent Technology (Shenzhen) Company Limited",
       "firstSeen": "2026-10-26T13:00:00+00:00",
-      "lastSeen": "2026-11-01T23:45:16+00:00",
+      "lastSeen": "2026-11-02T06:31:42+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -7421,7 +7597,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/4d/1e/8d4d1ec4-0ad8-c36c-f706-133ddc3c5e5c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "developer": "Beijing Zhidemai Technology Co., Ltd.",
       "firstSeen": "2026-10-28T05:55:29+00:00",
-      "lastSeen": "2026-11-01T23:45:16+00:00",
+      "lastSeen": "2026-11-02T06:31:42+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -7881,10 +8057,10 @@
       "evidenceType": "app_store_page_release_notes",
       "evidenceExcerpt": "本次更新： - 适配iPhone Duo，开合之间皆可畅聊。 近期更新： - 聊天精灵秋秋人上线，与好友即刻合养，关系成长看得见； - QQ闪传文件有效期新增支持90天/180天； - QQ闪传支持添加或删除已分享的文件，灵活调整分享内容； - 宠物功能上线，支持多种养宠互动玩法，解锁社交新体验； - 输入状态个性装扮上线，让好友等待回复的时刻也变得有趣。",
       "appStoreUrl": "https://apps.apple.com/cn/app/id444934666",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/e1/a6/16e1a6c2-97b7-e188-b454-e9fd93a391e6/AppIcon-1-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/1d/7a/ac1d7a6d-17fe-98b1-4d2e-fd15248037b4/AppIcon-1-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "developer": "Tencent Technology (Shenzhen) Company Limited",
       "firstSeen": "2026-10-26T04:27:45+00:00",
-      "lastSeen": "2026-11-01T23:45:16+00:00",
+      "lastSeen": "2026-11-02T06:31:42+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -9163,38 +9339,38 @@
       }
     },
     {
-      "itunesId": 993160329,
-      "name": "Airmail for Gmail Outlook IMAP",
+      "itunesId": 1004291915,
+      "name": "记事本 - 简单的备忘录·小组件·笔记·便签应用",
       "storefront": "cn",
-      "version": "27.0.5",
-      "releaseDate": "2026-10-14",
+      "version": "4.1.1",
+      "releaseDate": "2026-10-28",
       "evidenceType": "app_store_page_release_notes",
-      "evidenceExcerpt": "iPhone Duo support",
-      "appStoreUrl": "https://apps.apple.com/cn/app/id993160329",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/dd/b6/90ddb68d-fee5-26c9-8651-bec6b594589d/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-85-220.png/512x512bb.jpg",
-      "developer": "Bloop S.R.L.",
-      "firstSeen": "2026-11-01T23:45:16+00:00",
-      "lastSeen": "2026-11-01T23:45:16+00:00",
+      "evidenceExcerpt": "已适配 iPhone Duo。",
+      "appStoreUrl": "https://apps.apple.com/cn/app/id1004291915",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/ce/9f/1ece9ffc-74f0-6822-2feb-2d8a00ac7028/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "developer": "Komorebi Inc.",
+      "firstSeen": "2026-11-02T06:31:42+00:00",
+      "lastSeen": "2026-11-02T06:31:42+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
         "storefront": "cn",
-        "primaryGenreId": 6007,
-        "primaryGenreName": "效率",
+        "primaryGenreId": 6000,
+        "primaryGenreName": "商务",
         "genreIds": [
-          6007,
-          6000
+          6000,
+          6007
         ],
         "genres": [
-          "效率",
-          "商务"
+          "商务",
+          "效率"
         ],
         "appType": "software"
       }
     }
   ],
-  "lastChecked": "2026-11-01T23:42:21+00:00",
-  "genreCursorCN": 16,
+  "lastChecked": "2026-11-02T06:28:31+00:00",
+  "genreCursorCN": 24,
   "discoveryPoolCN": [
     282614216,
     284622652,
@@ -9852,7 +10028,9 @@
     491024740,
     491299921,
     491537291,
+    491907493,
     492083651,
+    492150266,
     492193124,
     492857726,
     493207167,
@@ -10030,6 +10208,7 @@
     543747638,
     543859300,
     544007664,
+    544635127,
     544635195,
     545519333,
     545536364,
@@ -10116,6 +10295,7 @@
     574155771,
     574399713,
     574423763,
+    575171785,
     575826903,
     576046990,
     576170870,
@@ -10272,6 +10452,7 @@
     641895599,
     642097030,
     643162868,
+    645412785,
     646277024,
     646414918,
     647268330,
@@ -10484,6 +10665,7 @@
     810405576,
     812959928,
     813187935,
+    814898894,
     815558735,
     818237113,
     818968046,
@@ -10718,6 +10900,7 @@
     920133658,
     920341011,
     920728033,
+    920788519,
     921110353,
     921217360,
     921408509,
@@ -10761,6 +10944,7 @@
     935559685,
     935605766,
     936694037,
+    936966570,
     938020489,
     938037644,
     938688461,
@@ -11162,6 +11346,7 @@
     1035219553,
     1035219562,
     1035220162,
+    1035276441,
     1035505740,
     1035557188,
     1035689743,
@@ -11339,6 +11524,7 @@
     1077639630,
     1077776989,
     1078091277,
+    1078128758,
     1078163548,
     1078387974,
     1078501077,
@@ -11353,6 +11539,7 @@
     1080118736,
     1080129732,
     1080235640,
+    1080563011,
     1080619642,
     1081009083,
     1081245302,
@@ -11620,6 +11807,7 @@
     1144412117,
     1144413884,
     1145766431,
+    1146080210,
     1146238011,
     1146258047,
     1146465836,
@@ -11639,6 +11827,7 @@
     1149178596,
     1149216652,
     1149253183,
+    1149644226,
     1149994032,
     1150322669,
     1151562905,
@@ -12310,6 +12499,7 @@
     1364398984,
     1364544755,
     1364862935,
+    1365178477,
     1365397748,
     1365408038,
     1366270960,
@@ -12431,6 +12621,7 @@
     1409248484,
     1409535084,
     1409592512,
+    1409658462,
     1410049631,
     1410120498,
     1410668897,
@@ -12442,6 +12633,7 @@
     1414442713,
     1415478437,
     1415653267,
+    1415709055,
     1416894836,
     1417787493,
     1418825394,
@@ -12619,6 +12811,7 @@
     1452113719,
     1452464635,
     1452851243,
+    1452864064,
     1452958918,
     1453121558,
     1453327924,
@@ -12628,6 +12821,7 @@
     1453808408,
     1453971028,
     1454088469,
+    1454113754,
     1454142994,
     1454153126,
     1454487240,
@@ -12962,6 +13156,7 @@
     1492559559,
     1492628032,
     1492792206,
+    1492864646,
     1492890563,
     1492916292,
     1492978492,
@@ -13193,6 +13388,7 @@
     1526041283,
     1526052028,
     1526335325,
+    1526364758,
     1526436386,
     1526466697,
     1527039353,
@@ -13238,6 +13434,7 @@
     1531695606,
     1531841731,
     1532042273,
+    1532202982,
     1532238434,
     1532385111,
     1532413955,
@@ -13449,6 +13646,7 @@
     1559422007,
     1559475886,
     1559506289,
+    1559761144,
     1560261183,
     1560273409,
     1560313343,
@@ -13629,6 +13827,7 @@
     1584825745,
     1584870054,
     1585105852,
+    1585130355,
     1585148293,
     1585502524,
     1585539533,
@@ -13969,6 +14168,7 @@
     1634177358,
     1634374928,
     1634629424,
+    1634639900,
     1634742923,
     1634753391,
     1635093491,
@@ -14766,6 +14966,7 @@
     6499125655,
     6499191511,
     6499240773,
+    6499243031,
     6499293485,
     6499293626,
     6499432222,
@@ -14879,6 +15080,7 @@
     6532613807,
     6535673811,
     6544789356,
+    6544789981,
     6544797261,
     6550893804,
     6550909262,
@@ -15198,6 +15400,7 @@
     6742562911,
     6742597160,
     6742638678,
+    6742712670,
     6742728494,
     6742730893,
     6742736560,
@@ -15721,6 +15924,7 @@
     6755943637,
     6755945551,
     6755949705,
+    6755951632,
     6755977704,
     6755983880,
     6755989422,
@@ -15944,6 +16148,7 @@
     6758778913,
     6758785773,
     6758829120,
+    6758829615,
     6758860047,
     6758872130,
     6758880731,
@@ -16397,6 +16602,7 @@
     6769501341,
     6769632497,
     6769648500,
+    6769649267,
     6769669764,
     6769671416,
     6769685027,
@@ -16575,6 +16781,7 @@
     6779987770,
     6779999133,
     6780046691,
+    6780054752,
     6780117051,
     6780130646,
     6780146945,
@@ -16667,6 +16874,7 @@
     6784487993,
     6784536108,
     6784561015,
+    6784690380,
     6784707967,
     6784708800,
     6784895120,
@@ -16798,6 +17006,7 @@
     6791043102,
     6791060014,
     6791107314,
+    6791314222,
     6791397600,
     6791420905,
     6791432398,
@@ -17069,6 +17278,7 @@
     6812205911,
     6812216260,
     6812223066,
+    6812586834,
     6812603412,
     6812603658,
     6812623223,
@@ -17172,6 +17382,7 @@
     6820398112,
     6820413993,
     6820418306,
+    6820433003,
     6820455082,
     6820485595,
     6820818828,
@@ -17240,41 +17451,41 @@
     6826968047,
     6827401407
   ],
-  "lookupCursorCN": 5173,
+  "lookupCursorCN": 5773,
   "coverageCN": {
-    "poolSize": 8043,
-    "lookupScheduled": 604,
+    "poolSize": 8078,
+    "lookupScheduled": 605,
     "priorityScheduled": 5,
-    "lookupReturned": 603,
+    "lookupReturned": 605,
     "categoryFeedsSucceeded": 28,
     "categoryFeedsAttempted": 28,
     "gameFeedsSucceeded": 12,
     "gameFeedsAttempted": 12,
     "gameGenreIds": [
-      7014,
-      7015,
-      7016,
-      7017,
-      7018,
-      7019
+      7001,
+      7002,
+      7003,
+      7004,
+      7005,
+      7006
     ],
     "genreIds": [
-      6008,
-      6009,
-      6010,
-      6011,
-      6012,
-      6013,
-      6014,
-      6015
+      6016,
+      6017,
+      6018,
+      6020,
+      6021,
+      6022,
+      6023,
+      6024
     ],
-    "time": "2026-11-01T23:42:21+00:00"
+    "time": "2026-11-02T06:28:31+00:00"
   },
-  "pageCursor": 1800,
+  "pageCursor": 1860,
   "lastPageCheck": {
     "attempted": 65,
     "parsed": 64,
-    "time": "2026-11-01T23:45:16+00:00"
+    "time": "2026-11-02T06:31:42+00:00"
   },
-  "gameGenreCursorCN": 0
+  "gameGenreCursorCN": 6
 }
