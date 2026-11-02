@@ -1,5 +1,350 @@
 [
   {
+    "time": "2026-11-02T17:19:21+00:00",
+    "added": [
+      {
+        "id": "signal-6747099551",
+        "name": "阅读阅多 - 看小说电子书TXT书源阅读器",
+        "version": "1.4.5",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E9%98%85%E8%AF%BB%E9%98%85%E5%A4%9A-%E7%9C%8B%E5%B0%8F%E8%AF%B4%E7%94%B5%E5%AD%90%E4%B9%A6txt%E4%B9%A6%E6%BA%90%E9%98%85%E8%AF%BB%E5%99%A8/id6747099551?uo=4",
+        "status": "unverified",
+        "itunesId": 6747099551,
+        "appType": "software",
+        "category": "工具"
+      },
+      {
+        "id": "signal-6747153960",
+        "name": "BabyGotcha",
+        "version": "7.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/babygotcha/id6747153960?uo=4",
+        "status": "unverified",
+        "itunesId": 6747153960,
+        "appType": "software",
+        "category": "健康健美"
+      },
+      {
+        "id": "signal-6749019257",
+        "name": "ViewChanger – 手机直接浏览PC网站",
+        "version": "1.2.10",
+        "appStoreUrl": "https://apps.apple.com/cn/app/viewchanger-%E6%89%8B%E6%9C%BA%E7%9B%B4%E6%8E%A5%E6%B5%8F%E8%A7%88pc%E7%BD%91%E7%AB%99/id6749019257?uo=4",
+        "status": "unverified",
+        "itunesId": 6749019257,
+        "appType": "software",
+        "category": "软件开发工具"
+      }
+    ],
+    "updated": [
+      {
+        "id": "apple-011",
+        "name": "Things",
+        "version": "3.25.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/things-3/id904237743?uo=4",
+        "status": "apple_featured",
+        "itunesId": 904237743,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "3.25.1"
+      },
+      {
+        "id": "apple-014",
+        "name": "Instagram",
+        "version": "454.0.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/instagram/id389801252?uo=4",
+        "status": "apple_featured",
+        "itunesId": 389801252,
+        "appType": "software",
+        "category": "摄影与录像",
+        "previousVersion": "453.0"
+      },
+      {
+        "id": "apple-015",
+        "name": "Edits",
+        "version": "454.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/edits-%E8%A7%86%E9%A2%91%E7%BC%96%E8%BE%91%E5%99%A8/id6738967378?uo=4",
+        "status": "apple_featured",
+        "itunesId": 6738967378,
+        "appType": "software",
+        "category": "摄影与录像",
+        "previousVersion": "453.1"
+      },
+      {
+        "id": "signal-930368978",
+        "name": "钉钉",
+        "version": "9.0.7",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E9%92%89%E9%92%89/id930368978?uo=4",
+        "status": "unverified",
+        "itunesId": 930368978,
+        "appType": "software",
+        "category": "商务",
+        "previousVersion": "9.0.6"
+      },
+      {
+        "id": "signal-1338769645",
+        "name": "小决定 - 大转盘抽签选择器",
+        "version": "26.13",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%B0%8F%E5%86%B3%E5%AE%9A-%E5%A4%A7%E8%BD%AC%E7%9B%98%E6%8A%BD%E7%AD%BE%E9%80%89%E6%8B%A9%E5%99%A8/id1338769645?uo=4",
+        "status": "unverified",
+        "itunesId": 1338769645,
+        "appType": "software",
+        "category": "娱乐",
+        "previousVersion": "26.12"
+      },
+      {
+        "id": "signal-6499191511",
+        "name": "Joyway 就位 - 跑步骑行徒步运动健康睡眠分析计步器",
+        "version": "2.6.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/joyway-%E5%B0%B1%E4%BD%8D-%E8%B7%91%E6%AD%A5%E9%AA%91%E8%A1%8C%E5%BE%92%E6%AD%A5-%E8%BF%90%E5%8A%A8%E8%AE%B0%E5%BD%95-%E5%8E%8B%E5%8A%9B%E7%9D%A1%E7%9C%A0%E5%88%86%E6%9E%90/id6499191511?uo=4",
+        "status": "unverified",
+        "itunesId": 6499191511,
+        "appType": "software",
+        "category": "健康健美",
+        "previousVersion": "2.5.0"
+      },
+      {
+        "id": "signal-1015819468",
+        "name": "Running Tracker App – FITAPP",
+        "version": "9.10.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E8%B7%91%E6%AD%A5-%E8%B7%91%E6%AD%A5%E8%AE%B0%E5%BD%95-fitapp/id1015819468?uo=4",
+        "status": "unverified",
+        "itunesId": 1015819468,
+        "appType": "software",
+        "category": "健康健美",
+        "previousVersion": "9.10.1"
+      },
+      {
+        "id": "signal-1538761576",
+        "name": "Authenticator App",
+        "version": "4.1.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/authenticator/id1538761576?uo=4",
+        "status": "unverified",
+        "itunesId": 1538761576,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "4.1.1"
+      },
+      {
+        "id": "signal-1104649246",
+        "name": "我的月相",
+        "version": "26.6.4",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%9C%88%E7%9B%B8/id1104649246?uo=4",
+        "status": "unverified",
+        "itunesId": 1104649246,
+        "appType": "software",
+        "category": "天气",
+        "previousVersion": "26.6.3"
+      },
+      {
+        "id": "community-issue-app-6459478672",
+        "name": "豆包",
+        "version": "15.6.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E8%B1%86%E5%8C%85-%E7%94%9F%E6%B4%BB%E5%B7%A5%E4%BD%9C-ai-%E5%8A%A9%E6%89%8B/id6459478672?uo=4",
+        "status": "unverified",
+        "itunesId": 6459478672,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "15.5.0"
+      },
+      {
+        "id": "signal-1474340105",
+        "name": "OffScreen - 自律番茄钟，不做手机控",
+        "version": "3.22.5",
+        "appStoreUrl": "https://apps.apple.com/cn/app/offscreen-%E8%87%AA%E5%BE%8B%E7%95%AA%E8%8C%84%E9%92%9F-%E4%B8%8D%E5%81%9A%E6%89%8B%E6%9C%BA%E6%8E%A7/id1474340105?uo=4",
+        "status": "unverified",
+        "itunesId": 1474340105,
+        "appType": "software",
+        "category": "健康健美",
+        "previousVersion": "3.22.4"
+      },
+      {
+        "id": "signal-6755889602",
+        "name": "排班表 & 工作日历 - Shift2Cal AI助手",
+        "version": "2.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E6%8E%92%E7%8F%AD%E8%A1%A8-%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%8E%86-shift2cal-ai%E5%8A%A9%E6%89%8B/id6755889602?uo=4",
+        "status": "unverified",
+        "itunesId": 6755889602,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "2.1"
+      },
+      {
+        "id": "signal-6772857601",
+        "name": "Fontbridge：字体安装器",
+        "version": "1.1.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/fontbridge-%E5%AD%97%E4%BD%93%E5%AE%89%E8%A3%85%E5%99%A8/id6772857601?uo=4",
+        "status": "unverified",
+        "itunesId": 6772857601,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "1.1.0"
+      },
+      {
+        "id": "signal-954724812",
+        "name": "同花顺至尊版-股票软件",
+        "version": "12.16.01",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E8%87%B3%E5%B0%8A%E7%89%88-%E8%82%A1%E7%A5%A8%E8%BD%AF%E4%BB%B6/id954724812?uo=4",
+        "status": "unverified",
+        "itunesId": 954724812,
+        "appType": "software",
+        "category": "财务",
+        "previousVersion": "12.16.00"
+      },
+      {
+        "id": "signal-574399713",
+        "name": "PocketRadar：实时降雨雷达、动画雨量地图与天气预报",
+        "version": "4.5.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%8F%A3%E8%A2%8B%E9%9B%B7%E8%BE%BE-%E5%A4%A9%E6%B0%94%E5%9C%B0%E5%9B%BE/id574399713?uo=4",
+        "status": "unverified",
+        "itunesId": 574399713,
+        "appType": "software",
+        "category": "天气",
+        "previousVersion": "4.5.2"
+      },
+      {
+        "id": "signal-6612027371",
+        "name": "GenK：微学习与多元主题",
+        "version": "2.6.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/genk-%E5%BE%AE%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%A4%9A%E5%85%83%E4%B8%BB%E9%A2%98/id6612027371?uo=4",
+        "status": "unverified",
+        "itunesId": 6612027371,
+        "appType": "software",
+        "category": "教育",
+        "previousVersion": "2.6.2"
+      },
+      {
+        "id": "signal-6737188438",
+        "name": "ima - 腾讯AI知识管家",
+        "version": "2.6.16",
+        "appStoreUrl": "https://apps.apple.com/cn/app/ima-%E8%85%BE%E8%AE%AFai%E7%9F%A5%E8%AF%86%E7%AE%A1%E5%AE%B6/id6737188438?uo=4",
+        "status": "unverified",
+        "itunesId": 6737188438,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "2.6.15"
+      }
+    ],
+    "signals": [
+      {
+        "id": "signal-6740015002",
+        "name": "和弦与调音器: Guitar Wiz",
+        "version": "2.5",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%92%8C%E5%BC%A6%E4%B8%8E%E8%B0%83%E9%9F%B3%E5%99%A8-guitar-wiz/id6740015002?uo=4",
+        "status": "unverified",
+        "itunesId": 6740015002,
+        "appType": "software",
+        "category": "音乐",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "2.5",
+          "excerpt": "Guitar Wiz 重磅更新，现已针对 iPhone Duo 全面优化！在 iPhone Duo 上，体验前所未有的 Guitar Wiz。展开设备，即可看到沉浸式吉他调音器从外屏无缝延展至宽阔的内屏。 我们精心优化了每个界面，充分发挥 iPhone Duo 的独特设计优势，带来更合理的布局、更直观的操作，以及贯穿全应用的沉浸式体验。 无论是探索和弦、为吉他调音，还是使用节拍器练习，Guitar Wiz 都能在 iPhone Duo 上自然呈现。",
+          "url": "https://apps.apple.com/cn/app/%E5%92%8C%E5%BC%A6%E4%B8%8E%E8%B0%83%E9%9F%B3%E5%99%A8-guitar-wiz/id6740015002?uo=4",
+          "date": "2026-10-30"
+        }
+      },
+      {
+        "id": "signal-6749835845",
+        "name": "飓风相机 - 实时电影感拍摄",
+        "version": "2.0.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E9%A3%93%E9%A3%8E%E7%9B%B8%E6%9C%BA-%E5%AE%9E%E6%97%B6%E7%94%B5%E5%BD%B1%E6%84%9F%E6%8B%8D%E6%91%84/id6749835845?uo=4",
+        "status": "unverified",
+        "itunesId": 6749835845,
+        "appType": "software",
+        "category": "摄影与录像",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "2.0.3",
+          "excerpt": "本次更新带来以下改进： - 修复iOS 18及更早iOS版本拍摄的HDR照片有残影的问题。 - 修复原相机拍摄的jpeg格式照片应用App内影调导出失败的问题 - 其他细节优化与bug修复。 近期更新： - 适配iPhone Duo，支持多种姿态使用以及双屏预览。 - 支持iPad，在大屏幕上拍摄记录生活。 - 新增2个标准影调：澳门、开罗，以及3个Log影调：云梦、伊犁、清迈。 - UI细节优化与调整。 - 支持照片分辨率调节设置。 - 支持自动闪光灯模式下的闪光灯启用提示。 - 支持系统相册素材直接使用标准影调预览和导出。 - 麦克风接入按钮与音频电平视图合并。 - 对焦提示框新增曝光补偿滑动调节。",
+          "url": "https://apps.apple.com/cn/app/%E9%A3%93%E9%A3%8E%E7%9B%B8%E6%9C%BA-%E5%AE%9E%E6%97%B6%E7%94%B5%E5%BD%B1%E6%84%9F%E6%8B%8D%E6%91%84/id6749835845?uo=4",
+          "date": "2026-11-01"
+        }
+      },
+      {
+        "id": "signal-6747099551",
+        "name": "阅读阅多 - 看小说电子书TXT书源阅读器",
+        "version": "1.4.5",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E9%98%85%E8%AF%BB%E9%98%85%E5%A4%9A-%E7%9C%8B%E5%B0%8F%E8%AF%B4%E7%94%B5%E5%AD%90%E4%B9%A6txt%E4%B9%A6%E6%BA%90%E9%98%85%E8%AF%BB%E5%99%A8/id6747099551?uo=4",
+        "status": "unverified",
+        "itunesId": 6747099551,
+        "appType": "software",
+        "category": "工具",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.4.5",
+          "excerpt": "1.iPhone duo 适配 2.修复微软TTS朗读问题 3.阅读器增加双页显示 4.修复部分崩溃问题和Bug",
+          "url": "https://apps.apple.com/cn/app/%E9%98%85%E8%AF%BB%E9%98%85%E5%A4%9A-%E7%9C%8B%E5%B0%8F%E8%AF%B4%E7%94%B5%E5%AD%90%E4%B9%A6txt%E4%B9%A6%E6%BA%90%E9%98%85%E8%AF%BB%E5%99%A8/id6747099551?uo=4",
+          "date": "2026-10-31"
+        }
+      },
+      {
+        "id": "signal-6747153960",
+        "name": "BabyGotcha",
+        "version": "7.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/babygotcha/id6747153960?uo=4",
+        "status": "unverified",
+        "itunesId": 6747153960,
+        "appType": "software",
+        "category": "健康健美",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "7.1",
+          "excerpt": "• 简化奶瓶喂养记录，可填写奶量并标记是否吐奶。 • 记录护理数据时支持直接输入数值。 • 适配 iPhone Duo 与 iOS 27.1。 • 优化窗口尺寸变化时的图表交互与分享图片宽度。 • 二维码分享在当前窗口打开，相机预览随窗口尺寸调整。",
+          "url": "https://apps.apple.com/cn/app/babygotcha/id6747153960?uo=4",
+          "date": "2026-10-31"
+        }
+      },
+      {
+        "id": "signal-6749019257",
+        "name": "ViewChanger – 手机直接浏览PC网站",
+        "version": "1.2.10",
+        "appStoreUrl": "https://apps.apple.com/cn/app/viewchanger-%E6%89%8B%E6%9C%BA%E7%9B%B4%E6%8E%A5%E6%B5%8F%E8%A7%88pc%E7%BD%91%E7%AB%99/id6749019257?uo=4",
+        "status": "unverified",
+        "itunesId": 6749019257,
+        "appType": "software",
+        "category": "软件开发工具",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.2.10",
+          "excerpt": "• 已针对 iPhone Duo 优化。无论展开还是在外屏上，PC 版网页都会刚好适配屏幕宽度。 • 修复了展开、合上或旋转屏幕后，PC 版网页右侧被截断的问题。",
+          "url": "https://apps.apple.com/cn/app/viewchanger-%E6%89%8B%E6%9C%BA%E7%9B%B4%E6%8E%A5%E6%B5%8F%E8%A7%88pc%E7%BD%91%E7%AB%99/id6749019257?uo=4",
+          "date": "2026-10-25"
+        }
+      }
+    ],
+    "addedCounts": {
+      "software": 3,
+      "game": 0,
+      "unknown": 0
+    },
+    "coverageCN": {
+      "poolSize": 8120,
+      "lookupScheduled": 605,
+      "priorityScheduled": 5,
+      "lookupReturned": 603,
+      "categoryFeedsSucceeded": 28,
+      "categoryFeedsAttempted": 28,
+      "gameFeedsSucceeded": 12,
+      "gameFeedsAttempted": 12,
+      "gameGenreIds": [
+        7007,
+        7008,
+        7009,
+        7011,
+        7012,
+        7013
+      ],
+      "genreIds": [
+        6026,
+        6027,
+        6000,
+        6001,
+        6002,
+        6003,
+        6004,
+        6005
+      ],
+      "time": "2026-11-02T17:14:47+00:00"
+    }
+  },
+  {
     "time": "2026-11-02T06:33:08+00:00",
     "added": [
       {
