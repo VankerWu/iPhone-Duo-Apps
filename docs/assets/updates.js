@@ -42,6 +42,9 @@
       ? `${app.previousVersion} → ${app.version || '—'}`
       : (kind === 'signals' ? app.evidence?.version : app.version);
     if (version) main.append(textElement('span', 'update-version', version));
+    const region = {cn:'国区', us:'美区'}[app.storefront];
+    if (region) main.append(textElement('span', 'update-version', region));
+    if (kind === 'storeUpdates') item.append(textElement('span', 'update-status', app.change === 'first_seen' ? '首次获取该地区资料' : '该地区版本变化'));
     item.append(main);
     if (kind === 'added') item.append(textElement('span', 'update-status', status[app.status] || '状态待核对'));
     if (kind === 'signals' && app.evidence?.excerpt) {
@@ -83,14 +86,15 @@
     node.append(counts);
     if (!report.added.length) node.append(textElement('p', 'report-empty', '本轮暂无新增应用。'));
     for (const [kind, title] of kinds) addList(node, title, report.added.filter(app => appType(app) === kind), 'added');
-    if (report.updated.length || report.signals.length) {
+    if (report.updated.length || report.signals.length || report.storeUpdates?.length) {
       const details = document.createElement('details'); details.className = 'update-secondary';
       details.append(textElement('summary', '', '其他更新'));
       addList(details, '版本更新', report.updated, 'updated');
       addList(details, '适配线索', report.signals, 'signals');
+      addList(details, '地区商店资料变化', report.storeUpdates || [], 'storeUpdates');
       node.append(details);
     }
-    node.append(textElement('p', 'update-note', '自动发现的新增应用待确认，适配状态以各应用的证据为准。'));
+    node.append(textElement('p', 'update-note', '自动发现的新增应用待确认；各地区声明分别记录，美区声明不代表国区版本已适配。'));
     node.setAttribute('aria-busy', 'false');
   }
   async function read(path) {

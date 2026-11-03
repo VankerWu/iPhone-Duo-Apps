@@ -1,7 +1,6 @@
 'use strict';
 
-// Set this to the GitHub repository that will host this NEW WEBSITE.
-// Do not point it to the DuoCinema player project unless you want issues there.
+// GitHub repository for app submissions and feedback.
 const REPOSITORY = 'VankerWu/iPhone-Duo-Apps';
 const DATA_URL = './data/apps.json';
 const APPLE_LOOKUP = 'https://itunes.apple.com/lookup';
@@ -27,10 +26,11 @@ function cleanURL(url) {
   } catch { return ''; }
 }
 // An Apple product ID is a stable direct link, unlike a search result page.
-function storeURL(app) {
+function storeURL(app, storefront) {
   const numericId = Number(app.itunesId);
   if (!Number.isSafeInteger(numericId) || numericId <= 0) return '';
-  const region = app.storefront === 'cn' ? 'cn' : 'us';
+  const selected = storefront || {'中国大陆':'cn','美国':'us'}[state.region];
+  const region = catalogRules.storefronts(app).includes(selected) ? selected : (app.storefront === 'cn' ? 'cn' : 'us');
   return `https://apps.apple.com/${region}/app/id${numericId}`;
 }
 function validArtwork(url) {
@@ -108,18 +108,25 @@ function showDetails(app) {
   const st = STATUS[app.status] || STATUS.unverified;
   const source = cleanURL(app.sourceUrl);
   const store = storeURL(app);
+  const stores = catalogRules.storefronts(app);
   const storeControl = store
-    ? `<a class="main" target="_blank" rel="noopener noreferrer" href="${safe(store)}">在 App Store 查看 / 下载 ↗</a>`
+    ? (stores.length ? stores : [app.storefront === 'cn' ? 'cn' : 'us']).map(region =>
+      `<a class="main" target="_blank" rel="noopener noreferrer" href="${safe(storeURL(app,region))}">${region==='cn'?'国区':'美区'} App Store ↗</a>`).join('')
     : `<span class="detail-store-unmatched">尚未核实官方 App Store 条目</span>`;
+  const claims = app.storeDiscoveries && Object.keys(app.storeDiscoveries).length
+    ? app.storeDiscoveries : (app.duoDiscovery ? {[app.storefront || 'cn']:app.duoDiscovery} : {});
+  const evidenceHTML = Object.entries(claims).filter(([region])=>['cn','us'].includes(region)).map(([region, claim]) =>
+    `<div class="detail-evidence"><strong>${region==='cn'?'国区':'美区'}开发者适配声明 · 待核验</strong><p>${safe(claim.excerpt)}</p><p>证据版本 ${safe(claim.version)} · ${safe(claim.date)}；仅对应此地区和版本，不代表本站实测。</p></div>`).join('');
+  const versions = Object.entries(app.storeListings || {}).filter(([region])=>['cn','us'].includes(region)).map(([region, listing])=>`${region==='cn'?'国区':'美区'} ${listing.version || '待同步'}`).join(' / ');
   $('dialogBody').innerHTML = `<div class="detail-header">${iconFor(app,true)}<div><h2>${safe(app.name)}</h2><p>${safe(app.developer || app.english)} · ${safe(categoryLabel(app))}</p></div></div>
     <div class="detail-main"><span class="status-pill ${safe(app.status)}">${safe(st.label)}</span><p>${safe(app.note)}</p><p style="font-size:11px">${safe(st.hint)}</p></div>
     <dl><div class="detail-info"><dt>主要地区</dt><dd>${safe(app.region)}</dd></div>
     <div class="detail-info"><dt>App Store 分类</dt><dd>${safe((catalogRules.metadata(app,categoriesState.seed).genres || []).join(' / ') || '分类待同步')}</dd></div>
-    <div class="detail-info"><dt>App Store 版本</dt><dd>${safe(app.version || '苹果官方版本信息同步中')}</dd></div>
+    <div class="detail-info"><dt>App Store 版本</dt><dd>${safe(versions || app.version || '苹果官方版本信息同步中')}</dd></div>
     <div class="detail-info"><dt>商店来源</dt><dd>${store ? 'Apple App Store 官方应用页面' : '尚未核实'}</dd></div>
     <div class="detail-info"><dt>适配依据</dt><dd>${source ? `<a href="${safe(source)}" target="_blank" rel="noopener noreferrer">${safe(app.sourceLabel || '查看原始资料')} ↗</a>` : '暂无可靠适配证据'}</dd></div>
     <div class="detail-info"><dt>来源日期</dt><dd>${safe(app.sourceDate || '待验证')}</dd></div></dl>
-    ${app.duoDiscovery ? `<div class="detail-evidence"><strong>开发者适配声明 · 待核验</strong><p>${safe(app.duoDiscovery.excerpt)}</p><p>证据版本 ${safe(app.duoDiscovery.version)} · ${safe(app.duoDiscovery.date)}；不代表本站实测。</p></div>` : ''}
+    ${evidenceHTML}
     <div class="detail-buttons">${storeControl}<a href="${safe(reportURL(app))}" target="_blank" rel="noopener noreferrer">提交实测 / 纠错 ↗</a></div>
     <p class="detail-store-note">应用图标、版本和官方商店页面来自 Apple 的公开资料；这不代表 App 已通过本站折叠屏适配实测。</p>`;
   $('detailDialog').showModal();

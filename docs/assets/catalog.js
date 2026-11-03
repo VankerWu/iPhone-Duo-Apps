@@ -2,8 +2,14 @@
 (function(root) {
   'use strict';
   function metadata(app, seed = {}) {
-    const value = app.storeCategory || seed[String(app.itunesId)];
-    return value && value.storefront === 'cn' ? value : {};
+    const value = app.storeCategory || app.storeCategories?.cn || app.storeCategories?.us || seed[String(app.itunesId)];
+    return value && ['cn','us'].includes(value.storefront) ? value : {};
+  }
+  function storefronts(app) {
+    const found = Object.keys(app.storeListings || {}).filter(region=>['cn','us'].includes(region));
+    const primary = ['cn','us'].includes(app.storefront) ? app.storefront : ({'中国大陆':'cn','美国':'us'}[app.region]);
+    if (primary && !found.includes(primary)) found.push(primary);
+    return found.sort();
   }
   function type(app, seed) {
     const value=metadata(app, seed).appType;
@@ -24,7 +30,9 @@
     const appType=type(app, seed), genreIds=ids(app, seed);
     if (state.type!=='all' && appType!==state.type) return false;
     if (state.status!=='all' && app.status!==state.status) return false;
-    if (state.region!=='all' && app.region!==state.region && app.region!=='全球') return false;
+    const selectedStore = {'中国大陆':'cn','美国':'us'}[state.region];
+    if (state.region!=='all' && app.region!==state.region && app.region!=='全球' &&
+        !(selectedStore && storefronts(app).includes(selectedStore))) return false;
     if (state.leadOnly && !isLead(app)) return false;
     if (state.category==='unclassified' && metadata(app, seed).primaryGenreId) return false;
     if (state.category==='game-unspecified' && (appType!=='game'||genreIds.some(id=>taxonomy.games[id]))) return false;
@@ -33,7 +41,7 @@
     return !needle || [app.name,app.english,app.developer,app.note,label(app,seed,taxonomy),
       ...(metadata(app,seed).genres||[]),isLead(app)?'新适配线索':''].join(' ').toLocaleLowerCase('zh-CN').includes(needle);
   }
-  const api={metadata,type,ids,label,isLead,matches};
+  const api={metadata,storefronts,type,ids,label,isLead,matches};
   if (typeof module==='object'&&module.exports) module.exports=api;
   else root.DuoCatalog=api;
 })(typeof globalThis!=='undefined'?globalThis:this);

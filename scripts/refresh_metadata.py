@@ -20,6 +20,7 @@ import urllib.request
 from pathlib import Path
 
 from store_categories import apply as apply_store_category
+from storefront_data import primary_store, remember_listing
 
 DATA = Path(__file__).resolve().parents[1] / 'docs' / 'data' / 'apps.json'
 UA = 'iPhone-Duo-App/0.2 (public App Store directory; rate-limited metadata lookups)'
@@ -95,7 +96,14 @@ def apply_metadata(app, track, country='cn'):
     """App Store fields only — DO NOT touch status, note, sourceUrl or sourceDate."""
     if track.get('kind') not in (None, 'software') and track.get('wrapperType') != 'software':
         return
+    if app.get('itunesId') and str(app['itunesId']) != str(track.get('trackId')):
+        return
+    if not app.get('itunesId'):
+        app['itunesId'] = track.get('trackId')
+    remember_listing(app, track, country, dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds'))
     apply_store_category(app, track, country)
+    if primary_store(app) != country:
+        return
     if str(track.get('currentVersionReleaseDate', '')) < str(app.get('releaseDate', '')):
         return  # Do not downgrade newer page metadata with an older API response.
     app['itunesId'] = track.get('trackId') or app.get('itunesId')

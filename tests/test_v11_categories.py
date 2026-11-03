@@ -31,7 +31,8 @@ class CategoriesTests(unittest.TestCase):
     def test_names_never_determine_type(self):
         self.assertIsNone(categories.from_track({'trackName':'王者荣耀 游戏'}))
         self.assertEqual(categories.app_type({'name':'游戏','category':'新适配线索'}),'unknown')
-        self.assertIsNone(categories.from_track(game(),'us'))
+        self.assertEqual(categories.from_track(game(),'us')['storefront'],'us')
+        self.assertIsNone(categories.from_track(game(),'gb'))
 
     def test_preserves_human_fields_and_missing_metadata(self):
         app={'itunesId':987654321,'category':'人工分类','status':'community_verified',

@@ -1,0 +1,99 @@
+{
+  "version": "V13",
+  "baseCommit": "f83115e1fe8f5566429ce739ebb572c266eede71",
+  "files": [
+    {
+      "path": ".github/workflows/discover-duo-apps.yml",
+      "operation": "replace",
+      "sha256": "d67e3639504740a71da9afa33073520957f6e134a540c33fcd0b7febcfd709d2"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "operation": "add",
+      "sha256": "81afe9396eeebe8ef581b194077fbb2e955b996edda8e34d95678e3670f618e8"
+    },
+    {
+      "path": "V11_UPGRADE.md",
+      "operation": "replace",
+      "sha256": "482e1f10aa0869405813138464bc2b91ecb8264979f77754b6f782c82581108f"
+    },
+    {
+      "path": "V13_UPGRADE.md",
+      "operation": "add",
+      "sha256": "d9ce0928054605a4db6060e1b16bd18119b6924e2af666c1feb110859f5769ad"
+    },
+    {
+      "path": "docs/assets/app.js",
+      "operation": "replace",
+      "sha256": "4dd1e7be65ec1b653b9472ae0a7373241c69693899f93d923cd2fa9c747754c3"
+    },
+    {
+      "path": "docs/assets/catalog.js",
+      "operation": "replace",
+      "sha256": "9a78ec9e84dae0844126003f808a510a62d872d5224abd89a45cc8afdfa8dacd"
+    },
+    {
+      "path": "docs/assets/updates.js",
+      "operation": "replace",
+      "sha256": "904ae6bdf29022f8b80868fb4f68c14e584909ec652f4f966a33e39134b9f685"
+    },
+    {
+      "path": "docs/index.html",
+      "operation": "replace",
+      "sha256": "28f639309cddc1966a86a7938a0ca482621eefb7930e327306484cc8f42b00fc"
+    },
+    {
+      "path": "scripts/discover_duo_apps.py",
+      "operation": "replace",
+      "sha256": "570cf31d125d45d0ecb635fb3b9703dfeed72bb839de4c1b7ecc5f6e480dfb2d"
+    },
+    {
+      "path": "scripts/discover_us_apps.py",
+      "operation": "add",
+      "sha256": "3f9798a1ebd6d3de0ddbb76aa2bee36c74ead168e0b53e47e8ff376fc599d3a9"
+    },
+    {
+      "path": "scripts/refresh_metadata.py",
+      "operation": "replace",
+      "sha256": "196a984dff4b2b9b16a5e4aef7755c4b0308fbb236be95d215deeb5c4f942eea"
+    },
+    {
+      "path": "scripts/report_sync.py",
+      "operation": "replace",
+      "sha256": "01e933a75440f70ad023b78252e2983e731a65d81b6c82d7887ebb2be06a8d2a"
+    },
+    {
+      "path": "scripts/store_categories.py",
+      "operation": "replace",
+      "sha256": "35514b737a2ed888982536334c2a21726a41a502b9b875c51b7992c87e20969f"
+    },
+    {
+      "path": "scripts/storefront_data.py",
+      "operation": "add",
+      "sha256": "fa3c277bd3bf1ab0594da7f9b53e56fcc42606d0b8c1ba0e400b1f5878c7cf05"
+    },
+    {
+      "path": "tests/test_catalog.cjs",
+      "operation": "replace",
+      "sha256": "e81c072f65c776ae4c7a8e05c5cbe8d840bc01f668057b9522456e3151745512"
+    },
+    {
+      "path": "tests/test_v11_categories.py",
+      "operation": "replace",
+      "sha256": "9e422b2e91ad84567325d7a68318e8bc2677a662aef2757f5cc9a56c8630ba28"
+    },
+    {
+      "path": "tests/test_v13_storefronts.py",
+      "operation": "add",
+      "sha256": "a88c9fd8b92c0b16fd27a72ec744088e9c5f1cf3a9b8a06de697c8af534ff5aa"
+    }
+  ],
+  "preserve": [
+    "docs/data",
+    "docs/updates",
+    "README.md",
+    "docs/assets/styles.css",
+    ".github/ISSUE_TEMPLATE/new-app.yml",
+    ".github/workflows/issue-to-catalog.yml"
+  ]
+}

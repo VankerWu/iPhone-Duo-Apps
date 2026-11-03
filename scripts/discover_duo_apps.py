@@ -23,6 +23,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+from storefront_data import primary_store, remember_listing, remember_evidence, merge_candidate
 from store_categories import MAIN, GAMES, from_track, apply as apply_store_category
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -150,7 +151,7 @@ def initial_review_queue() -> dict:
 
 def candidate_record(track: dict, region: str, checked_at: str) -> dict | None:
     identifier = track.get('trackId')
-    if not (isinstance(identifier, int) and identifier > 0):
+    if not (isinstance(identifier, int) and not isinstance(identifier, bool) and identifier > 0):
         return None
     # Apple sometimes omits kind but retains wrapperType for app responses.
     if track.get('kind') not in (None, 'software'):
@@ -218,14 +219,13 @@ def new_catalog_entry(candidate: dict) -> dict:
 def apply_candidate(app: dict, candidate: dict) -> None:
     # NEVER overwrite human reviewed statuses, notes, citations or dates.
     if candidate.get('storeCategory'):
-        app['storeCategory'] = candidate['storeCategory']
-    app['duoDiscovery'] = {
-        'type': candidate['evidenceType'],
-        'version': candidate['version'],
-        'excerpt': candidate['evidenceExcerpt'],
-        'url': candidate['appStoreUrl'],
-        'date': candidate['releaseDate'][:10],
-    }
+        region = candidate['storefront']
+        app.setdefault('storeCategories', {})[region] = candidate['storeCategory']
+        if region == 'cn' or not app.get('storeCategory'):
+            app['storeCategory'] = candidate['storeCategory']
+    remember_evidence(app, candidate)
+    if candidate['storefront'] != primary_store(app):
+        return
     for field in ('artwork', 'appStoreUrl', 'developer', 'version', 'releaseDate'):
         if candidate.get(field) and not app.get(field):
             app[field] = candidate[field]
@@ -337,7 +337,8 @@ def discover(catalog: dict, queue: dict, fetch=get_json,
                 if track.get('trackId') in by_id:
                     app = by_id[track['trackId']]
                     apply_store_category(app, track, region)
-                    if str(track.get('currentVersionReleaseDate', '')) >= str(app.get('releaseDate', '')):
+                    remember_listing(app, track, region, checked_at)
+                    if primary_store(app) == region and str(track.get('currentVersionReleaseDate', '')) >= str(app.get('releaseDate', '')):
                         for field, source in [('version', 'version'), ('releaseDate', 'currentVersionReleaseDate'), ('developer', 'artistName')]:
                             if track.get(source):
                                 app[field] = track[source]
@@ -350,19 +351,14 @@ def discover(catalog: dict, queue: dict, fetch=get_json,
                     continue
                 ident = candidate['itunesId']
                 signals += 1
-                if ident in previously:
-                    original = previously[ident]
-                    if original.get('releaseDate', '') > candidate.get('releaseDate', ''):
-                        continue  # A lagging lookup must not replace newer page evidence.
-                    candidate['firstSeen'] = original.get('firstSeen') or checked_at
-                    # Preserve human decisions about items in the review queue.
-                    candidate = {**original, **candidate,
-                                 'reviewStatus': original.get('reviewStatus', 'pending')}
+                candidate = merge_candidate(previously.get(ident), candidate)
                 previously[ident] = candidate
                 if candidate['reviewStatus'] != 'pending':
                     continue
                 if ident not in by_id:
                     entry = new_catalog_entry(candidate)
+                    remember_listing(entry, track, region, checked_at)
+                    remember_evidence(entry, candidate)
                     apps.append(entry)
                     by_id[ident] = entry
                     inserted += 1
@@ -437,15 +433,14 @@ def check_pages(catalog, queue, limit=60):
                 if not candidate:
                     continue
                 candidate['evidenceType'] = 'app_store_page_release_notes'
-                previous = candidates.get(ident, {})
-                candidate = {**previous, **candidate,
-                    'firstSeen': previous.get('firstSeen', now),
-                    'reviewStatus': previous.get('reviewStatus', 'pending')}
+                candidate = merge_candidate(candidates.get(ident), candidate)
                 candidates[ident] = candidate
                 if candidate['reviewStatus'] == 'pending':
                     if ident not in known:
                         entry = new_catalog_entry(candidate)
                         entry['addedAt'] = now
+                        remember_listing(entry, track, region, now)
+                        remember_evidence(entry, candidate)
                         apps.append(entry)
                         known[ident] = entry
                     else:
@@ -453,7 +448,9 @@ def check_pages(catalog, queue, limit=60):
                     # Version metadata comes from the newest page item, even if
                     # the compatibility claim was found in an older version.
                     latest_version, latest_date, _ = versions[0]
-                    if latest_date >= str(known[ident].get('releaseDate', ''))[:10]:
+                    page_track = {**track, 'version': latest_version, 'currentVersionReleaseDate': latest_date, 'trackViewUrl': url}
+                    remember_listing(known[ident], page_track, region, now)
+                    if primary_store(known[ident]) == region and latest_date >= str(known[ident].get('releaseDate', ''))[:10]:
                         known[ident]['version'] = latest_version
                         known[ident]['releaseDate'] = latest_date
                 break
@@ -468,6 +465,8 @@ def check_pages(catalog, queue, limit=60):
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument('--dry-run', action='store_true', help='Validate local catalog/queue without network')
+    parser.add_argument('--storefronts', nargs='+', choices=('cn', 'us'), default=['cn'],
+                        help='Storefronts to scan; legacy default remains cn')
     parser.add_argument('--catalog', type=Path, default=DATA)
     parser.add_argument('--queue', type=Path, default=REVIEW)
     args = parser.parse_args()
@@ -481,8 +480,29 @@ def main() -> None:
         print(f'OK: catalog {len(catalog["apps"])} entries; '
               f'candidate queue {len(queue["candidates"])}; no network or writes')
         return
-    discover(catalog, queue, pause=True)
-    check_pages(catalog, queue)
+    # Publish successful storefront work even when the other region fails.
+    import copy
+    outcomes = {}
+    for region in dict.fromkeys(args.storefronts):
+        next_catalog, next_queue = copy.deepcopy(catalog), copy.deepcopy(queue)
+        try:
+            if region == 'cn':
+                discover(next_catalog, next_queue, pause=True)
+                check_pages(next_catalog, next_queue)
+            else:
+                from discover_us_apps import discover_us
+                result = discover_us(next_catalog, next_queue, pause=True)
+                if result['status'] == 'failed':
+                    raise RuntimeError('No usable US lookup or page responses')
+            catalog, queue = next_catalog, next_queue
+            outcomes[region] = result['status'] if region == 'us' else 'completed'
+        except (OSError, ValueError, RuntimeError) as exc:
+            outcomes[region] = 'failed'
+            print(f'WARNING: {region.upper()} scan failed: {exc}', file=sys.stderr)
+    queue['lastScanOutcomes'] = {'time': dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds'),
+                                 'storefronts': outcomes}
+    if all(value == 'failed' for value in outcomes.values()):
+        raise RuntimeError('All requested storefront scans failed; no data written.')
     args.catalog.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n', 'utf-8')
     args.queue.parent.mkdir(parents=True, exist_ok=True)
     args.queue.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + '\n', 'utf-8')

@@ -1,4 +1,4 @@
-"""CN Apple genre metadata, independent from editorial compatibility decisions.
+"""CN/US Apple genre metadata, independent from editorial compatibility decisions.
 
 Keep legacy category/status/evidence fields intact. An unavailable lookup does
 not erase a previous classification and never guesses an app's type by name.
@@ -18,7 +18,7 @@ def positive_id(value):
 
 
 def from_track(track, country='cn'):
-    if country != 'cn' or not isinstance(track, dict):
+    if country not in ('cn', 'us') or not isinstance(track, dict):
         return None
     primary = positive_id(track.get('primaryGenreId'))
     if not primary:
@@ -32,7 +32,7 @@ def from_track(track, country='cn'):
         return (MAIN.get(str(ident)) or GAMES.get(str(ident)) or {}).get('name') or str(labels.get(str(ident)) or (track.get('primaryGenreName') if ident == primary else '') or f'分类 {ident}')
     app_type = ('game' if primary == 6014 or str(primary) in GAMES else
                 'software' if str(primary) in MAIN else 'unknown')
-    return {'source': 'apple_lookup', 'storefront': 'cn', 'primaryGenreId': primary,
+    return {'source': 'apple_lookup', 'storefront': country, 'primaryGenreId': primary,
             'primaryGenreName': label(primary), 'genreIds': ids,
             'genres': [label(ident) for ident in ids], 'appType': app_type}
 
@@ -44,8 +44,10 @@ def apply(app, track, country='cn'):
     ident = positive_id(track.get('trackId'))
     if not ident or (app.get('itunesId') and positive_id(app['itunesId']) != ident):
         return False
-    changed = app.get('storeCategory') != metadata
-    app['storeCategory'] = metadata
+    changed = app.get('storeCategories', {}).get(country) != metadata
+    app.setdefault('storeCategories', {})[country] = metadata
+    if country == 'cn' or not app.get('storeCategory'):
+        app['storeCategory'] = metadata
     return changed
 
 
@@ -55,7 +57,7 @@ def seed_categories():
 
 def for_app(app, seed=None):
     metadata = app.get('storeCategory') or (seed or {}).get(str(app.get('itunesId')))
-    if isinstance(metadata, dict) and metadata.get('storefront') == 'cn':
+    if isinstance(metadata, dict) and metadata.get('storefront') in ('cn', 'us'):
         return metadata
     return {}
 
