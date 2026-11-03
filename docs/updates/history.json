@@ -1,5 +1,56 @@
 [
   {
+    "time": "2026-11-03T02:20:02+00:00",
+    "added": [
+      {
+        "id": "community-issue-app-453691481",
+        "name": "飞猪旅行-机票酒店火车票 门票轻松预订",
+        "version": "10.0.10.105",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id453691481",
+        "status": "unverified",
+        "itunesId": 453691481,
+        "appType": "software",
+        "category": "旅游"
+      }
+    ],
+    "updated": [],
+    "signals": [],
+    "addedCounts": {
+      "software": 1,
+      "game": 0,
+      "unknown": 0
+    },
+    "coverageCN": {
+      "poolSize": 8218,
+      "lookupScheduled": 605,
+      "priorityScheduled": 5,
+      "lookupReturned": 597,
+      "categoryFeedsSucceeded": 28,
+      "categoryFeedsAttempted": 28,
+      "gameFeedsSucceeded": 12,
+      "gameFeedsAttempted": 12,
+      "gameGenreIds": [
+        7014,
+        7015,
+        7016,
+        7017,
+        7018,
+        7019
+      ],
+      "genreIds": [
+        6006,
+        6007,
+        6008,
+        6009,
+        6010,
+        6011,
+        6012,
+        6013
+      ],
+      "time": "2026-11-02T23:56:39+00:00"
+    }
+  },
+  {
     "time": "2026-11-03T02:16:25+00:00",
     "added": [
       {
