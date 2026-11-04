@@ -1,126 +1,255 @@
 # 本轮抓取报告
-2026-11-04T01:37:56+00:00
+2026-11-04T09:46:53+00:00
 
 新增收录、版本更新和适配线索分开统计；不代表本站实测。
 
 ## 国区扫描范围
-候选池 8488 个 ID；本轮计划检查 605 个；分类榜单成功 28/28。
+候选池 8546 个 ID；本轮计划检查 604 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
 
 ## 美区扫描范围
-候选池 7364 个 ID；本轮计划检查 600 个；分类榜单成功 28/28。
+候选池 7976 个 ID；本轮计划检查 600 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
-Lookup 返回 597/600 个条目；网页解析 30/30。
+Lookup 返回 595/600 个条目；网页解析 30/30。
 各地区的版本说明独立保存；美区声明不代表国区已适配。
 本轮部分计划目标未返回资料或来源未完成；保留候选继续轮询，不据此推断已下架或已适配。
 
-## 新增 App（5）
-- 新概念英语专业版 - 英语美语全四册〔国区〕｜6.6.0
-- Prêt à Template〔国区〕｜4.6.7
-- LibriVox Audiobooks〔美区〕｜10.4.0
-- LibriVox Audiobooks – Ad-Free〔美区〕｜10.4.0
-- Michigan Offroad Trail Map〔美区〕｜5.4.0
+## 新增 App（8）
+- Webex〔美区〕｜46.11.0
+- Narwhal for Reddit〔美区〕｜2026.10
+- 2048+#〔美区〕｜2.4.4
+- Signal - Private Messenger〔美区〕｜8.35.1
+- Contraction Timer & Counter 9m〔美区〕｜3.4.1
+- Canva AI Photo & Video Editor〔美区〕｜4.234.0
+- Learning To Deal Roulette〔美区〕｜2.0.0 Updated Layouts and Helper Answers
+- SonoSequencr〔美区〕｜10.0.0
 
-## 已有 App 版本更新（0）
-无。
+## 已有 App 版本更新（24）
+- 高德地图〔国区〕｜17.2.2 → 17.3.0
+- WEBTOON〔美区〕｜26.101.0 → 26.102.0
+- 抖音〔国区〕｜40.9.0 → 41.0.0
+- 美团〔国区〕｜12.68.201 → 12.68.402
+- 网易云音乐〔国区〕｜9.6.15 → 9.6.20
+- 腾讯视频〔国区〕｜9.04.70 → 9.04.75
+- 剪映〔国区〕｜21.9.0 → 22.0.0
+- QQ音乐 - 听我想听〔国区〕｜20.9.6 → 20.9.8
+- 起点读书-看小说听书的阅读神器〔国区〕｜5.9.482 → 5.9.484
+- Darkroom: Photo & Video Editor〔国区〕｜7.6.2 → 7.6.3
+- 我的极光预报 - 极光提醒·北极光〔国区〕｜26.8.2 → 26.8.4
+- 三国杀〔国区〕｜4.6.0.4 → 4.6.1
+- Awaybook：全球酒店足迹 · 常旅客手记〔国区〕｜3.7.3 → 3.8.0
+- VoidLink〔国区〕｜3.5.13 → 3.5.14
+- Device Lab〔国区〕｜1.8.3 → 1.8.4
+- 浮影〔国区〕｜3.3 → 3.4
+- BaroWatch Barometer〔国区〕｜1.3.1 → 1.3.2
+- 随手网页-移动端 HTML 查看器〔国区〕｜1.14.0 → 1.14.1
+- AirBuild: AI App Teammates〔国区〕｜1.4 → 1.5
+- ColorfulCam〔国区〕｜1.9.26 → 1.9.28
+- Colorful Widget彩虹小组件-万能桌面主题壁纸〔国区〕｜19.0.0 → 19.0.1
+- 行测训练场〔国区〕｜1.5 → 1.6
+- 好女子〔国区〕｜1.0.5 → 1.0.6
+- Flipin - 3分钟做成一本zine〔国区〕｜1.2.0 → 1.2.1
 
-## 新增或变化的适配线索（23）
-- Fantastical〔美区〕｜4.2.4
-  证据版本：4.2.4；- Added support for iPhone Duo - Improved duration handling for Todoist tasks created with the natural language parser - The parser no longer erases manually set due dates when the new sentence doesn't include dates - Fixed an issue where creating a task in Todoist would add an extra alarm - Fixed a…
-  https://apps.apple.com/us/app/fantastical-calendar/id718043190?uo=4
-- Things〔国区〕｜3.25.2
-  证据版本：3.25.2；• 提升了界面性能。 • 修复了通过快捷键更改已展开的重复待办事项的日期后，“时间”栏未能正确更新的错误。 THINGS 3.25 Things 已准备好迎接 iPhone Duo！我们为这款新设备量身调整了 App，带来适应各种姿态的动态布局、显示列表的边栏，还有更多。 iPhone Duo 上的动态布局 在 iPhone Duo 上，Things 会自行调整布局，充分发挥每种姿态的优势——无论是合上、展开、像书本一样半折叠，还是在分屏浏览中与另一个 App 共用屏幕。展开后，新增的边栏会显示你的所有列表，让你在列表之间轻松切换。 iPhone Duo 上的侧边控件 在 iPhone Duo 上，App 的控件会沿屏幕右侧排成一列，拇指可以轻松够到。其中包括“神奇加号”按钮，你可以将它拖入列表，在想要的确切位…
-  https://apps.apple.com/cn/app/things-3/id904237743?uo=4
-- WPS Office〔国区〕｜26.10.2
-  证据版本：26.10.2；【iPhone Duo 全面适配】 • 首页全形态自适应：随折叠状态适配自动切换的导航和 UI 能力，内屏外屏、横屏竖屏顺滑切换；展开后布局重新排布，重点优化可视化效果。 • 大屏高效办公：表格支持多行列同屏呈现；PDF一站式处理；PPT 支持跨应用一键拖入图片素材；同屏处理多文档、元素随心拖拽。 • AI 全程随行：支持文档和AI 问答分屏处理、边聊边看；AI 写作一键成稿；AI 听记实时转写。 【iPad AI 侧栏升级】 • 侧边栏新增 WPS AI 入口，首页可一键跳转全屏 WPS AI • 优化 Word、PDF、Excel 内 AI 文档问答形…
-  https://apps.apple.com/cn/app/wps-office-%E6%99%BA%E8%83%BDai%E5%8A%9E%E5%85%AC%E5%8A%A9%E6%89%8B/id599852710?uo=4
-- Wego 机票搜索酒店预订 - 玩够旅行〔美区〕｜7.62.0
-  证据版本：7.62.0；What’s new in 7.62.0: - This update brings support for iPhone Duo. Unfold your iPhone Duo and see more of your trip at once. Compare more flights and hotels, view bigger photos, and plan your next getaway.
-  https://apps.apple.com/us/app/wego-flights-hotels-booking/id751096907?uo=4
-- 潮汐 - 睡眠监测、助眠冥想、梦话打鼾、白噪音、HRV压力〔国区〕｜5.13.0
-  证据版本：5.12.2；- 修复了一些 bug，也进一步优化了 iPhone Duo 体验。有 iPhone Duo 的朋友们，欢迎随时和我们反馈使用体验。
-  https://apps.apple.com/cn/app/id1077776989
-- Gymaholic: Workout Tracker〔美区〕｜16.7
-  证据版本：16.7；- Optimized for iPhone Duo: Thoughtfully adapted to the new foldable form, delivering a more intuitive, fluid, and immersive experience. - Performance & Stability: Fixed known issues and introduced enhancements for faster, smoother, and more reliable app performance. - Option to reset iCloud dat…
-  https://apps.apple.com/us/app/gymaholic-workout-tracker/id648518560?uo=4
-- TripView〔美区〕｜6.6.2
-  证据版本：6.6.2；- Added iPhone Duo support - Fixed Dropbox authentication - Fixed rail map animations
-  https://apps.apple.com/us/app/id294730339
-- iWriter Pro〔国区〕｜5.0
+## 新增或变化的适配线索（45）
+- Things〔美区〕｜3.25.2
+  证据版本：3.25.2；…-do wouldn’t update correctly after changing its date via keyboard shortcuts. THINGS 3.25 Things is ready for iPhone Duo! We’ve tailored the app for the new device, with a dynamic layout for all poses, a sidebar for your lists, and more. A DYNAMIC LAYOUT ON iPHONE DUO On iPhone Duo, Things reshapes itself to make the most of every pose – whether it’s closed, open, folded like a book, or …
+  https://apps.apple.com/us/app/things-3/id904237743?uo=4
+- SmartGym〔国区〕｜8.1
+  证据版本：8.1；8.1 SmartGym is ready for iPhone Duo, with an interface that adapts as you fold, unfold and move through your workout. EVERY POSE Enjoy layouts designed for every pose: Closed, Book Style, Fully Opened, Seated and Tent. SmartGym adjusts automatically, keeping your workout with you as the screen changes. U…
+  https://apps.apple.com/cn/app/smartgym-gym-home-workouts/id922744883?uo=4
+- SmartGym〔美区〕｜8.1
+  证据版本：8.1；8.1 SmartGym is ready for iPhone Duo, with an interface that adapts as you fold, unfold and move through your workout. EVERY POSE Enjoy layouts designed for every pose: Closed, Book Style, Fully Opened, Seated and Tent. SmartGym adjusts automatically, keeping your workout with you as the screen changes. U…
+  https://apps.apple.com/us/app/smartgym-gym-home-workouts/id922744883?uo=4
+- 钉钉〔国区〕｜9.0.7
+  证据版本：9.0.7；【抢鲜】 适配 iPhone Duo 【钉钉，让沟通更年轻】 导航栏支持用户进行自定义应用管理； 快捷操作栏支持用户新建日程； AI语音自动热词功能； AI语音移动端按住说话场景优化； 免打扰分组支持编辑； 增加横向常用消息分组设置； 长按点赞按钮可选择更多点赞样式。 【AI听记】 纪要支持溯源：每一句结论，都能点回原话； MCP开放标签与纪要模板：让Agent帮你建、帮你管。 【会议AI】 开启等候室，仅可见入会后听记。 【语音通话】 语音通话听记支持区分发言人。 【AI表格】 版本回退让误操作更容易恢复； 自动化发送消息支持按动态用户组、部门和角色发送； 自定义AI…
+  https://apps.apple.com/cn/app/%E9%92%89%E9%92%89/id930368978?uo=4
+- CARROT 天气: 预警与雷达〔国区〕｜6.9.2
+  证据版本：6.9.2；…with their neighbors. Naturally, I’ve been busy building another update to your favorite weather app. - Added iPhone Duo support. - Added multi-window support. - Improved Super Res Radar’s dual-pane mode so that it can now split vertically in portrait and horizontally in landscape on larger screens. - Fixed truncated Live Activities on iPhone 18. Happy Halloween, meatbags! Enjoy dressing…
+  https://apps.apple.com/cn/app/carrot-%E5%A4%A9%E6%B0%94-%E9%A2%84%E8%AD%A6%E4%B8%8E%E9%9B%B7%E8%BE%BE/id961390574?uo=4
+- CARROT 天气: 预警与雷达〔美区〕｜6.9.2
+  证据版本：6.9.2；…with their neighbors. Naturally, I’ve been busy building another update to your favorite weather app. - Added iPhone Duo support. - Added multi-window support. - Improved Super Res Radar’s dual-pane mode so that it can now split vertically in portrait and horizontally in landscape on larger screens. - Fixed truncated Live Activities on iPhone 18. Happy Halloween, meatbags! Enjoy dressing…
+  https://apps.apple.com/us/app/carrot-weather-alerts-radar/id961390574?uo=4
+- Sunset Predictions: Alpenglow〔国区〕｜12.1.4
+  证据版本：12.1.4；• Support for iPhone Duo: screens throughout Alpenglow are optimized for iPhone Duo. • Couple of bug fixes to iPhone Duo support. • Vantage Point: Long-press the map in Direction mode to stand anywhere and see the real terrain, buildings, sun, moon and stars at any time (Requires Alpenglow Pro…
+  https://apps.apple.com/cn/app/sunset-predictions-alpenglow/id978589174?uo=4
+- Sunset Predictions: Alpenglow〔美区〕｜12.1.4
+  证据版本：12.1.4；• Support for iPhone Duo: screens throughout Alpenglow are optimized for iPhone Duo. • Couple of bug fixes to iPhone Duo support. • Vantage Point: Long-press the map in Direction mode to stand anywhere and see the real terrain, buildings, sun, moon and stars at any time (Requires Alpenglow Pro…
+  https://apps.apple.com/us/app/sunset-predictions-alpenglow/id978589174?uo=4
+- 日历 - Family organizer planner〔国区〕｜5.2.2
+  证据版本：5.2.2；Timepage 现已支持 iPhone Duo。 合上时，它就是你熟悉又喜爱的那款日历。打开后，你的日程会在更大的屏幕上展开。全新的竖向导航专为 iPhone Duo 设计，界面也会随你的使用方式自动适配。 而且不只是 iPhone Duo：Timepage 现在也支持在 iPad 上使用多个窗口。将两个 Timepage 窗口并排打开，一边显示今天精确到分钟的日程，另一边显示整个月，或者按你喜欢的方式自由安排。 我们是一支由真实的人组成的小团队，非常期待听到你的反馈。欢迎发送邮件至 timepage@bonobolabs.com 和我们打个招呼。
+  https://apps.apple.com/cn/app/%E6%97%A5%E5%8E%86-family-organizer-planner/id989178902?uo=4
+- Spark Mail: AI 邮件助手〔国区〕｜3.20.5
+  证据版本：3.20.5；Spark 自 iPhone Duo 发布第一天即率先适配！ 收件箱与已打开的邮件并排显示，一目了然。无论设备处于合上、展开还是半折叠状态，您都能使用相同的操作和内容。展开 iPhone Duo，阅读、撰写邮件、搜索和查看日历都将拥有更宽广的空间。即刻更新并与我们分享您的体验！
+  https://apps.apple.com/cn/app/spark-mail-ai-%E9%82%AE%E4%BB%B6%E5%8A%A9%E6%89%8B/id997102246?uo=4
+- iReal Pro〔美区〕｜2026.9
+  证据版本：2026.9；…ack, with the chord chart following along: tap the microphone button next to Share to start - Add support for iPhone Duo - Moving staff text in the editor responds faster, and the arrow buttons dim at the first and last position - Playback and audio export run on the latest version of the FluidSynth sound engine (2.6.1) - Fixed Real Drums playing through a Break in the first bar of a son…
+  https://apps.apple.com/us/app/id298206806
+- Print to Size〔国区〕｜1.11
+  证据版本：1.11；现已支持全新 iPhone Duo
+  https://apps.apple.com/cn/app/print-to-size-%E5%8C%B9%E9%85%8D%E6%89%93%E5%8D%B0/id949490225?uo=4
+- Print to Size〔美区〕｜1.11
+  证据版本：1.11；Added support for the new iPhone Duo.
+  https://apps.apple.com/us/app/print-to-size/id949490225?uo=4
+- LumaFusion〔国区〕｜5.6.1
+  证据版本：5.6.1；新功能： * 五种全新 Reflected Tiles 效果 * 支持 iPhone Duo 修复： * 外部显示器无法正确检测 * 在 macOS 上重新排序效果有时不起作用 * 由于屏幕录制使用非标准色彩空间值，导出可能会失败 * 优化某些媒体时可能导致文件显著变大 * 部分 iPhone 上剪辑编辑器布局不正确 * 稳定性和性能改进 在即将发布的版本中，我们将继续添加新功能，并持续改进 LumaFusion 的各个方面。教程、参考指南、问题解答及直接联系我们，请访问 lumatouch.co/support
+  https://apps.apple.com/cn/app/lumafusion/id1062022008?uo=4
+- iWriter Pro〔美区〕｜5.0
   证据版本：5.0；- Added support for iOS 27 and iPhone Duo. - The app now uses Liquid Glass design on iOS 27. - Mermaid updated(12.1.0). Added support for the latest themes. - Performance improvements for Markdown rendering. - Numerous bug fixes. - TextExpander support removed. - iWriter Pro now requires iOS 26 or higher. If y…
-  https://apps.apple.com/cn/app/iwriter-pro/id892374380?uo=4
-- Fliqlo〔国区〕｜2.4
-  证据版本：2.4；- 新增对 iPhone Duo 布局的支持 - 修复了轻微错误
-  https://apps.apple.com/cn/app/fliqlo/id900833042?uo=4
-- Pedometer++〔美区〕｜8.2.1
-  证据版本：8.2.1；Support for the iPhone Duo.
-  https://apps.apple.com/us/app/pedometer/id712286167?uo=4
-- Oz Weather Plus〔美区〕｜4.7.5
-  证据版本：4.7.5；v4.7.5 * FIXED - Crash on startup on iPhone Duo. Optimisation for iPhone Duo screens and poses is in planning.
-  https://apps.apple.com/us/app/oz-weather-plus/id731781859?uo=4
-- TestFlight〔国区〕｜4.4.1
-  证据版本：4.4.1；通过本更新，TestFlight 包含： • iPhone Duo 支持。 • 稳定性提升和错误修复。
-  https://apps.apple.com/cn/app/testflight/id899247664?uo=4
-- Photo Manager Pro〔国区〕｜6.7.3
-  证据版本：6.7.3；适配iPhone Duo
-  https://apps.apple.com/cn/app/id1076480192
-- 文件〔美区〕｜27.1
-  证据版本：27.1；iPhone Duo Support added.
-  https://apps.apple.com/us/app/id295798315
-- 全民K歌-你其实很会唱歌〔国区〕｜11.3.38
-  证据版本：11.3.38；「iPhone Duo全新适配」Duo一面，唱歌多一面：一屏发现更多好歌 「iPhone Duo全新适配」大屏刷，佳作满屏来：海量作品随心刷 「iPhone Duo全新适配」展开点，情绪更足点：词曲铺满 主角即刻就位 「iPhone Duo全新适配」KTV，大点更沉浸：大屏看 MV，状态开口就来
-  https://apps.apple.com/cn/app/%E5%85%A8%E6%B0%91k%E6%AD%8C-%E4%BD%A0%E5%85%B6%E5%AE%9E%E5%BE%88%E4%BC%9A%E5%94%B1%E6%AD%8C/id910513149?uo=4
-- 搜狗输入法〔国区〕｜20.19.0
-  证据版本：20.19.0；本次更新带来以下功能优化—— 【适配iPhone Duo】 全姿态输入适配，键盘总能长在最顺手的位置；展开时9 键/26键均支持分离键盘，左右键区贴合拇指自然落点，不再担忧大屏够不到中间。 【语音输入免跳转】 无需拖拽悬浮窗，更少步骤更便捷；使用才调录音权限，不占麦克风少占内存少耗电。 快来体验，用起来吧！
-  https://apps.apple.com/cn/app/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95-%E8%AF%AD%E9%9F%B3%E5%8F%98%E5%A3%B0%E6%96%97%E5%9B%BE%E8%A1%A8%E6%83%85/id917670924?uo=4
-- The Weather Channel - Radar〔美区〕｜16.30.3
-  证据版本：16.30.3；Meet the new look -- Liquid Glass is here! We're also getting ready for iPhone Duo's release with new layouts that adapt to folding, unfolding, and rotating, plus improved iPad support for multiple windows and split views. Questions? Contact us at iphonesupport@weather.com
-  https://apps.apple.com/us/app/id295646461
-- Earthquake - alerts and map〔国区〕｜9.1.0
-  证据版本：9.1.0；Earthquake 现已支持 iPhone Duo！我们优化了应用界面，使其能够无缝适配设备的各种折叠形态和使用姿态，无论如何折叠，都能带来流畅、直观的使用体验。
-  https://apps.apple.com/cn/app/%E5%85%A8%E7%90%83%E5%AE%98%E6%96%B9%E5%9C%B0%E9%9C%87%E8%B5%84%E8%AE%AF%E9%80%9F%E6%8A%A5/id632040358?uo=4
-- 新概念英语专业版 - 英语美语全四册〔国区〕｜6.6.0
+  https://apps.apple.com/us/app/iwriter-pro/id892374380?uo=4
+- 微信读书〔美区〕｜10.2.3
+  证据版本：10.2.3；- 适配 iPhone Duo 折叠屏 - 问题修复与体验优化
+  https://apps.apple.com/us/app/%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6/id952059546?uo=4
+- Fliqlo〔美区〕｜2.4
+  证据版本：2.4；- Added support for the iPhone Duo layout - Fixed minor bugs
+  https://apps.apple.com/us/app/fliqlo/id900833042?uo=4
+- EXIF Viewer：照片元数据〔国区〕｜7.1
+  证据版本：7.1；…re，搜索“EXIF Viewer by Fluntro”即可下载。 初次使用 EXIF Viewer by Fluntro？ 一次购买，即可在 iPhone、iPad 和 Mac 上畅享使用。 本次更新还包含： 支持 iPhone Duo 以及 iPhone 18、iPhone 18 Pro Max 支持 iOS 27 新增从其他照片或自定义预设中复制元数据的功能 修复了 iOS 15.x 和 iOS 16.x 用户的闪退问题 性能与稳定性提升 感谢每一位使用 EXIF Viewer、向我们反馈问题、提出功能建议并留下好评的用户。正是因为你们，这款应用才能在 12 年后依然充满活力。
+  https://apps.apple.com/cn/app/exif-viewer-%E7%85%A7%E7%89%87%E5%85%83%E6%95%B0%E6%8D%AE/id944118456?uo=4
+- EXIF Viewer：照片元数据〔美区〕｜7.1
+  证据版本：7.1；…IF Viewer by Fluntro? One purchase gets you the app on iPhone, iPad, and Mac. Also in this update Support for iPhone Duo and iPhone 18, iPhone 18 Pro Max Support for iOS 27 Adds ability to copy metadata from another photo or custom presets Fixes crash for iOS 15.x and iOS 16.x users. Performance and stability improvements Thank you to everyone who has used EXIF Viewer, sent us bug report…
+  https://apps.apple.com/us/app/exif-viewer-by-fluntro/id944118456?uo=4
+- 我的天气 · MyWeather - 十五日天气预报〔国区〕｜3.5.1
+  证据版本：3.5.1；- 现已适配 iPhone Duo，展开手机，预见未来
+  https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E5%A4%A9%E6%B0%94-myweather-%E5%8D%81%E4%BA%94%E6%97%A5%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5/id1003715695?uo=4
+- 迷你预算 Pro〔国区〕｜2.0.2
+  证据版本：2.0.2；已针对 iPhone Duo 优化。 - 改进无预算时的界面和提示 - 添加首个预算后自动选中 - 优化文字大小和布局
+  https://apps.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E9%A2%84%E7%AE%97-pro/id1023219926?uo=4
+- NightCap 相机：长曝光〔美区〕｜10.2
+  证据版本：10.2；10.2 adds support for iPhone Duo. - NightCap adapts to iPhone Duo open or closed, with a layout built for each. - Improved color at high ISO: shots taken with ISO Boost keep their natural color. - A more reliable focus system. - Improved performance with large photo libraries. - Other fixes and improv…
+  https://apps.apple.com/us/app/nightcap-camera-long-exposure/id754105884?uo=4
+- TestFlight〔美区〕｜4.4.1
+  证据版本：4.4.1；With this update, TestFlight includes: • Support for iPhone Duo. • Stability improvements and bug fixes.
+  https://apps.apple.com/us/app/testflight/id899247664?uo=4
+- 同花顺至尊版-股票软件〔国区〕｜12.16.01
+  证据版本：12.16.01；1、适配iPhone Duo 2、优化产品性能，股票看盘更流畅
+  https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E8%87%B3%E5%B0%8A%E7%89%88-%E8%82%A1%E7%A5%A8%E8%BD%AF%E4%BB%B6/id954724812?uo=4
+- 同花顺至尊版-股票软件〔美区〕｜12.16.01
+  证据版本：12.16.01；1、适配iPhone Duo 2、优化产品性能，股票看盘更流畅
+  https://apps.apple.com/us/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E8%87%B3%E5%B0%8A%E7%89%88-%E8%82%A1%E7%A5%A8%E8%BD%AF%E4%BB%B6/id954724812?uo=4
+- PDF扫描仪：日期水印〔国区〕｜1.2
+  证据版本：1.2；**更新内容** • 新增对 iPhone Duo 的支持，针对折叠和展开状态提供自适应布局。 • 优化文档预览与编辑体验，更充分地利用展开后的屏幕空间。 • 改进页面裁剪、标注、滤镜和 PDF 创建界面的布局。 • 优化文档扫描、印章设置和 PDF 导出界面，以适应不同屏幕尺寸。 • 提升界面响应速度、布局稳定性及与最新 iOS 版本的兼容性。 • 其他界面细节优化和问题修复。
+  https://apps.apple.com/cn/app/pdf%E6%89%AB%E6%8F%8F%E4%BB%AA-%E6%97%A5%E6%9C%9F%E6%B0%B4%E5%8D%B0/id957061929?uo=4
+- PDF扫描仪：日期水印〔美区〕｜1.2
+  证据版本：1.2；**What's New** • Added support for iPhone Duo, with adaptive layouts for folded and unfolded screens. • Optimized the document review and editing experience to make better use of the expanded display. • Improved layouts for page cropping, markup, filters, and PDF creation. • Refined document scanning, stamp settin…
+  https://apps.apple.com/us/app/pdf-scanner-date-stamp/id957061929?uo=4
+- P：喝水提醒与小便记录〔国区〕｜2026.51
+  证据版本：2026.51；iPhone Duo：布局可适配两块显示屏。 好友：修复了提醒可能无法发送给部分好友的问题。 记录：修复了确认信息显示时再次记录会导致「撤销记录」无法正常使用的问题。 可靠性：修复了在 iOS 18 上启动时崩溃的问题及其他问题。
+  https://apps.apple.com/cn/app/id1090749982
+- FFT〔美区〕｜7.10
+  证据版本：7.10；New in this release: - Ready for iPhone Duo: every screen adapts to closed, open, book and tent, with controls in the side strip. - iOS 26 appearance adopted. - Bug fixes and stability improvements
+  https://apps.apple.com/us/app/id298840058
+- iSpreadsheet™ : 电子计算表〔国区〕｜27.1
+  证据版本：27.1；iPhone Duo Support
+  https://apps.apple.com/cn/app/ispreadsheet-%E7%94%B5%E5%AD%90%E8%AE%A1%E7%AE%97%E8%A1%A8/id932687167?uo=4
+- iSpreadsheet™ : 电子计算表〔美区〕｜27.1
+  证据版本：27.1；iPhone Duo Support
+  https://apps.apple.com/us/app/ispreadsheet/id932687167?uo=4
+- 超注音〔国区〕｜2.4.5
+  证据版本：2.4.5；Ver 2.4.5: • 支持 iPhone Duo，内外屏幕各自记住键盘高度与字体大小 • “AI 润饰”不再列出 OpenAI 已停用的模型，默认模型改为 gpt-6-luna
+  https://apps.apple.com/cn/app/%E8%B6%85%E6%B3%A8%E9%9F%B3/id983145797?uo=4
+- WalletApp〔国区〕｜6.1
+  证据版本：6.1；Added iPhone Duo support.
+  https://apps.apple.com/cn/app/walletapp/id1038175626?uo=4
+- 记事本 - 简单的备忘录·小组件·笔记·便签应用〔国区〕｜4.1.1
+  证据版本：4.1.1；已适配 iPhone Duo。
+  https://apps.apple.com/cn/app/%E8%AE%B0%E4%BA%8B%E6%9C%AC-%E7%AE%80%E5%8D%95%E7%9A%84%E5%A4%87%E5%BF%98%E5%BD%95-%E5%B0%8F%E7%BB%84%E4%BB%B6-%E7%AC%94%E8%AE%B0-%E4%BE%BF%E7%AD%BE%E5%BA%94%E7%94%A8/id1004291915?uo=4
+- TrafficCamNZ〔美区〕｜1.31.0
+  证据版本：1.31.0；● Support for iPhone Duo - TrafficCamNZ now fills both iPhone Duo displays, edge to edge, and adjusts as you fold and unfold. ● Unfold for more cameras - on the big screen choose 1, 4 or 16 cameras at once, just like iPad. Fold it closed and it switches back to one camera at a time; unfold aga…
+  https://apps.apple.com/us/app/id299032226
+- 新概念英语专业版 - 英语美语全四册〔美区〕｜6.6.0
   证据版本：6.6.0；适配 iPhone Duo
-  https://apps.apple.com/cn/app/%E6%96%B0%E6%A6%82%E5%BF%B5%E8%8B%B1%E8%AF%AD%E4%B8%93%E4%B8%9A%E7%89%88-%E8%8B%B1%E8%AF%AD%E7%BE%8E%E8%AF%AD%E5%85%A8%E5%9B%9B%E5%86%8C/id755018884?uo=4
-- Prêt à Template〔国区〕｜4.6.7
-  证据版本：4.6.7；Prêt-à-Template 现已支持 iPhone Duo。 在封面上设计，专注完成创作；展开后即可获得更宽广的画布，容纳工具、模板和图库。随时折叠或展开，继续上次的创作。 - 全新 Puzzle Look 模型 - 全新服装模板 请及时更新应用！我们一直在为 Prêt-à-Template 带来改进和优化。
-  https://apps.apple.com/cn/app/pr%C3%AAt-%C3%A0-template/id839537579?uo=4
-- LibriVox Audiobooks〔美区〕｜10.4.0
-  证据版本：10.4.0；- Improved layouts and navigation on iPhone Duo. - The current chapter is now highlighted in book details. - Updated the sleep timer and improved playback controls. - Fixed an issue that could interrupt writing a review when the layout changed.
-  https://apps.apple.com/us/app/librivox-audiobooks/id596159212?uo=4
-- LibriVox Audiobooks – Ad-Free〔美区〕｜10.4.0
-  证据版本：10.4.0；- Improved layouts and navigation on iPhone Duo. - The current chapter is now highlighted in book details. - Updated the sleep timer and improved playback controls. - Fixed an issue that could interrupt writing a review when the layout changed.
-  https://apps.apple.com/us/app/librivox-audiobooks-ad-free/id662558935?uo=4
-- Michigan Offroad Trail Map〔美区〕｜5.4.0
-  证据版本：5.4.0；Support for iPhone Duo and iOS/iPadOS 27.1
-  https://apps.apple.com/us/app/michigan-offroad-trail-map/id720210650?uo=4
+  https://apps.apple.com/us/app/%E6%96%B0%E6%A6%82%E5%BF%B5%E8%8B%B1%E8%AF%AD%E4%B8%93%E4%B8%9A%E7%89%88-%E8%8B%B1%E8%AF%AD%E7%BE%8E%E8%AF%AD%E5%85%A8%E5%9B%9B%E5%86%8C/id755018884?uo=4
+- Prêt à Template〔美区〕｜4.6.7
+  证据版本：4.6.7；Prêt-à-Template now supports iPhone Duo. Design on the cover for a focused workspace, or unfold for a wider canvas with room for your tools, templates, and gallery. Fold and unfold and pick up right where you left off. - New Puzzle Look model - New Garments templates Keep your app updated! We're always makin…
+  https://apps.apple.com/us/app/pr%C3%AAt-%C3%A0-template/id839537579?uo=4
+- Webex〔美区〕｜46.11.0
+  证据版本：46.11.0；• Support for iPhone Duo • Native markdown file preview • Stability improvements
+  https://apps.apple.com/us/app/webex/id833967564?uo=4
+- Narwhal for Reddit〔美区〕｜2026.10
+  证据版本：2026.10；We crushed some more bugs from our iPhone Duo update: - Fixed signing in to your Reddit account with Apple or Google. - Fixed duplicate subreddits being shown in the side menu. - Fixed an issue where certain subreddits didn't show subscribe options. In case you missed it, here are the release notes from 2026.8: Im…
+  https://apps.apple.com/us/app/narwhal-for-reddit/id845422455?uo=4
+- 2048+#〔美区〕｜2.4.4
+  证据版本：2.4.4；iPhone Duo support: more stable fold split and landscape layouts;
+  https://apps.apple.com/us/app/2048/id858525203?uo=4
+- Signal - Private Messenger〔美区〕｜8.35.1
+  证据版本：8.35.1；• Signal is now optimized for iPhone Duo, so you can install one update to get ready for two screens. We will unfold additional improvements in the future too.
+  https://apps.apple.com/us/app/signal-private-messenger/id874139669?uo=4
+- Contraction Timer & Counter 9m〔美区〕｜3.4.1
+  证据版本：3.4.1；…ns from your wrist, even when your iPhone is out of reach. Available in the Full Version. • Now optimized for iPhone Duo. • Notes on contractions: add a comment to any contraction. • Bug fixes and performance improvements. Thank you for being with us. If the app is helping you, please leave a review on the App Store — it means a lot to us. Wishing you an easy birth!
+  https://apps.apple.com/us/app/contraction-timer-counter-9m/id877303791?uo=4
+- Canva AI Photo & Video Editor〔美区〕｜4.234.0
+  证据版本：4.234.0；iPhone Duo is now supported. Key benefits - Design for the screen your audience sees. Create a Story or Reel unfolded, then fold to preview it at true phone size. - Unfold to design. The 7.6" inner screen gives Canva a full canvas for layouts, brand work and multi-page designs, w…
+  https://apps.apple.com/us/app/canva-ai-photo-video-editor/id897446215?uo=4
+- Learning To Deal Roulette〔美区〕｜2.0.0 Updated Layouts and Helper Answers
+  证据版本：2.0.0 Updated Layouts and Helper Answers；- Iphone Duo Compatible - Now with instructional aids when you miss 3 in a row - App is back to Native iOS with familiar UI controls
+  https://apps.apple.com/us/app/learning-to-deal-roulette/id961205469?uo=4
+- SonoSequencr〔美区〕｜10.0.0
+  证据版本：10.0.0；…dded to set the subwoofer's crossover frequency. - Added support for new Beam Ultra. - Support for iOS 27 and iPhone Duo. iOS 15 and watchOS 9 or later are now required. - sonosequencr:// links can now be opened directly in the web tab. - Fixed a possible crash when several commands were sent to a device that is switched off. - Various other bug fixes and improvements. For questions, fea…
+  https://apps.apple.com/us/app/sonosequencr/id967043604?uo=4
 
 ## 地区商店资料变化（不等于新增 App 或已适配）
-- 小红书〔美区〕：首次获取该地区资料
-- PDF 点睛  - 文件编辑器、阅读器和转换器〔美区〕：首次获取该地区资料
-- Wego 机票搜索酒店预订 - 玩够旅行〔美区〕：首次获取该地区资料
-- 脉脉-找人脉找工作求职招聘职场社交平台〔美区〕：首次获取该地区资料
-- 两步路-记录户外精彩生活〔美区〕：首次获取该地区资料
-- Pedometer++〔美区〕：首次获取该地区资料
-- Oz Weather Plus〔美区〕：首次获取该地区资料
-- NW Ferry〔国区〕：首次获取该地区资料
-- Cloud Baby Monitor〔国区〕：首次获取该地区资料
-- Transit • Subway & Bus Times〔国区〕：首次获取该地区资料
-- LandGlide: Parcel & Field Maps〔国区〕：首次获取该地区资料
-- TickTick:To-Do List & Calendar〔国区〕：首次获取该地区资料
-- Earthquake - alerts and map〔国区〕：首次获取该地区资料
+- 高德地图〔国区〕：17.2.2 → 17.3.0
+- WEBTOON〔美区〕：26.101.0 → 26.102.0
+- 抖音〔国区〕：40.9.0 → 41.0.0
+- 美团〔国区〕：12.68.201 → 12.68.402
+- 网易云音乐〔国区〕：9.6.15 → 9.6.20
+- 腾讯视频〔国区〕：9.04.70 → 9.04.75
+- 剪映〔国区〕：21.9.0 → 22.0.0
+- QQ音乐 - 听我想听〔国区〕：20.9.6 → 20.9.8
+- 起点读书-看小说听书的阅读神器〔国区〕：5.9.482 → 5.9.484
+- World Clock Time Converter〔美区〕：首次获取该地区资料
+- 钉钉〔美区〕：首次获取该地区资料
+- Darkroom: Photo & Video Editor〔国区〕：7.6.2 → 7.6.3
+- Darkroom: Photo & Video Editor〔美区〕：首次获取该地区资料
+- CARROT 天气: 预警与雷达〔美区〕：首次获取该地区资料
+- Sunset Predictions: Alpenglow〔美区〕：首次获取该地区资料
+- iWriter Pro〔美区〕：首次获取该地区资料
+- My Earthquake Alerts Pro〔美区〕：首次获取该地区资料
+- 微信读书〔美区〕：首次获取该地区资料
+- Fliqlo〔美区〕：首次获取该地区资料
+- EXIF Viewer：照片元数据〔美区〕：首次获取该地区资料
+- 我的极光预报 - 极光提醒·北极光〔国区〕：26.8.2 → 26.8.4
+- 三国杀〔国区〕：4.6.0.4 → 4.6.1
+- 斗鱼〔美区〕：首次获取该地区资料
+- Awaybook：全球酒店足迹 · 常旅客手记〔国区〕：3.7.3 → 3.8.0
+- VoidLink〔国区〕：3.5.13 → 3.5.14
+- Device Lab〔国区〕：1.8.3 → 1.8.4
+- 浮影〔国区〕：3.3 → 3.4
+- BaroWatch Barometer〔国区〕：1.3.1 → 1.3.2
+- 随手网页-移动端 HTML 查看器〔国区〕：1.14.0 → 1.14.1
+- AirBuild: AI App Teammates〔国区〕：1.4 → 1.5
+- ColorfulCam〔国区〕：1.9.26 → 1.9.28
+- NightCap 相机：长曝光〔美区〕：首次获取该地区资料
+- My Tide Times Pro - Tide Chart〔美区〕：首次获取该地区资料
+- TestFlight〔美区〕：首次获取该地区资料
+- 同花顺至尊版-股票软件〔美区〕：首次获取该地区资料
+- PDF扫描仪：日期水印〔美区〕：首次获取该地区资料
+- Colorful Widget彩虹小组件-万能桌面主题壁纸〔国区〕：19.0.0 → 19.0.1
+- 行测训练场〔国区〕：1.5 → 1.6
+- 好女子〔国区〕：1.0.5 → 1.0.6
+- Flipin - 3分钟做成一本zine〔国区〕：1.2.0 → 1.2.1
+- Cadrage Director's Viewfinder〔美区〕：首次获取该地区资料
+- Pillow：睡眠周期跟踪器〔美区〕：首次获取该地区资料
+- iSpreadsheet™ : 电子计算表〔美区〕：首次获取该地区资料
+- iMuseum 每日环球展览 · iDaily Museum〔美区〕：首次获取该地区资料
+- Paste – 剪贴板管理工具〔美区〕：首次获取该地区资料
+- 新概念英语专业版 - 英语美语全四册〔美区〕：首次获取该地区资料
+- Prêt à Template〔美区〕：首次获取该地区资料
+- Michigan Offroad Trail Map〔国区〕：首次获取该地区资料
 
-## 新增软件（5）
-- 新概念英语专业版 - 英语美语全四册｜教育
-- Prêt à Template｜图形与设计
-- LibriVox Audiobooks｜图书
-- LibriVox Audiobooks – Ad-Free｜图书
-- Michigan Offroad Trail Map｜导航
+## 新增软件（7）
+- Webex｜商务
+- Narwhal for Reddit｜新闻
+- Signal - Private Messenger｜社交
+- Contraction Timer & Counter 9m｜医疗
+- Canva AI Photo & Video Editor｜摄影与录像
+- Learning To Deal Roulette｜教育
+- SonoSequencr｜音乐
 
-## 新增游戏（0）
-无。
+## 新增游戏（1）
+- 2048+#｜游戏
 
 ## 新增类型待同步（0）
 无。
