@@ -1,160 +1,197 @@
 # 本轮抓取报告
-2026-11-16T22:29:20+00:00
+2026-11-17T04:48:08+00:00
 
 新增收录、版本更新和适配线索分开统计；不代表本站实测。
 
 ## 国区扫描范围
-候选池 10819 个 ID；本轮计划检查 605 个；分类榜单成功 28/28。
+候选池 10852 个 ID；本轮计划检查 605 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
 
 ## 美区扫描范围
-候选池 14730 个 ID；本轮计划检查 600 个；分类榜单成功 28/28。
+候选池 14853 个 ID；本轮计划检查 600 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
-Lookup 返回 599/600 个条目；网页解析 30/30。
+Lookup 返回 595/600 个条目；网页解析 30/30。
 各地区的版本说明独立保存；美区声明不代表国区已适配。
 本轮部分计划目标未返回资料或来源未完成；保留候选继续轮询，不据此推断已下架或已适配。
 
-## 新增 App（4）
-- Med Atlas〔国区〕｜1.1.2
-- Occasions 3 - Reminders〔美区〕｜3.4
-- Parking Zones Vienna〔美区〕｜3.3
-- Payback 2〔美区〕｜2.106.17
+## 新增 App（13）
+- BlazePush-圈速计时&性能测试〔国区〕｜1.9.1
+- 掌上金价-今日黄金价格、白银行情与金店比价〔国区〕｜1.0.23
+- 遥光 - 阿西西 PS串流〔国区〕｜1.2.8
+- GR Snap - 理光GR无线传图〔国区〕｜1.8.0
+- 戏曲锣鼓〔国区〕｜1.6
+- Image Compare+〔国区〕｜1.5.9
+- FilmNoir 追剧观影记录 for Trakt〔国区〕｜4.0.1
+- Word Seek English Infinite〔美区〕｜4.8
+- Grooves: Song Speed Changer〔美区〕｜39.1
+- Scala 40 Online or Alone〔美区〕｜8.3.175
+- OBD Fusion〔美区〕｜7.5.0
+- Free People〔美区〕｜26.11.1
+- Quest of Dungeons〔美区〕｜4.0.1
 
-## 已有 App 版本更新（19）
-- Prime Video〔美区〕｜10.156.1 → 10.157
-- Paramount+〔美区〕｜15.28.2 → 15.29.0
-- BAND〔美区〕｜31.1.2 → 31.2.0
-- 系统电池分析-手机配置查询·电池健康分析〔国区〕｜2.5.2 → 2.5.3
-- OffScreen - 自律番茄钟，不做手机控〔国区〕｜3.22.5 → 3.22.6
-- Kuli Kuli - AI菜单美妆翻译专家〔国区〕｜2.0.4 → 2.0.5
-- PhotonCam: 专业相机和照片编辑〔国区〕｜2.1.7 → 2.1.8
-- Oldi - Phone Camera〔国区〕｜2.0.0 → 2.0.1
-- PocketRadar：实时降雨雷达、动画雨量地图与天气预报〔国区〕｜4.5.6 → 4.5.7
-- 2Camera 双摄相机 DualShot Recorder〔国区〕｜1.5.8 → 1.5.9
-- PicSlicer〔国区〕｜6.8.5 → 6.9.0
-- FlipYear - 3D 翻页书相册清理〔国区〕｜1.1.26 → 1.1.27
-- Mono Lab〔国区〕｜5.5 → 5.6
-- Sleeve - 专辑播放器〔国区〕｜2.2 → 2.3
-- iLehra〔国区〕｜10.1.2 → 10.1.3
-- Marvis Pro〔国区〕｜10.3.1 → 10.4
-- 记分板: 适配你的玩法〔国区〕｜1.12.0 → 1.13.0
-- TrayMinder〔国区〕｜15.8.2 → 15.9.1
-- FansDash：篮球小组件与赛事数据〔国区〕｜1.4.0 → 1.4.1
+## 已有 App 版本更新（29）
+- Slack〔美区〕｜26.11.10 → 26.11.20
+- 腾讯视频〔国区〕｜9.04.80 → 9.04.85
+- Spark Mail: AI 邮件助手〔国区〕｜3.20.7 → 3.20.8
+- TapTap - 发现好游戏〔国区〕｜5.56.0 → 5.56.1
+- 自由笔记 - AI记事本与随手记〔国区〕｜3.51.0 → 3.51.1
+- Placify - 地点收藏、旅行计划、行程记录、专属地图〔国区〕｜2.1.1 → 2.1.2
+- 爱日历〔国区〕｜2.4.0 → 2.5.0
+- Voice Recorder, Voice Memos ®〔美区〕｜17.9 → 18.7
+- 天文通 - 星图、观星指数、极光天象、星空指南〔国区〕｜3.6.0 → 3.7.0
+- 手表播放器〔国区〕｜6.0.0 → 6.1.1
+- 解压小橙子 - HRV心理压力自测 健康监测睡眠生活习惯〔国区〕｜13.8 → 13.9
+- Device Lab〔国区〕｜1.8.7 → 1.8.8
+- 音剪 - 音乐剪辑 & 音乐创作工具〔国区〕｜4.3.7 → 4.3.8
+- 巴士到站时间-就是这里〔国区〕｜2026.51 → 2026.52
+- OtterLife: AI运动健康&HRV压力提醒&习惯养成〔国区〕｜2.0.22 → 2.0.23
+- ParkWhiz - #1 Parking App〔美区〕｜11.6.0 → 11.6.1
+- JusTalk - Video Chat & Calls〔美区〕｜9.5 → 9.5.4
+- Earthquake - alerts and map〔美区〕｜9.1.0 → 9.1.1
+- Pulu - 吉他谱钢琴谱简谱尤克里里海量曲谱〔国区〕｜1.2.6 → 1.2.8
+- 畅译 - 录音转文字·手表录音笔·会议纪要〔国区〕｜2.1.1 → 2.2.0
+- Halcyon Forecast〔国区〕｜1.7.3 → 1.7.4
+- 直播吧-看球聊球、资讯数据〔国区〕｜7.0.1 → 7.0.2
+- 网易大神〔国区〕｜4.26.0 → 4.27.0
+- 动森圈圈〔国区〕｜2.2.0 → 2.2.1
+- 时光播放机〔国区〕｜2.1.5 → 2.1.6
+- 多重计时器：学习与专注〔国区〕｜3.0 → 3.1
+- LightMeter35〔国区〕｜2.3 → 2.4
+- CollaNote：精美笔记、PDF标注、录音与手写同步〔国区〕｜5.1.1 → 5.1.2
+- 福麻圈®〔国区〕｜4.5 → 4.6
 
-## 新增或变化的适配线索（18）
-- 世界迷雾〔美区〕｜3.8.8
-  证据版本：3.8.8；… map movement while recording tracks. • Territory detection now has 16× finer resolution. • Added support for iPhone Duo and adaptive window resizing on iPad. • Rebuild your databases about 4× faster. • UI refinements and bug fixes. -- Version 3.8.8 • Added exploration percentages to division and subdivision rankings. • Added a Smooth Unfogging option in Settings > Map. • Improved track …
-  https://apps.apple.com/us/app/fog-of-world/id505367096?uo=4
-- 咖啡人 · 每日咖啡记录〔国区〕｜1.4.1
-  证据版本：1.4.1；适配 iPhone Duo！ 优化咖啡地图交互 ================ 咖啡人——贴纸记录每一杯咖啡，无论拿铁、美式还是其他特调、自制咖啡，轻点完成，自动追踪每日咖啡因摄入 • 用贴纸的方式记录每日咖啡 • 掌握每日咖啡因摄入量，同步健康数据 • 查看周 / 月 / 年咖啡统计 • 添加咖啡店铺、定位，生成咖啡地图 • 生成贴纸Reel视频、实况图 • 分享咖啡日历、咖啡卡片
-  https://apps.apple.com/cn/app/%E5%92%96%E5%95%A1%E4%BA%BA-%E6%AF%8F%E6%97%A5%E5%92%96%E5%95%A1%E8%AE%B0%E5%BD%95/id6757520656?uo=4
-- iDaily · 每日环球视野 -5分钟了解地球今天发生什么〔美区〕｜7.0.1
-  证据版本：7.0.1；全新支持 iPhone Duo 折叠屏，更震撼的视觉体验 - 展开模式可获得更广阔视野 - 支持 Liquid Glass 玻璃界面
-  https://apps.apple.com/us/app/idaily-%E6%AF%8F%E6%97%A5%E7%8E%AF%E7%90%83%E8%A7%86%E9%87%8E-5%E5%88%86%E9%92%9F%E4%BA%86%E8%A7%A3%E5%9C%B0%E7%90%83%E4%BB%8A%E5%A4%A9%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88/id506081667?uo=4
-- iBloomberg i商周〔美区〕｜8.9.0
-  证据版本：8.9.0；修复 iPhone Duo 上的界面显示异常，优化兼容性与使用体验。
-  https://apps.apple.com/us/app/ibloomberg-i%E5%95%86%E5%91%A8/id532464577?uo=4
-- NW Ferry〔美区〕｜6.1.0
-  证据版本：6.1.0；* Added support for the iPhone Duo. * Minor enhancements and fixes.
-  https://apps.apple.com/us/app/id427430871
-- Device Monitor²〔国区〕｜27.0.1
-  证据版本：27.0.1；…tability and performance. What’s New in v. 27.0.0: • Added support for iOS 27 and preliminary support for the iPhone Duo. • On iPad and iPhone Duo, panels automatically arrange into up to three columns, depending on the available space. • Coordinated RAM cleaning across the app, widgets, Shortcuts, and Control Center, with visible progress and the ability to stop an active operation. • N…
-  https://apps.apple.com/cn/app/id1522870046
-- Widgetsmith〔国区〕｜9.0.1
-  证据版本：9.0.1；… are quicker to spot. This update is full of refinements across the whole app. It also brings support for the iPhone Duo, with beautiful full-screen views on the inside display.
-  https://apps.apple.com/cn/app/id1523682319
-- 东方财富领先版-财经资讯&股票开户〔美区〕｜11.5.8
-  证据版本：11.5.8；【适配iPhone Duo】 【港美股盘口数据升级】 港美股盘口新增关联基金，港股更添经纪商持股信息，多维数据一站掌握，行情分析更全面。 【港股行情签全新改版】 港股新增热股卡片，热门标的快速跟踪；新增港股ETF模块，ETF产品轻松查看。 【新增中美联动模块】 实时追踪美股异动，探寻关联A股机会，全球资产联动盯盘。 【ETF异动原因解析】 不再只看涨跌数字，ETF异动新增AI原因解析，异动逻辑一目了然。 【截图唤起妙想问答】 截图后一键唤起妙想问答，各类指标解读随图随问，多模态交互更顺手。 【行情新增市场情绪卡片】 短线、中长线情绪、市场主线热度等一卡即看，快…
-  https://apps.apple.com/us/app/%E4%B8%9C%E6%96%B9%E8%B4%A2%E5%AF%8C%E9%A2%86%E5%85%88%E7%89%88-%E8%B4%A2%E7%BB%8F%E8%B5%84%E8%AE%AF-%E8%82%A1%E7%A5%A8%E5%BC%80%E6%88%B7/id530425820?uo=4
-- nPlayer Plus〔美区〕｜3.14.1
-  证据版本：3.14.1；- Added support for iPhone Duo - Bug fixes and stability improvements.
-  https://apps.apple.com/us/app/nplayer-plus/id539397400?uo=4
-- Legislation HK 香港法例〔美区〕｜4.2.38
-  证据版本：4.2.38；+ Optimizations for iPhone Duo + Legislation updated as at 2026-11-03
-  https://apps.apple.com/us/app/legislation-hk-%E9%A6%99%E6%B8%AF%E6%B3%95%E4%BE%8B/id557168861?uo=4
-- RoxWatch: Hybrid Race Timer〔国区〕｜1.0.7
-  证据版本：1.0.7；- 新功能：用 Garmin 完成的训练结束后自动进入 iPhone 历史记录，另有按钮可导入手表的全部历史 - 针对 iPhone Duo 优化：展开后，App 同时利用屏幕左右两侧 - 全新图标与启动动画 - 新增德语、西班牙语和葡萄牙语 - 启动更流畅，并包含多项修复与改进
-  https://apps.apple.com/cn/app/roxwatch-%E6%B7%B7%E5%90%88%E5%81%A5%E8%BA%AB%E7%AB%9E%E9%80%9F%E8%AE%A1%E6%97%B6%E5%99%A8/id6758763578?uo=4
-- NanoType - Keyboard for Watch〔国区〕｜1.2
-  证据版本：1.2；In this update: - Added full support for iPhone Duo. Content & toolbars have been adapted for both inner & outer displays. - Other bug fixes & improvements. If you like this app, please consider leaving a positive review! Having issues? Please get in touch: Email: support@adamfoot.dev Website: https://adamfoot.dev
-  https://apps.apple.com/cn/app/nanotype-keyboard-for-watch/id6759165878?uo=4
-- LightMeter35〔国区〕｜2.3
-  证据版本：2.3；… can now open LightMeter35 directly from your Lock Screen or Control Center. — Previous Update — Now supports iPhone Duo and iOS 27.
-  https://apps.apple.com/cn/app/id1522046585
-- FansDash：篮球小组件与赛事数据〔国区〕｜1.4.1
-  证据版本：1.4.1；- 适配iPhone Duo
-  https://apps.apple.com/cn/app/fansdash-%E7%AF%AE%E7%90%83%E5%B0%8F%E7%BB%84%E4%BB%B6%E4%B8%8E%E8%B5%9B%E4%BA%8B%E6%95%B0%E6%8D%AE/id6753683509?uo=4
-- Med Atlas〔国区〕｜1.1.2
-  证据版本：1.1.2；新增对 iPhone Duo 的支持;修复已下载图谱的标注更新问题;订阅到期或退款后的状态显示更准确。
-  https://apps.apple.com/cn/app/med-atlas/id6754871072?uo=4
-- Occasions 3 - Reminders〔美区〕｜3.4
-  证据版本：3.4；3.4 - iPhone Duo support If you like Occasions, please rate or review it in App Store when an update comes out! Thank you!
-  https://apps.apple.com/us/app/occasions-3-reminders/id541109232?uo=4
-- Parking Zones Vienna〔美区〕｜3.3
-  证据版本：3.3；• Support for iPhone Duo • Updated parking information, parking zones, short-term parking spots and resident-only parking spots — Do you have a parking permit? — If you are a parking permit holder for one of Vienna's municipal districts, you can now unlock many helpful additions to the app. Ju…
-  https://apps.apple.com/us/app/parking-zones-vienna/id548389439?uo=4
-- Payback 2〔美区〕｜2.106.17
-  证据版本：2.106.17；• iPhone Duo support • New options: effects volume, and a compact weapon selector • Bug fixes
-  https://apps.apple.com/us/app/payback-2/id570426586?uo=4
+## 新增或变化的适配线索（23）
+- Netdata server monitoring〔国区〕｜2.5
+  证据版本：2.5；Add support for iPhone Duo
+  https://apps.apple.com/cn/app/id1525322870
+- Spendi: 记账本〔国区〕｜2.0.0
+  证据版本：2.0.0；…程碑 • 账户：将银行卡、现金和银行账户分开管理，并在它们之间转账 • 从 CSV 文件或银行账单导入历史记录 • 支出显示商家名称，订阅显示标志 • 计算器式键盘：直接在金额栏中计算 • 自选每月从哪一天开始 • 为 iPhone Duo 带来新布局，以及大量改进
+  https://apps.apple.com/cn/app/spendi-%E8%AE%B0%E8%B4%A6%E6%9C%AC/id6760630364?uo=4
+- Private Browsing White〔美区〕｜27.1
+  证据版本：27.1；iPhone Duo support
+  https://apps.apple.com/us/app/id428855226
+- Earthquake - alerts and map〔美区〕｜9.1.1
+  证据版本：9.1.1；Earthquake now supports iPhone Duo! We’ve updated the app’s interface to seamlessly adapt to the device’s different folding configurations, ensuring a smooth and intuitive experience in every pose.
+  https://apps.apple.com/us/app/earthquake-alerts-and-map/id632040358?uo=4
+- WomanLog Pro Calendar〔美区〕｜7.5.2
+  证据版本：7.5.2；iPhone Duo support: Enjoy an optimized app experience on iPhone Duo. Plans & Purchases: View all available purchase options in one place under Settings > Plans & Purchases. Bug fixes and improvements: Minor fixes and improvements for a smoother experience.
+  https://apps.apple.com/us/app/id429135422
+- PhotoTrace: Camera Tracing〔国区〕｜1.1.0
+  证据版本：1.1.0；- Adds iPhone Duo support
+  https://apps.apple.com/cn/app/phototrace-camera-tracing/id6760371384?uo=4
+- Kruger Nav〔国区〕｜7.0
+  证据版本：7.0；…nd you can switch it off in Settings. - Heritage sites – 54 historic sites on the map, each with its story. - iPhone Duo – layouts for both the open and closed screens. IMPROVED - Animal pins from earlier versions are now sightings. Any pin that wasn't linked to an animal stays as a saved place. - The SA National Tree List has moved into the field guide. - The Guides have a new library p…
+  https://apps.apple.com/cn/app/kruger-nav/id6760788554?uo=4
+- QR & Barcode Scan〔国区〕｜1.2.0
+  证据版本：1.2.0；Adde iPhone Duo Compatibility.
+  https://apps.apple.com/cn/app/qr-barcode-scan/id6762162278?uo=4
+- Turbli+〔国区〕｜1.4.0
+  证据版本：1.4.0；Full support for iPhone Duo. Layout fixes across the app. Cleaner maps with clearer labels. The airport search bar now stays visible. New options to rate Turbli+
+  https://apps.apple.com/cn/app/turbli/id6762553623?uo=4
+- Aether Synth〔国区〕｜1.23
+  证据版本：1.23；…e also streamlined navigation by removing the separate Keys tab while keeping all piano functionality intact. iPhone Duo and iPad experiences remain fully supported.
+  https://apps.apple.com/cn/app/aether-synth/id6766131732?uo=4
+- BlazePush-圈速计时&性能测试〔国区〕｜1.9.1
+  证据版本：1.9.1；本次更新带来 iPhone Duo 适配，并进一步提升计时录像体验。 - 计时录像新增点按对焦、曝光调节，以及对焦与曝光锁定功能。 - 优化录像规格切换，修复部分情况下 4K 30 帧预览无画面及 30/60 帧切换异常的问题。
+  https://apps.apple.com/cn/app/blazepush-%E5%9C%88%E9%80%9F%E8%AE%A1%E6%97%B6-%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/id6761510434?uo=4
+- 掌上金价-今日黄金价格、白银行情与金店比价〔国区〕｜1.0.23
+  证据版本：1.0.23；1. 修复bug，稳定性提升 2. 界面UI交互优化，优化用户体验 3. 适配 iPhone Duo
+  https://apps.apple.com/cn/app/%E6%8E%8C%E4%B8%8A%E9%87%91%E4%BB%B7-%E4%BB%8A%E6%97%A5%E9%BB%84%E9%87%91%E4%BB%B7%E6%A0%BC-%E7%99%BD%E9%93%B6%E8%A1%8C%E6%83%85%E4%B8%8E%E9%87%91%E5%BA%97%E6%AF%94%E4%BB%B7/id6762172804?uo=4
+- 遥光 - 阿西西 PS串流〔国区〕｜1.2.8
+  证据版本：1.2.8；- 优化 iPhone Duo 适配体验。 - 新增悬浮球控件，可拖动贴边，闲置时自动收起。 - 优化 PSN 远程连接，连接时可查看当前阶段和等待时间。 - 系统和 Metal 渲染均支持帧节奏调节，并新增可调节的视频帧缓冲。 - 改善 Metal 插帧的稳定性，受支持设备最高可达 120 FPS。 - 主机配置导入导出现已包含 PSN 账号，方便跨平台迁移。
+  https://apps.apple.com/cn/app/%E9%81%A5%E5%85%89-%E9%98%BF%E8%A5%BF%E8%A5%BF-ps%E4%B8%B2%E6%B5%81/id6763110430?uo=4
+- GR Snap - 理光GR无线传图〔国区〕｜1.8.0
+  证据版本：1.8.0；- 新增配方：收藏和分享喜欢的照片风格，还能直接应用到 GR IV，让喜欢的色彩随手可用。 - 支持 iPhone Duo，展开或折叠都能舒适浏览与操作。 - 照片信息更清晰，轻松查看焦距、曝光等拍摄细节。 - 简化相机连接指引，让连接更轻松。
+  https://apps.apple.com/cn/app/gr-snap-%E7%90%86%E5%85%89gr%E6%97%A0%E7%BA%BF%E4%BC%A0%E5%9B%BE/id6768040383?uo=4
+- 戏曲锣鼓〔国区〕｜1.6
+  证据版本：1.6；适配iPhone Duo； 优化用户体验；
+  https://apps.apple.com/cn/app/%E6%88%8F%E6%9B%B2%E9%94%A3%E9%BC%93/id6769261737?uo=4
+- Image Compare+〔国区〕｜1.5.9
+  证据版本：1.5.7；Optimized for iPhone Duo. Side by Side view now automatically picks the layout that shows your images largest, so tall screenshots appear side by side.
+  https://apps.apple.com/cn/app/id1524811594
+- FilmNoir 追剧观影记录 for Trakt〔国区〕｜4.0.1
+  证据版本：4.0；…ch。 • 全新同步引擎：观影清单、观看记录和评分同步更快、更可靠。首次启动时会自动迁移你的片库。 • 观影清单全新设计：分类一键切换，自定义片单触手可及。 • 全新 iPad 体验，配备边栏和自适应布局。 • 已适配 iPhone Duo：展开后并排查看详情，合上后在外屏使用完整应用。 • Siri 与快捷指令：搜索片库、查看接下来要看的内容，并直达任意页面。 • 更精准的搜索（忽略重音符号），新增“最近看过”栏目。 • 大量性能改进与问题修复。 如果你喜欢 FilmNoir，欢迎留下评价，这对我们意义重大。— Tom & Konstantinos
+  https://apps.apple.com/cn/app/id1528417240
+- Word Seek English Infinite〔美区〕｜4.8
+  证据版本：4.8；• Added support for iPhone Duo
+  https://apps.apple.com/us/app/word-seek-english-infinite/id590330669?uo=4
+- Grooves: Song Speed Changer〔美区〕｜39.1
+  证据版本：39.1；Grooves has been updated with support for iPhone Duo. Grooves will never interrupt you to ask for a review - we don’t like being interrupted either! However, App Store ratings and reviews are important, so if you are enjoying Grooves and have a spare minute, we’d be delighted if you could leave a rating or review on the …
+  https://apps.apple.com/us/app/grooves-song-speed-changer/id592398757?uo=4
+- Scala 40 Online or Alone〔美区〕｜8.3.175
+  证据版本：8.3.175；- Improved compatibility with iPhone Duo. v. 8.3.174 1164 - We adjusted the size of ads during games on iPad. v. 8.3.173 1162 - Improved app stability and compatibility. If you enjoy playing this game please take a minute to leave a nice review: it really helps. If you have questions or need support please co…
+  https://apps.apple.com/us/app/scala-40-online-or-alone/id650374866?uo=4
+- OBD Fusion〔美区〕｜7.5.0
+  证据版本：7.5.0；• Added support for the iPhone Duo. • Added a utility to free up storage space. • Fixed a bug that caused the data log details page to list incorrect start and stop times. • This release includes various under-the-hood bug fixes and improvements.
+  https://apps.apple.com/us/app/obd-fusion/id650684932?uo=4
+- Free People〔美区〕｜26.11.1
+  证据版本：26.11.1；iOS 27 is here! We're excited to support new iPhone Duo layouts. Plus, you can now use Siri to search our app; just say, "Hey Siri, search Free People for 'item.'" Happy shopping!
+  https://apps.apple.com/us/app/free-people/id659532790?uo=4
+- Quest of Dungeons〔美区〕｜4.0.1
+  证据版本：4.0.1；=version 4.0.1= -Added support for iPhone Duo folded/unfolded viewing modes with expanded viewing area. -Added optional virtual DPAD for movement only (activate on Pause Menu) -Added GameCenter button to check leaderboards and achievements. -Added new Abyss Mansion for DLC (Revenge of Jelly King) -"Skull Key" is n…
+  https://apps.apple.com/us/app/quest-of-dungeons/id698726956?uo=4
 
 ## 地区商店资料变化（不等于新增 App 或已适配）
-- Prime Video〔美区〕：10.156.1 → 10.157
-- Paramount+〔美区〕：15.28.2 → 15.29.0
-- Instagram〔国区〕：455.0.0 → 456.0.0
-- Edits〔国区〕：455.0 → 456.0
-- BAND〔美区〕：31.1.2 → 31.2.0
-- 百度网盘〔美区〕：13.36.6 → 13.37.5
-- 滴滴出行〔美区〕：8.0.18 → 8.0.20
-- 系统电池分析-手机配置查询·电池健康分析〔国区〕：2.5.2 → 2.5.3
-- HealthFit〔国区〕：12.17.1 → 12.17.2
-- 世界迷雾〔美区〕：3.8.6 → 3.8.8
-- ATracker PRO - 每日时间管理〔美区〕：18.00 → 18.10
-- OffScreen - 自律番茄钟，不做手机控〔国区〕：3.22.5 → 3.22.6
-- Kuli Kuli - AI菜单美妆翻译专家〔国区〕：2.0.4 → 2.0.5
-- PhotonCam: 专业相机和照片编辑〔国区〕：2.1.7 → 2.1.8
-- Oldi - Phone Camera〔国区〕：2.0.0 → 2.0.1
-- Termius - Modern SSH Client〔美区〕：8.0.7 → 8.2.0
-- 豆瓣阅读〔美区〕：6.12.14 → 6.12.15
-- 时光小屋® -宝宝成长相册〔美区〕：8.7.2 → 8.7.5
-- PocketRadar：实时降雨雷达、动画雨量地图与天气预报〔国区〕：4.5.6 → 4.5.7
-- PocketRadar：实时降雨雷达、动画雨量地图与天气预报〔美区〕：4.5.5 → 4.5.7
-- 2Camera 双摄相机 DualShot Recorder〔国区〕：1.5.8 → 1.5.9
-- PicSlicer〔国区〕：6.8.5 → 6.9.0
-- iDaily · 每日环球视野 -5分钟了解地球今天发生什么〔美区〕：7.0 → 7.0.1
-- iBloomberg i商周〔美区〕：8.8.0 → 8.9.0
-- FlipYear - 3D 翻页书相册清理〔国区〕：1.1.26 → 1.1.27
-- Mono Lab〔国区〕：5.5 → 5.6
-- Microsoft Word〔美区〕：2.115.3 → 2.116
-- Microsoft Excel〔美区〕：2.115.3 → 2.116
-- Microsoft PowerPoint〔美区〕：2.115.3 → 2.116
-- Sleeve - 专辑播放器〔国区〕：2.2 → 2.3
-- iLehra〔国区〕：10.1.2 → 10.1.3
-- KRSUOR〔国区〕：4.0 → 4.2.1
-- 东方财富领先版-财经资讯&股票开户〔美区〕：11.5.6 → 11.5.8
-- 腾讯体育〔美区〕：8.0.95 → 8.1.00
-- SongBook Chordpro〔国区〕：7.0.2 → 7.0.3
-- Church Center〔国区〕：2026.11.1 → 2026.11.2
-- To Do List - Reminders & Tasks〔国区〕：8.0.0 → 8.0.1
-- Marvis Pro〔国区〕：10.3.1 → 10.4
-- Blink Shell, Build & Code〔国区〕：18.7.2 → 18.7.3
-- 记分板: 适配你的玩法〔国区〕：1.12.0 → 1.13.0
-- nPlayer Plus〔美区〕：首次获取该地区资料
-- Legislation HK 香港法例〔美区〕：首次获取该地区资料
-- TrayMinder〔国区〕：15.8.2 → 15.9.1
-- Icon Goodies〔国区〕：1.11 → 1.12
-- FansDash：篮球小组件与赛事数据〔国区〕：1.4.0 → 1.4.1
-- Reminders with Voice Reminder〔国区〕：首次获取该地区资料
-- PlugShare: Charging Stations〔国区〕：首次获取该地区资料
+- Slack〔美区〕：26.11.10 → 26.11.20
+- Notewise〔国区〕：4.2.1 → 4.2.2
+- 小红书〔美区〕：9.54.2 → 9.55
+- 腾讯视频〔国区〕：9.04.80 → 9.04.85
+- Calendars – 日历、待办事项列表和日程表〔美区〕：5.41.2 → 5.41.3
+- Spark Mail: AI 邮件助手〔国区〕：3.20.7 → 3.20.8
+- TapTap - 发现好游戏〔国区〕：5.56.0 → 5.56.1
+- 自由笔记 - AI记事本与随手记〔国区〕：3.51.0 → 3.51.1
+- Placify - 地点收藏、旅行计划、行程记录、专属地图〔国区〕：2.1.1 → 2.1.2
+- 爱日历〔国区〕：2.4.0 → 2.5.0
+- Voice Recorder, Voice Memos ®〔美区〕：17.9 → 18.7
+- Focus - Deep Work Timer〔国区〕：2027.1.1 → 2027.1.2
+- Gigs: Concert Tracker〔国区〕：2.1.5 → 2.2
+- 脉脉-找人脉找工作求职招聘职场社交平台〔美区〕：6.7.68 → 6.7.72
+- 天文通 - 星图、观星指数、极光天象、星空指南〔国区〕：3.6.0 → 3.7.0
+- 手表播放器〔国区〕：6.0.0 → 6.1.1
+- 解压小橙子 - HRV心理压力自测 健康监测睡眠生活习惯〔国区〕：13.8 → 13.9
+- Device Lab〔国区〕：1.8.7 → 1.8.8
+- Oz Weather Plus〔美区〕：4.7.5 → 4.8.1
+- 音剪 - 音乐剪辑 & 音乐创作工具〔国区〕：4.3.7 → 4.3.8
+- YACReader - Comic Reader〔美区〕：3.42.0 → 3.43.0
+- 巴士到站时间-就是这里〔国区〕：2026.51 → 2026.52
+- OtterLife: AI运动健康&HRV压力提醒&习惯养成〔国区〕：2.0.22 → 2.0.23
+- ParkWhiz - #1 Parking App〔美区〕：11.6.0 → 11.6.1
+- JusTalk - Video Chat & Calls〔美区〕：9.5 → 9.5.4
+- Earthquake - alerts and map〔美区〕：9.1.0 → 9.1.1
+- Amazing Slow Downer〔国区〕：7.1.3 → 7.1.4
+- Pulu - 吉他谱钢琴谱简谱尤克里里海量曲谱〔国区〕：1.2.6 → 1.2.8
+- 畅译 - 录音转文字·手表录音笔·会议纪要〔国区〕：2.1.1 → 2.2.0
+- Halcyon Forecast〔国区〕：1.7.3 → 1.7.4
+- 直播吧-看球聊球、资讯数据〔国区〕：7.0.1 → 7.0.2
+- 网易大神〔国区〕：4.26.0 → 4.27.0
+- 动森圈圈〔国区〕：2.2.0 → 2.2.1
+- 时光播放机〔国区〕：2.1.5 → 2.1.6
+- 多重计时器：学习与专注〔国区〕：3.0 → 3.1
+- LightMeter35〔国区〕：2.3 → 2.4
+- CollaNote：精美笔记、PDF标注、录音与手写同步〔国区〕：5.1.1 → 5.1.2
+- 福麻圈®〔国区〕：4.5 → 4.6
+- P-Toolkit〔国区〕：1.0.1 → 1.0.2
+- Occasions 3 - Reminders〔国区〕：首次获取该地区资料
+- Parking Zones Vienna〔国区〕：首次获取该地区资料
 
-## 新增软件（3）
-- Med Atlas｜医疗
-- Occasions 3 - Reminders｜效率
-- Parking Zones Vienna｜导航
+## 新增软件（10）
+- BlazePush-圈速计时&性能测试｜体育
+- 掌上金价-今日黄金价格、白银行情与金店比价｜财务
+- 遥光 - 阿西西 PS串流｜娱乐
+- GR Snap - 理光GR无线传图｜摄影与录像
+- 戏曲锣鼓｜娱乐
+- Image Compare+｜摄影与录像
+- FilmNoir 追剧观影记录 for Trakt｜娱乐
+- Grooves: Song Speed Changer｜音乐
+- OBD Fusion｜旅游
+- Free People｜购物
 
-## 新增游戏（1）
-- Payback 2｜游戏
+## 新增游戏（3）
+- Word Seek English Infinite｜游戏
+- Scala 40 Online or Alone｜游戏
+- Quest of Dungeons｜游戏
 
 ## 新增类型待同步（0）
 无。
