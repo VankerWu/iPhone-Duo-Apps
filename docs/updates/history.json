@@ -1,5 +1,1334 @@
 [
   {
+    "time": "2026-11-18T04:42:52+00:00",
+    "added": [
+      {
+        "id": "signal-6811352685",
+        "name": "k线跳动",
+        "version": "2.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/k%E7%BA%BF%E8%B7%B3%E5%8A%A8/id6811352685?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6811352685,
+        "appType": "software",
+        "category": "财务"
+      },
+      {
+        "id": "signal-6814650600",
+        "name": "LITO: 物品管理",
+        "version": "0.0.6",
+        "appStoreUrl": "https://apps.apple.com/cn/app/lito-%E7%89%A9%E5%93%81%E7%AE%A1%E7%90%86/id6814650600?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6814650600,
+        "appType": "software",
+        "category": "效率"
+      },
+      {
+        "id": "signal-6822176574",
+        "name": "清风提词",
+        "version": "1.5.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E6%B8%85%E9%A3%8E%E6%8F%90%E8%AF%8D/id6822176574?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6822176574,
+        "appType": "software",
+        "category": "摄影与录像"
+      },
+      {
+        "id": "signal-6829438656",
+        "name": "DecHex - 开发者计算器",
+        "version": "1.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/dechex-%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E7%AE%97%E5%99%A8/id6829438656?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6829438656,
+        "appType": "software",
+        "category": "软件开发工具"
+      },
+      {
+        "id": "signal-6832460954",
+        "name": "麦兔台ּּּ灯ּ",
+        "version": "1.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E9%BA%A6%E5%85%94%E5%8F%B0-%E7%81%AF/id6832460954?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6832460954,
+        "appType": "software",
+        "category": "工具"
+      },
+      {
+        "id": "signal-6833279621",
+        "name": "Widget Bazaar",
+        "version": "1.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/widget-bazaar/id6833279621?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6833279621,
+        "appType": "software",
+        "category": "图形与设计"
+      },
+      {
+        "id": "signal-1039845801",
+        "name": "MyScreen - Live Wallpapers",
+        "version": "3.2",
+        "appStoreUrl": "https://apps.apple.com/us/app/myscreen-live-wallpapers/id1039845801?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 1039845801,
+        "appType": "software",
+        "category": "生活"
+      },
+      {
+        "id": "signal-1059218666",
+        "name": "Litchi for DJI Drones",
+        "version": "2.16.0",
+        "appStoreUrl": "https://apps.apple.com/us/app/litchi-for-dji-drones/id1059218666?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 1059218666,
+        "appType": "software",
+        "category": "摄影与录像"
+      },
+      {
+        "id": "signal-1080197914",
+        "name": "MediWear: Medical ID for Watch",
+        "version": "6.3.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/mediwear-medical-id-for-watch/id1080197914?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 1080197914,
+        "appType": "software",
+        "category": "医疗"
+      },
+      {
+        "id": "signal-1085047737",
+        "name": "Bookly: Book Tracker",
+        "version": "1.19.3",
+        "appStoreUrl": "https://apps.apple.com/us/app/bookly-book-tracker/id1085047737?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 1085047737,
+        "appType": "software",
+        "category": "图书"
+      },
+      {
+        "id": "signal-437392025",
+        "name": "Instrument Pilot Test Prep",
+        "version": "5.2",
+        "appStoreUrl": "https://apps.apple.com/us/app/id437392025",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 437392025,
+        "appType": "software",
+        "category": "教育"
+      }
+    ],
+    "updated": [
+      {
+        "id": "watch-006",
+        "name": "京东",
+        "version": "16.1.90",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E4%BA%AC%E4%B8%9C-%E5%8F%88%E5%A5%BD%E5%8F%88%E4%BE%BF%E5%AE%9C/id414245413?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 414245413,
+        "appType": "software",
+        "category": "购物",
+        "previousVersion": "16.1.83"
+      },
+      {
+        "id": "signal-475772902",
+        "name": "星空 - 让您不再迷失",
+        "version": "27.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E6%98%9F%E7%A9%BA-%E8%AE%A9%E6%82%A8%E4%B8%8D%E5%86%8D%E8%BF%B7%E5%A4%B1/id475772902?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 475772902,
+        "appType": "software",
+        "category": "参考资料",
+        "previousVersion": "27.2"
+      },
+      {
+        "id": "signal-930368978",
+        "name": "钉钉",
+        "version": "9.0.11",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E9%92%89%E9%92%89/id930368978?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 930368978,
+        "appType": "software",
+        "category": "商务",
+        "previousVersion": "9.0.10"
+      },
+      {
+        "id": "signal-1048454034",
+        "name": "Gymverse: Gym Workout Planner",
+        "version": "9.1300",
+        "appStoreUrl": "https://apps.apple.com/us/app/gymverse-gym-workout-planner/id1048454034?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1048454034,
+        "appType": "software",
+        "category": "健康健美",
+        "previousVersion": "9.1200"
+      },
+      {
+        "id": "signal-646277024",
+        "name": "两步路-记录户外精彩生活",
+        "version": "9.3.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E4%B8%A4%E6%AD%A5%E8%B7%AF-%E8%AE%B0%E5%BD%95%E6%88%B7%E5%A4%96%E7%B2%BE%E5%BD%A9%E7%94%9F%E6%B4%BB/id646277024?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 646277024,
+        "appType": "software",
+        "category": "导航",
+        "previousVersion": "9.2.11"
+      },
+      {
+        "id": "signal-6447182008",
+        "name": "灵动岛壁纸 可爱插画、创意锁屏与手机桌面",
+        "version": "4.0.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E7%81%B5%E5%8A%A8%E5%B2%9B%E5%A3%81%E7%BA%B8-%E5%8F%AF%E7%88%B1%E6%8F%92%E7%94%BB-%E5%88%9B%E6%84%8F%E9%94%81%E5%B1%8F%E4%B8%8E%E6%89%8B%E6%9C%BA%E6%A1%8C%E9%9D%A2/id6447182008?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6447182008,
+        "appType": "software",
+        "category": "图形与设计",
+        "previousVersion": "4.0.2"
+      },
+      {
+        "id": "community-issue-app-518213356",
+        "name": "什么值得买",
+        "version": "11.2.5",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E4%BB%80%E4%B9%88%E5%80%BC%E5%BE%97%E4%B9%B0/id518213356?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 518213356,
+        "appType": "software",
+        "category": "购物",
+        "previousVersion": "11.2.3"
+      },
+      {
+        "id": "signal-582007913",
+        "name": "Tesla",
+        "version": "4.63.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/tesla/id582007913?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 582007913,
+        "appType": "software",
+        "category": "生活",
+        "previousVersion": "4.62.5"
+      },
+      {
+        "id": "signal-779656557",
+        "name": "宝宝生活记录",
+        "version": "6.07",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%AE%9D%E5%AE%9D%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/id779656557?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 779656557,
+        "appType": "software",
+        "category": "医疗",
+        "previousVersion": "6.06"
+      },
+      {
+        "id": "signal-845657206",
+        "name": "宝宝生活记录 Pro",
+        "version": "6.07",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%AE%9D%E5%AE%9D%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95-pro/id845657206?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 845657206,
+        "appType": "software",
+        "category": "医疗",
+        "previousVersion": "6.06"
+      },
+      {
+        "id": "signal-1303222868",
+        "name": "Paprika食谱管理4",
+        "version": "4.0.23",
+        "appStoreUrl": "https://apps.apple.com/cn/app/paprika%E9%A3%9F%E8%B0%B1%E7%AE%A1%E7%90%864/id1303222868?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1303222868,
+        "appType": "software",
+        "category": "美食佳饮",
+        "previousVersion": "4.0.22"
+      },
+      {
+        "id": "signal-1101536521",
+        "name": "CDL Prep",
+        "version": "9.17",
+        "appStoreUrl": "https://apps.apple.com/us/app/cdl-prep/id1101536521?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 1101536521,
+        "appType": "software",
+        "category": "教育",
+        "previousVersion": "9.14"
+      },
+      {
+        "id": "signal-1116905928",
+        "name": "nPlayer",
+        "version": "3.14.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/nplayer/id1116905928?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1116905928,
+        "appType": "software",
+        "category": "娱乐",
+        "previousVersion": "3.14.0"
+      },
+      {
+        "id": "signal-1205826385",
+        "name": "爱传送-极简易用",
+        "version": "6.0.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E7%88%B1%E4%BC%A0%E9%80%81-%E6%9E%81%E7%AE%80%E6%98%93%E7%94%A8/id1205826385?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 1205826385,
+        "appType": "software",
+        "category": "工具",
+        "previousVersion": "6.0.2"
+      }
+    ],
+    "signals": [
+      {
+        "id": "signal-1538761576",
+        "name": "Authenticator App",
+        "version": "4.1.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id1538761576",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1538761576,
+        "appType": "software",
+        "category": "效率",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "4.1.0",
+          "excerpt": "- Added support for iPhone Duo. - Fixed minor bugs under the hood. If you love our app, don't forget to rate us! Your positive feedback makes our day.",
+          "url": "https://apps.apple.com/cn/app/id1538761576",
+          "date": "2026-10-22"
+        }
+      },
+      {
+        "id": "signal-1537384788",
+        "name": "Loop - 多个计时器与间隔",
+        "version": "7.7",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id1537384788",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1537384788,
+        "appType": "software",
+        "category": "工具",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "7.7",
+          "excerpt": "此版本新增对 iPhone Duo 的支持。",
+          "url": "https://apps.apple.com/cn/app/id1537384788",
+          "date": "2026-10-23"
+        }
+      },
+      {
+        "id": "community-issue-app-1541390536",
+        "name": "Speedtest China by Ookla",
+        "version": "7.1.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id1541390536",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 1541390536,
+        "appType": "software",
+        "category": "工具",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "7.1.2",
+          "excerpt": "我们添加了一些更新，让 Speedtest 应用程序变得更好。请给我们星级评分或撰写评论，告诉我们您的想法。 本次更新： 对 iPhone Duo 的优化和支持 一般稳定性改进和错误修复 感谢您，祝您测试愉快！",
+          "url": "https://apps.apple.com/cn/app/id1541390536",
+          "date": "2026-10-21"
+        }
+      },
+      {
+        "id": "signal-1538946171",
+        "name": "Colorful Widget彩虹小组件-万能桌面主题壁纸",
+        "version": "19.1.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id1538946171",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1538946171,
+        "appType": "software",
+        "category": "图形与设计",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "19.1.0",
+          "excerpt": "- iPhone Duo 全新适配，为不同屏幕设计精美主题、壁纸、组件桌搭 - (ฅ´ω`ฅ)非常期待收到您的反馈！请留下您的宝贵评论，以便于我们进一步优化 Colorful Widget",
+          "url": "https://apps.apple.com/cn/app/id1538946171",
+          "date": "2026-11-12"
+        }
+      },
+      {
+        "id": "signal-1539419805",
+        "name": "TV Remote - 电视遥控器应用",
+        "version": "4.3.4",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id1539419805",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1539419805,
+        "appType": "software",
+        "category": "娱乐",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "4.3.4",
+          "excerpt": "本次更新： - 全面支持 iPhone Duo：展开时提供多个遥控页面，折叠时采用基于标签页的布局。我们还调整了整个应用中的工具栏和其他屏幕元素，为 iPhone Duo 带来更佳使用体验。 - 在标签页视图和滚动视图遥控页面之间切换时，将同步当前所在位置。 - 改进 iPhone 上的标签栏设计。 - 更新实时活动指示图标，使用播放/暂停符号替代箭头。 - 部分电视现在支持在输入频道号码时使用“.”或“-”字符。 - 改进电视从睡眠状态唤醒后应用、频道和信号源的加载体验。 - 修复首次输入错误代码后 Apple TV 无法连接的问题。 - 修复其他问题并进行多项改进。 如果您喜…",
+          "url": "https://apps.apple.com/cn/app/id1539419805",
+          "date": "2026-11-11"
+        }
+      },
+      {
+        "id": "signal-6814736751",
+        "name": "框住了：3D截图套壳",
+        "version": "1.6.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E6%A1%86%E4%BD%8F%E4%BA%86-3d%E6%88%AA%E5%9B%BE%E5%A5%97%E5%A3%B3/id6814736751?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6814736751,
+        "appType": "software",
+        "category": "图形与设计",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.6.1",
+          "excerpt": "现在，框住了的功能更强大，编辑方式更自由更便捷，带来了更多可能。同时也进一步优化了在 iPhone Duo 上的体验。 1. 首页新增「多选」功能 一次最多选择 3 份同类素材。同一个画布中可以自由组合多台 3D 设备，每台设备显示各自的画面。单选或多选均可自由切换设备型号。每台设备的位置、大小和变换角度都可以单独调整。 2. 在编辑页点按模型屏幕即可更换素材。iPhone Duo 可分别更换内屏和外屏素材。 3. 新增「长截图模式」 进入方式：编辑页-设备-完整-长截图模型。 4. 新增渐变色背景选择和自动背景。 5. 添加文本功能支持选择不同字体。 6. 新增了一些 HomePod/HomePod mini 与 iPhone 的组合，…",
+          "url": "https://apps.apple.com/cn/app/%E6%A1%86%E4%BD%8F%E4%BA%86-3d%E6%88%AA%E5%9B%BE%E5%A5%97%E5%A3%B3/id6814736751?uo=4",
+          "date": "2026-11-13"
+        }
+      },
+      {
+        "id": "community-issue-app-6818190145",
+        "name": "AskZine",
+        "version": "1.1.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/askzine/id6818190145?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6818190145,
+        "appType": "software",
+        "category": "娱乐",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.1.1",
+          "excerpt": "支持搭载 iOS 26 的普通 iPhone 和 iPad。 优化 iPhone Duo 上的体验，以及阅读与分享效果。 Now supports iOS 26 on standard iPhone and iPad. Refines the experience on iPhone Duo, along with reading and sharing.",
+          "url": "https://apps.apple.com/cn/app/askzine/id6818190145?uo=4",
+          "date": "2026-11-15"
+        }
+      },
+      {
+        "id": "signal-1116905928",
+        "name": "nPlayer",
+        "version": "3.14.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/nplayer/id1116905928?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1116905928,
+        "appType": "software",
+        "category": "娱乐",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "3.14.1",
+          "excerpt": "- Added support for iPhone Duo - Bug fixes and stability improvements.",
+          "url": "https://apps.apple.com/us/app/nplayer/id1116905928?uo=4",
+          "date": "2026-11-11"
+        }
+      },
+      {
+        "id": "signal-1540956268",
+        "name": "CollaNote：精美笔记、PDF标注、录音与手写同步",
+        "version": "5.1.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id1540956268",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 1540956268,
+        "appType": "software",
+        "category": "效率",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "5.1.2",
+          "excerpt": "推出 iPhone Duo 支持！ CollaNote 现已针对 iPhone Duo 进行优化，并推出了令人兴奋的新功能，旨在充分利用其独特性能。 - 迷你地图：轻松导航您的笔记，快速跳转到画布的不同区域。 - 图书阅读模式：享受逼真的双页并排阅读体验，配合基于物理的翻页动画，重现真实纸质书的触感。",
+          "url": "https://apps.apple.com/cn/app/id1540956268",
+          "date": "2026-11-17"
+        }
+      },
+      {
+        "id": "signal-6820264272",
+        "name": "Number Keys Please - Keyboard",
+        "version": "1.2.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/number-keys-please-keyboard/id6820264272?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6820264272,
+        "appType": "software",
+        "category": "效率",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.2.2",
+          "excerpt": "…that fit each field: number pads for numbers and codes, @ and . for email, and .com for web addresses • Added iPhone Duo compatibility • Save your email addresses and pick them from the suggestion bar in email fields • Drag the space bar up or down to move the cursor between lines • The keyboard now remembers the last language you used • Smoother scrolling in Keyboard settings",
+          "url": "https://apps.apple.com/cn/app/number-keys-please-keyboard/id6820264272?uo=4",
+          "date": "2026-11-09"
+        }
+      },
+      {
+        "id": "signal-6826527368",
+        "name": "SpendToday",
+        "version": "1.0.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/spendtoday/id6826527368?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6826527368,
+        "appType": "software",
+        "category": "财务",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.0.2",
+          "excerpt": "SpendToday now adapts to iPhone Duo. Use a compact layout when folded. Unfold to see your daily allowance alongside upcoming plans, bills alongside their planning tools, and the History chart alongside your transactions. We also improved contrast in bill and savings forms and made long category names eas…",
+          "url": "https://apps.apple.com/cn/app/spendtoday/id6826527368?uo=4",
+          "date": "2026-11-12"
+        }
+      },
+      {
+        "id": "signal-284455726",
+        "name": "Outliner",
+        "version": "3.21",
+        "appStoreUrl": "https://apps.apple.com/cn/app/outliner/id284455726?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 284455726,
+        "appType": "software",
+        "category": "效率",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "3.21",
+          "excerpt": "• iPhone Duo support • Bug fixes",
+          "url": "https://apps.apple.com/cn/app/outliner/id284455726?uo=4",
+          "date": "2026-10-07"
+        }
+      },
+      {
+        "id": "signal-6811352685",
+        "name": "k线跳动",
+        "version": "2.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/k%E7%BA%BF%E8%B7%B3%E5%8A%A8/id6811352685?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6811352685,
+        "appType": "software",
+        "category": "财务",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "2.3",
+          "excerpt": "适配 iPhone Duo",
+          "url": "https://apps.apple.com/cn/app/k%E7%BA%BF%E8%B7%B3%E5%8A%A8/id6811352685?uo=4",
+          "date": "2026-10-18"
+        }
+      },
+      {
+        "id": "signal-6814650600",
+        "name": "LITO: 物品管理",
+        "version": "0.0.6",
+        "appStoreUrl": "https://apps.apple.com/cn/app/lito-%E7%89%A9%E5%93%81%E7%AE%A1%E7%90%86/id6814650600?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6814650600,
+        "appType": "software",
+        "category": "效率",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "0.0.6",
+          "excerpt": "改进 iPhone Duo 内外屏切换与旋转适配。 切换屏幕尺寸时保留物品详情、搜索条件、历史标签和未保存的数量。 优化相机界面的安全区域。",
+          "url": "https://apps.apple.com/cn/app/lito-%E7%89%A9%E5%93%81%E7%AE%A1%E7%90%86/id6814650600?uo=4",
+          "date": "2026-11-12"
+        }
+      },
+      {
+        "id": "signal-6822176574",
+        "name": "清风提词",
+        "version": "1.5.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E6%B8%85%E9%A3%8E%E6%8F%90%E8%AF%8D/id6822176574?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6822176574,
+        "appType": "software",
+        "category": "摄影与录像",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.5.2",
+          "excerpt": "1.更新支持了iPhone Duo； 2.增加了ICP备案信息； 3.解决了其他若干bug。",
+          "url": "https://apps.apple.com/cn/app/%E6%B8%85%E9%A3%8E%E6%8F%90%E8%AF%8D/id6822176574?uo=4",
+          "date": "2026-11-17"
+        }
+      },
+      {
+        "id": "signal-6829438656",
+        "name": "DecHex - 开发者计算器",
+        "version": "1.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/dechex-%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E7%AE%97%E5%99%A8/id6829438656?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6829438656,
+        "appType": "software",
+        "category": "软件开发工具",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.1",
+          "excerpt": "1.1 为 iPhone Duo 专门优化，并改进了 Mac 上的使用体验。 iPhone Duo - 内屏专属排版：开发者计算器左边看结果、右边按键；横放时基础计算器旁常驻计算历史，点按即可填回 - 桌面模式：半折立在桌上时，上半屏看结果，下半屏按键 - 书本模式：左右两页沿折痕分开，按键不会落在折痕上；科学模式分成两页 - 折起时折痕处的阴影随角度变化 - 标题和按钮放进系统侧边导航栏 - 内屏可以在新窗口中打开另一页，与当前窗口并排使用 - 外屏重新排布，按键更大 Mac - 修复在 Mac 上按键盘无法输入的问题：数字、运算符、回车、删除键都能直接用 其他改…",
+          "url": "https://apps.apple.com/cn/app/dechex-%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E7%AE%97%E5%99%A8/id6829438656?uo=4",
+          "date": "2026-11-12"
+        }
+      },
+      {
+        "id": "signal-6832460954",
+        "name": "麦兔台ּּּ灯ּ",
+        "version": "1.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E9%BA%A6%E5%85%94%E5%8F%B0-%E7%81%AF/id6832460954?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6832460954,
+        "appType": "software",
+        "category": "工具",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.1",
+          "excerpt": "--优化了ui界面，适配iPhone duo",
+          "url": "https://apps.apple.com/cn/app/%E9%BA%A6%E5%85%94%E5%8F%B0-%E7%81%AF/id6832460954?uo=4",
+          "date": "2026-11-16"
+        }
+      },
+      {
+        "id": "signal-6833279621",
+        "name": "Widget Bazaar",
+        "version": "1.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/widget-bazaar/id6833279621?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6833279621,
+        "appType": "software",
+        "category": "图形与设计",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.1",
+          "excerpt": "焕新界面、暗黑模式，并适配 iPhone Duo。 • 全新界面：视觉更清晰，常用功能更好找 • 暗黑模式：跟随系统，也可在「设置 → 外观」手动切换 • 适配 iPhone Duo：折叠展开自动重排，大屏上列表与详情并排",
+          "url": "https://apps.apple.com/cn/app/widget-bazaar/id6833279621?uo=4",
+          "date": "2026-11-16"
+        }
+      },
+      {
+        "id": "signal-1039845801",
+        "name": "MyScreen - Live Wallpapers",
+        "version": "3.2",
+        "appStoreUrl": "https://apps.apple.com/us/app/myscreen-live-wallpapers/id1039845801?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 1039845801,
+        "appType": "software",
+        "category": "生活",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "3.2",
+          "excerpt": "The new version is out! In this update, MyScreen is fully optimized for iPhone Duo. Personalize your device with exclusive content collections designed to fit just right. Please leave us a review on the App Store. It only takes a minute and means a lot to us.",
+          "url": "https://apps.apple.com/us/app/myscreen-live-wallpapers/id1039845801?uo=4",
+          "date": "2026-11-16"
+        }
+      },
+      {
+        "id": "signal-1059218666",
+        "name": "Litchi for DJI Drones",
+        "version": "2.16.0",
+        "appStoreUrl": "https://apps.apple.com/us/app/litchi-for-dji-drones/id1059218666?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 1059218666,
+        "appType": "software",
+        "category": "摄影与录像",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "2.16.0",
+          "excerpt": "…lights, and more - Added the ability to rename waypoint flights from Flight Settings - Added full support for iPhone Duo - Litchi Hub is now built into the app - Added support for more than 15 actions per waypoint with the Litchi engine - Redesigned login screen - Sounds and voice prompts now play in Silent mode - Misc improvements and bug fixes",
+          "url": "https://apps.apple.com/us/app/litchi-for-dji-drones/id1059218666?uo=4",
+          "date": "2026-11-17"
+        }
+      },
+      {
+        "id": "signal-1080197914",
+        "name": "MediWear: Medical ID for Watch",
+        "version": "6.3.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/mediwear-medical-id-for-watch/id1080197914?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 1080197914,
+        "appType": "software",
+        "category": "医疗",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "6.3.1",
+          "excerpt": "In this update: - Added full support for iPhone Duo. Content & toolbars have been adapted for both inner & outer displays. - Other bug fixes & improvements. If you like this app, please consider leaving a positive review! Having issues? Please get in touch: Email: support@adamfoot.dev Website: https://adamfoot.dev",
+          "url": "https://apps.apple.com/us/app/mediwear-medical-id-for-watch/id1080197914?uo=4",
+          "date": "2026-10-12"
+        }
+      },
+      {
+        "id": "signal-1085047737",
+        "name": "Bookly: Book Tracker",
+        "version": "1.19.3",
+        "appStoreUrl": "https://apps.apple.com/us/app/bookly-book-tracker/id1085047737?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 1085047737,
+        "appType": "software",
+        "category": "图书",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.19.3",
+          "excerpt": "- Bookly is now optimised for the iPhone Duo - Fun tip: set it in tent mode when you read - Bloo is now more knowledgeable. Have any questions about Bookly? Bloo can help. - fixed not being able to add decorations on your bookshelf when some books were hidden by active filters - fixed imported books not appearing…",
+          "url": "https://apps.apple.com/us/app/bookly-book-tracker/id1085047737?uo=4",
+          "date": "2026-11-10"
+        }
+      },
+      {
+        "id": "signal-437392025",
+        "name": "Instrument Pilot Test Prep",
+        "version": "5.2",
+        "appStoreUrl": "https://apps.apple.com/us/app/id437392025",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 437392025,
+        "appType": "software",
+        "category": "教育",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "5.1",
+          "excerpt": "Study Buddy 5.1 makes the most of iPhone Duo. • Flashcards that fold: read the question on the outside, then open your phone to see the answer. Close it again to flip the card back. • Open like a book, your cards are on the left and the current card on the right. Partly open, two-pane screens split evenly at the …",
+          "url": "https://apps.apple.com/us/app/id437392025",
+          "date": "2026-11-02"
+        }
+      }
+    ],
+    "storeUpdates": [
+      {
+        "id": "watch-006",
+        "name": "京东",
+        "version": "16.1.90",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E4%BA%AC%E4%B8%9C-%E5%8F%88%E5%A5%BD%E5%8F%88%E4%BE%BF%E5%AE%9C/id414245413?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 414245413,
+        "appType": "software",
+        "category": "购物",
+        "previousVersion": "16.1.83",
+        "change": "version"
+      },
+      {
+        "id": "signal-475772902",
+        "name": "星空 - 让您不再迷失",
+        "version": "27.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E6%98%9F%E7%A9%BA-%E8%AE%A9%E6%82%A8%E4%B8%8D%E5%86%8D%E8%BF%B7%E5%A4%B1/id475772902?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 475772902,
+        "appType": "software",
+        "category": "参考资料",
+        "previousVersion": "27.2",
+        "change": "version"
+      },
+      {
+        "id": "signal-930368978",
+        "name": "钉钉",
+        "version": "9.0.11",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E9%92%89%E9%92%89/id930368978?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 930368978,
+        "appType": "software",
+        "category": "商务",
+        "previousVersion": "9.0.10",
+        "change": "version"
+      },
+      {
+        "id": "signal-1068039220",
+        "name": "GoodTask: 待办清单与任务管理，每日计划与时间安排",
+        "version": "8.7.0",
+        "appStoreUrl": "https://apps.apple.com/us/app/goodtask-to-do-list-planner/id1068039220?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1068039220,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "8.6.2",
+        "change": "version"
+      },
+      {
+        "id": "signal-1048454034",
+        "name": "Gymverse: Gym Workout Planner",
+        "version": "9.1300",
+        "appStoreUrl": "https://apps.apple.com/us/app/gymverse-gym-workout-planner/id1048454034?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1048454034,
+        "appType": "software",
+        "category": "健康健美",
+        "previousVersion": "9.1200",
+        "change": "version"
+      },
+      {
+        "id": "signal-646277024",
+        "name": "两步路-记录户外精彩生活",
+        "version": "9.3.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E4%B8%A4%E6%AD%A5%E8%B7%AF-%E8%AE%B0%E5%BD%95%E6%88%B7%E5%A4%96%E7%B2%BE%E5%BD%A9%E7%94%9F%E6%B4%BB/id646277024?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 646277024,
+        "appType": "software",
+        "category": "导航",
+        "previousVersion": "9.2.11",
+        "change": "version"
+      },
+      {
+        "id": "signal-1073082439",
+        "name": "我的极光预报 - 极光提醒·北极光",
+        "version": "26.8.5",
+        "appStoreUrl": "https://apps.apple.com/us/app/my-aurora-forecast-alerts/id1073082439?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1073082439,
+        "appType": "software",
+        "category": "天气",
+        "previousVersion": "26.8.4",
+        "change": "version"
+      },
+      {
+        "id": "signal-1104649246",
+        "name": "我的月相",
+        "version": "26.6.6",
+        "appStoreUrl": "https://apps.apple.com/us/app/my-moon-phase-lunar-calendar/id1104649246?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1104649246,
+        "appType": "software",
+        "category": "天气",
+        "previousVersion": "26.6.4",
+        "change": "version"
+      },
+      {
+        "id": "signal-6447182008",
+        "name": "灵动岛壁纸 可爱插画、创意锁屏与手机桌面",
+        "version": "4.0.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E7%81%B5%E5%8A%A8%E5%B2%9B%E5%A3%81%E7%BA%B8-%E5%8F%AF%E7%88%B1%E6%8F%92%E7%94%BB-%E5%88%9B%E6%84%8F%E9%94%81%E5%B1%8F%E4%B8%8E%E6%89%8B%E6%9C%BA%E6%A1%8C%E9%9D%A2/id6447182008?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6447182008,
+        "appType": "software",
+        "category": "图形与设计",
+        "previousVersion": "4.0.2",
+        "change": "version"
+      },
+      {
+        "id": "community-issue-app-518213356",
+        "name": "什么值得买",
+        "version": "11.2.5",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id518213356",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 518213356,
+        "appType": "software",
+        "category": "购物",
+        "previousVersion": "11.2.3",
+        "change": "version"
+      },
+      {
+        "id": "signal-582007913",
+        "name": "Tesla",
+        "version": "4.63.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/tesla/id582007913?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 582007913,
+        "appType": "software",
+        "category": "生活",
+        "previousVersion": "4.62.5",
+        "change": "version"
+      },
+      {
+        "id": "signal-1035689743",
+        "name": "BusyCal: 日历日程与任务管理",
+        "version": "6.8.4",
+        "appStoreUrl": "https://apps.apple.com/us/app/busycal-calendar-tasks/id1035689743?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1035689743,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "6.8.2",
+        "change": "version"
+      },
+      {
+        "id": "signal-779656557",
+        "name": "宝宝生活记录",
+        "version": "6.07",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%AE%9D%E5%AE%9D%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/id779656557?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 779656557,
+        "appType": "software",
+        "category": "医疗",
+        "previousVersion": "6.06",
+        "change": "version"
+      },
+      {
+        "id": "signal-845657206",
+        "name": "宝宝生活记录 Pro",
+        "version": "6.07",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%AE%9D%E5%AE%9D%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95-pro/id845657206?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 845657206,
+        "appType": "software",
+        "category": "医疗",
+        "previousVersion": "6.06",
+        "change": "version"
+      },
+      {
+        "id": "signal-1039388044",
+        "name": "MusicBuddy Pro",
+        "version": "10.4.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/musicbuddy-pro-vinyls-cds/id1039388044?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1039388044,
+        "appType": "software",
+        "category": "音乐",
+        "previousVersion": "10.4.0",
+        "change": "version"
+      },
+      {
+        "id": "signal-1303222868",
+        "name": "Paprika食谱管理4",
+        "version": "4.0.23",
+        "appStoreUrl": "https://apps.apple.com/cn/app/paprika%E9%A3%9F%E8%B0%B1%E7%AE%A1%E7%90%864/id1303222868?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1303222868,
+        "appType": "software",
+        "category": "美食佳饮",
+        "previousVersion": "4.0.22",
+        "change": "version"
+      },
+      {
+        "id": "signal-1101536521",
+        "name": "CDL Prep",
+        "version": "9.17",
+        "appStoreUrl": "https://apps.apple.com/us/app/cdl-prep/id1101536521?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 1101536521,
+        "appType": "software",
+        "category": "教育",
+        "previousVersion": "9.14",
+        "change": "version"
+      },
+      {
+        "id": "signal-1116905928",
+        "name": "nPlayer",
+        "version": "3.14.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/nplayer/id1116905928?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1116905928,
+        "appType": "software",
+        "category": "娱乐",
+        "previousVersion": "3.14.0",
+        "change": "version"
+      },
+      {
+        "id": "signal-1205826385",
+        "name": "爱传送-极简易用",
+        "version": "6.0.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E7%88%B1%E4%BC%A0%E9%80%81-%E6%9E%81%E7%AE%80%E6%98%93%E7%94%A8/id1205826385?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 1205826385,
+        "appType": "software",
+        "category": "工具",
+        "previousVersion": "6.0.2",
+        "change": "version"
+      },
+      {
+        "id": "signal-949277360",
+        "name": "Fisheye Plus Pro Camera",
+        "version": "3.7",
+        "appStoreUrl": "https://apps.apple.com/cn/app/fisheye-plus-pro-%E9%B1%BC%E7%9C%BC%E8%A7%86%E9%A2%91/id949277360?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 949277360,
+        "appType": "software",
+        "category": "摄影与录像",
+        "previousVersion": "",
+        "change": "first_seen"
+      },
+      {
+        "id": "signal-949277404",
+        "name": "Fisheye Camera Pro - LOMO Cam",
+        "version": "3.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/fisheye-camera-pro-%E9%B1%BC%E7%9C%BC%E8%A7%86%E9%A2%91/id949277404?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 949277404,
+        "appType": "software",
+        "category": "摄影与录像",
+        "previousVersion": "",
+        "change": "first_seen"
+      },
+      {
+        "id": "signal-958786226",
+        "name": "Here I Am Now!",
+        "version": "9.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/here-i-am-now/id958786226?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 958786226,
+        "appType": "software",
+        "category": "导航",
+        "previousVersion": "",
+        "change": "first_seen"
+      },
+      {
+        "id": "signal-985397592",
+        "name": "Cash Log Basic",
+        "version": "2.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/cash-log-basic/id985397592?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 985397592,
+        "appType": "software",
+        "category": "财务",
+        "previousVersion": "",
+        "change": "first_seen"
+      }
+    ],
+    "addedCounts": {
+      "software": 11,
+      "game": 0,
+      "unknown": 0
+    },
+    "coverageCN": {
+      "poolSize": 11006,
+      "lookupScheduled": 605,
+      "priorityScheduled": 5,
+      "lookupReturned": 490,
+      "categoryFeedsSucceeded": 28,
+      "categoryFeedsAttempted": 28,
+      "gameFeedsSucceeded": 12,
+      "gameFeedsAttempted": 12,
+      "gameGenreIds": [
+        7007,
+        7008,
+        7009,
+        7011,
+        7012,
+        7013
+      ],
+      "genreIds": [
+        6014,
+        6015,
+        6016,
+        6017,
+        6018,
+        6020,
+        6021,
+        6022
+      ],
+      "time": "2026-11-18T04:35:11+00:00"
+    },
+    "coverageUS": {
+      "time": "2026-11-18T04:39:28+00:00",
+      "poolSize": 15201,
+      "lookupScheduled": 600,
+      "lookupAttempted": 600,
+      "lookupReturned": 596,
+      "lookupRequestsSucceeded": 20,
+      "categoryFeedsAttempted": 28,
+      "categoryFeedsSucceeded": 28,
+      "gameFeedsAttempted": 12,
+      "gameFeedsSucceeded": 12,
+      "sourceRequestsAttempted": 34,
+      "sourceRequestsFailed": 0,
+      "pagesAttempted": 30,
+      "pagesParsed": 30,
+      "pagesFailed": 0,
+      "timeBudgetReached": false,
+      "status": "partial"
+    },
+    "scanOutcomes": {
+      "time": "2026-11-18T04:42:51+00:00",
+      "storefronts": {
+        "cn": "completed",
+        "us": "partial"
+      }
+    }
+  },
+  {
     "time": "2026-11-17T23:09:23+00:00",
     "added": [
       {
