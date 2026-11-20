@@ -1,148 +1,160 @@
 # 本轮抓取报告
-2026-11-20T13:22:49+00:00
+2026-11-20T21:27:19+00:00
 
 新增收录、版本更新和适配线索分开统计；不代表本站实测。
 
 ## 国区扫描范围
-候选池 11325 个 ID；本轮计划检查 604 个；分类榜单成功 28/28。
+候选池 11393 个 ID；本轮计划检查 605 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
 
 ## 美区扫描范围
-候选池 15913 个 ID；本轮计划检查 600 个；分类榜单成功 28/28。
+候选池 16003 个 ID；本轮计划检查 600 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
-Lookup 返回 595/600 个条目；网页解析 29/30。
+Lookup 返回 597/600 个条目；网页解析 30/30。
 各地区的版本说明独立保存；美区声明不代表国区已适配。
 本轮部分计划目标未返回资料或来源未完成；保留候选继续轮询，不据此推断已下架或已适配。
 
-## 新增 App（8）
-- 幻唐志：逍遥外传〔国区〕｜5.0.59
-- 塞尔达食谱〔国区〕｜4.3.0
-- 腾讯文档〔国区〕｜3.13.1
-- 哔哩哔哩漫画-看漫画小说大全〔国区〕｜7.7.0
-- 拾心-成人附近聊天陪伴平台，同城两性交友〔国区〕｜3.1.5
-- HTML Editor〔美区〕｜27.0.0
-- Home Tide〔美区〕｜2.29
-- ThemePack: Widgets & Wallpaper〔美区〕｜3.1.1
+## 新增 App（5）
+- 爱字词典 - 爱我中华汉字〔国区〕｜1.7.0
+- 爱词根〔国区〕｜1.7.0
+- Simple Envelope Budgeting〔美区〕｜3.2.0
+- Pixel Pals Widget Pet Game〔美区〕｜2.1
+- Clone Web - Dual Chat〔美区〕｜2.0.1
 
-## 已有 App 版本更新（12）
-- 爱奇艺〔国区〕｜17.11.0 → 17.11.2
-- 手表播放器〔国区〕｜6.1.1 → 6.1.2
-- ColorfulCam〔国区〕｜1.9.38 → 1.9.41
-- MindSpace 思维导图〔国区〕｜1.10.30 → 1.10.31
-- GymWatch-健身人专属表盘〔国区〕｜3.1 → 3.1.1
-- 全民找茬 - 正版唯美画风〔国区〕｜2.1.2 → 2.1.3
-- 云书阁-小说漫画阅读器〔国区〕｜1.4.3 → 1.5.0
-- Prêt à Template〔国区〕｜4.6.8 → 4.6.9
-- WidgetClub:Widget, Theme, Icon〔美区〕｜4.17.41 → 4.17.42
-- CalJimi-热量计算卡路里饮食记录体重管理拍照识别打卡〔国区〕｜3.1.0 → 3.1.1
-- Blink Shell, Build & Code〔美区〕｜18.7.2 → 18.7.3
-- TrayMinder〔国区〕｜15.9.6 → 15.9.7
+## 已有 App 版本更新（24）
+- 淘宝〔国区〕｜10.69.0 → 10.69.10
+- 网易云音乐〔国区〕｜9.6.30 → 9.6.32
+- 起点读书-看小说听书的阅读神器〔国区〕｜5.9.485 → 5.9.486
+- World Clock Time Converter〔国区〕｜2026.16 → 2026.17
+- Spark Mail: AI 邮件助手〔国区〕｜3.20.8 → 3.20.9
+- Authenticator App - OneAuth〔国区〕｜4.4.4 → 4.4.5
+- Draw on Endless Paper〔国区〕｜5.1.0 → 5.1.1
+- 系统电池分析-手机配置查询·电池健康分析〔国区〕｜2.5.3 → 2.6.0
+- PicSlicer〔国区〕｜6.16.0 → 6.18.0
+- 框住了：3D截图套壳〔国区〕｜1.6.2 → 1.6.3
+- V2er-只为V2EX〔国区〕｜1.3.11 → 1.3.12
+- WPS协作〔国区〕｜5.56.4 → 5.57.0
+- iTablaPro〔国区〕｜12.1.8 → 12.1.9
+- 洪绘敲木鱼〔国区〕｜15.0 → 15.1
+- HBO Max: Stream Movies & TV〔美区〕｜22.0.0 → 22.1.0
+- KRSUOR〔美区〕｜4.0 → 4.2.1
+- Frame Crop – Art Mode〔美区〕｜12.0.49 → 12.0.50
+- 连续播放器 - 相册视频照片循环播放〔国区〕｜1.12 → 1.13
+- Paprika食谱管理4〔国区〕｜4.0.23 → 4.0.24
+- 动森圈圈〔国区〕｜2.2.2 → 2.2.3
+- 游戏300-童年经典(无广告)〔国区〕｜1.2.0 → 1.3.0
+- TOTP Authenticator〔美区〕｜2.8.6 → 2.8.7
+- Dual cameras〔美区〕｜2.2.0 → 2.3.0
+- MultiTimer: 多个计时器〔国区〕｜7.10 → 7.10.1
 
-## 新增或变化的适配线索（20）
-- Paprika食谱管理4〔国区〕｜4.0.23
-  证据版本：4.0.23；…载。现有用户将保留 Paprika 3 的全部功能，并免费升级获得： • 烹饪模式 • 食谱集 • 食品柜位置 • 高级搜索 • 重复项查找 • 小组件、快捷指令、Siri AI 和 Spotlight 集成 • 支持 iPhone Duo 想要更多功能？我们推出了可选的高级版订阅，新增以下功能： • 社交媒体应用导入 • 食谱扫描 • 营养分析 • 分类建议 • 条形码扫描 • 家庭账户 • 日历订阅 • Alexa 集成 4.0.23 新增内容： • 在 Safari 中打开 paprikaapp.com/homeview，即可在 HomeView 中访问你的食谱 • 在手机上横屏查看食谱时，固定项和计时器现在移到了顶部。 • 通过 Safari 共享扩展从网站保存食谱不再需要登录。 • 修复了使用 Safari 共享扩展时检测既往购买的问题。 • 更快地从网站导入…
-  https://apps.apple.com/cn/app/paprika%E9%A3%9F%E8%B0%B1%E7%AE%A1%E7%90%864/id1303222868?uo=4
-- 网易大神〔国区〕｜4.27.0
-  证据版本：4.27.0；-支持iPhone Duo，完整适配 iPad -修复了一些问题，优化了一些体验
-  https://apps.apple.com/cn/app/%E7%BD%91%E6%98%93%E5%A4%A7%E7%A5%9E/id1359055423?uo=4
-- APlayer - Alook 播放器〔国区〕｜5.7
-  证据版本：5.7；- 完善 iPhone Duo 适配 - 修复部分 SSA/ASS 字幕乱码，以及部分系统上字幕显示方块和默认字号偏大的问题 - 优化音轨和字幕轨的选中标识、字幕语言名称与排序，自动选择匹配当前语言的字幕 - 修复超过 4 倍速后无声的问题，支持最高 16 倍速有声播放 - 提升 DLNA 设备发现与投屏兼容性 - 修复 iOS 26 中文件编辑工具栏不显示的问题
-  https://apps.apple.com/cn/app/aplayer-alook-%E6%92%AD%E6%94%BE%E5%99%A8/id1420356569?uo=4
-- Habit Tracker〔国区〕｜2.15.14
-  证据版本：2.15.14；- 支持 iOS 27和 iPhone Duo - 修复bugs ----------------- - 如果您的小组件有问题，重启手机重新添加 - 我们的小红书：程序猿轻码君
-  https://apps.apple.com/cn/app/%E4%B9%A0%E6%83%AF%E6%B8%85%E5%8D%95-%E8%87%AA%E5%BE%8B%E6%89%93%E5%8D%A1%E5%85%BB%E6%88%90-%E5%96%9D%E6%B0%B4%E6%97%B6%E9%97%B4%E6%8F%90%E9%86%92%E8%AE%B0%E5%BD%95-%E7%9B%AE%E6%A0%87%E8%AE%A1%E5%88%92/id1438388363?uo=4
-- 时间规划局 - 倒计时与提醒事项〔国区〕｜6.0.1
-  证据版本：6.0.1；时间规划局6.0.1版本正式上线 1. 全面适配 iPhone Duo 折叠屏，内外屏协同交互，解锁折叠设备全新使用体验； 2. 全面支持 Apple Watch，界面清爽简约，多款表盘复杂功能随心搭配，关键信息在表盘一键速览； 3. 焕新全部桌面、锁屏小组件：锁屏小组件提供 5 种样式可选，桌面小组件配备 7–9 种风格； 4. 重磅升级小工具箱，统一优化全部工具视觉表现，涵盖 CPU 面板、整点报时、全屏时钟、番茄时钟、灵动岛、年龄计算器、悬浮窗、魔法拼图、Live Photo、计时器、计步器、照片墙、日期计算器等； 5. 事件与年龄计算器新增时间里程碑，时间节点信息一目了然； 6. 优化桌面日历相…
-  https://apps.apple.com/cn/app/%E6%97%B6%E9%97%B4%E8%A7%84%E5%88%92%E5%B1%80-%E5%80%92%E8%AE%A1%E6%97%B6%E4%B8%8E%E6%8F%90%E9%86%92%E4%BA%8B%E9%A1%B9/id1439723850?uo=4
-- Noteful: 手写笔记与 PDF 标注〔美区〕｜1.5.2
-  证据版本：1.5.2；- New: Noteful is now optimized for iPhone Duo, with an improved toolbar layout and better use of the larger inner display. - New: On iPhone, the Hand tool now stays visible so you can switch more easily between reading and writing. Choose which tools stay pinned to the toolbar, keeping your favorites visible even …
-  https://apps.apple.com/us/app/noteful-notes-pdf-markup/id1587904334?uo=4
-- 打字练习-手机双拼输入训练〔美区〕｜2.5.8
-  证据版本：2.5.8；• Support for iPhone Duo. • Other fixes and improvements.
-  https://apps.apple.com/us/app/try-shuangpin-double-pinyin/id1613019131?uo=4
-- Train Layouts: Model Railroad〔国区〕｜2.4.1
-  证据版本：2.4.1；Version 2.4.1 fixes display issues in the catalog and the layout view. New in 2.4.0: - Optimized for the new iPhone Duo. - New "Top/Side View (2.5D)" with a height profile of the tracks. - Train Layouts is now available in Spanish.
-  https://apps.apple.com/cn/app/train-layouts-model-railroad/id1388339618?uo=4
-- Streets Pro〔国区〕｜1.4.3
-  证据版本：1.4.3；iPhone Duo support
-  https://apps.apple.com/cn/app/streets-pro/id1402984484?uo=4
-- Teleprompter.com〔国区〕｜13.2.4
-  证据版本：13.2.5；13.2 版本新功能 富文本 按照你的方式排版脚本。为关键词添加粗体、斜体、下划线和描边效果，突出重点内容，而且格式设置会同步到你使用的每一台设备。 iPhone Duo Teleprompter.com 现已全面支持 iPhone Duo，可自动适配各种屏幕尺寸与折叠状态。 Director Mode 使用主后置摄像头录制，这是你手机上画质最好的摄像头，同时将脚本显示在紧挨镜头的外屏上。双眼始终注视镜头，轻松拍出最佳画面。 支持与帮助 有疑问或需要帮助？请发送邮件至 support@teleprompter.com，或直接在 App 内联系我们的支持团队。 立即更新至 13.2 版本。
-  https://apps.apple.com/cn/app/%E6%8F%90%E8%AF%8D%E5%99%A8/id1420515755?uo=4
-- Gem - Money tracker〔国区〕｜5.1
-  证据版本：5.1；New: - iPhone Duo support - Recent records first: See latest records first in accounts, search and other Summary screens - Account sorting: Choose how records are sorted in each account - Apple Pay cleanup: Gem can now shorten merchant names like “Gas station, New York, NYC” to just “Ga…
-  https://apps.apple.com/cn/app/gem-money-tracker/id1437054263?uo=4
-- Blood Pressure Monitor Connect〔国区〕｜2.12
-  证据版本：2.12；iPhone Duo Support
-  https://apps.apple.com/cn/app/id1567028995
-- 幻唐志：逍遥外传〔国区〕｜5.0.59
-  证据版本：5.0.59；【风云再起】冬季福利活动11月20日陆续开启，风云宝箱、洗宠福利、成就月、冬日赐福等你来体验！ 【iPhone Duo 全新适配】Duo铺满内屏，不再黑边，开合不丢战斗进度，横竖屏随心切换无卡顿。 【重磅内容】 「风云宝箱」完成每日与每周任务即可攒下储备宝箱，每周最多存入9个，下周一可自选4个领取，神兽之灵、高级兽诀、山水玄机图都在其中。累计开启10个，还能获得门派半价转换券！ 「洗宠福利」11月23日开启。洗练携带等级达到角色当前最大携带等级减10的宠物可累计次数，达标即可解锁血脉源石、通灵符等奖励，整个活动共可获得两张通灵符！ 「限时抽奖」11月20日至12月18日开启，设有巨龙坐骑、全新武器皮肤、全新宠物皮肤三款奖池，抽到道具即可兑换对应外观，…
-  https://apps.apple.com/cn/app/%E5%B9%BB%E5%94%90%E5%BF%97-%E9%80%8D%E9%81%A5%E5%A4%96%E4%BC%A0/id1282917929?uo=4
-- 塞尔达食谱〔国区〕｜4.3.0
-  证据版本：4.3.0；- [新功能] 适配 iPhone Duo！ - [新功能] 适配 iOS 26+ Liquid Glass - [优化] 料理、食材和效果名改用游戏官方中文，补全漏翻译 - [优化] 模拟器和收藏页的空白页重新设计，设置页更新 - [修复] 部分食材点了无法跳转，补回生命榴莲 - [修复] 数据更新后收藏丢失的问题
-  https://apps.apple.com/cn/app/%E5%A1%9E%E5%B0%94%E8%BE%BE%E9%A3%9F%E8%B0%B1/id1367118219?uo=4
-- 腾讯文档〔国区〕｜3.13.1
-  证据版本：3.13.1；本次更新： - 适配 iPhone Duo，优化展开、折叠和横竖屏切换体验，分栏浏览与文档操作更顺畅。 - AI 创作支持更多类型的模板，预览后即可选用；积分余额与使用明细更清晰。 - 扫一扫支持二维码、条形码识别，打开文档、查看识别内容更便捷。 - 缓存清理升级，可查看存储占用，按需清理缓存和临时文件。 - 优化文档打开、编辑、上传和分享体验，修复已知问题。 近期更新： - AI 助手全面升级为「AI 工作台」，一句话从生成到交付
-  https://apps.apple.com/cn/app/%E8%85%BE%E8%AE%AF%E6%96%87%E6%A1%A3/id1370780836?uo=4
-- 哔哩哔哩漫画-看漫画小说大全〔国区〕｜7.7.0
-  证据版本：7.7.0；1. iPhone Duo 适配完毕！ 折叠大屏刷漫，沉浸视觉体验~ 2. 新增【章节阅读进度】，列表标记阅读百分比，追更进度一目了然！
-  https://apps.apple.com/cn/app/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E6%BC%AB%E7%94%BB-%E7%9C%8B%E6%BC%AB%E7%94%BB%E5%B0%8F%E8%AF%B4%E5%A4%A7%E5%85%A8/id1426252715?uo=4
-- 拾心-成人附近聊天陪伴平台，同城两性交友〔国区〕｜3.1.5
-  证据版本：3.1.5；- 适配 iOS 27，适配iPhone Duo； - 修复了一些已知问题。
-  https://apps.apple.com/cn/app/%E6%8B%BE%E5%BF%83-%E6%88%90%E4%BA%BA%E9%99%84%E8%BF%91%E8%81%8A%E5%A4%A9%E9%99%AA%E4%BC%B4%E5%B9%B3%E5%8F%B0-%E5%90%8C%E5%9F%8E%E4%B8%A4%E6%80%A7%E4%BA%A4%E5%8F%8B/id1439884991?uo=4
-- HTML Editor〔美区〕｜27.0.0
-  证据版本：27.0.0；Added support for iPhone Duo, with the HTML editor and live preview side by side.
-  https://apps.apple.com/us/app/html-editor/id1580431405?uo=4
-- Home Tide〔美区〕｜2.29
-  证据版本：2.29；- iPhone Duo support - Various bug fixes and improvements
-  https://apps.apple.com/us/app/home-tide/id1582302221?uo=4
-- ThemePack: Widgets & Wallpaper〔美区〕｜3.1.1
-  证据版本：3.1.1；This update adds support for iPhone Duo, along with more stylish, trendy themes and wallpapers. Thank you for your continued support for ThemePack. We'll keep bringing you more exciting content.
-  https://apps.apple.com/us/app/themepack-widgets-wallpaper/id1616629991?uo=4
+## 新增或变化的适配线索（17）
+- Sunlitt: 太阳轨迹与日照地图〔美区〕｜4.11.4
+  证据版本：4.11.4；Sunlitt now supports iPhone Duo! We’ve made some changes to Sunlitt’s UI, making it naturally adapt to iPhone Duo’s folded states and poses. iPhone Duo - The vertical bar is deeply integrated into Sunlitt’s interface, using its boundaries to carry the time slider. - Widgets, Live Activities, and Stan…
+  https://apps.apple.com/us/app/sunlitt-sun-tracker-seeker/id1628751457?uo=4
+- StressWatch: AI压力监测 & 健康习惯养成〔美区〕｜3.4.8
+  证据版本：3.4.8；StressWatch is ready for iPhone Duo. We’ve redesigned and optimized the experience to make the most of iPhone Duo’s unique form factor, while keeping your health insights clear, fluid, and easy to access. This update also brings enhanced support for Apple Watch Series 12, Ultra 4, and iOS 27: - HRV updat…
+  https://apps.apple.com/us/app/stresswatch-ai-stress-monitor/id6444737095?uo=4
+- 小宇宙·一起听播客〔国区〕｜3.5.1
+  证据版本：3.5.1；… 最近更新 - 视频播客可以在播放页直接展示特定时点的评论 - 语音动态默认持久可见，可选48小时后消失 - 语音动态可以长按倍速播放 - 大量体验优化与问题修复 近期更新 - 新增播放列表中的”运动电台“模式 - 支持iPhone Duo - 支持Apple Watch，适配iPad，大幅提升Mac端体验 - 可以在设置中关闭“下载单集完播后自动删除” - 支持和其他应用同时播放，在“设置-播放设置”中可以选择
+  https://apps.apple.com/cn/app/%E5%B0%8F%E5%AE%87%E5%AE%99-%E4%B8%80%E8%B5%B7%E5%90%AC%E6%92%AD%E5%AE%A2/id1488894313?uo=4
+- 音频剪辑 -  音乐剪辑语音裁剪大师 & 音效编辑混音软件〔国区〕｜2.1.02
+  证据版本：2.1.02；全面适配iPhone Duo
+  https://apps.apple.com/cn/app/%E9%9F%B3%E9%A2%91%E5%89%AA%E8%BE%91-%E9%9F%B3%E4%B9%90%E5%89%AA%E8%BE%91%E8%AF%AD%E9%9F%B3%E8%A3%81%E5%89%AA%E5%A4%A7%E5%B8%88-%E9%9F%B3%E6%95%88%E7%BC%96%E8%BE%91%E6%B7%B7%E9%9F%B3%E8%BD%AF%E4%BB%B6/id1493256837?uo=4
+- 金贝鼓：指尖上的非洲鼓〔美区〕｜4.3.0
+  证据版本：4.3.0；A fresh look for your rhythm. - Refreshed app icon. - A drum layout that adapts when you open or close iPhone Duo or resize the app. - Animated zoom and sound settings buttons, with support for Reduce Motion.
+  https://apps.apple.com/us/app/id463564503
+- BNB智能链浏览器〔国区〕｜4.8
+  证据版本：4.8；新增 iPhone Duo 支持
+  https://apps.apple.com/cn/app/id1572877652
+- LightScope: Light & EV Meter〔国区〕｜3.4
+  证据版本：3.4；iPhone Duo support. • Unfold and the screen splits in two — camera preview on the left, readings on the right. The divider follows the hinge position the device reports • On the folded outer screen, all six readings (illuminance, exposure, luminous intensity, color temperature, c…
+  https://apps.apple.com/cn/app/id1572227924
+- HBO Max: Stream Movies & TV〔美区〕｜22.1.0
+  证据版本：22.1.0；… fixes and performance improvements, plus in-app updates to make the experience even better: - Liquid Glass - iPhone Duo compatibility Keep your app updated to enjoy the best streaming experience.
+  https://apps.apple.com/us/app/hbo-max-stream-movies-tv/id1666653815?uo=4
+- TOTP Authenticator〔美区〕｜2.8.7
+  证据版本：2.8.7；…in its service's color. If a service isn't recognized, you can pick it yourself. Adapted the app for iPad and iPhone Duo: more content fits on the big screen. Updated widgets. The wide widget now shows not only the current code but the next ones too.
+  https://apps.apple.com/us/app/totp-authenticator/id1625641322?uo=4
+- 体重日记 - AI 健康减肥瘦身，记录更好的自己〔美区〕｜3.9.2
+  证据版本：3.9.2；Here’s what’s new in this update: - Added: Custom check-ins - Added: iPhone Duo support - Added: iPad landscape support - Added: Nutrient target range settings - Added: Calorie calendar - Added: Measurements overview page - Added: Comparison photo upgrades (new templates, zooming, and position swapping) - Added: Option to show or hide nutrient pro…
+  https://apps.apple.com/us/app/weightdiary-track-better-you/id1662819197?uo=4
+- Sunrise Sunset Tracker〔国区〕｜9.7
+  证据版本：9.7；…e elevation and coordinate readouts. This update also introduces an adaptive layout tailored for the unfolded iPhone Duo, Dynamic Type text scaling across the app and widgets, and refinements to map pins and stability, crafted to perfection for reliable outdoor tracking.
+  https://apps.apple.com/cn/app/sunrise-sunset-tracker/id1455218195?uo=4
+- Prizmo (Volume Ed) › OCR Scan〔国区〕｜5.12
+  证据版本：5.12；Prizmo 5.12 brings enhanced support for iOS 27 and adds support for interface resizing on iPhone Duo.
+  https://apps.apple.com/cn/app/prizmo-volume-ed-ocr-scan/id1477211093?uo=4
+- 爱字词典 - 爱我中华汉字〔国区〕｜1.7.0
+  证据版本：1.7.0；爱字词典 v1.7.0 重磅更新，专为 iPhone Duo 深度适配，折叠与展开之间，学字体验依然顺畅。 1. 全面适配 iPhone Duo：在外屏与展开大屏之间切换时，界面按窗口尺寸流畅缩放，查字、学字不中断。 2. 汉字、词语、成语详情页导航栏随折叠状态自适应：窄屏时更精简，展开后操作更舒展。 3. 修复折叠场景下分享与收藏按钮偶发空白的问题，尾栏图标在折叠与展开时都能稳定显示。 4. 窗口尺寸变化时工具栏及时刷新，多任务与可调整窗口场景下详情操作更可靠。 5. 持续打磨日常体验，让同一套离线词库在更多设备形态上同样好用。 感谢一路相伴与支持。欢迎通过 App 内反馈提出建议或纠错；若…
+  https://apps.apple.com/cn/app/%E7%88%B1%E5%AD%97%E8%AF%8D%E5%85%B8-%E7%88%B1%E6%88%91%E4%B8%AD%E5%8D%8E%E6%B1%89%E5%AD%97/id1459028775?uo=4
+- 爱词根〔国区〕｜1.7.0
+  证据版本：1.7.0；爱词根 v1.7.0 重磅更新 为全新 iPhone Duo 折叠屏深度优化。合上外屏随手查词，展开内屏沉浸学习，界面与工具栏随折叠状态自动调整，收藏、分享与导航始终清晰可用。 1. iPhone Duo 专属适配 针对内外屏与铰链侧安全区打磨布局与导航栏。详情页与词单页工具栏会随宽度智能收放，狭窄外屏也不会出现图标空白或点按失灵。 2. 词库扩充至 600+ 词根词缀、1500+ 例词，覆盖面更广，例词拆解与校验更严谨。 3. 拆词器重做：例词人工拆解优先，高置信推测其次，不可靠则不硬拆；可打开系统词典查词源；未找到时列出词库相关单词。 4. 例词释义标注词性（如 v.），详情、搜索、复习、…
+  https://apps.apple.com/cn/app/%E7%88%B1%E8%AF%8D%E6%A0%B9/id1459029123?uo=4
+- Simple Envelope Budgeting〔美区〕｜3.2.0
+  证据版本：3.2.0；Simple Envelope 3.2.0 brings support for iPhone Duo and more room for your budget. • Browse envelopes beside their transactions on iPhone Duo’s wider display, with layouts and transaction controls that adapt as your display changes. • Budget in landscape on iPhone. • Read complete balances and savings goals at larger te…
+  https://apps.apple.com/us/app/simple-envelope-budgeting/id6443788334?uo=4
+- Pixel Pals Widget Pet Game〔美区〕｜2.1
+  证据版本：2.1；- iPhone Duo support and iPhone 18 Pro support, I loooove how these came out - [iPhone Duo] Palccordion, an all-new minigame to play with your pal so you can record and enjoy music together. Choose from the accordion, ocarina, pan flute, harp, or synth, and easily send your creatio…
+  https://apps.apple.com/us/app/pixel-pals-widget-pet-game/id6443919232?uo=4
+- Clone Web - Dual Chat〔美区〕｜2.0.1
+  证据版本：2.0.1；- Fixed occasional slow response when configuring tags - Optimize compatibility with iOS 27 and iPhone Duo to improve operational stability
+  https://apps.apple.com/us/app/clone-web-dual-chat/id6444021754?uo=4
 
 ## 地区商店资料变化（不等于新增 App 或已适配）
-- 爱奇艺〔国区〕：17.11.0 → 17.11.2
-- Pregnancy Tracker App - Sprout〔国区〕：19.11 → 19.12
-- 手表播放器〔国区〕：6.1.1 → 6.1.2
-- ColorfulCam〔国区〕：1.9.38 → 1.9.41
-- 2Camera 双摄相机 DualShot Recorder〔美区〕：1.5.8 → 1.6.0
-- MindSpace 思维导图〔国区〕：1.10.30 → 1.10.31
-- MindSpace 思维导图〔美区〕：1.10.30 → 1.10.31
-- 音剪 - 音乐剪辑 & 音乐创作工具〔美区〕：4.3.6 → 4.3.9
-- GymWatch-健身人专属表盘〔国区〕：3.1 → 3.1.1
-- 全民找茬 - 正版唯美画风〔国区〕：2.1.2 → 2.1.3
-- 白云天气 - 感知自然呼吸〔美区〕：2.81 → 2.82
-- Meets Link〔美区〕：2.2 → 2.5
-- V2er-只为V2EX〔美区〕：1.3.11 → 1.3.12
-- WPS协作〔美区〕：5.56.4 → 5.57.0
-- 法环地图艾尔登冒险指南〔美区〕：3.5.4 → 4.0.0
-- 云书阁-小说漫画阅读器〔国区〕：1.4.3 → 1.5.0
-- LandGlide: Parcel & Field Maps〔国区〕：5.7.0 → 5.7.5
-- Prêt à Template〔国区〕：4.6.8 → 4.6.9
-- WidgetClub:Widget, Theme, Icon〔美区〕：4.17.41 → 4.17.42
-- CalJimi-热量计算卡路里饮食记录体重管理拍照识别打卡〔国区〕：3.1.0 → 3.1.1
-- Blink Shell, Build & Code〔美区〕：18.7.2 → 18.7.3
-- TrayMinder〔国区〕：15.9.6 → 15.9.7
-- Noteful: 手写笔记与 PDF 标注〔美区〕：首次获取该地区资料
-- 打字练习-手机双拼输入训练〔美区〕：首次获取该地区资料
-- Learning To Deal Baccarat〔国区〕：首次获取该地区资料
-- Luma: Events & Invites〔国区〕：首次获取该地区资料
-- DoRepeat: Recurring Checklists〔国区〕：首次获取该地区资料
-- Blood Pressure Monitor Connect〔国区〕：首次获取该地区资料
+- VLLO〔国区〕：15.3.1 → 15.4.0
+- 淘宝〔国区〕：10.69.0 → 10.69.10
+- 网易云音乐〔国区〕：9.6.30 → 9.6.32
+- 起点读书-看小说听书的阅读神器〔国区〕：5.9.485 → 5.9.486
+- World Clock Time Converter〔国区〕：2026.16 → 2026.17
+- Spark Mail: AI 邮件助手〔国区〕：3.20.8 → 3.20.9
+- Authenticator App - OneAuth〔国区〕：4.4.4 → 4.4.5
+- Draw on Endless Paper〔国区〕：5.1.0 → 5.1.1
+- Sunlitt: 太阳轨迹与日照地图〔美区〕：4.11.3 → 4.11.4
+- StressWatch: AI压力监测 & 健康习惯养成〔美区〕：3.4.6 → 3.4.8
+- 系统电池分析-手机配置查询·电池健康分析〔国区〕：2.5.3 → 2.6.0
+- Voice Recorder, Voice Memos ®〔国区〕：18.6 → 18.9
+- 此刻心-心情日记情绪理解和调节〔美区〕：3.2026.17 → 3.2026.20
+- 手表播放器〔美区〕：6.0.0 → 6.1.2
+- 腕上小说阅读器〔美区〕：1..4.3 → 1.4.5
+- PicSlicer〔国区〕：6.16.0 → 6.18.0
+- 框住了：3D截图套壳〔国区〕：1.6.2 → 1.6.3
+- V2er-只为V2EX〔国区〕：1.3.11 → 1.3.12
+- WPS协作〔国区〕：5.56.4 → 5.57.0
+- iTablaPro〔国区〕：12.1.8 → 12.1.9
+- Hunting Calendar Deluxe〔国区〕：3.0.3 → 3.0.4
+- 洪绘敲木鱼〔国区〕：15.0 → 15.1
+- 洪绘敲木鱼〔美区〕：15.0 → 15.1
+- HBO Max: Stream Movies & TV〔美区〕：22.0.0 → 22.1.0
+- KRSUOR〔美区〕：4.0 → 4.2.1
+- Frame Crop – Art Mode〔美区〕：12.0.49 → 12.0.50
+- Frame Crop – Art Mode〔国区〕：12.0.49 → 12.0.50
+- 连续播放器 - 相册视频照片循环播放〔国区〕：1.12 → 1.13
+- Congress Pro〔国区〕：19.0.24 → 19.0.25
+- Paprika食谱管理4〔国区〕：4.0.23 → 4.0.24
+- Bikemap: Bicycle Tracker & GPS〔国区〕：32.3.0 → 33.0.0
+- 动森圈圈〔国区〕：2.2.2 → 2.2.3
+- 动森圈圈〔美区〕：2.1.9 → 2.2.3
+- 游戏300-童年经典(无广告)〔国区〕：1.2.0 → 1.3.0
+- TOTP Authenticator〔美区〕：2.8.6 → 2.8.7
+- Dual cameras〔美区〕：2.2.0 → 2.3.0
+- MultiTimer: 多个计时器〔国区〕：7.10 → 7.10.1
+- iDevTools〔国区〕：首次获取该地区资料
+- LAB Cam Pro〔国区〕：1.0.1 → 1.0.2
+- 体重日记 - AI 健康减肥瘦身，记录更好的自己〔美区〕：首次获取该地区资料
+- HTML Editor〔国区〕：首次获取该地区资料
+- ThemePack: Widgets & Wallpaper〔国区〕：首次获取该地区资料
 
-## 新增软件（7）
-- 塞尔达食谱｜工具
-- 腾讯文档｜效率
-- 哔哩哔哩漫画-看漫画小说大全｜图书
-- 拾心-成人附近聊天陪伴平台，同城两性交友｜社交
-- HTML Editor｜软件开发工具
-- Home Tide｜生活
-- ThemePack: Widgets & Wallpaper｜图形与设计
+## 新增软件（5）
+- 爱字词典 - 爱我中华汉字｜教育
+- 爱词根｜教育
+- Simple Envelope Budgeting｜财务
+- Pixel Pals Widget Pet Game｜图形与设计
+- Clone Web - Dual Chat｜效率
 
-## 新增游戏（1）
-- 幻唐志：逍遥外传｜游戏
+## 新增游戏（0）
+无。
 
 ## 新增类型待同步（0）
 无。
