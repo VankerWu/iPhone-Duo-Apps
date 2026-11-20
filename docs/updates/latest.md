@@ -1,129 +1,148 @@
 # 本轮抓取报告
-2026-11-20T03:42:29+00:00
+2026-11-20T13:22:49+00:00
 
 新增收录、版本更新和适配线索分开统计；不代表本站实测。
 
 ## 国区扫描范围
-候选池 11289 个 ID；本轮计划检查 605 个；分类榜单成功 28/28。
+候选池 11325 个 ID；本轮计划检查 604 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
 
 ## 美区扫描范围
-候选池 15812 个 ID；本轮计划检查 600 个；分类榜单成功 28/28。
+候选池 15913 个 ID；本轮计划检查 600 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
-Lookup 返回 593/600 个条目；网页解析 29/30。
+Lookup 返回 595/600 个条目；网页解析 29/30。
 各地区的版本说明独立保存；美区声明不代表国区已适配。
 本轮部分计划目标未返回资料或来源未完成；保留候选继续轮询，不据此推断已下架或已适配。
 
-## 新增 App（6）
-- Slowly 疗愈社交软件：写信交朋友，与全球笔友配对〔国区〕｜10.1.2
-- Cube CFOP：F2L、OLL、PLL 魔方公式〔国区〕｜7.2.0
-- Learning To Deal Baccarat〔美区〕｜2.0 Iphone Duo and Scene Delegate Updates
-- Luma: Events & Invites〔美区〕｜2.18.3
-- DoRepeat: Recurring Checklists〔美区〕｜2.7
-- Blood Pressure Monitor Connect〔美区〕｜2.12
+## 新增 App（8）
+- 幻唐志：逍遥外传〔国区〕｜5.0.59
+- 塞尔达食谱〔国区〕｜4.3.0
+- 腾讯文档〔国区〕｜3.13.1
+- 哔哩哔哩漫画-看漫画小说大全〔国区〕｜7.7.0
+- 拾心-成人附近聊天陪伴平台，同城两性交友〔国区〕｜3.1.5
+- HTML Editor〔美区〕｜27.0.0
+- Home Tide〔美区〕｜2.29
+- ThemePack: Widgets & Wallpaper〔美区〕｜3.1.1
 
-## 已有 App 版本更新（11）
-- 训记 - 训练计划专家〔国区〕｜7.00.419 → 7.00.420
-- InstaCal: 菜单栏日历〔国区〕｜4.1 → 4.2
-- Call Ranger: 海量来电拦截器〔国区〕｜8.5.0 → 8.5.1
-- Sumaddle〔美区〕｜3.2.0 → 3.2.1
-- 随手记-快捷自动记账〔国区〕｜13.2.61 → 13.2.62
-- 虎嗅-科技头条财经新闻热点资讯〔国区〕｜9.13.0 → 9.13.2
-- Lowe's Home Improvement〔美区〕｜26.10.7 → 26.10.8
-- 日淘市集-口袋里的趣味日本〔国区〕｜v1.79.0 → v1.80.0
-- TrayMinder〔国区〕｜15.9.5 → 15.9.6
-- 福麻圈®〔国区〕｜4.6 → 4.7
-- BlazePush-圈速计时&性能测试〔国区〕｜1.9.1 → 1.9.2
+## 已有 App 版本更新（12）
+- 爱奇艺〔国区〕｜17.11.0 → 17.11.2
+- 手表播放器〔国区〕｜6.1.1 → 6.1.2
+- ColorfulCam〔国区〕｜1.9.38 → 1.9.41
+- MindSpace 思维导图〔国区〕｜1.10.30 → 1.10.31
+- GymWatch-健身人专属表盘〔国区〕｜3.1 → 3.1.1
+- 全民找茬 - 正版唯美画风〔国区〕｜2.1.2 → 2.1.3
+- 云书阁-小说漫画阅读器〔国区〕｜1.4.3 → 1.5.0
+- Prêt à Template〔国区〕｜4.6.8 → 4.6.9
+- WidgetClub:Widget, Theme, Icon〔美区〕｜4.17.41 → 4.17.42
+- CalJimi-热量计算卡路里饮食记录体重管理拍照识别打卡〔国区〕｜3.1.0 → 3.1.1
+- Blink Shell, Build & Code〔美区〕｜18.7.2 → 18.7.3
+- TrayMinder〔国区〕｜15.9.6 → 15.9.7
 
-## 新增或变化的适配线索（14）
-- 我的桌面 · iScreen - 桌面小组件主题壁纸〔美区〕｜5.1.35
-  证据版本：5.1.35；Fully adapted for iPhone Duo & iOS 27, refined experience.
-  https://apps.apple.com/us/app/iscreen-widgets-wallpaper/id1534704608?uo=4
-- Colorful Widget彩虹小组件-万能桌面主题壁纸〔美区〕｜19.1.1
-  证据版本：19.1.1；- Newly optimized for iPhone Duo, featuring beautifully designed themes, wallpapers, and widgets for different screen sizes - (ฅ´ω`ฅ) We look forward to your feedback! Please leave your valuable comments so we can further optimize Colorful Widget.
-  https://apps.apple.com/us/app/colorful-widget-widget-themes/id1538946171?uo=4
-- Alook浏览器-8倍速〔国区〕｜23.5
-  证据版本：23.5；- 适配 iPhone Duo - 修复 DLNA 投屏时部分设备发现失败的问题 - 优化网页文件下载和文件名识别 - 优化网页图片保存和看图体验 - 优化账号密码自动填充 - 优化视频字幕识别和悬浮播放体验 - 阅读模式支持点击结尾返回网页 - 优化网页加载和广告屏蔽体验 - 修复低版本 iOS 打开网页白屏的问题 - 其他优化和完善
-  https://apps.apple.com/cn/app/alook%E6%B5%8F%E8%A7%88%E5%99%A8-8%E5%80%8D%E9%80%9F/id1261944766?uo=4
-- Lowe's Home Improvement〔美区〕｜26.10.8
-  证据版本：26.10.8；The Lowe’s app now supports the iPhone Duo. Whether you’re checking an item on the go or opening up for a bigger view, our updated layouts make the most of your screen. Update the Lowe's app today and keep your next project moving.
-  https://apps.apple.com/us/app/id457954781
-- Traffie Navigation & Traffic〔国区〕｜1.9.5
-  证据版本：1.9.5；What’s New in Traffie - iPhone Duo support - AR Navigation — See your next turn in the live camera view. Choose the arrow style you like. - Recommended Lanes — Know which lane to take before your next turn or exit. - Trip Planner — Discover scenic trips or build your own, one day and one stop at a time.…
-  https://apps.apple.com/cn/app/traffie-navigation-traffic/id1217865434?uo=4
-- CollaNote：精美笔记、PDF标注、录音与手写同步〔美区〕｜5.1.2
-  证据版本：5.1.2；Introducing iPhone Duo Support! CollaNote is now optimized for iPhone Duo, with exciting new features designed to take full advantage of its unique capabilities. - Mini Map: Easily navigate your notes and quickly jump to different areas of your canvas. - Book Reading Mode: Enjoy a realistic,…
-  https://apps.apple.com/us/app/collanote-notes-pdf-markup/id1540956268?uo=4
-- 福麻圈®〔美区〕｜4.7
-  证据版本：4.7；1、修复在iPhone Duo 内屏冷启动黑屏问题 2、修复在部分机型唤不起输入法 3、优化iPhone Duo 内外屏切换适配
-  https://apps.apple.com/us/app/%E7%A6%8F%E9%BA%BB%E5%9C%88/id1552346679?uo=4
-- Windy.com: Weather & Radar〔国区〕｜51.040245
-  证据版本：51.040245；… IFR 中显示飞行高度线、逆风和危险 - 在设置中更改默认预报模型（Premium） - RRFS - NOAA 全新的北美模型，取代 NAM - 飓风跟踪器中的 Google WeatherNext 预报 - 针对 iPhone Duo 优化的布局 - 扩大阿根廷的雷达覆盖范围 - AROME 法国、安的列斯和留尼汪的气象图和 Airgram - 大量其他修复
-  https://apps.apple.com/cn/app/windy-com-%E5%A4%A9%E6%B0%94%E5%92%8C%E9%9B%B7%E8%BE%BE/id1161387262?uo=4
-- Slowly 疗愈社交软件：写信交朋友，与全球笔友配对〔国区〕｜10.1.2
-  证据版本：10.1.2；新功能： - 全新界面：为 iPhone Duo 及 iPad 重新设计布局，更充分利用大屏幕空间，并随折叠、旋转或窗口大小调整而自动适配。 - 书本模式：现在可以在支持的平板电脑及宽屏幕上并排阅读信件。你的偏好设置会保留至下次阅读。 功能改进： - 错误修复与性能提升：我们修复了多项问题并改进整体性能，带来更流畅的使用体验。
-  https://apps.apple.com/cn/app/slowly-%E7%96%97%E6%84%88%E7%A4%BE%E4%BA%A4%E8%BD%AF%E4%BB%B6-%E5%86%99%E4%BF%A1%E4%BA%A4%E6%9C%8B%E5%8F%8B-%E4%B8%8E%E5%85%A8%E7%90%83%E7%AC%94%E5%8F%8B%E9%85%8D%E5%AF%B9/id1199811908?uo=4
-- Cube CFOP：F2L、OLL、PLL 魔方公式〔国区〕｜7.2.0
-  证据版本：7.2.0；…并搜索所有情况。编辑器会检查公式能否还原该情况。 • 指南：从概览到 PLL 的 CFOP 方法、3D 魔方上的还原示例、Finger trick，以及重新绘制的记号指南。 • 另外：你的魔方配色和握法、浅色和深色外观、iPhone Duo 和 iPad 双栏布局、键盘快捷键，以及全新的 App 图标。 • 不收集使用数据。App 只发送崩溃报告。 你的收藏、编辑过的公式和闪卡进度都会保留。你的公式列表保持不变；如需使用新的推荐公式，请前往“设置 > 恢复默认公式”。
-  https://apps.apple.com/cn/app/cube-cfop-f2l-oll-pll-%E9%AD%94%E6%96%B9%E5%85%AC%E5%BC%8F/id1236657805?uo=4
-- Learning To Deal Baccarat〔美区〕｜2.0 Iphone Duo and Scene Delegate Updates
-  证据版本：2.0 Iphone Duo and Scene Delegate Updates；- Iphone Duo Layouts - Conversion To Scene Delegate - Conversion back to native
-  https://apps.apple.com/us/app/learning-to-deal-baccarat/id1540386798?uo=4
-- Luma: Events & Invites〔美区〕｜2.18.3
-  证据版本：2.18.3；Improved support for iPhone Duo. Zoom photos smoothly and mute videos in the photo viewer. We've also added more ways to pay, including Afterpay, Affirm and MobilePay.
-  https://apps.apple.com/us/app/luma-events-invites/id1546150895?uo=4
-- DoRepeat: Recurring Checklists〔美区〕｜2.7
-  证据版本：2.7；• iPhone Duo optimizations, so DoRepeat looks and works great on that fancy new phone of yours • Lots of small improvements and bug fixes
-  https://apps.apple.com/us/app/dorepeat-recurring-checklists/id1561534712?uo=4
-- Blood Pressure Monitor Connect〔美区〕｜2.12
+## 新增或变化的适配线索（20）
+- Paprika食谱管理4〔国区〕｜4.0.23
+  证据版本：4.0.23；…载。现有用户将保留 Paprika 3 的全部功能，并免费升级获得： • 烹饪模式 • 食谱集 • 食品柜位置 • 高级搜索 • 重复项查找 • 小组件、快捷指令、Siri AI 和 Spotlight 集成 • 支持 iPhone Duo 想要更多功能？我们推出了可选的高级版订阅，新增以下功能： • 社交媒体应用导入 • 食谱扫描 • 营养分析 • 分类建议 • 条形码扫描 • 家庭账户 • 日历订阅 • Alexa 集成 4.0.23 新增内容： • 在 Safari 中打开 paprikaapp.com/homeview，即可在 HomeView 中访问你的食谱 • 在手机上横屏查看食谱时，固定项和计时器现在移到了顶部。 • 通过 Safari 共享扩展从网站保存食谱不再需要登录。 • 修复了使用 Safari 共享扩展时检测既往购买的问题。 • 更快地从网站导入…
+  https://apps.apple.com/cn/app/paprika%E9%A3%9F%E8%B0%B1%E7%AE%A1%E7%90%864/id1303222868?uo=4
+- 网易大神〔国区〕｜4.27.0
+  证据版本：4.27.0；-支持iPhone Duo，完整适配 iPad -修复了一些问题，优化了一些体验
+  https://apps.apple.com/cn/app/%E7%BD%91%E6%98%93%E5%A4%A7%E7%A5%9E/id1359055423?uo=4
+- APlayer - Alook 播放器〔国区〕｜5.7
+  证据版本：5.7；- 完善 iPhone Duo 适配 - 修复部分 SSA/ASS 字幕乱码，以及部分系统上字幕显示方块和默认字号偏大的问题 - 优化音轨和字幕轨的选中标识、字幕语言名称与排序，自动选择匹配当前语言的字幕 - 修复超过 4 倍速后无声的问题，支持最高 16 倍速有声播放 - 提升 DLNA 设备发现与投屏兼容性 - 修复 iOS 26 中文件编辑工具栏不显示的问题
+  https://apps.apple.com/cn/app/aplayer-alook-%E6%92%AD%E6%94%BE%E5%99%A8/id1420356569?uo=4
+- Habit Tracker〔国区〕｜2.15.14
+  证据版本：2.15.14；- 支持 iOS 27和 iPhone Duo - 修复bugs ----------------- - 如果您的小组件有问题，重启手机重新添加 - 我们的小红书：程序猿轻码君
+  https://apps.apple.com/cn/app/%E4%B9%A0%E6%83%AF%E6%B8%85%E5%8D%95-%E8%87%AA%E5%BE%8B%E6%89%93%E5%8D%A1%E5%85%BB%E6%88%90-%E5%96%9D%E6%B0%B4%E6%97%B6%E9%97%B4%E6%8F%90%E9%86%92%E8%AE%B0%E5%BD%95-%E7%9B%AE%E6%A0%87%E8%AE%A1%E5%88%92/id1438388363?uo=4
+- 时间规划局 - 倒计时与提醒事项〔国区〕｜6.0.1
+  证据版本：6.0.1；时间规划局6.0.1版本正式上线 1. 全面适配 iPhone Duo 折叠屏，内外屏协同交互，解锁折叠设备全新使用体验； 2. 全面支持 Apple Watch，界面清爽简约，多款表盘复杂功能随心搭配，关键信息在表盘一键速览； 3. 焕新全部桌面、锁屏小组件：锁屏小组件提供 5 种样式可选，桌面小组件配备 7–9 种风格； 4. 重磅升级小工具箱，统一优化全部工具视觉表现，涵盖 CPU 面板、整点报时、全屏时钟、番茄时钟、灵动岛、年龄计算器、悬浮窗、魔法拼图、Live Photo、计时器、计步器、照片墙、日期计算器等； 5. 事件与年龄计算器新增时间里程碑，时间节点信息一目了然； 6. 优化桌面日历相…
+  https://apps.apple.com/cn/app/%E6%97%B6%E9%97%B4%E8%A7%84%E5%88%92%E5%B1%80-%E5%80%92%E8%AE%A1%E6%97%B6%E4%B8%8E%E6%8F%90%E9%86%92%E4%BA%8B%E9%A1%B9/id1439723850?uo=4
+- Noteful: 手写笔记与 PDF 标注〔美区〕｜1.5.2
+  证据版本：1.5.2；- New: Noteful is now optimized for iPhone Duo, with an improved toolbar layout and better use of the larger inner display. - New: On iPhone, the Hand tool now stays visible so you can switch more easily between reading and writing. Choose which tools stay pinned to the toolbar, keeping your favorites visible even …
+  https://apps.apple.com/us/app/noteful-notes-pdf-markup/id1587904334?uo=4
+- 打字练习-手机双拼输入训练〔美区〕｜2.5.8
+  证据版本：2.5.8；• Support for iPhone Duo. • Other fixes and improvements.
+  https://apps.apple.com/us/app/try-shuangpin-double-pinyin/id1613019131?uo=4
+- Train Layouts: Model Railroad〔国区〕｜2.4.1
+  证据版本：2.4.1；Version 2.4.1 fixes display issues in the catalog and the layout view. New in 2.4.0: - Optimized for the new iPhone Duo. - New "Top/Side View (2.5D)" with a height profile of the tracks. - Train Layouts is now available in Spanish.
+  https://apps.apple.com/cn/app/train-layouts-model-railroad/id1388339618?uo=4
+- Streets Pro〔国区〕｜1.4.3
+  证据版本：1.4.3；iPhone Duo support
+  https://apps.apple.com/cn/app/streets-pro/id1402984484?uo=4
+- Teleprompter.com〔国区〕｜13.2.4
+  证据版本：13.2.5；13.2 版本新功能 富文本 按照你的方式排版脚本。为关键词添加粗体、斜体、下划线和描边效果，突出重点内容，而且格式设置会同步到你使用的每一台设备。 iPhone Duo Teleprompter.com 现已全面支持 iPhone Duo，可自动适配各种屏幕尺寸与折叠状态。 Director Mode 使用主后置摄像头录制，这是你手机上画质最好的摄像头，同时将脚本显示在紧挨镜头的外屏上。双眼始终注视镜头，轻松拍出最佳画面。 支持与帮助 有疑问或需要帮助？请发送邮件至 support@teleprompter.com，或直接在 App 内联系我们的支持团队。 立即更新至 13.2 版本。
+  https://apps.apple.com/cn/app/%E6%8F%90%E8%AF%8D%E5%99%A8/id1420515755?uo=4
+- Gem - Money tracker〔国区〕｜5.1
+  证据版本：5.1；New: - iPhone Duo support - Recent records first: See latest records first in accounts, search and other Summary screens - Account sorting: Choose how records are sorted in each account - Apple Pay cleanup: Gem can now shorten merchant names like “Gas station, New York, NYC” to just “Ga…
+  https://apps.apple.com/cn/app/gem-money-tracker/id1437054263?uo=4
+- Blood Pressure Monitor Connect〔国区〕｜2.12
   证据版本：2.12；iPhone Duo Support
-  https://apps.apple.com/us/app/blood-pressure-monitor-connect/id1567028995?uo=4
+  https://apps.apple.com/cn/app/id1567028995
+- 幻唐志：逍遥外传〔国区〕｜5.0.59
+  证据版本：5.0.59；【风云再起】冬季福利活动11月20日陆续开启，风云宝箱、洗宠福利、成就月、冬日赐福等你来体验！ 【iPhone Duo 全新适配】Duo铺满内屏，不再黑边，开合不丢战斗进度，横竖屏随心切换无卡顿。 【重磅内容】 「风云宝箱」完成每日与每周任务即可攒下储备宝箱，每周最多存入9个，下周一可自选4个领取，神兽之灵、高级兽诀、山水玄机图都在其中。累计开启10个，还能获得门派半价转换券！ 「洗宠福利」11月23日开启。洗练携带等级达到角色当前最大携带等级减10的宠物可累计次数，达标即可解锁血脉源石、通灵符等奖励，整个活动共可获得两张通灵符！ 「限时抽奖」11月20日至12月18日开启，设有巨龙坐骑、全新武器皮肤、全新宠物皮肤三款奖池，抽到道具即可兑换对应外观，…
+  https://apps.apple.com/cn/app/%E5%B9%BB%E5%94%90%E5%BF%97-%E9%80%8D%E9%81%A5%E5%A4%96%E4%BC%A0/id1282917929?uo=4
+- 塞尔达食谱〔国区〕｜4.3.0
+  证据版本：4.3.0；- [新功能] 适配 iPhone Duo！ - [新功能] 适配 iOS 26+ Liquid Glass - [优化] 料理、食材和效果名改用游戏官方中文，补全漏翻译 - [优化] 模拟器和收藏页的空白页重新设计，设置页更新 - [修复] 部分食材点了无法跳转，补回生命榴莲 - [修复] 数据更新后收藏丢失的问题
+  https://apps.apple.com/cn/app/%E5%A1%9E%E5%B0%94%E8%BE%BE%E9%A3%9F%E8%B0%B1/id1367118219?uo=4
+- 腾讯文档〔国区〕｜3.13.1
+  证据版本：3.13.1；本次更新： - 适配 iPhone Duo，优化展开、折叠和横竖屏切换体验，分栏浏览与文档操作更顺畅。 - AI 创作支持更多类型的模板，预览后即可选用；积分余额与使用明细更清晰。 - 扫一扫支持二维码、条形码识别，打开文档、查看识别内容更便捷。 - 缓存清理升级，可查看存储占用，按需清理缓存和临时文件。 - 优化文档打开、编辑、上传和分享体验，修复已知问题。 近期更新： - AI 助手全面升级为「AI 工作台」，一句话从生成到交付
+  https://apps.apple.com/cn/app/%E8%85%BE%E8%AE%AF%E6%96%87%E6%A1%A3/id1370780836?uo=4
+- 哔哩哔哩漫画-看漫画小说大全〔国区〕｜7.7.0
+  证据版本：7.7.0；1. iPhone Duo 适配完毕！ 折叠大屏刷漫，沉浸视觉体验~ 2. 新增【章节阅读进度】，列表标记阅读百分比，追更进度一目了然！
+  https://apps.apple.com/cn/app/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E6%BC%AB%E7%94%BB-%E7%9C%8B%E6%BC%AB%E7%94%BB%E5%B0%8F%E8%AF%B4%E5%A4%A7%E5%85%A8/id1426252715?uo=4
+- 拾心-成人附近聊天陪伴平台，同城两性交友〔国区〕｜3.1.5
+  证据版本：3.1.5；- 适配 iOS 27，适配iPhone Duo； - 修复了一些已知问题。
+  https://apps.apple.com/cn/app/%E6%8B%BE%E5%BF%83-%E6%88%90%E4%BA%BA%E9%99%84%E8%BF%91%E8%81%8A%E5%A4%A9%E9%99%AA%E4%BC%B4%E5%B9%B3%E5%8F%B0-%E5%90%8C%E5%9F%8E%E4%B8%A4%E6%80%A7%E4%BA%A4%E5%8F%8B/id1439884991?uo=4
+- HTML Editor〔美区〕｜27.0.0
+  证据版本：27.0.0；Added support for iPhone Duo, with the HTML editor and live preview side by side.
+  https://apps.apple.com/us/app/html-editor/id1580431405?uo=4
+- Home Tide〔美区〕｜2.29
+  证据版本：2.29；- iPhone Duo support - Various bug fixes and improvements
+  https://apps.apple.com/us/app/home-tide/id1582302221?uo=4
+- ThemePack: Widgets & Wallpaper〔美区〕｜3.1.1
+  证据版本：3.1.1；This update adds support for iPhone Duo, along with more stylish, trendy themes and wallpapers. Thank you for your continued support for ThemePack. We'll keep bringing you more exciting content.
+  https://apps.apple.com/us/app/themepack-widgets-wallpaper/id1616629991?uo=4
 
 ## 地区商店资料变化（不等于新增 App 或已适配）
-- 我的桌面 · iScreen - 桌面小组件主题壁纸〔美区〕：5.1.30 → 5.1.35
-- 训记 - 训练计划专家〔国区〕：7.00.419 → 7.00.420
-- 谜底时钟〔美区〕：2.75.1 → 2.76
-- DAMA-图片自动马赛克&打码〔美区〕：26.10.3 → 26.11.1
-- InstaCal: 菜单栏日历〔国区〕：4.1 → 4.2
-- Colorful Widget彩虹小组件-万能桌面主题壁纸〔美区〕：19.1.0 → 19.1.1
-- Call Ranger: 海量来电拦截器〔国区〕：8.5.0 → 8.5.1
-- Sumaddle〔美区〕：3.2.0 → 3.2.1
-- 随手记-快捷自动记账〔国区〕：13.2.61 → 13.2.62
-- 虎嗅-科技头条财经新闻热点资讯〔国区〕：9.13.0 → 9.13.2
-- Lowe's Home Improvement〔美区〕：26.10.7 → 26.10.8
-- 日淘市集-口袋里的趣味日本〔国区〕：v1.79.0 → v1.80.0
-- Anime Wallpaper - Live Engine〔国区〕：5.2 → 5.2.1
-- TrayMinder〔国区〕：15.9.5 → 15.9.6
-- Resamplr〔国区〕：2.3.1 → 2.4.0
-- CollaNote：精美笔记、PDF标注、录音与手写同步〔美区〕：首次获取该地区资料
-- 悬浮时钟-抢购秒杀助手〔美区〕：首次获取该地区资料
-- Icon Goodies〔国区〕：1.13 → 1.14
-- 福麻圈®〔国区〕：4.6 → 4.7
-- 福麻圈®〔美区〕：首次获取该地区资料
-- P-Toolkit〔国区〕：1.0.2 → 1.0.3
-- BlazePush-圈速计时&性能测试〔国区〕：1.9.1 → 1.9.2
-- FilmNoir 追剧观影记录 for Trakt〔美区〕：首次获取该地区资料
-- Sticky Widgets〔美区〕：首次获取该地区资料
-- 思维导图 - HoodleMind〔美区〕：首次获取该地区资料
-- Sub - 少数派思慕同城交友〔美区〕：首次获取该地区资料
-- a-Shell mini〔美区〕：首次获取该地区资料
-- 可达阅读器 - 离线图片阅读器〔美区〕：首次获取该地区资料
-- Teleprompter.com〔国区〕：13.2.4 → 13.2.5
-- 风光摄影助手Pro:风光摄影计划好帮手〔美区〕：首次获取该地区资料
-- Sanzo Color Palettes〔国区〕：首次获取该地区资料
+- 爱奇艺〔国区〕：17.11.0 → 17.11.2
+- Pregnancy Tracker App - Sprout〔国区〕：19.11 → 19.12
+- 手表播放器〔国区〕：6.1.1 → 6.1.2
+- ColorfulCam〔国区〕：1.9.38 → 1.9.41
+- 2Camera 双摄相机 DualShot Recorder〔美区〕：1.5.8 → 1.6.0
+- MindSpace 思维导图〔国区〕：1.10.30 → 1.10.31
+- MindSpace 思维导图〔美区〕：1.10.30 → 1.10.31
+- 音剪 - 音乐剪辑 & 音乐创作工具〔美区〕：4.3.6 → 4.3.9
+- GymWatch-健身人专属表盘〔国区〕：3.1 → 3.1.1
+- 全民找茬 - 正版唯美画风〔国区〕：2.1.2 → 2.1.3
+- 白云天气 - 感知自然呼吸〔美区〕：2.81 → 2.82
+- Meets Link〔美区〕：2.2 → 2.5
+- V2er-只为V2EX〔美区〕：1.3.11 → 1.3.12
+- WPS协作〔美区〕：5.56.4 → 5.57.0
+- 法环地图艾尔登冒险指南〔美区〕：3.5.4 → 4.0.0
+- 云书阁-小说漫画阅读器〔国区〕：1.4.3 → 1.5.0
+- LandGlide: Parcel & Field Maps〔国区〕：5.7.0 → 5.7.5
+- Prêt à Template〔国区〕：4.6.8 → 4.6.9
+- WidgetClub:Widget, Theme, Icon〔美区〕：4.17.41 → 4.17.42
+- CalJimi-热量计算卡路里饮食记录体重管理拍照识别打卡〔国区〕：3.1.0 → 3.1.1
+- Blink Shell, Build & Code〔美区〕：18.7.2 → 18.7.3
+- TrayMinder〔国区〕：15.9.6 → 15.9.7
+- Noteful: 手写笔记与 PDF 标注〔美区〕：首次获取该地区资料
+- 打字练习-手机双拼输入训练〔美区〕：首次获取该地区资料
+- Learning To Deal Baccarat〔国区〕：首次获取该地区资料
+- Luma: Events & Invites〔国区〕：首次获取该地区资料
+- DoRepeat: Recurring Checklists〔国区〕：首次获取该地区资料
+- Blood Pressure Monitor Connect〔国区〕：首次获取该地区资料
 
-## 新增软件（6）
-- Slowly 疗愈社交软件：写信交朋友，与全球笔友配对｜社交
-- Cube CFOP：F2L、OLL、PLL 魔方公式｜教育
-- Learning To Deal Baccarat｜教育
-- Luma: Events & Invites｜生活
-- DoRepeat: Recurring Checklists｜效率
-- Blood Pressure Monitor Connect｜医疗
+## 新增软件（7）
+- 塞尔达食谱｜工具
+- 腾讯文档｜效率
+- 哔哩哔哩漫画-看漫画小说大全｜图书
+- 拾心-成人附近聊天陪伴平台，同城两性交友｜社交
+- HTML Editor｜软件开发工具
+- Home Tide｜生活
+- ThemePack: Widgets & Wallpaper｜图形与设计
 
-## 新增游戏（0）
-无。
+## 新增游戏（1）
+- 幻唐志：逍遥外传｜游戏
 
 ## 新增类型待同步（0）
 无。
