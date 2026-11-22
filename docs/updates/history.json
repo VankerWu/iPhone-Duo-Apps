@@ -1,5 +1,885 @@
 [
   {
+    "time": "2026-11-22T16:35:56+00:00",
+    "added": [
+      {
+        "id": "signal-6741166769",
+        "name": "MSG View",
+        "version": "3.8",
+        "appStoreUrl": "https://apps.apple.com/cn/app/msg-view/id6741166769?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6741166769,
+        "appType": "software",
+        "category": "效率"
+      },
+      {
+        "id": "signal-6742344212",
+        "name": "六爻起卦",
+        "version": "1.1.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%85%AD%E7%88%BB%E8%B5%B7%E5%8D%A6/id6742344212?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6742344212,
+        "appType": "software",
+        "category": "工具"
+      },
+      {
+        "id": "signal-6746457078",
+        "name": "Feelca S",
+        "version": "2.0.9",
+        "appStoreUrl": "https://apps.apple.com/cn/app/feelca-s/id6746457078?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6746457078,
+        "appType": "software",
+        "category": "摄影与录像"
+      },
+      {
+        "id": "signal-6757311508",
+        "name": "Chromatic Tuner Pro for Watch",
+        "version": "1.2",
+        "appStoreUrl": "https://apps.apple.com/us/app/chromatic-tuner-pro-for-watch/id6757311508?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 6757311508,
+        "appType": "software",
+        "category": "音乐"
+      },
+      {
+        "id": "signal-6757933011",
+        "name": "Sunroof: Weather Planning App",
+        "version": "2.3.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/sunroof-weather-planning-app/id6757933011?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 6757933011,
+        "appType": "software",
+        "category": "天气"
+      },
+      {
+        "id": "signal-6759151400",
+        "name": "ADHD - Reader",
+        "version": "2.0.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/adhd-reader/id6759151400?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 6759151400,
+        "appType": "software",
+        "category": "图书"
+      },
+      {
+        "id": "signal-6759936395",
+        "name": "Sudoku: Classic No Ads",
+        "version": "1.7",
+        "appStoreUrl": "https://apps.apple.com/us/app/sudoku-classic-no-ads/id6759936395?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 6759936395,
+        "appType": "game",
+        "category": "游戏"
+      }
+    ],
+    "updated": [
+      {
+        "id": "signal-608834326",
+        "name": "Calendars – 日历、待办事项列表和日程表",
+        "version": "5.41.4",
+        "appStoreUrl": "https://apps.apple.com/cn/app/calendars-%E6%97%A5%E5%8E%86-%E5%BE%85%E5%8A%9E%E4%BA%8B%E9%A1%B9%E5%88%97%E8%A1%A8%E5%92%8C%E6%97%A5%E7%A8%8B%E8%A1%A8/id608834326?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 608834326,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "5.41.3"
+      },
+      {
+        "id": "signal-6480446430",
+        "name": "元宝-腾讯全能AI助手",
+        "version": "2.94.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%85%83%E5%AE%9D-%E8%85%BE%E8%AE%AF%E5%85%A8%E8%83%BDai%E5%8A%A9%E6%89%8B/id6480446430?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6480446430,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "2.93.0"
+      },
+      {
+        "id": "signal-6798309389",
+        "name": "小微账单 - 离线收支记账",
+        "version": "1.0.9",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%B0%8F%E5%BE%AE%E8%B4%A6%E5%8D%95-%E7%A6%BB%E7%BA%BF%E6%94%B6%E6%94%AF%E8%AE%B0%E8%B4%A6/id6798309389?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6798309389,
+        "appType": "software",
+        "category": "商务",
+        "previousVersion": "1.0.8"
+      },
+      {
+        "id": "signal-6756776435",
+        "name": "Provideo:Vlog & Video Maker",
+        "version": "1.0.39",
+        "appStoreUrl": "https://apps.apple.com/us/app/provideo-vlog-video-maker/id6756776435?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 6756776435,
+        "appType": "software",
+        "category": "图形与设计",
+        "previousVersion": "1.0.37"
+      },
+      {
+        "id": "signal-6800241566",
+        "name": "千问办公 - 阿里AI办公助手",
+        "version": "2.1.4",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC-%E9%98%BF%E9%87%8Cai%E5%8A%9E%E5%85%AC%E5%8A%A9%E6%89%8B/id6800241566?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6800241566,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "2.1.1"
+      },
+      {
+        "id": "signal-6757288408",
+        "name": "Treblo - AI Music",
+        "version": "1.6.6",
+        "appStoreUrl": "https://apps.apple.com/us/app/treblo-ai-music/id6757288408?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6757288408,
+        "appType": "software",
+        "category": "音乐",
+        "previousVersion": "1.6.5"
+      },
+      {
+        "id": "signal-6759349583",
+        "name": "PomoDuo: Pomodoro Focus Timer",
+        "version": "2.1.0",
+        "appStoreUrl": "https://apps.apple.com/us/app/pomoduo-pomodoro-focus-timer/id6759349583?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6759349583,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "2.0.0"
+      },
+      {
+        "id": "signal-1320684802",
+        "name": "TrayMinder",
+        "version": "15.10.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/trayminder/id1320684802?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1320684802,
+        "appType": "software",
+        "category": "医疗",
+        "previousVersion": "15.9.9"
+      }
+    ],
+    "signals": [
+      {
+        "id": "signal-1598039955",
+        "name": "天气 - 每日天气",
+        "version": "1.1.7",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id1598039955",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1598039955,
+        "appType": "software",
+        "category": "天气",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "1.1.7",
+          "excerpt": "- 支持在iPhone Duo上的完美体验。 - 您可以在设置页面选择预报天数、24小时预报横幅的预报类别和小时间隔。 - Bug修复。",
+          "url": "https://apps.apple.com/cn/app/id1598039955",
+          "date": "2026-11-03"
+        }
+      },
+      {
+        "id": "signal-1600837891",
+        "name": "奶酪单词-四六级考研背单词必备",
+        "version": "4.5.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id1600837891",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 1600837891,
+        "appType": "software",
+        "category": "教育",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "4.4.9",
+          "excerpt": "1. 适配iPhone Duo 2. 修复了已知问题，优化用户体验。",
+          "url": "https://apps.apple.com/cn/app/id1600837891",
+          "date": "2026-10-26"
+        }
+      },
+      {
+        "id": "signal-6757520656",
+        "name": "咖啡人 · 每日咖啡记录",
+        "version": "1.4.2",
+        "appStoreUrl": "https://apps.apple.com/us/app/cafeor-coffee-tracker/id6757520656?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6757520656,
+        "appType": "software",
+        "category": "美食佳饮",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.4.2",
+          "excerpt": "Support for iPhone Duo！ Improve the coffee map ================== Cafeor is a minimalist daily coffee tracking app. • Track daily coffee cups and types • Monitor caffeine intake • Sync data to Apple Health",
+          "url": "https://apps.apple.com/us/app/cafeor-coffee-tracker/id6757520656?uo=4",
+          "date": "2026-11-21"
+        }
+      },
+      {
+        "id": "signal-6757149732",
+        "name": "FlipYear - 3D 翻页书相册清理",
+        "version": "1.1.28",
+        "appStoreUrl": "https://apps.apple.com/us/app/flipyear-3d-photo-cleaner/id6757149732?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6757149732,
+        "appType": "software",
+        "category": "摄影与录像",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.1.28",
+          "excerpt": "iPhone Duo is now fully supported, and our all-new Watch app is here! Raise your wrist and flip back through every year. What's new: 1. Home Screen widgets now turn pages in 3D. 2. Tap any photo in On This Day or your own albums to view it full screen. 3. Editing your own albums …",
+          "url": "https://apps.apple.com/us/app/flipyear-3d-photo-cleaner/id6757149732?uo=4",
+          "date": "2026-11-18"
+        }
+      },
+      {
+        "id": "signal-1600533880",
+        "name": "Plastic - 3D Modeling",
+        "version": "1.0.6",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id1600533880",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1600533880,
+        "appType": "software",
+        "category": "图形与设计",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "1.0.6",
+          "excerpt": "- Added support for Liquid Glass and iPhone Duo",
+          "url": "https://apps.apple.com/cn/app/id1600533880",
+          "date": "2026-10-26"
+        }
+      },
+      {
+        "id": "signal-6743985316",
+        "name": "OCMedic",
+        "version": "2.5.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/ocmedic/id6743985316?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6743985316,
+        "appType": "software",
+        "category": "医疗",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "2.5.0",
+          "excerpt": "… on door code access requests. Choose OCEMS or select Other to enter your employer. • Updated layouts support iPhone Duo in both folded and unfolded views. • Choose how to share usage in Settings. Approved users can keep activity anonymous or share guide and hospital directions counts with their OCMedic profile.",
+          "url": "https://apps.apple.com/cn/app/ocmedic/id6743985316?uo=4",
+          "date": "2026-11-19"
+        }
+      },
+      {
+        "id": "signal-6745276008",
+        "name": "Vox libri",
+        "version": "1.22",
+        "appStoreUrl": "https://apps.apple.com/cn/app/vox-libri/id6745276008?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6745276008,
+        "appType": "software",
+        "category": "图书",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.22",
+          "excerpt": "…s reading in manual reading mode now turns the page on its own and announces the page you are on. Support for iPhone Duo: the reading screen adapts to the size of the screen, with the phone folded and unfolded. The send feedback button no longer slows down the settings screen.",
+          "url": "https://apps.apple.com/cn/app/vox-libri/id6745276008?uo=4",
+          "date": "2026-11-15"
+        }
+      },
+      {
+        "id": "signal-6741166769",
+        "name": "MSG View",
+        "version": "3.8",
+        "appStoreUrl": "https://apps.apple.com/cn/app/msg-view/id6741166769?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6741166769,
+        "appType": "software",
+        "category": "效率",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "3.8",
+          "excerpt": "• 改进了邮件正文和内嵌图片的显示 • 改进了 iPhone Duo 上的导航和布局 • 错误修复和性能改进",
+          "url": "https://apps.apple.com/cn/app/msg-view/id6741166769?uo=4",
+          "date": "2026-11-20"
+        }
+      },
+      {
+        "id": "signal-6742344212",
+        "name": "六爻起卦",
+        "version": "1.1.3",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%85%AD%E7%88%BB%E8%B5%B7%E5%8D%A6/id6742344212?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6742344212,
+        "appType": "software",
+        "category": "工具",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.1.3",
+          "excerpt": "1. 适配 iPhone Duo 2. 完善六爻详盘，清晰呈现动爻、六亲、六神、世应及飞伏等信息 3. 丰富八字与紫微盘面，新增更多星曜、运限及流年流月细节 4. 完善感情与人际合盘，支持双向十神、干支关系与双方流年对照 5. 升级古籍阅读，加入白话解读、编者批注、学习图版及简繁阅读支持 6. 优化首页、输入、结果阅读与占事簿交互，改善滚动和显示体验",
+          "url": "https://apps.apple.com/cn/app/%E5%85%AD%E7%88%BB%E8%B5%B7%E5%8D%A6/id6742344212?uo=4",
+          "date": "2026-11-18"
+        }
+      },
+      {
+        "id": "signal-6746457078",
+        "name": "Feelca S",
+        "version": "2.0.9",
+        "appStoreUrl": "https://apps.apple.com/cn/app/feelca-s/id6746457078?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6746457078,
+        "appType": "software",
+        "category": "摄影与录像",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "2.0.9",
+          "excerpt": "- 优化了 iPhone Duo 上的使用体验。",
+          "url": "https://apps.apple.com/cn/app/feelca-s/id6746457078?uo=4",
+          "date": "2026-11-19"
+        }
+      },
+      {
+        "id": "signal-6757311508",
+        "name": "Chromatic Tuner Pro for Watch",
+        "version": "1.2",
+        "appStoreUrl": "https://apps.apple.com/us/app/chromatic-tuner-pro-for-watch/id6757311508?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 6757311508,
+        "appType": "software",
+        "category": "音乐",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.2",
+          "excerpt": "- Adds support for iPhone Duo",
+          "url": "https://apps.apple.com/us/app/chromatic-tuner-pro-for-watch/id6757311508?uo=4",
+          "date": "2026-11-02"
+        }
+      },
+      {
+        "id": "signal-6757933011",
+        "name": "Sunroof: Weather Planning App",
+        "version": "2.3.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/sunroof-weather-planning-app/id6757933011?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 6757933011,
+        "appType": "software",
+        "category": "天气",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "2.3.1",
+          "excerpt": "…idgets are here! Add Sunroof to your Home Screen with fast, beautiful Sunroof weather widgets. Also new, full iPhone Duo and iPad support! With full-screen live, animated high-res vector maps. Lastly, Sunroof Smart Summary, a personal forecast generated just for you, using on-device intelligence, and updated as the weather changes. Smart Summary explains the forecast for the week ahead i…",
+          "url": "https://apps.apple.com/us/app/sunroof-weather-planning-app/id6757933011?uo=4",
+          "date": "2026-11-20"
+        }
+      },
+      {
+        "id": "signal-6759151400",
+        "name": "ADHD - Reader",
+        "version": "2.0.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/adhd-reader/id6759151400?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 6759151400,
+        "appType": "software",
+        "category": "图书",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "2.0.1",
+          "excerpt": "- iPhone Duo optimization - Minor improvements and stability updates",
+          "url": "https://apps.apple.com/us/app/adhd-reader/id6759151400?uo=4",
+          "date": "2026-10-30"
+        }
+      },
+      {
+        "id": "signal-6759936395",
+        "name": "Sudoku: Classic No Ads",
+        "version": "1.7",
+        "appStoreUrl": "https://apps.apple.com/us/app/sudoku-classic-no-ads/id6759936395?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 6759936395,
+        "appType": "game",
+        "category": "游戏",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.7",
+          "excerpt": "Brings a bigger, more polished experience! • iPhone Duo support, with layouts that adapt as you fold, unfold and rotate. • Native Apple Vision Pro support, with an interface built for spatial play. • Refined iPhone and iPad layouts, including smaller iPad windows. • Clearer Notes guidance with animated examples, plus fixes …",
+          "url": "https://apps.apple.com/us/app/sudoku-classic-no-ads/id6759936395?uo=4",
+          "date": "2026-10-23"
+        }
+      }
+    ],
+    "storeUpdates": [
+      {
+        "id": "signal-608834326",
+        "name": "Calendars – 日历、待办事项列表和日程表",
+        "version": "5.41.4",
+        "appStoreUrl": "https://apps.apple.com/cn/app/calendars-%E6%97%A5%E5%8E%86-%E5%BE%85%E5%8A%9E%E4%BA%8B%E9%A1%B9%E5%88%97%E8%A1%A8%E5%92%8C%E6%97%A5%E7%A8%8B%E8%A1%A8/id608834326?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 608834326,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "5.41.3",
+        "change": "version"
+      },
+      {
+        "id": "community-issue-app-6757624445",
+        "name": "Device Lab",
+        "version": "1.9.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/device-lab/id6757624445?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6757624445,
+        "appType": "software",
+        "category": "工具",
+        "previousVersion": "1.8.6",
+        "change": "version"
+      },
+      {
+        "id": "signal-6759809062",
+        "name": "CodeMan - VSCode",
+        "version": "1.8",
+        "appStoreUrl": "https://apps.apple.com/us/app/codeman-vscode/id6759809062?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6759809062,
+        "appType": "software",
+        "category": "软件开发工具",
+        "previousVersion": "1.7",
+        "change": "version"
+      },
+      {
+        "id": "signal-6757520656",
+        "name": "咖啡人 · 每日咖啡记录",
+        "version": "1.4.2",
+        "appStoreUrl": "https://apps.apple.com/us/app/cafeor-coffee-tracker/id6757520656?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6757520656,
+        "appType": "software",
+        "category": "美食佳饮",
+        "previousVersion": "1.4.0",
+        "change": "version"
+      },
+      {
+        "id": "signal-6480446430",
+        "name": "元宝-腾讯全能AI助手",
+        "version": "2.94.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%85%83%E5%AE%9D-%E8%85%BE%E8%AE%AF%E5%85%A8%E8%83%BDai%E5%8A%A9%E6%89%8B/id6480446430?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6480446430,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "2.93.0",
+        "change": "version"
+      },
+      {
+        "id": "signal-6757149732",
+        "name": "FlipYear - 3D 翻页书相册清理",
+        "version": "1.1.28",
+        "appStoreUrl": "https://apps.apple.com/us/app/flipyear-3d-photo-cleaner/id6757149732?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6757149732,
+        "appType": "software",
+        "category": "摄影与录像",
+        "previousVersion": "1.1.24",
+        "change": "version"
+      },
+      {
+        "id": "signal-6759029184",
+        "name": "Mono Lab",
+        "version": "5.6",
+        "appStoreUrl": "https://apps.apple.com/us/app/mono-lab/id6759029184?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6759029184,
+        "appType": "software",
+        "category": "图形与设计",
+        "previousVersion": "5.5",
+        "change": "version"
+      },
+      {
+        "id": "signal-6798309389",
+        "name": "小微账单 - 离线收支记账",
+        "version": "1.0.9",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%B0%8F%E5%BE%AE%E8%B4%A6%E5%8D%95-%E7%A6%BB%E7%BA%BF%E6%94%B6%E6%94%AF%E8%AE%B0%E8%B4%A6/id6798309389?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6798309389,
+        "appType": "software",
+        "category": "商务",
+        "previousVersion": "1.0.8",
+        "change": "version"
+      },
+      {
+        "id": "signal-6756776435",
+        "name": "Provideo:Vlog & Video Maker",
+        "version": "1.0.39",
+        "appStoreUrl": "https://apps.apple.com/us/app/provideo-vlog-video-maker/id6756776435?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 6756776435,
+        "appType": "software",
+        "category": "图形与设计",
+        "previousVersion": "1.0.37",
+        "change": "version"
+      },
+      {
+        "id": "signal-6800241566",
+        "name": "千问办公 - 阿里AI办公助手",
+        "version": "2.1.4",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC-%E9%98%BF%E9%87%8Cai%E5%8A%9E%E5%85%AC%E5%8A%A9%E6%89%8B/id6800241566?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6800241566,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "2.1.1",
+        "change": "version"
+      },
+      {
+        "id": "signal-6757288408",
+        "name": "Treblo - AI Music",
+        "version": "1.6.6",
+        "appStoreUrl": "https://apps.apple.com/us/app/treblo-ai-music/id6757288408?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6757288408,
+        "appType": "software",
+        "category": "音乐",
+        "previousVersion": "1.6.5",
+        "change": "version"
+      },
+      {
+        "id": "signal-6759349583",
+        "name": "PomoDuo: Pomodoro Focus Timer",
+        "version": "2.1.0",
+        "appStoreUrl": "https://apps.apple.com/us/app/pomoduo-pomodoro-focus-timer/id6759349583?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6759349583,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "2.0.0",
+        "change": "version"
+      },
+      {
+        "id": "signal-1320684802",
+        "name": "TrayMinder",
+        "version": "15.10.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/trayminder/id1320684802?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1320684802,
+        "appType": "software",
+        "category": "医疗",
+        "previousVersion": "15.9.9",
+        "change": "version"
+      },
+      {
+        "id": "signal-6751822886",
+        "name": "GenR8",
+        "version": "1.7.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/genr8/id6751822886?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6751822886,
+        "appType": "software",
+        "category": "摄影与录像",
+        "previousVersion": "",
+        "change": "first_seen"
+      },
+      {
+        "id": "signal-6755395866",
+        "name": "Infuse: Enterprise",
+        "version": "8.5.10",
+        "appStoreUrl": "https://apps.apple.com/cn/app/infuse-enterprise/id6755395866?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6755395866,
+        "appType": "software",
+        "category": "娱乐",
+        "previousVersion": "",
+        "change": "first_seen"
+      },
+      {
+        "id": "signal-6755712493",
+        "name": "Railway",
+        "version": "1.5.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/railway/id6755712493?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6755712493,
+        "appType": "software",
+        "category": "软件开发工具",
+        "previousVersion": "",
+        "change": "first_seen"
+      },
+      {
+        "id": "signal-6755746138",
+        "name": "15 Minutes: Time Tracker",
+        "version": "3.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/15-minutes-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86-%E6%97%B6%E9%97%B4%E8%AE%B0%E5%BD%95/id6755746138?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6755746138,
+        "appType": "software",
+        "category": "效率",
+        "previousVersion": "",
+        "change": "first_seen"
+      }
+    ],
+    "addedCounts": {
+      "software": 6,
+      "game": 1,
+      "unknown": 0
+    },
+    "coverageCN": {
+      "poolSize": 11669,
+      "lookupScheduled": 605,
+      "priorityScheduled": 5,
+      "lookupReturned": 585,
+      "categoryFeedsSucceeded": 28,
+      "categoryFeedsAttempted": 28,
+      "gameFeedsSucceeded": 12,
+      "gameFeedsAttempted": 12,
+      "gameGenreIds": [
+        7001,
+        7002,
+        7003,
+        7004,
+        7005,
+        7006
+      ],
+      "genreIds": [
+        6023,
+        6024,
+        6026,
+        6027,
+        6000,
+        6001,
+        6002,
+        6003
+      ],
+      "time": "2026-11-22T16:27:58+00:00"
+    },
+    "coverageUS": {
+      "time": "2026-11-22T16:32:38+00:00",
+      "poolSize": 16569,
+      "lookupScheduled": 600,
+      "lookupAttempted": 600,
+      "lookupReturned": 592,
+      "lookupRequestsSucceeded": 20,
+      "categoryFeedsAttempted": 28,
+      "categoryFeedsSucceeded": 28,
+      "gameFeedsAttempted": 12,
+      "gameFeedsSucceeded": 12,
+      "sourceRequestsAttempted": 34,
+      "sourceRequestsFailed": 0,
+      "pagesAttempted": 30,
+      "pagesParsed": 30,
+      "pagesFailed": 0,
+      "timeBudgetReached": false,
+      "status": "partial"
+    },
+    "scanOutcomes": {
+      "time": "2026-11-22T16:35:56+00:00",
+      "storefronts": {
+        "cn": "completed",
+        "us": "partial"
+      }
+    }
+  },
+  {
     "time": "2026-11-22T08:21:23+00:00",
     "added": [
       {
