@@ -1,113 +1,127 @@
 # 本轮抓取报告
-2026-11-22T16:35:56+00:00
+2026-11-22T22:44:36+00:00
 
 新增收录、版本更新和适配线索分开统计；不代表本站实测。
 
 ## 国区扫描范围
-候选池 11669 个 ID；本轮计划检查 605 个；分类榜单成功 28/28。
+候选池 11715 个 ID；本轮计划检查 605 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
 
 ## 美区扫描范围
-候选池 16569 个 ID；本轮计划检查 600 个；分类榜单成功 28/28。
+候选池 16678 个 ID；本轮计划检查 600 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
-Lookup 返回 592/600 个条目；网页解析 30/30。
+Lookup 返回 593/600 个条目；网页解析 30/30。
 各地区的版本说明独立保存；美区声明不代表国区已适配。
 本轮部分计划目标未返回资料或来源未完成；保留候选继续轮询，不据此推断已下架或已适配。
 
-## 新增 App（7）
-- MSG View〔国区〕｜3.8
-- 六爻起卦〔国区〕｜1.1.3
-- Feelca S〔国区〕｜2.0.9
-- Chromatic Tuner Pro for Watch〔美区〕｜1.2
-- Sunroof: Weather Planning App〔美区〕｜2.3.1
-- ADHD - Reader〔美区〕｜2.0.1
-- Sudoku: Classic No Ads〔美区〕｜1.7
+## 新增 App（3）
+- MDScan + OCR〔国区〕｜4.0.8
+- MagmaSync: Volcano Tracker〔美区〕｜2.0
+- Idle Flight Manager〔美区〕｜15.6.1
 
-## 已有 App 版本更新（8）
-- Calendars – 日历、待办事项列表和日程表〔国区〕｜5.41.3 → 5.41.4
-- 元宝-腾讯全能AI助手〔国区〕｜2.93.0 → 2.94.0
-- 小微账单 - 离线收支记账〔国区〕｜1.0.8 → 1.0.9
-- Provideo:Vlog & Video Maker〔美区〕｜1.0.37 → 1.0.39
-- 千问办公 - 阿里AI办公助手〔国区〕｜2.1.1 → 2.1.4
-- Treblo - AI Music〔美区〕｜1.6.5 → 1.6.6
-- PomoDuo: Pomodoro Focus Timer〔美区〕｜2.0.0 → 2.1.0
-- TrayMinder〔国区〕｜15.9.9 → 15.10.2
+## 已有 App 版本更新（11）
+- Muse from Meta〔美区〕｜15.1 → 16.2
+- 音剪 - 音乐剪辑 & 音乐创作工具〔国区〕｜4.3.9 → 4.4.0
+- 私语输入法 - 离线加密键盘〔国区〕｜1.0.6 → 1.0.8
+- 法环地图艾尔登冒险指南〔国区〕｜4.0.0 → 4.1.0
+- SegModelPro〔国区〕｜3.0 → 3.1
+- Neotris: Arcade Game〔美区〕｜2.4 → 3.0
+- Route 66 Centennial Guide〔美区〕｜3.3 → 3.4
+- No. 10: Full Confidence〔美区〕｜2.1.0 → 2.2.0
+- Pocket: Expense Tracker〔美区〕｜1.0.21 → 1.0.22
+- NovaShort: Short Dramas & TV〔美区〕｜1.9.0 → 1.9.2
+- 流星雨：时间提醒与观星预报〔国区〕｜1.0.14 → 1.0.15
 
-## 新增或变化的适配线索（14）
-- 天气 - 每日天气〔国区〕｜1.1.7
-  证据版本：1.1.7；- 支持在iPhone Duo上的完美体验。 - 您可以在设置页面选择预报天数、24小时预报横幅的预报类别和小时间隔。 - Bug修复。
-  https://apps.apple.com/cn/app/id1598039955
-- 奶酪单词-四六级考研背单词必备〔国区〕｜4.5.0
-  证据版本：4.4.9；1. 适配iPhone Duo 2. 修复了已知问题，优化用户体验。
-  https://apps.apple.com/cn/app/id1600837891
-- 咖啡人 · 每日咖啡记录〔美区〕｜1.4.2
-  证据版本：1.4.2；Support for iPhone Duo！ Improve the coffee map ================== Cafeor is a minimalist daily coffee tracking app. • Track daily coffee cups and types • Monitor caffeine intake • Sync data to Apple Health
-  https://apps.apple.com/us/app/cafeor-coffee-tracker/id6757520656?uo=4
-- FlipYear - 3D 翻页书相册清理〔美区〕｜1.1.28
-  证据版本：1.1.28；iPhone Duo is now fully supported, and our all-new Watch app is here! Raise your wrist and flip back through every year. What's new: 1. Home Screen widgets now turn pages in 3D. 2. Tap any photo in On This Day or your own albums to view it full screen. 3. Editing your own albums …
-  https://apps.apple.com/us/app/flipyear-3d-photo-cleaner/id6757149732?uo=4
-- Plastic - 3D Modeling〔国区〕｜1.0.6
-  证据版本：1.0.6；- Added support for Liquid Glass and iPhone Duo
-  https://apps.apple.com/cn/app/id1600533880
-- OCMedic〔国区〕｜2.5.0
-  证据版本：2.5.0；… on door code access requests. Choose OCEMS or select Other to enter your employer. • Updated layouts support iPhone Duo in both folded and unfolded views. • Choose how to share usage in Settings. Approved users can keep activity anonymous or share guide and hospital directions counts with their OCMedic profile.
-  https://apps.apple.com/cn/app/ocmedic/id6743985316?uo=4
-- Vox libri〔国区〕｜1.22
-  证据版本：1.22；…s reading in manual reading mode now turns the page on its own and announces the page you are on. Support for iPhone Duo: the reading screen adapts to the size of the screen, with the phone folded and unfolded. The send feedback button no longer slows down the settings screen.
-  https://apps.apple.com/cn/app/vox-libri/id6745276008?uo=4
-- MSG View〔国区〕｜3.8
-  证据版本：3.8；• 改进了邮件正文和内嵌图片的显示 • 改进了 iPhone Duo 上的导航和布局 • 错误修复和性能改进
-  https://apps.apple.com/cn/app/msg-view/id6741166769?uo=4
-- 六爻起卦〔国区〕｜1.1.3
-  证据版本：1.1.3；1. 适配 iPhone Duo 2. 完善六爻详盘，清晰呈现动爻、六亲、六神、世应及飞伏等信息 3. 丰富八字与紫微盘面，新增更多星曜、运限及流年流月细节 4. 完善感情与人际合盘，支持双向十神、干支关系与双方流年对照 5. 升级古籍阅读，加入白话解读、编者批注、学习图版及简繁阅读支持 6. 优化首页、输入、结果阅读与占事簿交互，改善滚动和显示体验
-  https://apps.apple.com/cn/app/%E5%85%AD%E7%88%BB%E8%B5%B7%E5%8D%A6/id6742344212?uo=4
-- Feelca S〔国区〕｜2.0.9
-  证据版本：2.0.9；- 优化了 iPhone Duo 上的使用体验。
-  https://apps.apple.com/cn/app/feelca-s/id6746457078?uo=4
-- Chromatic Tuner Pro for Watch〔美区〕｜1.2
-  证据版本：1.2；- Adds support for iPhone Duo
-  https://apps.apple.com/us/app/chromatic-tuner-pro-for-watch/id6757311508?uo=4
-- Sunroof: Weather Planning App〔美区〕｜2.3.1
-  证据版本：2.3.1；…idgets are here! Add Sunroof to your Home Screen with fast, beautiful Sunroof weather widgets. Also new, full iPhone Duo and iPad support! With full-screen live, animated high-res vector maps. Lastly, Sunroof Smart Summary, a personal forecast generated just for you, using on-device intelligence, and updated as the weather changes. Smart Summary explains the forecast for the week ahead i…
-  https://apps.apple.com/us/app/sunroof-weather-planning-app/id6757933011?uo=4
-- ADHD - Reader〔美区〕｜2.0.1
-  证据版本：2.0.1；- iPhone Duo optimization - Minor improvements and stability updates
-  https://apps.apple.com/us/app/adhd-reader/id6759151400?uo=4
-- Sudoku: Classic No Ads〔美区〕｜1.7
-  证据版本：1.7；Brings a bigger, more polished experience! • iPhone Duo support, with layouts that adapt as you fold, unfold and rotate. • Native Apple Vision Pro support, with an interface built for spatial play. • Refined iPhone and iPad layouts, including smaller iPad windows. • Clearer Notes guidance with animated examples, plus fixes …
-  https://apps.apple.com/us/app/sudoku-classic-no-ads/id6759936395?uo=4
+## 新增或变化的适配线索（18）
+- Doc Scan Pro - PDF Fax 文档扫描仪〔美区〕｜19.9.3
+  证据版本：19.9；Optimized the UI design to perfectly fit the new iPhone Duo screen, alongside fixes for iOS 27 compatibility bugs for a smoother experience.
+  https://apps.apple.com/us/app/id478861246
+- 饭狼-官方正版狼人游戏，派对推理手游〔国区〕｜1.9.31
+  证据版本：1.9.31；iPhone Duo设备的适配
+  https://apps.apple.com/cn/app/id1607228195
+- 音剪 - 音乐剪辑 & 音乐创作工具〔国区〕｜4.4.0
+  证据版本：4.4.0；适配了iPhone Duo。修复了已知问题，提升了 App 稳定性。
+  https://apps.apple.com/cn/app/id1607451929
+- 咖啡人 · 每日咖啡记录〔国区〕｜1.4.2
+  证据版本：1.4.2；适配 iPhone Duo！ 优化咖啡地图交互 ================ 咖啡人——贴纸记录每一杯咖啡，无论拿铁、美式还是其他特调、自制咖啡，轻点完成，自动追踪每日咖啡因摄入 • 用贴纸的方式记录每日咖啡 • 掌握每日咖啡因摄入量，同步健康数据 • 查看周 / 月 / 年咖啡统计 • 添加咖啡店铺、定位，生成咖啡地图 • 生成贴纸Reel视频、实况图 • 分享咖啡日历、咖啡卡片
+  https://apps.apple.com/cn/app/%E5%92%96%E5%95%A1%E4%BA%BA-%E6%AF%8F%E6%97%A5%E5%92%96%E5%95%A1%E8%AE%B0%E5%BD%95/id6757520656?uo=4
+- FlipYear - 3D 翻页书相册清理〔国区〕｜1.1.28
+  证据版本：1.1.28；全面适配 iPhone Duo，手表 Watch 端全新登场！抬起手腕，翻看过去的每一年。 本次更新内容： 1. 桌面小组件支持立体翻页。 2. 「那年今日」和自建相册支持点击照片查看大图。 3. 简化了自建相册的编辑方式。 4. 支持在手表 Watch 端挑选要删除的照片，并在 iPhone 上统一确认。 5. 优化了 iPhone Duo 外屏的照片清理体验。 6. 提升了翻页和清理的稳定性，修复了若干问题。
+  https://apps.apple.com/cn/app/flipyear-3d-%E7%BF%BB%E9%A1%B5%E4%B9%A6%E7%9B%B8%E5%86%8C%E6%B8%85%E7%90%86/id6757149732?uo=4
+- Spendi: 记账本〔美区〕｜2.0.0
+  证据版本：2.0.0；…ator-style keypad: do the math right in the amount field • Choose the day your month starts • New layouts for iPhone Duo, and lots of improvements
+  https://apps.apple.com/us/app/spendi-expense-tracker/id6760630364?uo=4
+- LoFi Cam - 复古数码胶片CCD相机〔国区〕｜3.22.0
+  证据版本：3.22.0；- 已适配 iPhone Duo； - 其他体验优化以及 bug 修复。
+  https://apps.apple.com/cn/app/id1604592450
+- UDevice - 开发助手〔国区〕｜1.3.27
+  证据版本：1.3.27；UI & interaction enhancements, optimized for iPhone Duo
+  https://apps.apple.com/cn/app/id1608053878
+- Giftster: The Family Wish List〔美区〕｜6.2.8
+  证据版本：6.2.8；- Layout improvements, including landscape orientation for iPhone Duo and larger screens - Fit and finish updates for a great experience
+  https://apps.apple.com/us/app/id478126039
+- 掌上金价-今日黄金价格、白银行情与金店比价〔美区〕｜1.0.23
+  证据版本：1.0.23；1. Fixed known issues and improved stability. 2. Improved the interface and user experience. 3. Optimized for iPhone Duo.
+  https://apps.apple.com/us/app/palmgoldprice-gold-silver/id6762172804?uo=4
+- 遥光 - 阿西西 PS串流〔美区〕｜1.2.8
+  证据版本：1.2.8；- Improved iPhone Duo compatibility. - Added a floating game menu button that snaps to the screen edge and tucks away when idle. - Improved PSN remote connections and added connection progress with wait times for each stage. - Added frame pacing controls for both System and Metal rendering,…
+  https://apps.apple.com/us/app/remotelight-ps5-streaming/id6763110430?uo=4
+- GenR8〔国区〕｜1.7.1
+  证据版本：1.7.1；- 支持 iPhone Duo：折叠和展开时布局会自动适配，测试图案现在可铺满整个屏幕。 - 外接显示器 HDR：可为外接显示器的 HDR 输出选择“自动”、“开”或“关”。 - 参考信号电平：基于标准的图案现在使用精确的 ITU-R BT.601/BT.709 视频电平。 - 像素级精确的棋盘格与分辨率图：每条边缘都精确对齐设备像素，并提供 4、3、2、1 像素线对脉冲群。 - 更流畅的图案选择器：缩略图滚动更顺滑，且尺寸完全一致。 - 已完整翻译为全部 10 种支持的语言。 - VoiceOver 现在会朗读色板名称。 - 错误修复和性能改进。
+  https://apps.apple.com/cn/app/genr8/id6751822886?uo=4
+- Infuse: Enterprise〔国区〕｜8.5.10
+  证据版本：8.5.10；NEW - Added AirPlay support for local HEVC videos (SDR only) IMPROVED - Improved support for iPhone Duo - Improved streaming performance for large ISO files FIXED - Fixed external display output issues (iOS 27) - Fixed issues with streaming videos over AirPlay - Fixed issues with playlists only displaying 20 items - Fixed issues when browsing libraries that contain image…
+  https://apps.apple.com/cn/app/infuse-enterprise/id6755395866?uo=4
+- Railway〔国区〕｜1.5.0
+  证据版本：1.5.0；…apped and show the project name - Native two-factor sign-in with Sign in with Apple - Full-screen support for iPhone Duo when unfolded - QR code login removed - Android fixes for touches, agent pages and the media gallery - Performance and stability improvements
+  https://apps.apple.com/cn/app/railway/id6755712493?uo=4
+- 15 Minutes: Time Tracker〔国区〕｜3.0
+  证据版本：3.0；欢迎使用全新版本的 15 Minutes！本次更新包含大量修复和改进，并支持 iPhone Duo。
+  https://apps.apple.com/cn/app/15-minutes-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86-%E6%97%B6%E9%97%B4%E8%AE%B0%E5%BD%95/id6755746138?uo=4
+- MDScan + OCR〔国区〕｜4.0.8
+  证据版本：4.0.2；完全重新设计的界面，为iPhone Duo和iPad优化
+  https://apps.apple.com/cn/app/id1607762443
+- MagmaSync: Volcano Tracker〔美区〕｜2.0
+  证据版本：2.0；… and get answers from Apple Intelligence. Availability varies by device, language and region. - Optimized for iPhone Duo. - UIUX, performance and stability improvements.
+  https://apps.apple.com/us/app/magmasync-volcano-tracker/id6761513082?uo=4
+- Idle Flight Manager〔美区〕｜15.6.1
+  证据版本：15.6.1；…rnings survive a cold start, a lighter app download, smoother performance on low-end devices, and support for iPhone Duo. Clear skies ahead!
+  https://apps.apple.com/us/app/idle-flight-manager/id6761718791?uo=4
 
 ## 地区商店资料变化（不等于新增 App 或已适配）
-- Calendars – 日历、待办事项列表和日程表〔国区〕：5.41.3 → 5.41.4
-- Device Lab〔美区〕：1.8.6 → 1.9.1
-- CodeMan - VSCode〔美区〕：1.7 → 1.8
-- 咖啡人 · 每日咖啡记录〔美区〕：1.4.0 → 1.4.2
-- 元宝-腾讯全能AI助手〔国区〕：2.93.0 → 2.94.0
-- FlipYear - 3D 翻页书相册清理〔美区〕：1.1.24 → 1.1.28
-- Mono Lab〔美区〕：5.5 → 5.6
-- 小微账单 - 离线收支记账〔国区〕：1.0.8 → 1.0.9
-- Provideo:Vlog & Video Maker〔美区〕：1.0.37 → 1.0.39
-- 千问办公 - 阿里AI办公助手〔国区〕：2.1.1 → 2.1.4
-- Treblo - AI Music〔美区〕：1.6.5 → 1.6.6
-- PomoDuo: Pomodoro Focus Timer〔美区〕：2.0.0 → 2.1.0
-- TrayMinder〔国区〕：15.9.9 → 15.10.2
-- GenR8〔国区〕：首次获取该地区资料
-- Infuse: Enterprise〔国区〕：首次获取该地区资料
-- Railway〔国区〕：首次获取该地区资料
-- 15 Minutes: Time Tracker〔国区〕：首次获取该地区资料
+- Muse from Meta〔美区〕：15.1 → 16.2
+- Doc Scan Pro - PDF Fax 文档扫描仪〔美区〕：19.9.2 → 19.9.3
+- Oldi - Phone Camera〔美区〕：2.0.0 → 2.0.2
+- 音剪 - 音乐剪辑 & 音乐创作工具〔国区〕：4.3.9 → 4.4.0
+- 私语输入法 - 离线加密键盘〔国区〕：1.0.6 → 1.0.8
+- 宇宙大进击〔美区〕：2.5 → 2.6
+- 行测训练场〔美区〕：1.7 → 1.8
+- 法环地图艾尔登冒险指南〔国区〕：4.0.0 → 4.1.0
+- Spendi: 记账本〔美区〕：1.3.0 → 2.0.0
+- 译点通〔美区〕：1.9.1 → 1.9.6
+- SegModelPro〔国区〕：3.0 → 3.1
+- Neotris: Arcade Game〔美区〕：2.4 → 3.0
+- Route 66 Centennial Guide〔美区〕：3.3 → 3.4
+- No. 10: Full Confidence〔美区〕：2.1.0 → 2.2.0
+- Pocket: Expense Tracker〔美区〕：1.0.21 → 1.0.22
+- Pythona - Python 3 IDE〔美区〕：2.7.0 → 2.9.0
+- NovaShort: Short Dramas & TV〔美区〕：1.9.0 → 1.9.2
+- BlazePush-圈速计时&性能测试〔美区〕：首次获取该地区资料
+- 掌上金价-今日黄金价格、白银行情与金店比价〔美区〕：首次获取该地区资料
+- 遥光 - 阿西西 PS串流〔美区〕：首次获取该地区资料
+- 流星雨：时间提醒与观星预报〔国区〕：1.0.14 → 1.0.15
+- Ultimate Game Guide〔国区〕：5.2 → 6.0
+- Chromatic Tuner Pro for Watch〔国区〕：首次获取该地区资料
+- ADHD - Reader〔国区〕：首次获取该地区资料
 
-## 新增软件（6）
-- MSG View｜效率
-- 六爻起卦｜工具
-- Feelca S｜摄影与录像
-- Chromatic Tuner Pro for Watch｜音乐
-- Sunroof: Weather Planning App｜天气
-- ADHD - Reader｜图书
+## 新增软件（2）
+- MDScan + OCR｜商务
+- MagmaSync: Volcano Tracker｜天气
 
 ## 新增游戏（1）
-- Sudoku: Classic No Ads｜游戏
+- Idle Flight Manager｜游戏
 
 ## 新增类型待同步（0）
 无。
