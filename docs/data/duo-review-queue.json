@@ -15727,7 +15727,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/6c/4b/826c4bdf-e0b5-1dfe-1947-54549508a8f9/icon_composer-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "developer": "LOUD S.r.l.",
       "firstSeen": "2026-10-27T19:29:17+00:00",
-      "lastSeen": "2026-11-16T22:21:46+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -15786,8 +15786,8 @@
           "appStoreUrl": "https://apps.apple.com/us/app/shift-to-calendar-ai-planner/id6755889602?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/6c/4b/826c4bdf-e0b5-1dfe-1947-54549508a8f9/icon_composer-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "developer": "LOUD S.r.l.",
-          "firstSeen": "2026-11-14T14:24:37+00:00",
-          "lastSeen": "2026-11-14T14:24:37+00:00",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -15845,8 +15845,8 @@
           "appStoreUrl": "https://apps.apple.com/us/app/clouder-for-cloudflare/id6755757771?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/2b/20/3c2b200b-7929-2cd9-a2e4-c3e8c2cbcf62/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "developer": "Layton Labs AB",
-          "firstSeen": "2026-11-14T14:24:37+00:00",
-          "lastSeen": "2026-11-14T14:24:37+00:00",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -15866,7 +15866,131 @@
         }
       },
       "firstSeen": "2026-11-14T06:50:05+00:00",
-      "lastSeen": "2026-11-14T14:24:37+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
+      "reviewStatus": "pending"
+    },
+    {
+      "itunesId": 6755746138,
+      "name": "15 Minutes: Time Tracker",
+      "storefront": "us",
+      "version": "3.0",
+      "releaseDate": "2026-10-16T03:19:44Z",
+      "evidenceType": "app_store_release_notes_mention",
+      "evidenceExcerpt": "Welcome to the new 15 Minutes! This version brings lots of fixes and improvements, and full support for iPhone Duo.",
+      "appStoreUrl": "https://apps.apple.com/us/app/15-minutes-time-tracker/id6755746138?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/cb/dc/f2cbdcb3-d4f4-6ba7-140d-3e08df07a4dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "developer": "Devpool",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "us",
+        "primaryGenreId": 6007,
+        "primaryGenreName": "效率",
+        "genreIds": [
+          6007,
+          6002
+        ],
+        "genres": [
+          "效率",
+          "工具"
+        ],
+        "appType": "software"
+      },
+      "storeEvidence": {
+        "us": {
+          "itunesId": 6755746138,
+          "name": "15 Minutes: Time Tracker",
+          "storefront": "us",
+          "version": "3.0",
+          "releaseDate": "2026-10-16T03:19:44Z",
+          "evidenceType": "app_store_release_notes_mention",
+          "evidenceExcerpt": "Welcome to the new 15 Minutes! This version brings lots of fixes and improvements, and full support for iPhone Duo.",
+          "appStoreUrl": "https://apps.apple.com/us/app/15-minutes-time-tracker/id6755746138?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/cb/dc/f2cbdcb3-d4f4-6ba7-140d-3e08df07a4dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "developer": "Devpool",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "us",
+            "primaryGenreId": 6007,
+            "primaryGenreName": "效率",
+            "genreIds": [
+              6007,
+              6002
+            ],
+            "genres": [
+              "效率",
+              "工具"
+            ],
+            "appType": "software"
+          }
+        }
+      },
+      "firstSeen": "2026-11-22T08:18:02+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
+      "reviewStatus": "pending"
+    },
+    {
+      "itunesId": 6755712493,
+      "name": "Railway",
+      "storefront": "us",
+      "version": "1.5.0",
+      "releaseDate": "2026-11-19T16:41:11Z",
+      "evidenceType": "app_store_release_notes_mention",
+      "evidenceExcerpt": "…apped and show the project name - Native two-factor sign-in with Sign in with Apple - Full-screen support for iPhone Duo when unfolded - QR code login removed - Android fixes for touches, agent pages and the media gallery - Performance and stability improvements",
+      "appStoreUrl": "https://apps.apple.com/us/app/railway/id6755712493?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/a1/1b/1ca11b28-25ba-5b71-952d-3f7cb91d0031/ios-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "developer": "RailwayApp",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "us",
+        "primaryGenreId": 6026,
+        "primaryGenreName": "软件开发工具",
+        "genreIds": [
+          6026,
+          6007
+        ],
+        "genres": [
+          "软件开发工具",
+          "效率"
+        ],
+        "appType": "software"
+      },
+      "storeEvidence": {
+        "us": {
+          "itunesId": 6755712493,
+          "name": "Railway",
+          "storefront": "us",
+          "version": "1.5.0",
+          "releaseDate": "2026-11-19T16:41:11Z",
+          "evidenceType": "app_store_release_notes_mention",
+          "evidenceExcerpt": "…apped and show the project name - Native two-factor sign-in with Sign in with Apple - Full-screen support for iPhone Duo when unfolded - QR code login removed - Android fixes for touches, agent pages and the media gallery - Performance and stability improvements",
+          "appStoreUrl": "https://apps.apple.com/us/app/railway/id6755712493?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/a1/1b/1ca11b28-25ba-5b71-952d-3f7cb91d0031/ios-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "developer": "RailwayApp",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "us",
+            "primaryGenreId": 6026,
+            "primaryGenreName": "软件开发工具",
+            "genreIds": [
+              6026,
+              6007
+            ],
+            "genres": [
+              "软件开发工具",
+              "效率"
+            ],
+            "appType": "software"
+          }
+        }
+      },
+      "firstSeen": "2026-11-22T08:18:02+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -15943,6 +16067,126 @@
       "reviewStatus": "pending"
     },
     {
+      "itunesId": 6755591057,
+      "name": "AI Movie Maker - Filmit",
+      "storefront": "us",
+      "version": "1.3.8",
+      "releaseDate": "2026-11-18T05:51:24Z",
+      "evidenceType": "app_store_release_notes_mention",
+      "evidenceExcerpt": "• Now optimized for iPhone Duo • Discover more exciting video and image templates for action and cinematic scenes • Enjoy a smoother creative experience",
+      "appStoreUrl": "https://apps.apple.com/us/app/ai-movie-maker-filmit/id6755591057?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/08/c6/b208c6d0-57e0-75a4-6baa-4a0cc981950b/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "developer": "XIANG GANG RADIANCE LIMITED",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "us",
+        "primaryGenreId": 6027,
+        "primaryGenreName": "图形与设计",
+        "genreIds": [
+          6027
+        ],
+        "genres": [
+          "图形与设计"
+        ],
+        "appType": "software"
+      },
+      "storeEvidence": {
+        "us": {
+          "itunesId": 6755591057,
+          "name": "AI Movie Maker - Filmit",
+          "storefront": "us",
+          "version": "1.3.8",
+          "releaseDate": "2026-11-18T05:51:24Z",
+          "evidenceType": "app_store_release_notes_mention",
+          "evidenceExcerpt": "• Now optimized for iPhone Duo • Discover more exciting video and image templates for action and cinematic scenes • Enjoy a smoother creative experience",
+          "appStoreUrl": "https://apps.apple.com/us/app/ai-movie-maker-filmit/id6755591057?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/08/c6/b208c6d0-57e0-75a4-6baa-4a0cc981950b/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+          "developer": "XIANG GANG RADIANCE LIMITED",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "us",
+            "primaryGenreId": 6027,
+            "primaryGenreName": "图形与设计",
+            "genreIds": [
+              6027
+            ],
+            "genres": [
+              "图形与设计"
+            ],
+            "appType": "software"
+          }
+        }
+      },
+      "firstSeen": "2026-11-22T08:18:02+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
+      "reviewStatus": "pending"
+    },
+    {
+      "itunesId": 6755395866,
+      "name": "Infuse: Enterprise",
+      "storefront": "us",
+      "version": "8.5.10",
+      "releaseDate": "2026-11-10T03:31:56Z",
+      "evidenceType": "app_store_release_notes_mention",
+      "evidenceExcerpt": "NEW - Added AirPlay support for local HEVC videos (SDR only) IMPROVED - Improved support for iPhone Duo - Improved streaming performance for large ISO files FIXED - Fixed external display output issues (iOS 27) - Fixed issues with streaming videos over AirPlay - Fixed issues with playlists only displaying 20 items - Fixed issues when browsing libraries that contain image…",
+      "appStoreUrl": "https://apps.apple.com/us/app/infuse-enterprise/id6755395866?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/11/1a/8f111a6f-ecd0-3d91-4987-e45295f0ddbb/AppIconEnterprise-0-0-1x_U007epad-0-11-0-0-0-0-85-220.png/512x512bb.jpg",
+      "developer": "Firecore, LLC",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "us",
+        "primaryGenreId": 6016,
+        "primaryGenreName": "娱乐",
+        "genreIds": [
+          6016,
+          6008
+        ],
+        "genres": [
+          "娱乐",
+          "摄影与录像"
+        ],
+        "appType": "software"
+      },
+      "storeEvidence": {
+        "us": {
+          "itunesId": 6755395866,
+          "name": "Infuse: Enterprise",
+          "storefront": "us",
+          "version": "8.5.10",
+          "releaseDate": "2026-11-10T03:31:56Z",
+          "evidenceType": "app_store_release_notes_mention",
+          "evidenceExcerpt": "NEW - Added AirPlay support for local HEVC videos (SDR only) IMPROVED - Improved support for iPhone Duo - Improved streaming performance for large ISO files FIXED - Fixed external display output issues (iOS 27) - Fixed issues with streaming videos over AirPlay - Fixed issues with playlists only displaying 20 items - Fixed issues when browsing libraries that contain image…",
+          "appStoreUrl": "https://apps.apple.com/us/app/infuse-enterprise/id6755395866?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/11/1a/8f111a6f-ecd0-3d91-4987-e45295f0ddbb/AppIconEnterprise-0-0-1x_U007epad-0-11-0-0-0-0-85-220.png/512x512bb.jpg",
+          "developer": "Firecore, LLC",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "us",
+            "primaryGenreId": 6016,
+            "primaryGenreName": "娱乐",
+            "genreIds": [
+              6016,
+              6008
+            ],
+            "genres": [
+              "娱乐",
+              "摄影与录像"
+            ],
+            "appType": "software"
+          }
+        }
+      },
+      "firstSeen": "2026-11-22T08:18:02+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
+      "reviewStatus": "pending"
+    },
+    {
       "itunesId": 6755106534,
       "name": "Bauhaus Clock - 模拟时钟",
       "storefront": "cn",
@@ -15980,8 +16224,8 @@
           "appStoreUrl": "https://apps.apple.com/us/app/bauhaus-clock-analog-clock/id6755106534?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/42/cc/2e42cc48-1573-9312-a63c-8ccf8927aecb/appicon-turquoise-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
           "developer": "Atilla Taskiran",
-          "firstSeen": "2026-11-14T06:50:05+00:00",
-          "lastSeen": "2026-11-14T06:50:05+00:00",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -16031,7 +16275,7 @@
         }
       },
       "firstSeen": "2026-11-07T10:33:18+00:00",
-      "lastSeen": "2026-11-16T22:21:46+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -16090,10 +16334,40 @@
             ],
             "appType": "software"
           }
+        },
+        "us": {
+          "itunesId": 6754871072,
+          "name": "Med Atlas",
+          "storefront": "us",
+          "version": "1.1.2",
+          "releaseDate": "2026-10-15T00:13:51Z",
+          "evidenceType": "app_store_release_notes_mention",
+          "evidenceExcerpt": "Now supports iPhone Duo. Fixes annotation updates for downloaded atlases and improves subscription status accuracy.",
+          "appStoreUrl": "https://apps.apple.com/us/app/med-atlas/id6754871072?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/f1/9a/1ff19ac5-e944-b5df-9db6-e4ad492e1f57/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "developer": "Beijing Fate Med Technology Co., Ltd.",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "us",
+            "primaryGenreId": 6020,
+            "primaryGenreName": "医疗",
+            "genreIds": [
+              6020,
+              6017
+            ],
+            "genres": [
+              "医疗",
+              "教育"
+            ],
+            "appType": "software"
+          }
         }
       },
       "firstSeen": "2026-11-16T22:21:46+00:00",
-      "lastSeen": "2026-11-16T22:21:46+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -16183,6 +16457,68 @@
       "reviewStatus": "pending"
     },
     {
+      "itunesId": 6754110310,
+      "name": "Gist - Life Well Lived",
+      "storefront": "us",
+      "version": "3.8.0",
+      "releaseDate": "2026-11-17T00:20:50Z",
+      "evidenceType": "app_store_release_notes_mention",
+      "evidenceExcerpt": "- Gist on iPad. Gist is now available on iPad, and layouts for iPad and iPhone Duo have been refined for split-view and larger displays, including a multi-column feed. - Edit Your Comments. You can now edit your own comment’s text within 15 minutes of posting. - Updated Profile and Home Design. The gradient header design is now unified across the Hom…",
+      "appStoreUrl": "https://apps.apple.com/us/app/gist-life-well-lived/id6754110310?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/67/44/a067440a-5efa-5715-bb25-a537d27e6194/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "developer": "AppLovin Corp",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "us",
+        "primaryGenreId": 6012,
+        "primaryGenreName": "生活",
+        "genreIds": [
+          6012,
+          6008
+        ],
+        "genres": [
+          "生活",
+          "摄影与录像"
+        ],
+        "appType": "software"
+      },
+      "storeEvidence": {
+        "us": {
+          "itunesId": 6754110310,
+          "name": "Gist - Life Well Lived",
+          "storefront": "us",
+          "version": "3.8.0",
+          "releaseDate": "2026-11-17T00:20:50Z",
+          "evidenceType": "app_store_release_notes_mention",
+          "evidenceExcerpt": "- Gist on iPad. Gist is now available on iPad, and layouts for iPad and iPhone Duo have been refined for split-view and larger displays, including a multi-column feed. - Edit Your Comments. You can now edit your own comment’s text within 15 minutes of posting. - Updated Profile and Home Design. The gradient header design is now unified across the Hom…",
+          "appStoreUrl": "https://apps.apple.com/us/app/gist-life-well-lived/id6754110310?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/67/44/a067440a-5efa-5715-bb25-a537d27e6194/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "developer": "AppLovin Corp",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "us",
+            "primaryGenreId": 6012,
+            "primaryGenreName": "生活",
+            "genreIds": [
+              6012,
+              6008
+            ],
+            "genres": [
+              "生活",
+              "摄影与录像"
+            ],
+            "appType": "software"
+          }
+        }
+      },
+      "firstSeen": "2026-11-22T08:18:02+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
+      "reviewStatus": "pending"
+    },
+    {
       "itunesId": 6754027574,
       "name": "TR-49",
       "storefront": "us",
@@ -16222,8 +16558,8 @@
           "appStoreUrl": "https://apps.apple.com/us/app/tr-49/id6754027574?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/50/2b/e5502b7f-ad15-54cd-523d-eb7a68d1e96c/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
           "developer": "inkle",
-          "firstSeen": "2026-11-14T06:50:05+00:00",
-          "lastSeen": "2026-11-14T06:50:05+00:00",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -16245,7 +16581,7 @@
         }
       },
       "firstSeen": "2026-11-14T06:50:05+00:00",
-      "lastSeen": "2026-11-14T06:50:05+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -16428,10 +16764,40 @@
             ],
             "appType": "software"
           }
+        },
+        "us": {
+          "itunesId": 6753683509,
+          "name": "FansDash: Basketball Widgets",
+          "storefront": "us",
+          "version": "1.4.1",
+          "releaseDate": "2026-11-16T17:47:54Z",
+          "evidenceType": "app_store_release_notes_mention",
+          "evidenceExcerpt": "- Added support for iPhone Duo",
+          "appStoreUrl": "https://apps.apple.com/us/app/fansdash-basketball-widgets/id6753683509?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/83/cf/9f83cf7b-cb60-ebc3-0f5d-d5515efc8ecb/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/512x512bb.jpg",
+          "developer": "Rolling Digits Ltd",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "us",
+            "primaryGenreId": 6004,
+            "primaryGenreName": "体育",
+            "genreIds": [
+              6004,
+              6002
+            ],
+            "genres": [
+              "体育",
+              "工具"
+            ],
+            "appType": "software"
+          }
         }
       },
       "firstSeen": "2026-11-16T11:47:00+00:00",
-      "lastSeen": "2026-11-16T22:21:46+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -16502,8 +16868,8 @@
           "appStoreUrl": "https://apps.apple.com/us/app/colony-counter-pro/id6753647369?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/97/84/ba9784b5-693e-ab57-7b70-80a54000f9c6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "developer": "Pablo Gallardo Molina",
-          "firstSeen": "2026-11-14T06:50:05+00:00",
-          "lastSeen": "2026-11-14T06:50:05+00:00",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -16523,7 +16889,7 @@
         }
       },
       "firstSeen": "2026-11-06T23:18:03+00:00",
-      "lastSeen": "2026-11-16T22:21:46+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -16648,8 +17014,8 @@
           "appStoreUrl": "https://apps.apple.com/us/app/pp-emu-3ds-psp-game-emulator/id6753177858?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/44/56/10445649-3577-e14a-37b7-4a3c0bed530a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
           "developer": "Emulator",
-          "firstSeen": "2026-11-14T06:50:05+00:00",
-          "lastSeen": "2026-11-14T06:50:05+00:00",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -16667,7 +17033,7 @@
         }
       },
       "firstSeen": "2026-11-11T15:27:30+00:00",
-      "lastSeen": "2026-11-16T22:21:46+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -16738,8 +17104,8 @@
           "appStoreUrl": "https://apps.apple.com/us/app/i-need-that-widget-calendar/id6753172187?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/fc/0a/fcfc0aab-8cbf-4b6c-6a11-a43fc99fbc32/INTW-0-0-1x_U007ephone-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
           "developer": "Joohee Kim",
-          "firstSeen": "2026-11-14T06:50:05+00:00",
-          "lastSeen": "2026-11-14T06:50:05+00:00",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -16759,7 +17125,7 @@
         }
       },
       "firstSeen": "2026-11-06T23:18:03+00:00",
-      "lastSeen": "2026-11-16T22:21:46+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -17108,7 +17474,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/d9/77/10d977e8-61c8-f84f-cc29-723007b172ee/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "developer": "Pixentia Limited",
       "firstSeen": "2026-10-30T14:21:49+00:00",
-      "lastSeen": "2026-11-16T11:47:00+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -17167,8 +17533,8 @@
           "appStoreUrl": "https://apps.apple.com/us/app/ai%E8%83%8C%E4%B9%A6%E5%8C%A0-%E9%AB%98%E6%95%88%E8%83%8C%E4%B9%A6%E7%A5%9E%E5%99%A8/id6751886569?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/d9/77/10d977e8-61c8-f84f-cc29-723007b172ee/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
           "developer": "Pixentia Limited",
-          "firstSeen": "2026-11-14T06:50:05+00:00",
-          "lastSeen": "2026-11-14T06:50:05+00:00",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -17187,6 +17553,68 @@
           }
         }
       }
+    },
+    {
+      "itunesId": 6751822886,
+      "name": "GenR8",
+      "storefront": "us",
+      "version": "1.7.1",
+      "releaseDate": "2026-10-28T15:03:53Z",
+      "evidenceType": "app_store_release_notes_mention",
+      "evidenceExcerpt": "- iPhone Duo support: the layout adapts as you fold and unfold, and test patterns now fill the whole screen, edge to edge. - External display HDR: choose Auto, On or Off for HDR output to an external display. - Reference signal levels: standards-based patterns now use exact ITU-R B…",
+      "appStoreUrl": "https://apps.apple.com/us/app/genr8/id6751822886?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/d0/34/46d03408-3dc6-fdd2-a36d-cdf65b5f5d68/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "developer": "Christopher Van Hoose",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "us",
+        "primaryGenreId": 6008,
+        "primaryGenreName": "摄影与录像",
+        "genreIds": [
+          6008,
+          6002
+        ],
+        "genres": [
+          "摄影与录像",
+          "工具"
+        ],
+        "appType": "software"
+      },
+      "storeEvidence": {
+        "us": {
+          "itunesId": 6751822886,
+          "name": "GenR8",
+          "storefront": "us",
+          "version": "1.7.1",
+          "releaseDate": "2026-10-28T15:03:53Z",
+          "evidenceType": "app_store_release_notes_mention",
+          "evidenceExcerpt": "- iPhone Duo support: the layout adapts as you fold and unfold, and test patterns now fill the whole screen, edge to edge. - External display HDR: choose Auto, On or Off for HDR output to an external display. - Reference signal levels: standards-based patterns now use exact ITU-R B…",
+          "appStoreUrl": "https://apps.apple.com/us/app/genr8/id6751822886?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/d0/34/46d03408-3dc6-fdd2-a36d-cdf65b5f5d68/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "developer": "Christopher Van Hoose",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "us",
+            "primaryGenreId": 6008,
+            "primaryGenreName": "摄影与录像",
+            "genreIds": [
+              6008,
+              6002
+            ],
+            "genres": [
+              "摄影与录像",
+              "工具"
+            ],
+            "appType": "software"
+          }
+        }
+      },
+      "firstSeen": "2026-11-22T08:18:02+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
+      "reviewStatus": "pending"
     },
     {
       "itunesId": 6751758741,
@@ -17256,8 +17684,8 @@
           "appStoreUrl": "https://apps.apple.com/us/app/autofill-flash-checkout/id6751758741?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/ce/18/d7ce187e-268a-eb36-90bf-ddaecc879bbd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "developer": "小虎 周",
-          "firstSeen": "2026-11-14T06:50:05+00:00",
-          "lastSeen": "2026-11-14T06:50:05+00:00",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -17277,7 +17705,7 @@
         }
       },
       "firstSeen": "2026-11-11T15:27:30+00:00",
-      "lastSeen": "2026-11-16T11:47:00+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -17318,8 +17746,8 @@
           "appStoreUrl": "https://apps.apple.com/us/app/alarmate-date-alarm-clock/id6751679386?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/80/9f/85809f54-cc78-d566-458a-2516b3a98ff5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "developer": "Maksym Yeromenko",
-          "firstSeen": "2026-11-14T06:50:05+00:00",
-          "lastSeen": "2026-11-14T06:50:05+00:00",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -17369,7 +17797,69 @@
         }
       },
       "firstSeen": "2026-11-14T06:50:05+00:00",
-      "lastSeen": "2026-11-16T11:47:00+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
+      "reviewStatus": "pending"
+    },
+    {
+      "itunesId": 6751649537,
+      "name": "compassing",
+      "storefront": "us",
+      "version": "1.2.0",
+      "releaseDate": "2026-10-29T16:25:49Z",
+      "evidenceType": "app_store_release_notes_mention",
+      "evidenceExcerpt": "Added support for iPhone Duo.",
+      "appStoreUrl": "https://apps.apple.com/us/app/compassing/id6751649537?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/2e/5b/a02e5b4f-f445-e4bd-e00c-630bb042252e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "developer": "迪 孙",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "us",
+        "primaryGenreId": 6010,
+        "primaryGenreName": "导航",
+        "genreIds": [
+          6010,
+          6003
+        ],
+        "genres": [
+          "导航",
+          "旅游"
+        ],
+        "appType": "software"
+      },
+      "storeEvidence": {
+        "us": {
+          "itunesId": 6751649537,
+          "name": "compassing",
+          "storefront": "us",
+          "version": "1.2.0",
+          "releaseDate": "2026-10-29T16:25:49Z",
+          "evidenceType": "app_store_release_notes_mention",
+          "evidenceExcerpt": "Added support for iPhone Duo.",
+          "appStoreUrl": "https://apps.apple.com/us/app/compassing/id6751649537?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/2e/5b/a02e5b4f-f445-e4bd-e00c-630bb042252e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "developer": "迪 孙",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "us",
+            "primaryGenreId": 6010,
+            "primaryGenreName": "导航",
+            "genreIds": [
+              6010,
+              6003
+            ],
+            "genres": [
+              "导航",
+              "旅游"
+            ],
+            "appType": "software"
+          }
+        }
+      },
+      "firstSeen": "2026-11-22T08:18:02+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -17472,8 +17962,8 @@
           "appStoreUrl": "https://apps.apple.com/us/app/autoscreen-car-screen-mirror/id6751195451?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/ff/99/9cff9954-ae3d-6746-97f0-b085c6e7fc67/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
           "developer": "SORO SONS BILGI TEKNOLOJISI TICARET LIMITED SIRKETI",
-          "firstSeen": "2026-11-14T06:50:05+00:00",
-          "lastSeen": "2026-11-14T06:50:05+00:00",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -17523,7 +18013,7 @@
         }
       },
       "firstSeen": "2026-11-14T06:50:05+00:00",
-      "lastSeen": "2026-11-16T11:47:00+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -17538,7 +18028,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/7c/cd/857ccde7-97dd-b408-1081-b1e34c68d75e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "developer": "Hangzhou Ostar Media Co.,Ltd.",
       "firstSeen": "2026-10-30T14:21:49+00:00",
-      "lastSeen": "2026-11-22T00:34:46+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -17593,8 +18083,8 @@
           "appStoreUrl": "https://apps.apple.com/us/app/stormcam-cinematic-log-video/id6749835845?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/7c/cd/857ccde7-97dd-b408-1081-b1e34c68d75e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
           "developer": "Hangzhou Ostar Media Co.,Ltd.",
-          "firstSeen": "2026-11-22T00:34:46+00:00",
-          "lastSeen": "2026-11-22T00:34:46+00:00",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -17650,8 +18140,8 @@
           "appStoreUrl": "https://apps.apple.com/us/app/paramedic-protocols-ems/id6749773276?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/e8/62/22e862e4-dca1-17ef-c17f-3723403ddd2a/Icon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "developer": "RanduSoft SRL",
-          "firstSeen": "2026-11-22T00:34:46+00:00",
-          "lastSeen": "2026-11-22T00:34:46+00:00",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -17701,7 +18191,7 @@
         }
       },
       "firstSeen": "2026-11-14T06:50:05+00:00",
-      "lastSeen": "2026-11-22T00:34:46+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -17772,8 +18262,8 @@
           "appStoreUrl": "https://apps.apple.com/us/app/gamuroid-all-game-emulator/id6749228186?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/1c/5d/1f1c5ddc-91a7-b46e-19ec-3e4f8ab7036a/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.jpeg/512x512bb.jpg",
           "developer": "UNIVERSAL TECHLAB",
-          "firstSeen": "2026-11-22T00:34:46+00:00",
-          "lastSeen": "2026-11-22T00:34:46+00:00",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -17793,7 +18283,7 @@
         }
       },
       "firstSeen": "2026-11-16T11:47:00+00:00",
-      "lastSeen": "2026-11-22T00:34:46+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -20201,7 +20691,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/80/d8/0a80d898-7cc8-6456-ef8a-8139a35b0872/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "developer": "Bijoy Thangaraj",
       "firstSeen": "2026-10-26T04:27:45+00:00",
-      "lastSeen": "2026-11-21T19:35:49+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -20230,8 +20720,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/%E5%92%8C%E5%BC%A6%E4%B8%8E%E8%B0%83%E9%9F%B3%E5%99%A8-guitar-wiz/id6740015002?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/80/d8/0a80d898-7cc8-6456-ef8a-8139a35b0872/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
           "developer": "Bijoy Thangaraj",
-          "firstSeen": "2026-11-16T02:53:08+00:00",
-          "lastSeen": "2026-11-16T02:53:08+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -20349,8 +20839,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/%E5%A5%BD%E7%94%A8%E7%BF%BB%E8%AF%91-ai%E8%AF%AD%E9%9F%B3%E5%AE%9E%E6%97%B6%E5%AF%B9%E8%AF%9D%E7%BF%BB%E8%AF%91-120-%E7%A7%8D%E8%AF%AD%E8%A8%80/id6740013449?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/31/11/cd3111fd-95df-8b3a-755c-a5b8fa71f0bc/AppIcon-0-0-1x_U007emarketing-0-11-0-P3-85-220.png/512x512bb.jpg",
           "developer": "HIGHONE (HK) Inc",
-          "firstSeen": "2026-11-16T02:53:08+00:00",
-          "lastSeen": "2026-11-16T02:53:08+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -20370,7 +20860,7 @@
         }
       },
       "firstSeen": "2026-11-13T17:59:17+00:00",
-      "lastSeen": "2026-11-21T19:35:49+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -20661,8 +21151,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/kennysgifs/id6738590491?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/8b/43/528b43b2-7e6f-8c85-aa18-19de5f4e1ae0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "developer": "KED, LLC",
-          "firstSeen": "2026-11-16T02:53:08+00:00",
-          "lastSeen": "2026-11-16T02:53:08+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -20682,7 +21172,69 @@
         }
       },
       "firstSeen": "2026-11-13T17:59:17+00:00",
-      "lastSeen": "2026-11-21T19:35:49+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
+      "reviewStatus": "pending"
+    },
+    {
+      "itunesId": 6738534883,
+      "name": "Console Remote",
+      "storefront": "cn",
+      "version": "28.0.11",
+      "releaseDate": "2026-11-22T03:14:31Z",
+      "evidenceType": "app_store_release_notes_mention",
+      "evidenceExcerpt": "新增 对 iPhone Duo 展开状态下全屏模式的支持，折叠状态将在后续版本中适配。 调整 帧生成档位，提升兼容性与稳定性。",
+      "appStoreUrl": "https://apps.apple.com/cn/app/console-remote/id6738534883?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/0c/96/6f0c9676-c0e7-b15d-beeb-3aa182a12ea7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "developer": "莼乾 沈",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "cn",
+        "primaryGenreId": 6016,
+        "primaryGenreName": "娱乐",
+        "genreIds": [
+          6016,
+          6002
+        ],
+        "genres": [
+          "娱乐",
+          "工具"
+        ],
+        "appType": "software"
+      },
+      "storeEvidence": {
+        "cn": {
+          "itunesId": 6738534883,
+          "name": "Console Remote",
+          "storefront": "cn",
+          "version": "28.0.11",
+          "releaseDate": "2026-11-22T03:14:31Z",
+          "evidenceType": "app_store_release_notes_mention",
+          "evidenceExcerpt": "新增 对 iPhone Duo 展开状态下全屏模式的支持，折叠状态将在后续版本中适配。 调整 帧生成档位，提升兼容性与稳定性。",
+          "appStoreUrl": "https://apps.apple.com/cn/app/console-remote/id6738534883?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/0c/96/6f0c9676-c0e7-b15d-beeb-3aa182a12ea7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "developer": "莼乾 沈",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "cn",
+            "primaryGenreId": 6016,
+            "primaryGenreName": "娱乐",
+            "genreIds": [
+              6016,
+              6002
+            ],
+            "genres": [
+              "娱乐",
+              "工具"
+            ],
+            "appType": "software"
+          }
+        }
+      },
+      "firstSeen": "2026-11-22T08:13:47+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -20753,8 +21305,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/translate-ai-live-translate/id6738304985?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/dd/ef/ebddef8d-934c-1661-bac9-fa5f35cc6489/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "developer": "HEYOS",
-          "firstSeen": "2026-11-16T02:53:08+00:00",
-          "lastSeen": "2026-11-16T02:53:08+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -20774,23 +21326,23 @@
         }
       },
       "firstSeen": "2026-11-13T17:59:17+00:00",
-      "lastSeen": "2026-11-21T19:35:49+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
       "itunesId": 6737914760,
       "name": "HAMRS Pro",
-      "storefront": "us",
+      "storefront": "cn",
       "version": "2.53.0",
       "releaseDate": "2026-11-18T22:22:18Z",
       "evidenceType": "app_store_release_notes_mention",
       "evidenceExcerpt": "…cky form fields **POTA/SOTA** - **FIX**: Show last loaded Spots when offline **OTHER** - **NEW**: Support for iPhone Duo - **FIX**: Show a single offline notice instead of repeated invalid-key sync errors",
-      "appStoreUrl": "https://apps.apple.com/us/app/hamrs-pro/id6737914760?uo=4",
+      "appStoreUrl": "https://apps.apple.com/cn/app/hamrs-pro/id6737914760?uo=4",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/bf/1d/a1bf1d85-d0b6-4857-d942-ba057b3f854e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "developer": "Cabin Interactive, LLC",
       "storeCategory": {
         "source": "apple_lookup",
-        "storefront": "us",
+        "storefront": "cn",
         "primaryGenreId": 6002,
         "primaryGenreName": "工具",
         "genreIds": [
@@ -20829,10 +21381,38 @@
             ],
             "appType": "software"
           }
+        },
+        "cn": {
+          "itunesId": 6737914760,
+          "name": "HAMRS Pro",
+          "storefront": "cn",
+          "version": "2.53.0",
+          "releaseDate": "2026-11-18T22:22:18Z",
+          "evidenceType": "app_store_release_notes_mention",
+          "evidenceExcerpt": "…cky form fields **POTA/SOTA** - **FIX**: Show last loaded Spots when offline **OTHER** - **NEW**: Support for iPhone Duo - **FIX**: Show a single offline notice instead of repeated invalid-key sync errors",
+          "appStoreUrl": "https://apps.apple.com/cn/app/hamrs-pro/id6737914760?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/bf/1d/a1bf1d85-d0b6-4857-d942-ba057b3f854e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "developer": "Cabin Interactive, LLC",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "cn",
+            "primaryGenreId": 6002,
+            "primaryGenreName": "工具",
+            "genreIds": [
+              6002
+            ],
+            "genres": [
+              "工具"
+            ],
+            "appType": "software"
+          }
         }
       },
       "firstSeen": "2026-11-21T19:35:49+00:00",
-      "lastSeen": "2026-11-21T19:35:49+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -20847,7 +21427,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/4d/d7/854dd73a-9645-dc87-b912-fedeb5b13cd3/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.jpg",
       "developer": "Free Notes AI Note Taker LTD",
       "firstSeen": "2026-10-27T12:25:52+00:00",
-      "lastSeen": "2026-11-21T19:35:49+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -20876,8 +21456,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/%E5%B0%8F%E4%B9%96%E8%A7%A3%E5%8E%8B-hrv%E5%BF%83%E7%90%86%E5%8E%8B%E5%8A%9B%E7%9B%91%E6%B5%8B-%E5%81%A5%E5%BA%B7%E4%B9%A0%E6%83%AF%E5%85%BB%E6%88%90/id6737716136?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/4d/d7/854dd73a-9645-dc87-b912-fedeb5b13cd3/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.jpg",
           "developer": "Free Notes AI Note Taker LTD",
-          "firstSeen": "2026-11-16T02:53:08+00:00",
-          "lastSeen": "2026-11-16T02:53:08+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -21112,6 +21692,64 @@
       "reviewStatus": "pending"
     },
     {
+      "itunesId": 6730126160,
+      "name": "戏曲锣鼓 - 电子锣鼓打击垫｜虚拟乐器｜演奏模拟器｜戏曲伴奏",
+      "storefront": "cn",
+      "version": "2.4",
+      "releaseDate": "2026-11-19T19:14:26Z",
+      "evidenceType": "app_store_release_notes_mention",
+      "evidenceExcerpt": "- 改进鼓垫连击和多指触发 - 适配 iPhone Duo",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E6%88%8F%E6%9B%B2%E9%94%A3%E9%BC%93-%E7%94%B5%E5%AD%90%E9%94%A3%E9%BC%93%E6%89%93%E5%87%BB%E5%9E%AB-%E8%99%9A%E6%8B%9F%E4%B9%90%E5%99%A8-%E6%BC%94%E5%A5%8F%E6%A8%A1%E6%8B%9F%E5%99%A8-%E6%88%8F%E6%9B%B2%E4%BC%B4%E5%A5%8F/id6730126160?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/3f/a4/c23fa426-c084-d926-6d43-7540b263edcf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "developer": "宇 刘",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "cn",
+        "primaryGenreId": 6011,
+        "primaryGenreName": "音乐",
+        "genreIds": [
+          6011
+        ],
+        "genres": [
+          "音乐"
+        ],
+        "appType": "software"
+      },
+      "storeEvidence": {
+        "cn": {
+          "itunesId": 6730126160,
+          "name": "戏曲锣鼓 - 电子锣鼓打击垫｜虚拟乐器｜演奏模拟器｜戏曲伴奏",
+          "storefront": "cn",
+          "version": "2.4",
+          "releaseDate": "2026-11-19T19:14:26Z",
+          "evidenceType": "app_store_release_notes_mention",
+          "evidenceExcerpt": "- 改进鼓垫连击和多指触发 - 适配 iPhone Duo",
+          "appStoreUrl": "https://apps.apple.com/cn/app/%E6%88%8F%E6%9B%B2%E9%94%A3%E9%BC%93-%E7%94%B5%E5%AD%90%E9%94%A3%E9%BC%93%E6%89%93%E5%87%BB%E5%9E%AB-%E8%99%9A%E6%8B%9F%E4%B9%90%E5%99%A8-%E6%BC%94%E5%A5%8F%E6%A8%A1%E6%8B%9F%E5%99%A8-%E6%88%8F%E6%9B%B2%E4%BC%B4%E5%A5%8F/id6730126160?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/3f/a4/c23fa426-c084-d926-6d43-7540b263edcf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "developer": "宇 刘",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "cn",
+            "primaryGenreId": 6011,
+            "primaryGenreName": "音乐",
+            "genreIds": [
+              6011
+            ],
+            "genres": [
+              "音乐"
+            ],
+            "appType": "software"
+          }
+        }
+      },
+      "firstSeen": "2026-11-22T08:13:47+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
+      "reviewStatus": "pending"
+    },
+    {
       "itunesId": 6714482734,
       "name": "Puzzmo: Solve. Smile. Share.",
       "storefront": "us",
@@ -21219,8 +21857,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/%E5%BE%97%E5%88%B0%E5%A4%A7%E8%84%91-%E5%8E%9Fget%E7%AC%94%E8%AE%B0-ai%E8%AE%B0%E5%BD%95%E4%B8%8E%E5%86%85%E5%AE%B9%E5%88%9B%E4%BD%9C/id6711334436?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/dd/80/d8dd8016-652e-c501-c8d4-2282416ba57a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "developer": "luojilab",
-          "firstSeen": "2026-11-16T02:53:08+00:00",
-          "lastSeen": "2026-11-16T02:53:08+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -21270,7 +21908,7 @@
         }
       },
       "firstSeen": "2026-11-16T02:53:08+00:00",
-      "lastSeen": "2026-11-21T19:35:49+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -21593,7 +22231,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/d6/4e/70d64e3d-39a9-d9ee-7ee1-6cfa5262f435/GenKi__U0028black_background_U0029-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "developer": "NOERDEN",
       "firstSeen": "2026-10-30T07:18:49+00:00",
-      "lastSeen": "2026-11-16T02:53:08+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -21622,8 +22260,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/genk-%E5%BE%AE%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%A4%9A%E5%85%83%E4%B8%BB%E9%A2%98/id6612027371?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/d6/4e/70d64e3d-39a9-d9ee-7ee1-6cfa5262f435/GenKi__U0028black_background_U0029-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
           "developer": "NOERDEN",
-          "firstSeen": "2026-11-16T02:53:08+00:00",
-          "lastSeen": "2026-11-16T02:53:08+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -21732,17 +22370,17 @@
     {
       "itunesId": 6569263220,
       "name": "FloraQuest: Florida",
-      "storefront": "us",
+      "storefront": "cn",
       "version": "3.42",
       "releaseDate": "2026-10-31T15:37:50Z",
       "evidenceType": "app_store_release_notes_mention",
       "evidenceExcerpt": "Added support for iPhone Duo. Updated screenshots.",
-      "appStoreUrl": "https://apps.apple.com/us/app/floraquest-florida/id6569263220?uo=4",
+      "appStoreUrl": "https://apps.apple.com/cn/app/floraquest-florida/id6569263220?uo=4",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/a2/e0/2ba2e08a-733e-e81a-3899-c1002e3932c1/iconFlorida-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "developer": "High Country Apps, LLC",
       "storeCategory": {
         "source": "apple_lookup",
-        "storefront": "us",
+        "storefront": "cn",
         "primaryGenreId": 6017,
         "primaryGenreName": "教育",
         "genreIds": [
@@ -21785,10 +22423,40 @@
             ],
             "appType": "software"
           }
+        },
+        "cn": {
+          "itunesId": 6569263220,
+          "name": "FloraQuest: Florida",
+          "storefront": "cn",
+          "version": "3.42",
+          "releaseDate": "2026-10-31T15:37:50Z",
+          "evidenceType": "app_store_release_notes_mention",
+          "evidenceExcerpt": "Added support for iPhone Duo. Updated screenshots.",
+          "appStoreUrl": "https://apps.apple.com/cn/app/floraquest-florida/id6569263220?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/a2/e0/2ba2e08a-733e-e81a-3899-c1002e3932c1/iconFlorida-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+          "developer": "High Country Apps, LLC",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "cn",
+            "primaryGenreId": 6017,
+            "primaryGenreName": "教育",
+            "genreIds": [
+              6017,
+              6006
+            ],
+            "genres": [
+              "教育",
+              "参考资料"
+            ],
+            "appType": "software"
+          }
         }
       },
       "firstSeen": "2026-11-21T11:31:39+00:00",
-      "lastSeen": "2026-11-21T11:31:39+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -21827,8 +22495,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/epub%E7%B9%81%E7%AE%80%E9%80%9A/id6514305385?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/24/79/03247962-19f4-179a-31cc-8b0ac44f163e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "developer": "Zebin Huang",
-          "firstSeen": "2026-11-16T02:53:08+00:00",
-          "lastSeen": "2026-11-16T02:53:08+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -21874,7 +22542,7 @@
         }
       },
       "firstSeen": "2026-11-16T02:53:08+00:00",
-      "lastSeen": "2026-11-21T11:31:39+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -22007,8 +22675,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/pictrace-ar%E7%BB%98%E7%94%BB-%E7%B4%A0%E6%8F%8F%E4%B8%8E%E6%8F%8F%E5%9B%BE/id6504559449?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/33/8d/1c338d9d-668c-5f2e-ab76-93bf7c5d677f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
           "developer": "AvnTech Inc.",
-          "firstSeen": "2026-11-16T02:53:08+00:00",
-          "lastSeen": "2026-11-16T02:53:08+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -22026,7 +22694,7 @@
         }
       },
       "firstSeen": "2026-11-13T17:59:17+00:00",
-      "lastSeen": "2026-11-21T11:31:39+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -22065,8 +22733,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/%E4%B8%87%E8%83%BD%E6%8C%87%E4%BB%A4-%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4%E5%BA%93%E6%8D%B7%E5%BE%84%E5%A4%A7%E5%85%A8/id6503070246?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/5c/f7/2c5cf7da-ed8b-ce37-71b1-1ef428b56adc/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
           "developer": "Xiamen Infinity Starway Technology Co., Ltd.",
-          "firstSeen": "2026-11-16T02:53:08+00:00",
-          "lastSeen": "2026-11-16T02:53:08+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -22112,7 +22780,69 @@
         }
       },
       "firstSeen": "2026-11-10T17:58:58+00:00",
-      "lastSeen": "2026-11-21T11:31:39+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
+      "reviewStatus": "pending"
+    },
+    {
+      "itunesId": 6503069386,
+      "name": "计算器Plus - 科学语音记录云同步计算器",
+      "storefront": "cn",
+      "version": "2.0.0",
+      "releaseDate": "2026-11-21T04:45:21Z",
+      "evidenceType": "app_store_release_notes_mention",
+      "evidenceExcerpt": "…生 SwiftUI 重写，适配 iOS 26 新设计 · 新增科学计算器：三角函数、对数、幂运算、阶乘，支持 DEG/RAD 切换 · 新增 iCloud 记录同步：开通 VIP（¥22 一次买断）后，iPhone / iPhone Duo / iPad 记录自动同步；免费版本地记录功能完整保留 · 新增一键清空记录，二次确认防误删 · 新增按键字体大小调节，字号越小按键越紧凑，记录区更大 · 适配 iPhone Duo 折叠屏与 iPad，大屏双栏布局 · 老用户升级后历史记录与个性化设置自动迁移，不丢数据 · 修复已知问题，计算精度与稳定性提升",
+      "appStoreUrl": "https://apps.apple.com/cn/app/%E8%AE%A1%E7%AE%97%E5%99%A8plus-%E7%A7%91%E5%AD%A6%E8%AF%AD%E9%9F%B3%E8%AE%B0%E5%BD%95%E4%BA%91%E5%90%8C%E6%AD%A5%E8%AE%A1%E7%AE%97%E5%99%A8/id6503069386?uo=4",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/cd/a5/0bcda52f-f750-90cb-0614-7c6a45f701b7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "developer": "超豪 赵",
+      "storeCategory": {
+        "source": "apple_lookup",
+        "storefront": "cn",
+        "primaryGenreId": 6002,
+        "primaryGenreName": "工具",
+        "genreIds": [
+          6002,
+          6007
+        ],
+        "genres": [
+          "工具",
+          "效率"
+        ],
+        "appType": "software"
+      },
+      "storeEvidence": {
+        "cn": {
+          "itunesId": 6503069386,
+          "name": "计算器Plus - 科学语音记录云同步计算器",
+          "storefront": "cn",
+          "version": "2.0.0",
+          "releaseDate": "2026-11-21T04:45:21Z",
+          "evidenceType": "app_store_release_notes_mention",
+          "evidenceExcerpt": "…生 SwiftUI 重写，适配 iOS 26 新设计 · 新增科学计算器：三角函数、对数、幂运算、阶乘，支持 DEG/RAD 切换 · 新增 iCloud 记录同步：开通 VIP（¥22 一次买断）后，iPhone / iPhone Duo / iPad 记录自动同步；免费版本地记录功能完整保留 · 新增一键清空记录，二次确认防误删 · 新增按键字体大小调节，字号越小按键越紧凑，记录区更大 · 适配 iPhone Duo 折叠屏与 iPad，大屏双栏布局 · 老用户升级后历史记录与个性化设置自动迁移，不丢数据 · 修复已知问题，计算精度与稳定性提升",
+          "appStoreUrl": "https://apps.apple.com/cn/app/%E8%AE%A1%E7%AE%97%E5%99%A8plus-%E7%A7%91%E5%AD%A6%E8%AF%AD%E9%9F%B3%E8%AE%B0%E5%BD%95%E4%BA%91%E5%90%8C%E6%AD%A5%E8%AE%A1%E7%AE%97%E5%99%A8/id6503069386?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/cd/a5/0bcda52f-f750-90cb-0614-7c6a45f701b7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "developer": "超豪 赵",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "cn",
+            "primaryGenreId": 6002,
+            "primaryGenreName": "工具",
+            "genreIds": [
+              6002,
+              6007
+            ],
+            "genres": [
+              "工具",
+              "效率"
+            ],
+            "appType": "software"
+          }
+        }
+      },
+      "firstSeen": "2026-11-22T08:13:47+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -22245,8 +22975,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/flexialarm-%E8%8B%B9%E6%9E%9C%E6%89%8B%E8%A1%A8%E6%99%BA%E8%83%BD%E9%97%B9%E9%92%9F/id6502886443?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/7b/76/de7b7692-503b-64fa-d433-a82c8a508a7c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
           "developer": "Nathan Woolmore",
-          "firstSeen": "2026-11-16T02:53:08+00:00",
-          "lastSeen": "2026-11-16T02:53:08+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -22296,7 +23026,7 @@
         }
       },
       "firstSeen": "2026-11-06T11:11:31+00:00",
-      "lastSeen": "2026-11-21T11:31:39+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -22407,8 +23137,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/%E7%81%AB%E7%83%A7%E4%BA%91-%E6%99%9A%E9%9C%9E-%E6%97%A5%E8%90%BD-%E6%97%A5%E5%87%BA-sunset-%E8%90%BD%E6%97%A5-solora/id6502008343?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/60/2d/7a602d71-3973-6af6-a88e-d2c983c9c701/AppIcon-0-0-1x_U007epad-0-0-0-1-0-sRGB-85-220.png/512x512bb.jpg",
           "developer": "Antonio Jose Martinez Sanchez",
-          "firstSeen": "2026-11-16T02:53:08+00:00",
-          "lastSeen": "2026-11-16T02:53:08+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -22458,7 +23188,7 @@
         }
       },
       "firstSeen": "2026-11-10T17:58:58+00:00",
-      "lastSeen": "2026-11-21T11:31:39+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -22651,8 +23381,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/tv-show-tracker-tv-club/id6497563903?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/27/d9/6527d974-a020-384c-1bec-7b6f812b00fd/Icon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "developer": "RanduSoft SRL",
-          "firstSeen": "2026-11-16T02:53:08+00:00",
-          "lastSeen": "2026-11-16T02:53:08+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -22672,7 +23402,7 @@
         }
       },
       "firstSeen": "2026-11-06T18:12:59+00:00",
-      "lastSeen": "2026-11-21T11:31:39+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -22739,8 +23469,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/arcademania/id6496971234?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/d8/57/68d85776-7715-38ed-7a2c-2adb96acefda/AppIconAM-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "developer": "Infinite Evolution Technologies",
-          "firstSeen": "2026-11-16T02:53:08+00:00",
-          "lastSeen": "2026-11-16T02:53:08+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -22758,7 +23488,7 @@
         }
       },
       "firstSeen": "2026-11-13T02:03:32+00:00",
-      "lastSeen": "2026-11-21T11:31:39+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -22797,8 +23527,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/sheetviewer-%E4%BA%94%E7%BA%BF%E8%B0%B1%E8%B7%9F%E5%BC%B9/id6482971546?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/3d/9e/8f3d9ec7-68c1-78f9-bbac-c7496f46f3f6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "developer": "超 童",
-          "firstSeen": "2026-11-15T23:00:15+00:00",
-          "lastSeen": "2026-11-15T23:00:15+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -22844,7 +23574,7 @@
         }
       },
       "firstSeen": "2026-11-06T11:11:31+00:00",
-      "lastSeen": "2026-11-21T11:31:39+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -22913,8 +23643,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/fanfiction-ao3-unofficial/id6479576634?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/d2/ea/d9d2ea0f-f9ea-dd19-ba24-32096bf295ec/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "developer": "Roman Alifanov",
-          "firstSeen": "2026-11-15T23:00:15+00:00",
-          "lastSeen": "2026-11-15T23:00:15+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -22964,7 +23694,7 @@
         }
       },
       "firstSeen": "2026-11-06T11:11:31+00:00",
-      "lastSeen": "2026-11-21T11:31:39+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -23035,8 +23765,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/spck-editor-lite/id6479564286?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/68/69/a0686948-a736-222a-0854-9a968b0dbd75/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "developer": "Zeb Zhao",
-          "firstSeen": "2026-11-15T23:00:15+00:00",
-          "lastSeen": "2026-11-15T23:00:15+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -23056,7 +23786,7 @@
         }
       },
       "firstSeen": "2026-11-13T02:03:32+00:00",
-      "lastSeen": "2026-11-21T11:31:39+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -23097,8 +23827,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/%E8%BF%85%E9%9B%B7%E6%B5%8F%E8%A7%88%E5%99%A8-%E4%B8%BB%E6%89%93%E7%BA%AF%E5%87%80%E6%9E%81%E7%AE%80%E6%B5%8F%E8%A7%88/id6479516779?uo=4",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/5d/aa/bf5daa5a-5d28-22b9-e29e-057b74a49a99/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
           "developer": "深圳市迅雷网络技术有限公司",
-          "firstSeen": "2026-11-15T23:00:15+00:00",
-          "lastSeen": "2026-11-15T23:00:15+00:00",
+          "firstSeen": "2026-11-22T08:13:47+00:00",
+          "lastSeen": "2026-11-22T08:13:47+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -23118,7 +23848,7 @@
         }
       },
       "firstSeen": "2026-11-15T23:00:15+00:00",
-      "lastSeen": "2026-11-15T23:00:15+00:00",
+      "lastSeen": "2026-11-22T08:13:47+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -29374,7 +30104,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/b6/75/69b675b8-83d8-783b-4275-d50a9d2da32c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "developer": "Tencent Technology (Shenzhen) Company Limited",
       "firstSeen": "2026-10-27T05:16:33+00:00",
-      "lastSeen": "2026-11-22T00:33:25+00:00",
+      "lastSeen": "2026-11-22T08:16:48+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -29401,8 +30131,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/id1618175312",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/b6/75/69b675b8-83d8-783b-4275-d50a9d2da32c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
           "developer": "Tencent Technology (Shenzhen) Company Limited",
-          "firstSeen": "2026-11-22T00:33:25+00:00",
-          "lastSeen": "2026-11-22T00:33:25+00:00",
+          "firstSeen": "2026-11-22T08:16:48+00:00",
+          "lastSeen": "2026-11-22T08:16:48+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -30452,15 +31182,15 @@
       "itunesId": 1596842861,
       "name": "WPS协作",
       "storefront": "cn",
-      "version": "5.56.1",
-      "releaseDate": "2026-10-31T11:56:46Z",
-      "evidenceType": "app_store_release_notes_mention",
+      "version": "5.56.2",
+      "releaseDate": "2026-11-02",
+      "evidenceType": "app_store_page_release_notes",
       "evidenceExcerpt": "• 适配 iPhone DUO 屏幕，提升使用稳定性",
-      "appStoreUrl": "https://apps.apple.com/cn/app/wps%E5%8D%8F%E4%BD%9C/id1596842861?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/d2/1b/18d21bd1-64b3-3c11-af5b-3242a9137c9b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "appStoreUrl": "https://apps.apple.com/cn/app/id1596842861",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/9c/50/e59c5063-0d81-62f1-285d-d52fefbff3a4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "developer": "金山办公软件",
       "firstSeen": "2026-11-01T19:48:57+00:00",
-      "lastSeen": "2026-11-01T19:48:57+00:00",
+      "lastSeen": "2026-11-22T08:16:48+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -30474,6 +31204,36 @@
           "商务"
         ],
         "appType": "software"
+      },
+      "storeEvidence": {
+        "cn": {
+          "itunesId": 1596842861,
+          "name": "WPS协作",
+          "storefront": "cn",
+          "version": "5.56.2",
+          "releaseDate": "2026-11-02",
+          "evidenceType": "app_store_page_release_notes",
+          "evidenceExcerpt": "• 适配 iPhone DUO 屏幕，提升使用稳定性",
+          "appStoreUrl": "https://apps.apple.com/cn/app/id1596842861",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/9c/50/e59c5063-0d81-62f1-285d-d52fefbff3a4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "developer": "金山办公软件",
+          "firstSeen": "2026-11-22T08:16:48+00:00",
+          "lastSeen": "2026-11-22T08:16:48+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "cn",
+            "primaryGenreId": 6000,
+            "primaryGenreName": "商务",
+            "genreIds": [
+              6000
+            ],
+            "genres": [
+              "商务"
+            ],
+            "appType": "software"
+          }
+        }
       }
     },
     {
@@ -30481,14 +31241,14 @@
       "name": "V2er-只为V2EX",
       "storefront": "cn",
       "version": "1.3.9",
-      "releaseDate": "2026-10-29T21:47:08Z",
-      "evidenceType": "app_store_release_notes_mention",
+      "releaseDate": "2026-10-29",
+      "evidenceType": "app_store_page_release_notes",
       "evidenceExcerpt": "适配 iPhone Duo。",
-      "appStoreUrl": "https://apps.apple.com/cn/app/v2er-%E5%8F%AA%E4%B8%BAv2ex/id1596137027?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/f2/69/44f26964-21e5-84aa-c31f-e1c8b9d61e0b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "appStoreUrl": "https://apps.apple.com/cn/app/id1596137027",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/a5/43/0ba54374-9252-257c-8b1b-a76e42e3d5ba/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "developer": "Lessmore Apps",
       "firstSeen": "2026-11-01T19:48:57+00:00",
-      "lastSeen": "2026-11-05T22:08:20+00:00",
+      "lastSeen": "2026-11-22T08:16:48+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -30511,14 +31271,14 @@
           "name": "V2er-只为V2EX",
           "storefront": "cn",
           "version": "1.3.9",
-          "releaseDate": "2026-10-29T21:47:08Z",
-          "evidenceType": "app_store_release_notes_mention",
+          "releaseDate": "2026-10-29",
+          "evidenceType": "app_store_page_release_notes",
           "evidenceExcerpt": "适配 iPhone Duo。",
-          "appStoreUrl": "https://apps.apple.com/cn/app/v2er-%E5%8F%AA%E4%B8%BAv2ex/id1596137027?uo=4",
-          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/f2/69/44f26964-21e5-84aa-c31f-e1c8b9d61e0b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+          "appStoreUrl": "https://apps.apple.com/cn/app/id1596137027",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/a5/43/0ba54374-9252-257c-8b1b-a76e42e3d5ba/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
           "developer": "Lessmore Apps",
-          "firstSeen": "2026-11-05T22:08:20+00:00",
-          "lastSeen": "2026-11-05T22:08:20+00:00",
+          "firstSeen": "2026-11-22T08:16:48+00:00",
+          "lastSeen": "2026-11-22T08:16:48+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -30543,10 +31303,10 @@
       "name": "Handy - 超炫酷的互动桌面锁屏小组件和原创主题包",
       "storefront": "cn",
       "version": "2.4.2",
-      "releaseDate": "2026-11-11T00:53:33Z",
-      "evidenceType": "app_store_release_notes_mention",
+      "releaseDate": "2026-11-11",
+      "evidenceType": "app_store_page_release_notes",
       "evidenceExcerpt": "修复了一些已知的bug Add support for iPhone Duo",
-      "appStoreUrl": "https://apps.apple.com/cn/app/handy-%E8%B6%85%E7%82%AB%E9%85%B7%E7%9A%84%E4%BA%92%E5%8A%A8%E6%A1%8C%E9%9D%A2%E9%94%81%E5%B1%8F%E5%B0%8F%E7%BB%84%E4%BB%B6%E5%92%8C%E5%8E%9F%E5%88%9B%E4%B8%BB%E9%A2%98%E5%8C%85/id1595736086?uo=4",
+      "appStoreUrl": "https://apps.apple.com/cn/app/id1595736086",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/99/1b/7c991b1b-cf23-77f6-75c1-4c88beee08e0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "developer": "FAT, LLC",
       "storeCategory": {
@@ -30600,14 +31360,14 @@
           "name": "Handy - 超炫酷的互动桌面锁屏小组件和原创主题包",
           "storefront": "cn",
           "version": "2.4.2",
-          "releaseDate": "2026-11-11T00:53:33Z",
-          "evidenceType": "app_store_release_notes_mention",
+          "releaseDate": "2026-11-11",
+          "evidenceType": "app_store_page_release_notes",
           "evidenceExcerpt": "修复了一些已知的bug Add support for iPhone Duo",
-          "appStoreUrl": "https://apps.apple.com/cn/app/handy-%E8%B6%85%E7%82%AB%E9%85%B7%E7%9A%84%E4%BA%92%E5%8A%A8%E6%A1%8C%E9%9D%A2%E9%94%81%E5%B1%8F%E5%B0%8F%E7%BB%84%E4%BB%B6%E5%92%8C%E5%8E%9F%E5%88%9B%E4%B8%BB%E9%A2%98%E5%8C%85/id1595736086?uo=4",
+          "appStoreUrl": "https://apps.apple.com/cn/app/id1595736086",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/99/1b/7c991b1b-cf23-77f6-75c1-4c88beee08e0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
           "developer": "FAT, LLC",
-          "firstSeen": "2026-11-21T11:27:19+00:00",
-          "lastSeen": "2026-11-21T11:27:19+00:00",
+          "firstSeen": "2026-11-22T08:16:48+00:00",
+          "lastSeen": "2026-11-22T08:16:48+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -30627,7 +31387,7 @@
         }
       },
       "firstSeen": "2026-11-12T13:03:00+00:00",
-      "lastSeen": "2026-11-21T11:27:19+00:00",
+      "lastSeen": "2026-11-22T08:16:48+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -30635,11 +31395,11 @@
       "name": "Blink Shell, Build & Code",
       "storefront": "cn",
       "version": "18.7.2",
-      "releaseDate": "2026-11-06T22:05:50Z",
-      "evidenceType": "app_store_release_notes_mention",
+      "releaseDate": "2026-11-06",
+      "evidenceType": "app_store_page_release_notes",
       "evidenceExcerpt": "…d. We have made some changes to the Paywall flow. If you run into any issues, please let us know. Support for iPhone Duo (2303) - Choose between Fill (default), Cover and Fit. Blink always tries to maximize space, even adjusting for asymmetric setups. - Software keyboard adjustments. SmartKeys mimic the system layout for all the Duo positions. Hterm rendering improvements - special thank…",
-      "appStoreUrl": "https://apps.apple.com/cn/app/blink-shell-build-code/id1594898306?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/68/cf/9a68cf32-72e6-e5d3-a10d-41be264b5874/AppIcon-0-0-1x_U007epad-0-9-0-85-220.png/512x512bb.jpg",
+      "appStoreUrl": "https://apps.apple.com/cn/app/id1594898306",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/c2/bf/e5c2bfac-3c66-a993-5ccc-86a05024672c/AppIcon-0-0-1x_U007epad-0-9-0-85-220.png/512x512bb.jpg",
       "developer": "Blink Shell, Inc",
       "storeCategory": {
         "source": "apple_lookup",
@@ -30692,14 +31452,14 @@
           "name": "Blink Shell, Build & Code",
           "storefront": "cn",
           "version": "18.7.2",
-          "releaseDate": "2026-11-06T22:05:50Z",
-          "evidenceType": "app_store_release_notes_mention",
+          "releaseDate": "2026-11-06",
+          "evidenceType": "app_store_page_release_notes",
           "evidenceExcerpt": "…d. We have made some changes to the Paywall flow. If you run into any issues, please let us know. Support for iPhone Duo (2303) - Choose between Fill (default), Cover and Fit. Blink always tries to maximize space, even adjusting for asymmetric setups. - Software keyboard adjustments. SmartKeys mimic the system layout for all the Duo positions. Hterm rendering improvements - special thank…",
-          "appStoreUrl": "https://apps.apple.com/cn/app/blink-shell-build-code/id1594898306?uo=4",
-          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/68/cf/9a68cf32-72e6-e5d3-a10d-41be264b5874/AppIcon-0-0-1x_U007epad-0-9-0-85-220.png/512x512bb.jpg",
+          "appStoreUrl": "https://apps.apple.com/cn/app/id1594898306",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/c2/bf/e5c2bfac-3c66-a993-5ccc-86a05024672c/AppIcon-0-0-1x_U007epad-0-9-0-85-220.png/512x512bb.jpg",
           "developer": "Blink Shell, Inc",
-          "firstSeen": "2026-11-15T11:15:46+00:00",
-          "lastSeen": "2026-11-15T11:15:46+00:00",
+          "firstSeen": "2026-11-22T08:16:48+00:00",
+          "lastSeen": "2026-11-22T08:16:48+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -30719,7 +31479,7 @@
         }
       },
       "firstSeen": "2026-11-12T13:03:00+00:00",
-      "lastSeen": "2026-11-15T11:15:46+00:00",
+      "lastSeen": "2026-11-22T08:16:48+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -42316,7 +43076,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/a5/dd/6ba5ddbc-14f3-1dc9-4bc4-dcfeb7a36d0c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
       "developer": "Shenzhen CoolApk Internet Technology Co.,Ltd.",
       "firstSeen": "2026-10-29T05:59:35+00:00",
-      "lastSeen": "2026-11-22T00:33:25+00:00",
+      "lastSeen": "2026-11-22T08:16:48+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -42343,8 +43103,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/id1422581869",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/a5/dd/6ba5ddbc-14f3-1dc9-4bc4-dcfeb7a36d0c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
           "developer": "Shenzhen CoolApk Internet Technology Co.,Ltd.",
-          "firstSeen": "2026-11-22T00:33:25+00:00",
-          "lastSeen": "2026-11-22T00:33:25+00:00",
+          "firstSeen": "2026-11-22T08:16:48+00:00",
+          "lastSeen": "2026-11-22T08:16:48+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -53837,7 +54597,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/8e/f6/038ef6ec-c9cc-47db-a0f3-f29e4394cf8f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
       "developer": "Tencent Technology (Shenzhen) Company Limited",
       "firstSeen": "2026-10-26T13:00:00+00:00",
-      "lastSeen": "2026-11-22T00:33:25+00:00",
+      "lastSeen": "2026-11-22T08:16:48+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -53866,8 +54626,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/id952059546",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/8e/f6/038ef6ec-c9cc-47db-a0f3-f29e4394cf8f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
           "developer": "Tencent Technology (Shenzhen) Company Limited",
-          "firstSeen": "2026-11-22T00:33:25+00:00",
-          "lastSeen": "2026-11-22T00:33:25+00:00",
+          "firstSeen": "2026-11-22T08:16:48+00:00",
+          "lastSeen": "2026-11-22T08:16:48+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -62116,7 +62876,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/03/d9/c003d9d0-27c6-59f2-1073-8f05ac153c34/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "developer": "Beijing Zhidemai Technology Co., Ltd.",
       "firstSeen": "2026-10-28T05:55:29+00:00",
-      "lastSeen": "2026-11-22T00:33:25+00:00",
+      "lastSeen": "2026-11-22T08:16:48+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -62145,8 +62905,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/id518213356",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/03/d9/c003d9d0-27c6-59f2-1073-8f05ac153c34/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
           "developer": "Beijing Zhidemai Technology Co., Ltd.",
-          "firstSeen": "2026-11-22T00:33:25+00:00",
-          "lastSeen": "2026-11-22T00:33:25+00:00",
+          "firstSeen": "2026-11-22T08:16:48+00:00",
+          "lastSeen": "2026-11-22T08:16:48+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -63415,7 +64175,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/64/59/f764592c-da70-8e8f-a84a-1767e3cc7a3f/NSIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
       "developer": "iCandi Apps Ltd.",
       "firstSeen": "2026-10-26T04:27:45+00:00",
-      "lastSeen": "2026-10-31T12:48:55+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -63431,6 +64191,68 @@
           "教育"
         ],
         "appType": "software"
+      },
+      "storeEvidence": {
+        "cn": {
+          "itunesId": 475772902,
+          "name": "星空 - 让您不再迷失",
+          "storefront": "cn",
+          "version": "27.1",
+          "releaseDate": "2026-10-13T15:21:18Z",
+          "evidenceType": "app_store_release_notes_mention",
+          "evidenceExcerpt": "27.1 版本带来以下功能和改进： + 全面支持 iPhone Duo，并针对其进行了优化。 + 全新 Aura Tonight Tour 布局，专为将 iPhone Duo 像笔记本电脑一样半折叠放在桌面上使用而设计。 + 修复了其他错误。 喜欢 Night Sky 吗？欢迎在 App Store 上留下您的评价。如需任何帮助或支持，请通过 Support@NightSky.com 联系我们的团队。 祝您观星愉快！",
+          "appStoreUrl": "https://apps.apple.com/cn/app/%E6%98%9F%E7%A9%BA-%E8%AE%A9%E6%82%A8%E4%B8%8D%E5%86%8D%E8%BF%B7%E5%A4%B1/id475772902?uo=4",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/64/59/f764592c-da70-8e8f-a84a-1767e3cc7a3f/NSIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+          "developer": "iCandi Apps Ltd.",
+          "firstSeen": "2026-10-26T04:27:45+00:00",
+          "lastSeen": "2026-10-31T12:48:55+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "cn",
+            "primaryGenreId": 6006,
+            "primaryGenreName": "参考资料",
+            "genreIds": [
+              6006,
+              6017
+            ],
+            "genres": [
+              "参考资料",
+              "教育"
+            ],
+            "appType": "software"
+          }
+        },
+        "us": {
+          "itunesId": 475772902,
+          "name": "Night Sky",
+          "storefront": "us",
+          "version": "27.1",
+          "releaseDate": "2026-10-13",
+          "evidenceType": "app_store_page_release_notes",
+          "evidenceExcerpt": "Version 27.1 brings the following features and enhancements: + Full iPhone Duo support and optimization. + New Aura Tonight Tour layout designed specifically for iPhone Duo in the seated position. + Additional bug fixes. Enjoying Night Sky? We’d love your review on the App Store. For any help or support, contact our team at Support@NightSky.com. …",
+          "appStoreUrl": "https://apps.apple.com/us/app/id475772902",
+          "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/36/62/733662f6-265b-6353-49e4-0102b48e5a9c/NSIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+          "developer": "iCandi Apps Ltd.",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
+          "reviewStatus": "pending",
+          "storeCategory": {
+            "source": "apple_lookup",
+            "storefront": "us",
+            "primaryGenreId": 6006,
+            "primaryGenreName": "参考资料",
+            "genreIds": [
+              6006,
+              6017
+            ],
+            "genres": [
+              "参考资料",
+              "教育"
+            ],
+            "appType": "software"
+          }
+        }
       }
     },
     {
@@ -63501,8 +64323,8 @@
           "appStoreUrl": "https://apps.apple.com/us/app/id473165402",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/a6/9f/dda69f5a-e4eb-4ef9-c7ed-e2b439609d62/glass-0-0-1x_U007epad-0-0-0-1-0-sRGB-85-220.png/512x512bb.jpg",
           "developer": "Mathieu Routhier",
-          "firstSeen": "2026-11-22T00:34:46+00:00",
-          "lastSeen": "2026-11-22T00:34:46+00:00",
+          "firstSeen": "2026-11-22T08:18:02+00:00",
+          "lastSeen": "2026-11-22T08:18:02+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -63522,7 +64344,7 @@
         }
       },
       "firstSeen": "2026-11-13T01:58:28+00:00",
-      "lastSeen": "2026-11-22T00:34:46+00:00",
+      "lastSeen": "2026-11-22T08:18:02+00:00",
       "reviewStatus": "pending"
     },
     {
@@ -64719,7 +65541,7 @@
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/7f/b6/e67fb608-d48b-4366-e99f-ade6b3745728/AppIcon-1-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "developer": "Tencent Technology (Shenzhen) Company Limited",
       "firstSeen": "2026-10-26T04:27:45+00:00",
-      "lastSeen": "2026-11-22T00:33:25+00:00",
+      "lastSeen": "2026-11-22T08:16:48+00:00",
       "reviewStatus": "pending",
       "storeCategory": {
         "source": "apple_lookup",
@@ -64748,8 +65570,8 @@
           "appStoreUrl": "https://apps.apple.com/cn/app/id444934666",
           "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/7f/b6/e67fb608-d48b-4366-e99f-ade6b3745728/AppIcon-1-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
           "developer": "Tencent Technology (Shenzhen) Company Limited",
-          "firstSeen": "2026-11-22T00:33:25+00:00",
-          "lastSeen": "2026-11-22T00:33:25+00:00",
+          "firstSeen": "2026-11-22T08:16:48+00:00",
+          "lastSeen": "2026-11-22T08:16:48+00:00",
           "reviewStatus": "pending",
           "storeCategory": {
             "source": "apple_lookup",
@@ -74105,8 +74927,8 @@
       "reviewStatus": "pending"
     }
   ],
-  "lastChecked": "2026-11-22T00:30:22+00:00",
-  "genreCursorCN": 14,
+  "lastChecked": "2026-11-22T08:13:47+00:00",
+  "genreCursorCN": 22,
   "discoveryPoolCN": [
     282614216,
     284445825,
@@ -75184,6 +76006,7 @@
     534174796,
     534220544,
     534453594,
+    534524272,
     534982023,
     535467020,
     535886823,
@@ -75476,6 +76299,7 @@
     608834326,
     609030412,
     609377731,
+    612392704,
     615316248,
     615904432,
     616643813,
@@ -75831,6 +76655,7 @@
     826488967,
     828444157,
     828889166,
+    831127245,
     832390059,
     832421010,
     833967564,
@@ -76416,6 +77241,7 @@
     987998708,
     988396858,
     988527143,
+    988616225,
     988681696,
     989178902,
     989673964,
@@ -76480,6 +77306,7 @@
     1000223882,
     1000548274,
     1000619473,
+    1001244846,
     1001247878,
     1001426995,
     1001501844,
@@ -76869,12 +77696,14 @@
     1078163548,
     1078387974,
     1078501077,
+    1078504516,
     1078569202,
     1078805036,
     1078807292,
     1078835991,
     1078945675,
     1078961574,
+    1079178243,
     1079448807,
     1079607960,
     1079718756,
@@ -76885,6 +77714,7 @@
     1080235640,
     1080563011,
     1080619642,
+    1080905503,
     1081009083,
     1081245302,
     1081707515,
@@ -76901,6 +77731,7 @@
     1084369435,
     1085016815,
     1085047737,
+    1085105198,
     1085497387,
     1085577488,
     1085632315,
@@ -77180,6 +78011,7 @@
     1133056767,
     1133083101,
     1133407519,
+    1133800890,
     1133867070,
     1134025036,
     1134126831,
@@ -77362,6 +78194,7 @@
     1174766830,
     1174772776,
     1175213887,
+    1175272674,
     1175289660,
     1175991050,
     1176147574,
@@ -77725,6 +78558,7 @@
     1255808499,
     1256218493,
     1256276309,
+    1256341182,
     1256847900,
     1256877803,
     1257218221,
@@ -77957,6 +78791,7 @@
     1321803705,
     1322105540,
     1322331084,
+    1322575697,
     1322828267,
     1322914367,
     1323995920,
@@ -78773,6 +79608,7 @@
     1475199599,
     1475216610,
     1475228251,
+    1475381991,
     1475453678,
     1475622148,
     1475737657,
@@ -78889,6 +79725,7 @@
     1483390752,
     1483409111,
     1483415426,
+    1483445370,
     1483553157,
     1483597359,
     1483716450,
@@ -79225,6 +80062,7 @@
     1517953628,
     1518226677,
     1518302889,
+    1518549826,
     1518553699,
     1518721142,
     1518748975,
@@ -79375,6 +80213,7 @@
     1531695606,
     1531726161,
     1531817058,
+    1531820629,
     1531841731,
     1531976425,
     1532011351,
@@ -79562,6 +80401,7 @@
     1549521136,
     1549532874,
     1549539090,
+    1549608440,
     1549615527,
     1549627842,
     1549630756,
@@ -79972,6 +80812,7 @@
     1592074431,
     1592301610,
     1592423226,
+    1592442467,
     1592449012,
     1592451262,
     1592454561,
@@ -80075,6 +80916,7 @@
     1602310904,
     1602351335,
     1602403259,
+    1602458018,
     1602542727,
     1602677577,
     1602768488,
@@ -80140,6 +80982,7 @@
     1610288846,
     1610305853,
     1610447913,
+    1610537436,
     1610658979,
     1610678618,
     1610958307,
@@ -80447,6 +81290,7 @@
     1643680885,
     1643688878,
     1643868615,
+    1643871615,
     1643877577,
     1644199292,
     1644374326,
@@ -80926,6 +81770,7 @@
     6450286564,
     6450314946,
     6450402556,
+    6450404805,
     6450409747,
     6450415341,
     6450419622,
@@ -81571,10 +82416,12 @@
     6504547931,
     6504548456,
     6504559449,
+    6504593992,
     6504604449,
     6504609334,
     6504617252,
     6504674731,
+    6504705887,
     6504712080,
     6504727397,
     6504736649,
@@ -81972,6 +82819,7 @@
     6740571489,
     6740605431,
     6740612457,
+    6740688976,
     6740698426,
     6740703028,
     6740705851,
@@ -82005,6 +82853,7 @@
     6741474933,
     6741479327,
     6741501625,
+    6741567077,
     6741570714,
     6741576760,
     6741651247,
@@ -82014,6 +82863,7 @@
     6741762602,
     6741767872,
     6741844734,
+    6741845256,
     6741894810,
     6741896517,
     6741898821,
@@ -82142,6 +82992,7 @@
     6743831121,
     6743925241,
     6743929604,
+    6743985316,
     6743985337,
     6743986266,
     6743987360,
@@ -82163,6 +83014,7 @@
     6744235737,
     6744247860,
     6744265596,
+    6744267787,
     6744303917,
     6744311159,
     6744324543,
@@ -82194,6 +83046,7 @@
     6744609578,
     6744669561,
     6744676632,
+    6744692511,
     6744694923,
     6744729927,
     6744736230,
@@ -82221,6 +83074,7 @@
     6745169619,
     6745251019,
     6745274862,
+    6745276008,
     6745313580,
     6745338992,
     6745407365,
@@ -82249,6 +83103,7 @@
     6745784273,
     6745809701,
     6745811936,
+    6745820631,
     6745871010,
     6745878263,
     6745890037,
@@ -82418,6 +83273,7 @@
     6748646638,
     6748665792,
     6748677494,
+    6748683190,
     6748689303,
     6748690011,
     6748705012,
@@ -82563,6 +83419,7 @@
     6751832229,
     6751834453,
     6751838208,
+    6751844804,
     6751851891,
     6751881373,
     6751886569,
@@ -83141,6 +83998,7 @@
     6758614459,
     6758620405,
     6758621958,
+    6758646279,
     6758664879,
     6758665039,
     6758669847,
@@ -83417,6 +84275,7 @@
     6760964847,
     6760972422,
     6760979290,
+    6760983448,
     6760984418,
     6760986534,
     6760988219,
@@ -83922,6 +84781,7 @@
     6770455390,
     6770455927,
     6770465890,
+    6770481522,
     6770571861,
     6770582770,
     6770595635,
@@ -84108,6 +84968,7 @@
     6776951646,
     6776987711,
     6776989370,
+    6776998960,
     6777001181,
     6777011687,
     6777013574,
@@ -84317,6 +85178,7 @@
     6782494951,
     6782507916,
     6782539184,
+    6782544382,
     6782572775,
     6782759224,
     6782793608,
@@ -84344,6 +85206,7 @@
     6783404970,
     6783556497,
     6783599291,
+    6783606353,
     6783623272,
     6783640334,
     6783653484,
@@ -84613,6 +85476,7 @@
     6791208939,
     6791254936,
     6791258071,
+    6791258574,
     6791266151,
     6791310709,
     6791314222,
@@ -84651,6 +85515,7 @@
     6792598709,
     6792609312,
     6792616933,
+    6792650070,
     6792657186,
     6792660266,
     6792666303,
@@ -84692,6 +85557,7 @@
     6794168123,
     6794246577,
     6794249397,
+    6794260991,
     6794281589,
     6794354522,
     6794364901,
@@ -84737,6 +85603,7 @@
     6795639037,
     6795683573,
     6795751715,
+    6795757240,
     6795797415,
     6795802709,
     6795828908,
@@ -84776,6 +85643,7 @@
     6797013343,
     6797013602,
     6797013698,
+    6797013704,
     6797195583,
     6797211431,
     6797256977,
@@ -84865,6 +85733,7 @@
     6800405096,
     6800406873,
     6800424779,
+    6800427948,
     6800529419,
     6800532091,
     6800568794,
@@ -85238,6 +86107,7 @@
     6816226064,
     6816267506,
     6816292080,
+    6816304816,
     6816320447,
     6816349730,
     6816366820,
@@ -85436,6 +86306,7 @@
     6823533848,
     6823555657,
     6823573506,
+    6823590285,
     6823629627,
     6823691275,
     6823732925,
@@ -85502,7 +86373,9 @@
     6826277916,
     6826313756,
     6826435684,
+    6826476732,
     6826478625,
+    6826497329,
     6826497852,
     6826520865,
     6826522601,
@@ -85704,45 +86577,45 @@
     6836155012,
     6836209005
   ],
-  "lookupCursorCN": 7256,
+  "lookupCursorCN": 7856,
   "coverageCN": {
-    "poolSize": 11595,
+    "poolSize": 11646,
     "lookupScheduled": 605,
     "priorityScheduled": 5,
-    "lookupReturned": 587,
+    "lookupReturned": 588,
     "categoryFeedsSucceeded": 28,
     "categoryFeedsAttempted": 28,
     "gameFeedsSucceeded": 12,
     "gameFeedsAttempted": 12,
     "gameGenreIds": [
-      7007,
-      7008,
-      7009,
-      7011,
-      7012,
-      7013
+      7014,
+      7015,
+      7016,
+      7017,
+      7018,
+      7019
     ],
     "genreIds": [
-      6006,
-      6007,
-      6008,
-      6009,
-      6010,
-      6011,
-      6012,
-      6013
+      6014,
+      6015,
+      6016,
+      6017,
+      6018,
+      6020,
+      6021,
+      6022
     ],
-    "time": "2026-11-22T00:30:22+00:00"
+    "time": "2026-11-22T08:13:47+00:00"
   },
-  "pageCursor": 5880,
+  "pageCursor": 5940,
   "lastPageCheck": {
     "attempted": 65,
-    "parsed": 61,
-    "time": "2026-11-22T00:33:25+00:00"
+    "parsed": 64,
+    "time": "2026-11-22T08:16:48+00:00"
   },
-  "gameGenreCursorCN": 12,
-  "genreCursorUS": 10,
-  "gameGenreCursorUS": 0,
+  "gameGenreCursorCN": 0,
+  "genreCursorUS": 18,
+  "gameGenreCursorUS": 6,
   "discoveryPoolUS": [
     281747159,
     281940292,
@@ -85822,6 +86695,7 @@
     288420566,
     288420737,
     288429040,
+    288511764,
     288679348,
     288688365,
     288906614,
@@ -85851,6 +86725,7 @@
     292240076,
     292410356,
     292421271,
+    292436602,
     292563688,
     292619450,
     292628469,
@@ -85951,6 +86826,7 @@
     300704847,
     300791708,
     300884541,
+    300896018,
     300903039,
     301027036,
     301027070,
@@ -85991,6 +86867,7 @@
     303191318,
     303527165,
     303609195,
+    304070702,
     304085181,
     304158842,
     304342869,
@@ -86023,6 +86900,7 @@
     306526794,
     306610000,
     306628397,
+    306629300,
     306967807,
     307132353,
     307184892,
@@ -86357,6 +87235,7 @@
     337268548,
     337349999,
     337350026,
+    337461383,
     337461410,
     337462979,
     337470776,
@@ -86598,6 +87477,7 @@
     364376344,
     364387007,
     364388167,
+    364438839,
     364543479,
     364580591,
     364593496,
@@ -86868,6 +87748,7 @@
     388857410,
     389029534,
     389226881,
+    389246235,
     389359495,
     389638243,
     389750155,
@@ -87296,6 +88177,7 @@
     431556633,
     431771565,
     431850995,
+    431871890,
     431946152,
     432022382,
     432271221,
@@ -87971,6 +88853,7 @@
     509443220,
     509520532,
     509842489,
+    509943912,
     509987785,
     509993510,
     510119487,
@@ -88164,6 +89047,7 @@
     533173905,
     533299240,
     533365777,
+    533412119,
     533785308,
     533817127,
     534160364,
@@ -88506,6 +89390,7 @@
     581548715,
     581564373,
     581585669,
+    581657578,
     581707211,
     581826761,
     581906929,
@@ -88513,6 +89398,7 @@
     582026119,
     582207614,
     582431926,
+    582442437,
     582527125,
     582556043,
     582584117,
@@ -88700,6 +89586,8 @@
     611726016,
     612261027,
     612283154,
+    612927050,
+    612936280,
     613009563,
     613269069,
     613282790,
@@ -89073,6 +89961,7 @@
     710396943,
     710535379,
     710724007,
+    711042537,
     711280537,
     711360040,
     711503013,
@@ -89738,6 +90627,7 @@
     909337833,
     909351158,
     909472985,
+    909702597,
     909967073,
     909977383,
     910076264,
@@ -89871,6 +90761,7 @@
     930574573,
     930734530,
     930868205,
+    930929122,
     931188326,
     931267826,
     931396143,
@@ -89957,6 +90848,7 @@
     944803208,
     944808246,
     945320815,
+    945335809,
     945375756,
     945416273,
     945621521,
@@ -90218,6 +91110,7 @@
     983145797,
     983156458,
     983207200,
+    983771623,
     983868842,
     984067072,
     984225820,
@@ -90557,6 +91450,7 @@
     1044456188,
     1044550527,
     1044651221,
+    1044677336,
     1044878258,
     1044950341,
     1045063030,
@@ -90727,8 +91621,10 @@
     1070462618,
     1070677901,
     1070678346,
+    1070678403,
     1071329060,
     1071399705,
+    1071466134,
     1071622918,
     1071926015,
     1071976327,
@@ -90815,6 +91711,7 @@
     1082150954,
     1082189848,
     1082300408,
+    1082828238,
     1082939619,
     1082941708,
     1082943360,
@@ -91004,6 +91901,7 @@
     1108835095,
     1108935309,
     1109400636,
+    1109404544,
     1109489005,
     1109518523,
     1109685198,
@@ -91034,6 +91932,7 @@
     1114394167,
     1114681193,
     1114811228,
+    1114930388,
     1114967534,
     1114970937,
     1115022026,
@@ -91045,6 +91944,7 @@
     1116038378,
     1116186798,
     1116232218,
+    1116399493,
     1116481358,
     1116645064,
     1116870834,
@@ -91125,6 +92025,7 @@
     1130381142,
     1130498044,
     1130542083,
+    1130614527,
     1130616675,
     1130654757,
     1130755003,
@@ -91208,6 +92109,7 @@
     1145006551,
     1145275343,
     1145420529,
+    1145694075,
     1145738671,
     1145895278,
     1145935738,
@@ -91268,6 +92170,7 @@
     1154643370,
     1154832936,
     1155073787,
+    1155269699,
     1155657778,
     1155672147,
     1155906621,
@@ -91444,6 +92347,7 @@
     1191488320,
     1191655471,
     1191690597,
+    1191700759,
     1191985736,
     1192326768,
     1192568004,
@@ -91663,6 +92567,7 @@
     1221326636,
     1221399711,
     1221770369,
+    1221859915,
     1221939391,
     1222275061,
     1222457137,
@@ -91712,6 +92617,7 @@
     1230231705,
     1230328423,
     1230341039,
+    1230960440,
     1231321595,
     1231325957,
     1231506825,
@@ -91891,6 +92797,7 @@
     1261910446,
     1261944766,
     1261952293,
+    1262148500,
     1262188908,
     1262262200,
     1262474519,
@@ -92030,6 +92937,7 @@
     1289057196,
     1289128334,
     1289152098,
+    1289165912,
     1289455572,
     1289477691,
     1289575311,
@@ -92199,6 +93107,7 @@
     1326420534,
     1326693810,
     1326740784,
+    1326879265,
     1326900621,
     1326943979,
     1327285414,
@@ -92704,6 +93613,7 @@
     1435807944,
     1435821249,
     1435947003,
+    1436132672,
     1436192460,
     1436213906,
     1436262209,
@@ -93186,6 +94096,7 @@
     1467248737,
     1467351707,
     1467417914,
+    1467552236,
     1467648713,
     1467728966,
     1467741402,
@@ -93455,6 +94366,7 @@
     1483771411,
     1483790257,
     1483947937,
+    1483950942,
     1483974820,
     1483998235,
     1484024784,
@@ -93493,6 +94405,7 @@
     1486431245,
     1486637414,
     1486647561,
+    1486687392,
     1486708164,
     1487096693,
     1487387338,
@@ -93578,6 +94491,7 @@
     1492041539,
     1492041611,
     1492069669,
+    1492218078,
     1492244934,
     1492297534,
     1492415595,
@@ -93681,6 +94595,7 @@
     1501153090,
     1501247823,
     1501426054,
+    1501496048,
     1501592184,
     1501665743,
     1501873314,
@@ -94275,6 +95190,7 @@
     1544552106,
     1544728400,
     1544749600,
+    1544923864,
     1545088229,
     1545315890,
     1545372338,
@@ -94357,6 +95273,7 @@
     1551114773,
     1551178669,
     1551207253,
+    1551273147,
     1551277937,
     1551292695,
     1551344923,
@@ -94439,6 +95356,7 @@
     1557392270,
     1557502285,
     1557505849,
+    1557519406,
     1557536849,
     1557637265,
     1557659285,
@@ -94807,6 +95725,7 @@
     1588959473,
     1589210147,
     1589391989,
+    1589398175,
     1589410147,
     1589643727,
     1589762792,
@@ -95333,12 +96252,14 @@
     1640653011,
     1640981560,
     1641084839,
+    1641087243,
     1641107226,
     1641251535,
     1641375694,
     1641444242,
     1641467397,
     1641486558,
+    1641507691,
     1641723725,
     1641732564,
     1641784744,
@@ -95442,11 +96363,13 @@
     1663985579,
     1664009687,
     1664254516,
+    1664414521,
     1664415775,
     1664728844,
     1664999484,
     1665024375,
     1665337957,
+    1665353709,
     1665467809,
     1665530069,
     1665571846,
@@ -95483,6 +96406,7 @@
     1668858423,
     1669007652,
     1669188337,
+    1669295958,
     1669557131,
     1670020772,
     1670191633,
@@ -95607,6 +96531,7 @@
     6444156934,
     6444160154,
     6444165120,
+    6444222753,
     6444231671,
     6444249757,
     6444250747,
@@ -95706,6 +96631,7 @@
     6446378930,
     6446385667,
     6446389130,
+    6446413518,
     6446418989,
     6446419380,
     6446419487,
@@ -95812,6 +96738,7 @@
     6448686968,
     6448686989,
     6448687840,
+    6448706186,
     6448708539,
     6448711505,
     6448732070,
@@ -95861,6 +96788,7 @@
     6449542999,
     6449554013,
     6449580241,
+    6449663401,
     6449694319,
     6449701848,
     6449706677,
@@ -96100,6 +97028,7 @@
     6468368811,
     6468587230,
     6468635110,
+    6468663356,
     6468666357,
     6468762763,
     6468807438,
@@ -96297,6 +97226,7 @@
     6475374340,
     6475375084,
     6475566085,
+    6475584820,
     6475600785,
     6475624191,
     6475631159,
@@ -96627,6 +97557,7 @@
     6502994389,
     6502996298,
     6503046688,
+    6503069386,
     6503070246,
     6503088710,
     6503126375,
@@ -96843,6 +97774,7 @@
     6639613950,
     6639622324,
     6642666623,
+    6642673670,
     6642685293,
     6642695702,
     6642698438,
@@ -96854,6 +97786,7 @@
     6648777219,
     6648798962,
     6651824465,
+    6651837338,
     6651860228,
     6657978131,
     6657982308,
@@ -96970,6 +97903,7 @@
     6723891457,
     6726999147,
     6729877429,
+    6730126160,
     6733216453,
     6733244789,
     6736357076,
@@ -97222,9 +98156,11 @@
     6740043080,
     6740059632,
     6740073883,
+    6740076035,
     6740120163,
     6740144126,
     6740144978,
+    6740148404,
     6740168334,
     6740183019,
     6740187114,
@@ -97422,6 +98358,7 @@
     6742988247,
     6743003730,
     6743049647,
+    6743049932,
     6743055907,
     6743057595,
     6743064135,
@@ -97478,6 +98415,7 @@
     6743736599,
     6743738094,
     6743790404,
+    6743818364,
     6743828427,
     6743933151,
     6743944297,
@@ -97503,6 +98441,7 @@
     6744248929,
     6744257048,
     6744260399,
+    6744261208,
     6744267787,
     6744274650,
     6744296019,
@@ -97686,6 +98625,7 @@
     6746705608,
     6746718084,
     6746743297,
+    6746744205,
     6746746394,
     6746749685,
     6746753182,
@@ -97740,6 +98680,7 @@
     6747286409,
     6747291126,
     6747303824,
+    6747306511,
     6747313834,
     6747315826,
     6747320104,
@@ -97829,6 +98770,7 @@
     6748413134,
     6748417469,
     6748430773,
+    6748431043,
     6748432502,
     6748454264,
     6748455155,
@@ -97911,6 +98853,7 @@
     6749408774,
     6749427319,
     6749439526,
+    6749440996,
     6749447802,
     6749456796,
     6749465587,
@@ -98075,6 +99018,7 @@
     6752596179,
     6752606721,
     6752607219,
+    6752612612,
     6752642477,
     6752642525,
     6752644665,
@@ -98133,6 +99077,7 @@
     6753187058,
     6753209468,
     6753215884,
+    6753228400,
     6753275211,
     6753282229,
     6753288334,
@@ -98366,6 +99311,7 @@
     6755603815,
     6755604715,
     6755608044,
+    6755610295,
     6755610365,
     6755610665,
     6755612663,
@@ -98418,6 +99364,7 @@
     6755889602,
     6755896515,
     6755898408,
+    6755899033,
     6755903918,
     6755918173,
     6755918663,
@@ -98496,6 +99443,7 @@
     6756594504,
     6756600241,
     6756612719,
+    6756621882,
     6756649642,
     6756664092,
     6756678460,
@@ -98569,6 +99517,7 @@
     6757322770,
     6757337303,
     6757341680,
+    6757347283,
     6757347332,
     6757348457,
     6757350661,
@@ -98821,6 +99770,7 @@
     6758897956,
     6758898098,
     6758898739,
+    6758900744,
     6758903716,
     6758908729,
     6758910859,
@@ -99004,6 +99954,7 @@
     6759895194,
     6759910078,
     6759910369,
+    6759912253,
     6759913726,
     6759914444,
     6759914925,
@@ -99134,6 +100085,7 @@
     6760585303,
     6760598347,
     6760599311,
+    6760599849,
     6760600326,
     6760601266,
     6760606355,
@@ -99265,6 +100217,7 @@
     6761266086,
     6761281378,
     6761292407,
+    6761294504,
     6761297861,
     6761298326,
     6761298981,
@@ -99272,6 +100225,7 @@
     6761312374,
     6761312504,
     6761313067,
+    6761313485,
     6761313552,
     6761313745,
     6761313843,
@@ -99313,6 +100267,7 @@
     6761452111,
     6761452136,
     6761454875,
+    6761457348,
     6761459822,
     6761459934,
     6761461013,
@@ -99421,6 +100376,7 @@
     6761951633,
     6761958634,
     6761978211,
+    6761980826,
     6761987453,
     6762001564,
     6762007774,
@@ -99467,6 +100423,7 @@
     6762239563,
     6762267809,
     6762268182,
+    6762268475,
     6762269571,
     6762279908,
     6762286865,
@@ -99575,6 +100532,7 @@
     6764310415,
     6764323342,
     6764386977,
+    6764387532,
     6764421795,
     6764441298,
     6764443552,
@@ -99748,6 +100706,7 @@
     6769960352,
     6769965242,
     6769982115,
+    6770032064,
     6770108678,
     6770114399,
     6770120931,
@@ -100105,6 +101064,7 @@
     6782393263,
     6782400032,
     6782400214,
+    6782431175,
     6782572775,
     6782621796,
     6782711740,
@@ -100274,6 +101234,7 @@
     6788287421,
     6788326625,
     6788486381,
+    6788498566,
     6788498855,
     6788547017,
     6788636545,
@@ -100286,6 +101247,7 @@
     6788989728,
     6789029918,
     6789042151,
+    6789108767,
     6789207798,
     6789210521,
     6789223079,
@@ -100430,6 +101392,7 @@
     6792641913,
     6792662053,
     6792674145,
+    6792712229,
     6792722747,
     6792724098,
     6792724152,
@@ -100437,6 +101400,7 @@
     6792947497,
     6792962039,
     6792962437,
+    6792978953,
     6793051132,
     6793093584,
     6793144772,
@@ -100456,6 +101420,7 @@
     6793744610,
     6793755215,
     6793815773,
+    6793832418,
     6793835015,
     6793855391,
     6793884070,
@@ -100506,6 +101471,7 @@
     6795122424,
     6795152195,
     6795168555,
+    6795192611,
     6795206724,
     6795219793,
     6795233186,
@@ -100650,6 +101616,7 @@
     6799301571,
     6799457926,
     6799502570,
+    6799510516,
     6799528091,
     6799559803,
     6799562833,
@@ -100697,6 +101664,7 @@
     6801110029,
     6801113954,
     6801126233,
+    6801185181,
     6801186607,
     6801191530,
     6801197851,
@@ -100876,6 +101844,7 @@
     6807256091,
     6807289757,
     6807298469,
+    6807318809,
     6807343245,
     6807350819,
     6807364158,
@@ -101133,6 +102102,7 @@
     6814694993,
     6814697708,
     6814701938,
+    6814704310,
     6814717616,
     6814736751,
     6814755871,
@@ -101212,6 +102182,7 @@
     6816441326,
     6816449386,
     6816451485,
+    6816483526,
     6816492416,
     6816496636,
     6816515839,
@@ -101225,6 +102196,7 @@
     6816640120,
     6816653850,
     6816657062,
+    6816659761,
     6816667970,
     6816715180,
     6816738075,
@@ -101267,6 +102239,7 @@
     6817645486,
     6817697398,
     6817718988,
+    6817731303,
     6817755463,
     6817762969,
     6817799302,
@@ -101405,10 +102378,13 @@
     6819884220,
     6819894591,
     6819901752,
+    6819908804,
     6819962652,
     6819981217,
+    6819985045,
     6820031774,
     6820049432,
+    6820057687,
     6820089873,
     6820090129,
     6820099649,
@@ -101447,6 +102423,7 @@
     6820818828,
     6820902426,
     6820910960,
+    6820929686,
     6820955409,
     6820956758,
     6820983895,
@@ -101456,6 +102433,7 @@
     6821073675,
     6821074922,
     6821094612,
+    6821104726,
     6821114339,
     6821124504,
     6821128741,
@@ -101784,6 +102762,7 @@
     6826726397,
     6826752987,
     6826764322,
+    6826781085,
     6826792181,
     6826792294,
     6826823323,
@@ -101929,6 +102908,7 @@
     6829431892,
     6829438656,
     6829470634,
+    6829475199,
     6829510445,
     6829520007,
     6829540405,
@@ -101946,8 +102926,11 @@
     6829855382,
     6829938688,
     6829948725,
+    6829953773,
+    6829956655,
     6829957036,
     6829970428,
+    6829981920,
     6829988331,
     6829999293,
     6829999730,
@@ -101959,6 +102942,7 @@
     6830096950,
     6830108164,
     6830227807,
+    6830231836,
     6830337675,
     6830338711,
     6830387789,
@@ -102024,6 +103008,7 @@
     6832060832,
     6832068106,
     6832087760,
+    6832097210,
     6832120173,
     6832152498,
     6832188081,
@@ -102032,6 +103017,7 @@
     6832293056,
     6832293325,
     6832297064,
+    6832322142,
     6832325210,
     6832336159,
     6832337610,
@@ -102052,6 +103038,7 @@
     6832783226,
     6832800836,
     6832812061,
+    6832818349,
     6832854191,
     6833008073,
     6833011805,
@@ -102072,14 +103059,18 @@
     6833639026,
     6833652881,
     6833669070,
+    6833681849,
     6833699309,
     6833702871,
     6833727431,
+    6833842267,
     6833870891,
     6833944421,
     6834041118,
+    6834148108,
     6834148792,
     6834173353,
+    6834213121,
     6834282910,
     6834287872,
     6834289440,
@@ -102109,10 +103100,12 @@
     6835073799,
     6835092063,
     6835128504,
+    6835216514,
     6835274063,
     6835344523,
     6835454743,
     6835467268,
+    6835539908,
     6835619709,
     6835644734,
     6835688564,
@@ -102125,16 +103118,18 @@
     6836876619,
     6836892969,
     6836975756,
-    6837368721
+    6837076125,
+    6837368721,
+    6837526418
   ],
-  "lookupCursorUS": 12214,
-  "pageCursorUS": 1890,
+  "lookupCursorUS": 12814,
+  "pageCursorUS": 1920,
   "coverageUS": {
-    "time": "2026-11-22T00:34:46+00:00",
-    "poolSize": 16382,
+    "time": "2026-11-22T08:18:02+00:00",
+    "poolSize": 16504,
     "lookupScheduled": 600,
     "lookupAttempted": 600,
-    "lookupReturned": 595,
+    "lookupReturned": 590,
     "lookupRequestsSucceeded": 20,
     "categoryFeedsAttempted": 28,
     "categoryFeedsSucceeded": 28,
@@ -102143,13 +103138,13 @@
     "sourceRequestsAttempted": 34,
     "sourceRequestsFailed": 0,
     "pagesAttempted": 30,
-    "pagesParsed": 29,
-    "pagesFailed": 1,
+    "pagesParsed": 30,
+    "pagesFailed": 0,
     "timeBudgetReached": false,
     "status": "partial"
   },
   "lastScanOutcomes": {
-    "time": "2026-11-22T00:38:22+00:00",
+    "time": "2026-11-22T08:21:23+00:00",
     "storefronts": {
       "cn": "completed",
       "us": "partial"

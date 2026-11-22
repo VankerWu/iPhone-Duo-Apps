@@ -1,153 +1,151 @@
 # 本轮抓取报告
-2026-11-22T00:38:22+00:00
+2026-11-22T08:21:23+00:00
 
 新增收录、版本更新和适配线索分开统计；不代表本站实测。
 
 ## 国区扫描范围
-候选池 11595 个 ID；本轮计划检查 605 个；分类榜单成功 28/28。
+候选池 11646 个 ID；本轮计划检查 605 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
 
 ## 美区扫描范围
-候选池 16382 个 ID；本轮计划检查 600 个；分类榜单成功 28/28。
+候选池 16504 个 ID；本轮计划检查 600 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
-Lookup 返回 595/600 个条目；网页解析 29/30。
+Lookup 返回 590/600 个条目；网页解析 30/30。
 各地区的版本说明独立保存；美区声明不代表国区已适配。
 本轮部分计划目标未返回资料或来源未完成；保留候选继续轮询，不据此推断已下架或已适配。
 
-## 新增 App（7）
-- 身份验证器-智能身份验证动态安全口令,身份验证认证密码器令牌〔国区〕｜1.1.9
-- 记办猫〔国区〕｜1.6.6
-- OCMedic〔美区〕｜2.5.0
-- Is This Yours?〔美区〕｜1.3
-- Vox libri〔美区〕｜1.22
-- Shots: Photo & Video Generator〔美区〕｜1.7.2
-- Eco Power Towns〔美区〕｜1.2
+## 新增 App（10）
+- 计算器Plus - 科学语音记录云同步计算器〔国区〕｜2.0.0
+- 戏曲锣鼓 - 电子锣鼓打击垫｜虚拟乐器｜演奏模拟器｜戏曲伴奏〔国区〕｜2.4
+- Console Remote〔国区〕｜28.0.11
+- compassing〔美区〕｜1.2.0
+- GenR8〔美区〕｜1.7.1
+- Gist - Life Well Lived〔美区〕｜3.8.0
+- Infuse: Enterprise〔美区〕｜8.5.10
+- AI Movie Maker - Filmit〔美区〕｜1.3.8
+- Railway〔美区〕｜1.5.0
+- 15 Minutes: Time Tracker〔美区〕｜3.0
 
-## 已有 App 版本更新（21）
-- Xmind〔国区〕｜27.01.05103 → 27.01.05104
-- Code - Compile & Run Program〔国区〕｜3.11 → 3.12
-- Device Lab〔国区〕｜1.9.0 → 1.9.1
-- 随手网页-移动端 HTML 查看器〔国区〕｜1.16.0 → 1.16.1
-- 咖啡人 · 每日咖啡记录〔国区〕｜1.4.1 → 1.4.2
-- 行测训练场〔国区〕｜1.7 → 1.8
-- 全民找茬 - 正版唯美画风〔国区〕｜2.1.3 → 2.1.4
-- Sleeve - 专辑播放器〔国区〕｜2.3.1 → 2.3.2
-- SegModelPro〔国区〕｜2.9 → 3.0
-- Picsew - 滚动截图 & 长图拼接〔国区〕｜3.20 → 3.20.1
-- DealSeek: Coupons & Discounts〔美区〕｜1.64.0 → 1.65.0
-- Supanator: Supabase Manager〔美区〕｜4.2.10 → 4.2.11
-- Halcyon Forecast〔国区〕｜1.7.6 → 1.7.7
-- Voicepaper 文字转语音 AI 学习简易语音阅读器〔国区〕｜3.9.51 → 3.9.52
-- 250+ Solitaires Pro〔美区〕｜3.3.0 → 3.3.1
-- KQ Dixie 26〔国区〕｜4.2.2 → 4.2.3
-- Pythona - Python 3 IDE〔国区〕｜2.8.0 → 2.9.0
-- 折叠屏壁纸 - Foldable Wallpaper〔国区〕｜1.0.6 → 1.0.7
-- In Season: Seasonal Produce〔美区〕｜1.5 → 1.6
-- ReelMe: AI Photo & Video〔美区〕｜4.10.1 → 4.11.0
-- 健身记录、锻炼计划与重量追踪：Repio〔国区〕｜1.2 → 1.3
+## 已有 App 版本更新（14）
+- Gigs: Concert Tracker〔美区〕｜2.1.5 → 2.2
+- 欧路词典〔国区〕｜26.11.1 → 26.11.2
+- 欧路词典 Eudic 增强版〔国区〕｜26.11.1 → 26.11.2
+- 变声器键盘-游戏开黑&语聊评论私信一键变音〔国区〕｜2.4.1 → 2.4.2
+- 巴士到站时间-就是这里〔国区〕｜2026.53 → 2026.54
+- iLehra〔国区〕｜10.1.4 → 10.1.5
+- Cold Call X: Sales Dialer〔美区〕｜2.1 → 2.2
+- World News 206・Translation〔美区〕｜1.7.3 → 1.8.0
+- AntiqSnap: Antique Identifier〔美区〕｜2.11.0 → 2.12.1
+- frenzy - friends only〔美区〕｜1.105.0 → 1.107.1
+- Dartwords〔美区〕｜1.1.0 → 1.1.1
+- 爱传送-极简易用〔国区〕｜6.0.3 → 6.0.6
+- 追剧日历 - 影视达人神器、追踪剧集与电影更新、追剧助手〔国区〕｜2.7.0 → 2.7.1
+- FloatWatch - 灵动岛 · 悬浮窗盯盘〔国区〕｜4.0.3 → 4.0.4
 
 ## 新增或变化的适配线索（19）
-- 香芋壁纸-高清壁纸与8K超清手机平板壁纸〔国区〕｜2.1.7
-  证据版本：2.1.7；本次更新： • 适配 iPhone Duo • 首页横滑栏末尾新增「查看更多」入口 • 优化「换一批」体验，随机栏回到开头并平滑回卷 感谢你的支持，我们会持续打磨每一个细节～
-  https://apps.apple.com/cn/app/%E9%A6%99%E8%8A%8B%E5%A3%81%E7%BA%B8-%E9%AB%98%E6%B8%85%E5%A3%81%E7%BA%B8%E4%B8%8E8k%E8%B6%85%E6%B8%85%E6%89%8B%E6%9C%BA%E5%B9%B3%E6%9D%BF%E5%A3%81%E7%BA%B8/id6449542999?uo=4
-- 飓风相机 - 实时电影感拍摄〔美区〕｜2.0.7
-  证据版本：2.0.7；This update brings the following improvements: - Improved capture processing in Photo mode. Recent updates: - iPhone Duo support, with multiple orientations and dual-screen previews. - iPad support, so you can capture everyday moments on a larger screen. - Two new Standard LUTs: Macau and Cairo, plus three new Log LUTs: Yunmeng, Ili, and Chiang Mai. - UI refinements and adjustments. - Ad…
-  https://apps.apple.com/us/app/stormcam-cinematic-log-video/id6749835845?uo=4
-- Meets Link〔国区〕｜2.5
-  证据版本：2.0；• 重新设计界面，优化浏览和搜索体验。 • 新增壁纸编辑器，支持相册选图、拍照和实时预览。 • 新增 iCloud 手动备份、自动备份与恢复。 • 收藏列表增加物品图片，新增回收站。 • 适配 iPhone Duo 展开与合上后的布局。
-  https://apps.apple.com/cn/app/id1590563221
-- OtterLife: AI运动健康&HRV压力提醒&习惯养成〔国区〕｜2.0.23
-  证据版本：2.0.23；本次更新： - 优化 iPhone Duo 使用体验 - 修复已知问题，提升稳定性 近期重要更新： - 全新周期功能现已上线。卵泡期、排卵期、黄体期、经期，每个阶段一目了然。全新支持记录每日出血情况与感受，支持围绝经期与绝经期追踪。还有经期异常通知，帮你更了解自己的身体。 - 官方训练计划功能上线！训练没有唯一答案。按场景、难度、时长、目标、器械与部位，找到符合当下状态的官方计划。少一点盲目选择，多一点从容开始。 - 热量锁功能优化：减脂期总是管不住嘴？开启热量锁，帮你锁住外卖软件。支持热量超标自动开启，轻断食期间自动开启，和自定义时段开启
-  https://apps.apple.com/cn/app/otterlife-ai%E8%BF%90%E5%8A%A8%E5%81%A5%E5%BA%B7-hrv%E5%8E%8B%E5%8A%9B%E6%8F%90%E9%86%92-%E4%B9%A0%E6%83%AF%E5%85%BB%E6%88%90/id6475028592?uo=4
-- Infinite Flight Simulator〔美区〕｜26.5.2
-  证据版本：26.5.2；…g flaperons on all 777 variants and unpowered aileron droop on A330 and A350 variants • Hardware keyboard and iPhone Duo screen support on iOS FIXED • Live flights resetting after an engine restart before a landing was saved • Crashes caused by duplicate procedure waypoints in restored flight plans • SimBrief plans for another aircraft type setting the wrong fuel quantity • AP+ fuel use …
-  https://apps.apple.com/us/app/id471341991
-- DealSeek: Coupons & Discounts〔美区〕｜1.65.0
-  证据版本：1.65.0；…n, Australia, Saudi Arabia, and Singapore! DealSeek is coming to more markets, starting now! - Now supporting iPhone Duo, so you can enjoy DealSeek in every device. - Performance improvements to make browsing faster and interactions smoother. - Bug fixes throughout the app for a more reliable deal-hunting experience. - And a few surprises for selected users!?!?
-  https://apps.apple.com/us/app/dealseek-coupons-discounts/id6745274862?uo=4
-- 250+ Solitaires Pro〔美区〕｜3.3.1
-  证据版本：3.3.1；Added support for iPhone Duo
-  https://apps.apple.com/us/app/id471731455
-- Mooncast〔美区〕｜8.1.0
-  证据版本：8.1.0；In the settings, ringtones are played after being selected. Official support for iPhone Duo was added.
-  https://apps.apple.com/us/app/id473165402
-- Gamuroid：全能游戏模拟器〔美区〕｜3.8.0
-  证据版本：3.8.0；…r crashes at startup, safer Action Replay codes • Bigger screens: two-pane layout on iPad, fold-aware play on iPhone Duo, landscape screens and larger on-screen buttons • Bamboo Bee: our free demo game, ready at first launch, with a quick guide to importing your own games • Changes: PS2 now needs your own BIOS. 32X games and 3DS .cia files are no longer supported. Cheat codes are no long…
-  https://apps.apple.com/us/app/gamuroid-all-game-emulator/id6749228186?uo=4
-- Macro Lens〔国区〕｜1.12
-  证据版本：1.12；• Add iPhone Duo support • Fixed a video recording crash
-  https://apps.apple.com/cn/app/macro-lens/id6450160206?uo=4
-- Weather Island〔国区〕｜2.4.0
-  证据版本：2.4.1；Now supporting iPhone Duo! • Unfolded, the weather splits into two columns so you can see it all at once. • Works unfolded in landscape, unfolded in portrait, and folded. Bug fix • Fixed an issue where the morning notification sometimes showed yesterday's high/low temperature instead of today's…
-  https://apps.apple.com/cn/app/weather-island/id6474068474?uo=4
-- IPTV Smart Pro - Live TV〔国区〕｜1.0.36
-  证据版本：1.0.36；…体验。 - 新增 AI 驱动的实时字幕与实时翻译功能。 - 引入 AI 体育模式，提供智能赛事实时解析。 - 支持接入自定义 AI 与体育 API 服务，以实现更多高级功能。 - 新增竖屏界面，提升观看体验。 - 针对 iPhone Duo 进行了全面优化。 - 为所有支持语言的直播流新增免费的 AI 实时翻译功能。
-  https://apps.apple.com/cn/app/%E7%9B%B4%E6%92%AD-iptv-smart-pro/id6478398981?uo=4
-- 身份验证器-智能身份验证动态安全口令,身份验证认证密码器令牌〔国区〕｜1.1.9
-  证据版本：1.1.9；- 适配iPhone Duo
-  https://apps.apple.com/cn/app/%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E5%99%A8-%E6%99%BA%E8%83%BD%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E5%8A%A8%E6%80%81%E5%AE%89%E5%85%A8%E5%8F%A3%E4%BB%A4-%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E8%AE%A4%E8%AF%81%E5%AF%86%E7%A0%81%E5%99%A8%E4%BB%A4%E7%89%8C/id6470821519?uo=4
-- 记办猫〔国区〕｜1.6.6
-  证据版本：1.6.2；· 新增左右滑动操作和任务置顶，整理任务更顺手 · 猫咪会打招呼、陪你聊天，还藏着小彩蛋 · 小组件点一下立刻完成，灵动岛换上新的猫咪造型 · 优化 iPad 显示并适配 iPhone Duo，修复多项问题，使用更流畅
-  https://apps.apple.com/cn/app/id1590485332
-- OCMedic〔美区〕｜2.5.0
-  证据版本：2.5.0；… on door code access requests. Choose OCEMS or select Other to enter your employer. • Updated layouts support iPhone Duo in both folded and unfolded views. • Choose how to share usage in Settings. Approved users can keep activity anonymous or share guide and hospital directions counts with their OCMedic profile.
-  https://apps.apple.com/us/app/ocmedic/id6743985316?uo=4
-- Is This Yours?〔美区〕｜1.3
-  证据版本：1.3；…w Game Center achievements, and the Reputation leaderboard now ranks your best Overtime shift • Optimized for iPhone Duo • Rebuilt from the ground up for smoother play
-  https://apps.apple.com/us/app/is-this-yours/id6744267787?uo=4
-- Vox libri〔美区〕｜1.22
-  证据版本：1.22；…s reading in manual reading mode now turns the page on its own and announces the page you are on. Support for iPhone Duo: the reading screen adapts to the size of the screen, with the phone folded and unfolded. The send feedback button no longer slows down the settings screen.
-  https://apps.apple.com/us/app/vox-libri/id6745276008?uo=4
-- Shots: Photo & Video Generator〔美区〕｜1.7.2
-  证据版本：1.7.2；• iPhone Duo is now supported. • You can now use the app in Hindi, Urdu, and Arabic. • Delete your recent photos, clear the cache, and remove your account profile. • We added new videos based on your suggestions. • Improvements for a more stable, faster experience.
-  https://apps.apple.com/us/app/shots-photo-video-generator/id6745820631?uo=4
-- Eco Power Towns〔美区〕｜1.2
-  证据版本：1.2；Sun on the Water update! -support for iPhone Duo -plenty new puzzles to discover, including new weather levels -undo your last move -floating solar research: available at the town hall - build solar on swamps for +1 energy and -50% cost -accessibility feature: reduced motion option -new achievements -rebuilt on a new…
-  https://apps.apple.com/us/app/eco-power-towns/id6748683190?uo=4
+- 星空 - 让您不再迷失〔美区〕｜27.3
+  证据版本：27.1；Version 27.1 brings the following features and enhancements: + Full iPhone Duo support and optimization. + New Aura Tonight Tour layout designed specifically for iPhone Duo in the seated position. + Additional bug fixes. Enjoying Night Sky? We’d love your review on the App Store. For any help or support, contact our team at Support@NightSky.com. …
+  https://apps.apple.com/us/app/id475772902
+- V2er-只为V2EX〔国区〕｜1.3.12
+  证据版本：1.3.9；适配 iPhone Duo。
+  https://apps.apple.com/cn/app/id1596137027
+- WPS协作〔国区〕｜5.57.0
+  证据版本：5.56.2；• 适配 iPhone DUO 屏幕，提升使用稳定性
+  https://apps.apple.com/cn/app/id1596842861
+- Blink Shell, Build & Code〔国区〕｜18.7.3
+  证据版本：18.7.2；…d. We have made some changes to the Paywall flow. If you run into any issues, please let us know. Support for iPhone Duo (2303) - Choose between Fill (default), Cover and Fit. Blink always tries to maximize space, even adjusting for asymmetric setups. - Software keyboard adjustments. SmartKeys mimic the system layout for all the Duo positions. Hterm rendering improvements - special thank…
+  https://apps.apple.com/cn/app/id1594898306
+- Handy - Live Widget Wallpaper〔国区〕｜2.4.2
+  证据版本：2.4.2；修复了一些已知的bug Add support for iPhone Duo
+  https://apps.apple.com/cn/app/id1595736086
+- FansDash：篮球小组件与赛事数据〔美区〕｜1.4.1
+  证据版本：1.4.1；- Added support for iPhone Duo
+  https://apps.apple.com/us/app/fansdash-basketball-widgets/id6753683509?uo=4
+- Med Atlas〔美区〕｜1.1.2
+  证据版本：1.1.2；Now supports iPhone Duo. Fixes annotation updates for downloaded atlases and improves subscription status accuracy.
+  https://apps.apple.com/us/app/med-atlas/id6754871072?uo=4
+- FloraQuest: Florida〔国区〕｜3.42
+  证据版本：3.42；Added support for iPhone Duo. Updated screenshots.
+  https://apps.apple.com/cn/app/floraquest-florida/id6569263220?uo=4
+- HAMRS Pro〔国区〕｜2.53.0
+  证据版本：2.53.0；…cky form fields **POTA/SOTA** - **FIX**: Show last loaded Spots when offline **OTHER** - **NEW**: Support for iPhone Duo - **FIX**: Show a single offline notice instead of repeated invalid-key sync errors
+  https://apps.apple.com/cn/app/hamrs-pro/id6737914760?uo=4
+- 计算器Plus - 科学语音记录云同步计算器〔国区〕｜2.0.0
+  证据版本：2.0.0；…生 SwiftUI 重写，适配 iOS 26 新设计 · 新增科学计算器：三角函数、对数、幂运算、阶乘，支持 DEG/RAD 切换 · 新增 iCloud 记录同步：开通 VIP（¥22 一次买断）后，iPhone / iPhone Duo / iPad 记录自动同步；免费版本地记录功能完整保留 · 新增一键清空记录，二次确认防误删 · 新增按键字体大小调节，字号越小按键越紧凑，记录区更大 · 适配 iPhone Duo 折叠屏与 iPad，大屏双栏布局 · 老用户升级后历史记录与个性化设置自动迁移，不丢数据 · 修复已知问题，计算精度与稳定性提升
+  https://apps.apple.com/cn/app/%E8%AE%A1%E7%AE%97%E5%99%A8plus-%E7%A7%91%E5%AD%A6%E8%AF%AD%E9%9F%B3%E8%AE%B0%E5%BD%95%E4%BA%91%E5%90%8C%E6%AD%A5%E8%AE%A1%E7%AE%97%E5%99%A8/id6503069386?uo=4
+- 戏曲锣鼓 - 电子锣鼓打击垫｜虚拟乐器｜演奏模拟器｜戏曲伴奏〔国区〕｜2.4
+  证据版本：2.4；- 改进鼓垫连击和多指触发 - 适配 iPhone Duo
+  https://apps.apple.com/cn/app/%E6%88%8F%E6%9B%B2%E9%94%A3%E9%BC%93-%E7%94%B5%E5%AD%90%E9%94%A3%E9%BC%93%E6%89%93%E5%87%BB%E5%9E%AB-%E8%99%9A%E6%8B%9F%E4%B9%90%E5%99%A8-%E6%BC%94%E5%A5%8F%E6%A8%A1%E6%8B%9F%E5%99%A8-%E6%88%8F%E6%9B%B2%E4%BC%B4%E5%A5%8F/id6730126160?uo=4
+- Console Remote〔国区〕｜28.0.11
+  证据版本：28.0.11；新增 对 iPhone Duo 展开状态下全屏模式的支持，折叠状态将在后续版本中适配。 调整 帧生成档位，提升兼容性与稳定性。
+  https://apps.apple.com/cn/app/console-remote/id6738534883?uo=4
+- compassing〔美区〕｜1.2.0
+  证据版本：1.2.0；Added support for iPhone Duo.
+  https://apps.apple.com/us/app/compassing/id6751649537?uo=4
+- GenR8〔美区〕｜1.7.1
+  证据版本：1.7.1；- iPhone Duo support: the layout adapts as you fold and unfold, and test patterns now fill the whole screen, edge to edge. - External display HDR: choose Auto, On or Off for HDR output to an external display. - Reference signal levels: standards-based patterns now use exact ITU-R B…
+  https://apps.apple.com/us/app/genr8/id6751822886?uo=4
+- Gist - Life Well Lived〔美区〕｜3.8.0
+  证据版本：3.8.0；- Gist on iPad. Gist is now available on iPad, and layouts for iPad and iPhone Duo have been refined for split-view and larger displays, including a multi-column feed. - Edit Your Comments. You can now edit your own comment’s text within 15 minutes of posting. - Updated Profile and Home Design. The gradient header design is now unified across the Hom…
+  https://apps.apple.com/us/app/gist-life-well-lived/id6754110310?uo=4
+- Infuse: Enterprise〔美区〕｜8.5.10
+  证据版本：8.5.10；NEW - Added AirPlay support for local HEVC videos (SDR only) IMPROVED - Improved support for iPhone Duo - Improved streaming performance for large ISO files FIXED - Fixed external display output issues (iOS 27) - Fixed issues with streaming videos over AirPlay - Fixed issues with playlists only displaying 20 items - Fixed issues when browsing libraries that contain image…
+  https://apps.apple.com/us/app/infuse-enterprise/id6755395866?uo=4
+- AI Movie Maker - Filmit〔美区〕｜1.3.8
+  证据版本：1.3.8；• Now optimized for iPhone Duo • Discover more exciting video and image templates for action and cinematic scenes • Enjoy a smoother creative experience
+  https://apps.apple.com/us/app/ai-movie-maker-filmit/id6755591057?uo=4
+- Railway〔美区〕｜1.5.0
+  证据版本：1.5.0；…apped and show the project name - Native two-factor sign-in with Sign in with Apple - Full-screen support for iPhone Duo when unfolded - QR code login removed - Android fixes for touches, agent pages and the media gallery - Performance and stability improvements
+  https://apps.apple.com/us/app/railway/id6755712493?uo=4
+- 15 Minutes: Time Tracker〔美区〕｜3.0
+  证据版本：3.0；Welcome to the new 15 Minutes! This version brings lots of fixes and improvements, and full support for iPhone Duo.
+  https://apps.apple.com/us/app/15-minutes-time-tracker/id6755746138?uo=4
 
 ## 地区商店资料变化（不等于新增 App 或已适配）
-- Xmind〔国区〕：27.01.05103 → 27.01.05104
-- Code - Compile & Run Program〔国区〕：3.11 → 3.12
-- 钓鱼预录相机〔美区〕：1.3.0 → 1.3.1
-- Device Lab〔国区〕：1.9.0 → 1.9.1
-- 随手网页-移动端 HTML 查看器〔国区〕：1.16.0 → 1.16.1
-- 飓风相机 - 实时电影感拍摄〔美区〕：2.0.6 → 2.0.7
-- 咖啡人 · 每日咖啡记录〔国区〕：1.4.1 → 1.4.2
-- 行测训练场〔国区〕：1.7 → 1.8
-- 全民找茬 - 正版唯美画风〔国区〕：2.1.3 → 2.1.4
-- 阅读阅多 - 看小说电子书TXT书源阅读器〔美区〕：1.4.5 → 1.4.6
-- BabyGotcha〔美区〕：7.1 → 7.2
-- Sleeve - 专辑播放器〔国区〕：2.3.1 → 2.3.2
-- SegModelPro〔国区〕：2.9 → 3.0
-- Picsew - 滚动截图 & 长图拼接〔国区〕：3.20 → 3.20.1
-- DealSeek: Coupons & Discounts〔美区〕：1.64.0 → 1.65.0
-- Supanator: Supabase Manager〔美区〕：4.2.10 → 4.2.11
-- Halcyon Forecast〔国区〕：1.7.6 → 1.7.7
-- Voicepaper 文字转语音 AI 学习简易语音阅读器〔国区〕：3.9.51 → 3.9.52
-- 250+ Solitaires Pro〔美区〕：3.3.0 → 3.3.1
-- KQ Dixie 26〔国区〕：4.2.2 → 4.2.3
-- Pythona - Python 3 IDE〔国区〕：2.8.0 → 2.9.0
-- 折叠屏壁纸 - Foldable Wallpaper〔国区〕：1.0.6 → 1.0.7
-- In Season: Seasonal Produce〔美区〕：1.5 → 1.6
-- ReelMe: AI Photo & Video〔美区〕：4.10.1 → 4.11.0
-- eBay online shopping & selling〔国区〕：6.282.0 → 6.283.0
-- Gamuroid：全能游戏模拟器〔美区〕：首次获取该地区资料
-- 健身记录、锻炼计划与重量追踪：Repio〔国区〕：1.2 → 1.3
-- Weather Island〔国区〕：2.4.0 → 2.4.1
-- HAMRS Pro〔国区〕：首次获取该地区资料
+- 星空 - 让您不再迷失〔美区〕：27.2 → 27.3
+- 系统电池分析-手机配置查询·电池健康分析〔美区〕：2.5.2 → 2.6.0
+- Gigs: Concert Tracker〔美区〕：2.1.5 → 2.2
+- 欧路词典〔国区〕：26.11.1 → 26.11.2
+- 欧路词典 Eudic 增强版〔国区〕：26.11.1 → 26.11.2
+- 变声器键盘-游戏开黑&语聊评论私信一键变音〔国区〕：2.4.1 → 2.4.2
+- 巴士到站时间-就是这里〔国区〕：2026.53 → 2026.54
+- iLehra〔国区〕：10.1.4 → 10.1.5
+- WidgetClub:Widget, Theme, Icon〔国区〕：4.17.42 → 4.17.43
+- CalJimi-热量计算卡路里饮食记录体重管理拍照识别打卡〔美区〕：3.0.9 → 3.1.1
+- Cold Call X: Sales Dialer〔美区〕：2.1 → 2.2
+- World News 206・Translation〔美区〕：1.7.3 → 1.8.0
+- AntiqSnap: Antique Identifier〔美区〕：2.11.0 → 2.12.1
+- frenzy - friends only〔美区〕：1.105.0 → 1.107.1
+- KQ Dixie 26〔美区〕：4.2.1 → 4.2.3
+- Hello Aurora: Northern Lights〔国区〕：4.6.0 → 4.7.0
+- TOTP Authenticator〔国区〕：2.8.7 → 2.8.8
+- mood.camera〔国区〕：2.5.1 → 2.5.2
+- Dartwords〔美区〕：1.1.0 → 1.1.1
+- 爱传送-极简易用〔国区〕：6.0.3 → 6.0.6
+- 追剧日历 - 影视达人神器、追踪剧集与电影更新、追剧助手〔国区〕：2.7.0 → 2.7.1
+- FansDash：篮球小组件与赛事数据〔美区〕：首次获取该地区资料
+- Med Atlas〔美区〕：首次获取该地区资料
+- FloatWatch - 灵动岛 · 悬浮窗盯盘〔国区〕：4.0.3 → 4.0.4
+- HTML Editor〔国区〕：27.0.0 → 27.0.1
+- OCMedic〔国区〕：首次获取该地区资料
+- Vox libri〔国区〕：首次获取该地区资料
 
-## 新增软件（5）
-- 身份验证器-智能身份验证动态安全口令,身份验证认证密码器令牌｜参考资料
-- 记办猫｜生活
-- OCMedic｜医疗
-- Vox libri｜图书
-- Shots: Photo & Video Generator｜摄影与录像
+## 新增软件（10）
+- 计算器Plus - 科学语音记录云同步计算器｜工具
+- 戏曲锣鼓 - 电子锣鼓打击垫｜虚拟乐器｜演奏模拟器｜戏曲伴奏｜音乐
+- Console Remote｜娱乐
+- compassing｜导航
+- GenR8｜摄影与录像
+- Gist - Life Well Lived｜生活
+- Infuse: Enterprise｜娱乐
+- AI Movie Maker - Filmit｜图形与设计
+- Railway｜软件开发工具
+- 15 Minutes: Time Tracker｜效率
 
-## 新增游戏（2）
-- Is This Yours?｜游戏
-- Eco Power Towns｜游戏
+## 新增游戏（0）
+无。
 
 ## 新增类型待同步（0）
 无。
