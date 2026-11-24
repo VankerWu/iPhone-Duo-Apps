@@ -1,200 +1,181 @@
 # 本轮抓取报告
-2026-11-24T02:31:36+00:00
+2026-11-24T12:55:14+00:00
 
 新增收录、版本更新和适配线索分开统计；不代表本站实测。
 
 ## 国区扫描范围
-候选池 11823 个 ID；本轮计划检查 605 个；分类榜单成功 28/28。
+候选池 11878 个 ID；本轮计划检查 605 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
 
 ## 美区扫描范围
-候选池 16912 个 ID；本轮计划检查 600 个；分类榜单成功 28/28。
+候选池 17041 个 ID；本轮计划检查 600 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
-Lookup 返回 588/600 个条目；网页解析 30/30。
+Lookup 返回 595/600 个条目；网页解析 29/30。
 各地区的版本说明独立保存；美区声明不代表国区已适配。
 本轮部分计划目标未返回资料或来源未完成；保留候选继续轮询，不据此推断已下架或已适配。
 
-## 新增 App（12）
-- VideoTrans: 视频格式转换与压缩〔国区〕｜1.2.2
-- 热榜剧场〔国区〕｜1.0.3
-- Feelca Pop〔国区〕｜1.0.12
-- ZenFocus: Attention Trainer〔国区〕｜2.0.0
-- 班主任工作台〔国区〕｜3.3
-- 胶片助手-胶片相机测光〔国区〕｜1.3.2
-- JAM Legio〔美区〕｜1.5.0
-- Gravity Defied - Trial Racing〔美区〕｜1.0.2
-- AllStar Node Control〔美区〕｜1.3
-- PolyQuad〔美区〕｜1.1
-- 3D Quick Viewer〔美区〕｜1.1.0
-- Dry Log〔美区〕｜1.5
+## 新增 App（8）
+- 100个俯卧撑：PushApe〔国区〕｜1.2
+- 全民小剧场〔国区〕｜1.0.1
+- 叠叠江南〔国区〕｜1.1
+- Lume - Everyday Pro Camera〔美区〕｜1.1
+- Go Narrow: Study Antibiotics〔美区〕｜1.12
+- Pagekin〔美区〕｜1.0.4
+- IMG_0000: Lost Media〔美区〕｜1.2
+- Shoal Organ〔美区〕｜1.2.3
 
-## 已有 App 版本更新（27）
-- Wego 机票搜索酒店预订 - 玩够旅行〔国区〕｜7.63.0 → 7.64.0
-- Koco Widgets - 小组件，直接跳转〔国区〕｜1.28.6 → 1.28.7
-- 小宇宙·一起听播客〔国区〕｜3.5.1 → 3.6.0
-- Infuse〔国区〕｜8.5.10 → 8.5.11
-- DAMA-图片自动马赛克&打码〔国区〕｜26.11.1 → 26.11.2
-- 排班表 & 工作日历 - Shift2Cal AI助手〔国区〕｜2.2 → 2.3
-- Tempo - Metronome 节拍器〔国区〕｜5.2 → 5.3
-- ColorfulCam〔国区〕｜1.9.43 → 1.9.44
-- InstaCal: 菜单栏日历〔国区〕｜4.2 → 4.2.1
-- 2Camera 双摄相机 DualShot Recorder〔国区〕｜1.6.0 → 1.6.1
-- GenK：微学习与多元主题〔国区〕｜2.6.6 → 2.6.7
-- Orca IDE〔国区〕｜0.0.65 → 0.0.69
-- 文件〔国区〕｜27.2 → 27.3
-- 框住了：3D截图套壳〔国区〕｜1.6.3 → 1.6.4
-- iSpreadsheet™ : 电子计算表〔国区〕｜27.1 → 27.2
-- Prodrafts - 无限笔记&草稿〔国区〕｜5.1.9 → 5.2
-- FlipYear - 3D 翻页书相册清理〔国区〕｜1.1.28 → 1.1.29
-- 云书阁-小说漫画阅读器〔国区〕｜1.5.0 → 1.5.1
-- iTablaPro〔国区〕｜12.2.0 → 12.2.1
-- Squawster - Police Scanner〔美区〕｜1.0.12 → 1.0.14
-- Headroom: 远程桌面〔国区〕｜1.5.1 → 1.5.2
-- TrayMinder〔国区〕｜15.10.3 → 15.10.4
-- 醒目视力表〔国区〕｜4.0 → 4.0.1
-- Icon Goodies〔美区〕｜1.11 → 1.14
-- Running Writings Lab〔美区〕｜1.2.0 → 1.3.0
-- LAB Cam Pro〔美区〕｜1.0.1 → 1.0.2
-- Widget Bazaar〔国区〕｜1.1 → 1.2
+## 已有 App 版本更新（15）
+- PGA Tour〔美区〕｜2026.4.3 → 2026.4.4
+- 哔哩哔哩〔国区〕｜9.20.0 → 9.21.0
+- 美团〔国区〕｜12.69.201 → 12.69.401
+- 腾讯视频〔国区〕｜9.04.85 → 9.04.90
+- 训记 - 训练计划专家〔国区〕｜7.00.421 → 7.00.423
+- 谜底时钟〔国区〕｜2.76 → 2.77
+- 精灵壁纸-折叠屏壁纸上线〔国区〕｜2.4 → 2.5
+- 彩云天气-为您预报几点几分下雨〔国区〕｜7.63.5 → 7.64.0
+- InstaCal: 菜单栏日历〔国区〕｜4.2.1 → 4.2.2
+- WPS协作〔国区〕｜5.57.0 → 5.57.1
+- 畅译 - 录音转文字·手表录音笔·会议纪要〔国区〕｜2.2.0 → 2.3.0
+- Duo Aquarium〔美区〕｜2.0 → 2.1.2
+- 时光播放机〔国区〕｜2.1.7 → 2.1.8
+- FoldWall〔美区〕｜1.0.1 → 1.0.2
+- ToDesk远程控制〔国区〕｜5.4.0 → 5.4.1
 
-## 新增或变化的适配线索（22）
-- Flipin - 3分钟做成一本zine〔美区〕｜1.2.7
+## 新增或变化的适配线索（28）
+- PGA Tour〔美区〕｜2026.4.4
+  证据版本：2026.4.1；Thanks for choosing the PGA Tour app. In this version, we've updated the following: - Support for iPhone Duo
+  https://apps.apple.com/us/app/id489689106
+- Menstrual Period Tracker〔美区〕｜6.7.1
+  证据版本：6.7.1；• Redesigned UI • Full support for iPhone Duo
+  https://apps.apple.com/us/app/id489196207
+- 空气投篮〔国区〕｜2.9.3
+  证据版本：2.9.3；- 适配 iPhone Duo
+  https://apps.apple.com/cn/app/id1625289361
+- Sunlitt: 太阳轨迹与日照地图〔国区〕｜4.11.4
+  证据版本：4.11.4；Sunlitt now supports iPhone Duo! We’ve made some changes to Sunlitt’s UI, making it naturally adapt to iPhone Duo’s folded states and poses. iPhone Duo - The vertical bar is deeply integrated into Sunlitt’s interface, using its boundaries to carry the time slider. - Widgets, Live Activities, and Stan…
+  https://apps.apple.com/cn/app/id1628751457
+- Flipin - 3分钟做成一本zine〔国区〕｜1.2.7
   证据版本：1.2.7；- 每本小书最多可以放入 200 张照片啦！ - 这次还上新了插页，可以用硫酸纸、彩纸和文件袋装点书页；也可以从空白小书开始创作。 - 编辑时新增参考线，排版更方便。 - 同时支持 iPhone Duo，优化了 iPad、照片导入、翻阅和导出体验。
-  https://apps.apple.com/us/app/flipin-3%E5%88%86%E9%92%9F%E5%81%9A%E6%88%90%E4%B8%80%E6%9C%ACzine/id6798570638?uo=4
-- iDevTools〔国区〕｜1.2
-  证据版本：1.2；Improved iPhone Duo, iPhone, and iPad layouts for folding, rotation, and keyboard changes. Color and opacity changes now apply instantly in Elements. Improved Cookie previews, scrolling, and Copy All. Fixed element selection accidentally following links or activating page controls. Improv…
-  https://apps.apple.com/cn/app/idevtools/id6782373788?uo=4
-- TesoroBoard〔国区〕｜1.2.1
-  证据版本：1.2.1；* 新增适配 iPhone Duo。 * 新增适配 iPad。 * 大尺寸设备建议搭配专用车载平板支架使用，显示效果更加直观，更具视觉冲击力
-  https://apps.apple.com/cn/app/tesoroboard/id6782340129?uo=4
-- 如实相机〔美区〕｜1.2.0
-  证据版本：1.2.0；Layouts now adapt to iPhone Duo as you open, close or rotate the device. Landscape controls and the movable comparison window make better use of the available space. This update also improves camera rotation and keeps the explanation readable in smaller windows.
-  https://apps.apple.com/us/app/flect-true-mirror/id6805923708?uo=4
-- k线跳动〔美区〕｜2.3
-  证据版本：2.3；适配 iPhone Duo
-  https://apps.apple.com/us/app/k%E7%BA%BF%E8%B7%B3%E5%8A%A8/id6811352685?uo=4
-- QQ阅读〔美区〕｜8.5.81
-  证据版本：8.5.81；…就开了挂》：一本没有废话的开窍指南，直戳年轻人的26个重大“累”点。解锁更多精彩内容，快来QQ阅读 1、发现新增漫剧推流专区，全屏沉浸式刷剧，精彩内容即刷即看 2、新增更新提醒小组件，好书更新不错过，轻松追更 3、适配 iPhone Duo，大屏阅读更沉浸
-  https://apps.apple.com/us/app/id487608658
-- iStore — Store Region Browser〔国区〕｜1.4.0
-  证据版本：1.4.0；爱商店 v1.4.0 更新 全面适配 iPhone Duo。折叠、展开或半折使用时，商店、收藏、地图与设置会跟随可用宽度变化，列表、网格与卡片操作保持可点，内外屏都能铺满显示。 1. 迎接 iPhone Duo。在大尺寸内屏上浏览 175 个商店更从容，开合与姿态切换时界面持续适配，换区体验更连贯。 2. 跟随窗口的商店与收藏。宽屏下网格与卡片铺开；靠近折痕、可用宽度变窄时，布局收束到舒适密度，Tab 与关键操作仍在触手可及处。 3. 切换、收藏与地图更可靠。折叠前后操作保持可点，一键换区、置顶与地图选区始终可达。 4. 新系统上滚动更沉稳。商店、收藏与设置页顶部改为柔和模糊边界，替代默认玻…
-  https://apps.apple.com/cn/app/%E7%88%B1%E5%BA%94%E7%94%A8%E5%95%86%E5%BA%97-%E5%95%86%E5%BA%97%E5%9C%B0%E5%8C%BA%E6%B5%8F%E8%A7%88%E5%B7%A5%E5%85%B7/id6786123132?uo=4
-- visualOS: Infinite Canvas〔国区〕｜1.7.1
-  证据版本：1.7.1；… more natural shadows • Fresh look for dialogs, the picture viewer, the tour and the video player • Ready for iPhone Duo: the iPad layout when it's open, the phone layout when it's closed • Fixed: Text pasted from Google Docs, AI chats, Apple Notes and web pages keeps its formatting, and lists no longer get extra blank lines • Fixed: Headings on list items and paragraph styles across sev…
-  https://apps.apple.com/cn/app/visualos-infinite-canvas/id6787359589?uo=4
-- The Shelf - Reading Tracker〔国区〕｜1.14
-  证据版本：1.14；The Shelf 1.14 brings your reading life to iPhone Duo, Mac, and Apple Watch, with a calmer Focus experience and more room for your books. • iPhone Duo support across its outer and inner displays, including landscape on the open inner display and layouts that adapt when partially folded. • Your complete library on Mac, wit…
-  https://apps.apple.com/cn/app/the-shelf-reading-tracker/id6790276638?uo=4
-- BBQ Buddy: Grill Log〔国区〕｜1.1.0
-  证据版本：1.1.0；Optimized for iPhone Duo
-  https://apps.apple.com/cn/app/bbq-buddy-grill-log/id6796021857?uo=4
-- VideoTrans: 视频格式转换与压缩〔国区〕｜1.2.2
-  证据版本：1.2.2；已完成 iPhone Duo 设备兼容性测试，支持正常使用。
-  https://apps.apple.com/cn/app/videotrans-%E8%A7%86%E9%A2%91%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2%E4%B8%8E%E5%8E%8B%E7%BC%A9/id6781668971?uo=4
-- 热榜剧场〔国区〕｜1.0.3
-  证据版本：1.0.3；1、修复问题，优化用户体验 2、适配iPhone Duo
-  https://apps.apple.com/cn/app/%E7%83%AD%E6%A6%9C%E5%89%A7%E5%9C%BA/id6783599291?uo=4
-- Feelca Pop〔国区〕｜1.0.12
-  证据版本：1.0.12；- 优化了 iPhone Duo 上的使用体验。
-  https://apps.apple.com/cn/app/feelca-pop/id6790804117?uo=4
-- ZenFocus: Attention Trainer〔国区〕｜2.0.0
-  证据版本：2.0.0；Support iPhone Duo.
-  https://apps.apple.com/cn/app/zenfocus-attention-trainer/id6791957749?uo=4
-- 班主任工作台〔国区〕｜3.3
-  证据版本：3.3；3.3 更新内容 【适配 iPhone Duo 折叠屏】 · 展开后像一本摊开的书：左页选、右页看，分界正好压在折痕上 · 今日：左页按时间排出这一天，「此刻」嵌在当前时刻；右页是需要你处理和待办 · 成绩：打开一次考试占满两页，左边名单，右边看这个学生的名次走势和各科 · 座位表：占满两页，教室中间的走道正好落在折痕上 · 半折立在讲台上自动进入讲台模式：上半屏看下课倒计时和人数，下半屏直接点名、加分 · 谈话录音时半折，可以随手打标记，回头按标记找 · 请假条、学生名单拍照识别后，可以对着原图逐项核对 · 和聊天应用并排时，把家长的请假消息拖到登记请假页上就读成草稿 · 新增…
-  https://apps.apple.com/cn/app/%E7%8F%AD%E4%B8%BB%E4%BB%BB%E5%B7%A5%E4%BD%9C%E5%8F%B0/id6792072690?uo=4
-- 胶片助手-胶片相机测光〔国区〕｜1.3.2
-  证据版本：1.3.2；适配 iPhoneDuo
-  https://apps.apple.com/cn/app/%E8%83%B6%E7%89%87%E5%8A%A9%E6%89%8B-%E8%83%B6%E7%89%87%E7%9B%B8%E6%9C%BA%E6%B5%8B%E5%85%89/id6794249397?uo=4
-- JAM Legio〔美区〕｜1.5.0
+  https://apps.apple.com/cn/app/flipin-3%E5%88%86%E9%92%9F%E5%81%9A%E6%88%90%E4%B8%80%E6%9C%ACzine/id6798570638?uo=4
+- 框住了：3D截图套壳〔国区〕｜1.6.4
+  证据版本：1.6.4；…持「多选」，一次最多可选择 3 份同类素材。在同一个画布上可以自由组合多台 3D 设备，每台设备显示各自的画面。单选或多选设备时都能切换机型，每台设备的位置、大小和变换角度也能单独调整。 2. 点按模型屏幕即可更换素材，iPhone Duo 支持分别更换内屏和外屏的素材。iPad 横屏和 iPhone Duo 展开横屏时，编辑页支持常驻相册侧栏，换素材更快，连续出图更方便。 3. 设备库新增 M9、Q2、X100V 和 EOS C70。还可选择 503CW、X-T3、Alpha III 等 3D 相机模型，以及 Macintosh (1984)、iPad 10、Watch S12、3D Watch Ultra 和多种 HomePod 或 HomePod mini 与 iPhone 的 3D 组合模型。 4. 在编辑页选择「设备 → 完整 → 长截图模式」，即可为长截图套…
+  https://apps.apple.com/cn/app/%E6%A1%86%E4%BD%8F%E4%BA%86-3d%E6%88%AA%E5%9B%BE%E5%A5%97%E5%A3%B3/id6814736751?uo=4
+- 小鸡专注-番茄钟自律学习计时器极简治愈学霸必备〔国区〕｜4.8.2
+  证据版本：4.8.2；- 已针对 iPhone Duo 优化、支持 iOS 27 - 新动物：鹦鹉「小太阳」登场！ - 初代小鸡全新配色「栗子」登场！ - 专注记录备份新增云端备份选项，数据安全更有保障！ - 优化其他已知问题。
+  https://apps.apple.com/cn/app/id1627691759
+- 时光播放机〔国区〕｜2.1.8
+  证据版本：2.1.8；- iPhone Duo 半开立在桌上时，画面会随摆放方向翻转 180° 保持正向，不再提示「请把手机转过来」。 - 导入很长的 FLAC 无损音乐（整张专辑一轨、有声书）时占用的内存大幅减少。 - 在 iMessage 里送磁带时，上传中断后再继续会从上次的位置接着传，进度条也会立即显示实际进度。 - 桌面小组件会自动清理一周没用过的旧图片，不再越攒越占空间。 - 播放时更省电；盒盖开合时塑料纹理不再闪动。 最近更新： - App 内「使用说明」补齐新功能，磁带容量更正为每面 8 首、一盘 16 首；新安装时附带的「使用说明」磁带重新录制。 - 修复桌面小…
+  https://apps.apple.com/cn/app/%E6%97%B6%E5%85%89%E6%92%AD%E6%94%BE%E6%9C%BA/id6800265075?uo=4
+- TOTP Authenticator〔国区〕｜2.8.7
+  证据版本：2.8.7；重新设计了账户，每个账户都采用其服务的颜色。无法识别服务时，可以手动选择。 针对 iPad 和 iPhone Duo 优化了布局，大屏幕能显示更多内容。 更新了小组件。宽小组件现在不仅显示当前验证码，还会显示接下来的验证码。
+  https://apps.apple.com/cn/app/id1625641322
+- FloraQuest: Northern Tier〔国区〕｜3.42
+  证据版本：3.42；Added support for iPhone Duo. Updated screenshots.
+  https://apps.apple.com/cn/app/id1625712734
+- Lightweight Text Editor〔国区〕｜1.2
+  证据版本：1.2；• Quality enhancements, including optimizations for iPhone Duo
+  https://apps.apple.com/cn/app/id1626906348
+- ALL Accor 雅高 - 全球旅行住宿与酒店预订〔美区〕｜13.100.1
+  证据版本：13.100.1；Fold, unfold, travel. ALL Accor is now optimized for iPhone Duo, with more hotels on screen and easier trip management than ever before. This update also includes: Points Summary: Every trip at a glance Transactions related to the same trip are now grouped together. You can instantly see how much each trip has earned you. ALL Conci…
+  https://apps.apple.com/us/app/id489472613
+- LITO: 物品管理〔美区〕｜0.0.6
+  证据版本：0.0.6；Improved layout when switching or rotating iPhone Duo displays. Item details, searches, the selected History tab, and unsaved quantities stay in place as the display size changes. Adjusted safe areas in the camera interface.
+  https://apps.apple.com/us/app/lito-personal-inventory/id6814650600?uo=4
+- 清风提词〔美区〕｜1.5.2
+  证据版本：1.5.2；1.更新支持了iPhone Duo； 2.增加了ICP备案信息； 3.解决了其他若干bug。
+  https://apps.apple.com/us/app/%E6%B8%85%E9%A3%8E%E6%8F%90%E8%AF%8D/id6822176574?uo=4
+- JAM Legio〔国区〕｜1.5.0
   证据版本：1.5.0；Optimized for iPhone Duo. New play reminders, and username suggestions when your first choice is taken. Bug fixes and improvements.
-  https://apps.apple.com/us/app/jam-legio/id6797884645?uo=4
-- Gravity Defied - Trial Racing〔美区〕｜1.0.2
-  证据版本：1.0.2；- Support for iPhone Duo - Bug fixes and improvements
-  https://apps.apple.com/us/app/gravity-defied-trial-racing/id6799736909?uo=4
-- AllStar Node Control〔美区〕｜1.3
+  https://apps.apple.com/cn/app/jam-legio/id6797884645?uo=4
+- AllStar Node Control〔国区〕｜1.3
   证据版本：1.3；… for the most capable FT4/FT8 mobile solution anywhere What’s New in version 1.3 Features: - Full support for iPhone Duo, on both the front screen and the inner display - New Favorites button for one-tap switching to any saved node and support for way more quick-access favorites - Add favorites directly from the new Favorites sheet - Tap the node name at the top of the screen to switch n…
-  https://apps.apple.com/us/app/allstar-node-control/id6800192244?uo=4
-- PolyQuad〔美区〕｜1.1
+  https://apps.apple.com/cn/app/allstar-node-control/id6800192244?uo=4
+- PolyQuad〔国区〕｜1.1
   证据版本：1.1；- new iPhone Duo layout - dark theme added - several bug fixes
-  https://apps.apple.com/us/app/polyquad/id6803790337?uo=4
-- 3D Quick Viewer〔美区〕｜1.1.0
+  https://apps.apple.com/cn/app/polyquad/id6803790337?uo=4
+- 3D Quick Viewer〔国区〕｜1.1.0
   证据版本：1.1.0；• Added support for the foldable iPhone Duo. • Improved the UI of the details screen. • FBX: Fixed an issue where parts of some models did not move during animation playback. • MMD: Fixed physics-driven parts such as hair and ears sometimes detaching and falling when playback is under heavy load. • VRM: License …
-  https://apps.apple.com/us/app/3d-quick-viewer/id6804688390?uo=4
-- Dry Log〔美区〕｜1.5
+  https://apps.apple.com/cn/app/3d-quick-viewer/id6804688390?uo=4
+- Dry Log〔国区〕｜1.5
   证据版本：1.5；Bug fix, verify compatibility for iPhone Duo. Please send us any suggestions you have to make the app even better!
-  https://apps.apple.com/us/app/dry-log/id6811685950?uo=4
+  https://apps.apple.com/cn/app/dry-log/id6811685950?uo=4
+- 100个俯卧撑：PushApe〔国区〕｜1.2
+  证据版本：1.2；…到银背大猩猩。 • 八个场景重新绘制，白天和黄昏各有风貌。 • 链条、今日训练和 Kito 小组件，轻点一下即可开始。 • 从控制中心、操作按钮或 Siri 开始今天的训练。 • Pushape 现已支持 iPad 和 iPhone Duo。大屏幕变成双页；在 Duo 上，像书一样立起来休息，放平即开始下一组。 • 更清晰的首次体验和大量修复：更改训练日或在午夜训练，你的链条都不会中断。
+  https://apps.apple.com/cn/app/100%E4%B8%AA%E4%BF%AF%E5%8D%A7%E6%92%91-pushape/id6807421454?uo=4
+- 全民小剧场〔国区〕｜1.0.1
+  证据版本：1.0.1；适配iPhone DUO
+  https://apps.apple.com/cn/app/%E5%85%A8%E6%B0%91%E5%B0%8F%E5%89%A7%E5%9C%BA/id6808178217?uo=4
+- 叠叠江南〔国区〕｜1.1
+  证据版本：1.1；1. 适配 iPhone Duo 展开或合上设备时，画面和操作界面会随屏幕调整。 2. 新增建造和拆除动画，每次搭建或拆除都有更清楚的反馈。 3. 调整工具栏与操作提示的布局，让常用按钮更容易找到。 4. 修复在狭长小镇中拖动镜头时，视角可能移出场景的问题。
+  https://apps.apple.com/cn/app/%E5%8F%A0%E5%8F%A0%E6%B1%9F%E5%8D%97/id6818072341?uo=4
+- 叠叠江南〔美区〕｜1.1
+  证据版本：1.1；1. Support for iPhone Duo The game view and controls adjust as you fold and unfold the device. 2. Added animations that make it easier to see the results of building and demolishing. 3. Refined the toolbar and tips layout so frequently used buttons are easier to find. 4. Fixed an issue where pa…
+  https://apps.apple.com/us/app/little-eaves/id6818072341?uo=4
+- Lume - Everyday Pro Camera〔美区〕｜1.1
+  证据版本：1.1；…bed yet? Everything in Lume is now free for your first 7 days, with nothing to sign up for. • New layouts for iPhone Duo. Lume now rotates and lays itself out for every way you hold iPhone Duo. Open, the controls sit around a centered preview. Half-folded, the preview and controls each take a half, and Switch sides flips them. Try shooting from waist level, or straight down from above. T…
+  https://apps.apple.com/us/app/lume-everyday-pro-camera/id6814717706?uo=4
+- Go Narrow: Study Antibiotics〔美区〕｜1.12
+  证据版本：1.12；… follows your device's language, and you can switch between English and German any time. Support for iPad and iPhone Duo: bigger text, buttons and boards on iPad, and the map and its pages side by side.
+  https://apps.apple.com/us/app/go-narrow-study-antibiotics/id6816657062?uo=4
+- Pagekin〔美区〕｜1.0.4
+  证据版本：1.0.4；Optimized for iPhone Duo. • Enjoy double-page reading on the inner display and side-by-side original text and translation in landscape. • Keep the top of your current page when rotating, folding, or unfolding. • Improved bookshelf layouts, toolbars, and reading transitions across display orien…
+  https://apps.apple.com/us/app/pagekin/id6816982885?uo=4
+- IMG_0000: Lost Media〔美区〕｜1.2
+  证据版本：1.2；Now with iPad AND iPhone Duo support and a UI that adapts to those larger screens. Happy reminiscing!
+  https://apps.apple.com/us/app/img-0000-lost-media/id6818665586?uo=4
+- Shoal Organ〔美区〕｜1.2.3
+  证据版本：1.2.3；…ng them back to zero. Double tap the hand button to see the camera. • DARK mode (the moon button). • iPad and iPhone Duo: a new two-row layout with ten presets. • WIRE is off when Shoal opens – press it to let the four play each other. • Double tap on the picture now changes it reliably. • The manual explains more: what a pad does depends on each synth's patch.
+  https://apps.apple.com/us/app/shoal-organ/id6822688544?uo=4
 
 ## 地区商店资料变化（不等于新增 App 或已适配）
-- Edits〔国区〕：456.0 → 457.0
-- Wego 机票搜索酒店预订 - 玩够旅行〔国区〕：7.63.0 → 7.64.0
-- Koco Widgets - 小组件，直接跳转〔国区〕：1.28.6 → 1.28.7
-- iSpazio〔国区〕：5.14 → 5.15
-- 小宇宙·一起听播客〔国区〕：3.5.1 → 3.6.0
-- Infuse〔国区〕：8.5.10 → 8.5.11
-- DAMA-图片自动马赛克&打码〔国区〕：26.11.1 → 26.11.2
-- 排班表 & 工作日历 - Shift2Cal AI助手〔国区〕：2.2 → 2.3
-- Tempo - Metronome 节拍器〔国区〕：5.2 → 5.3
-- ColorfulCam〔国区〕：1.9.43 → 1.9.44
-- ColorfulCam〔美区〕：1.9.38 → 1.9.44
-- InstaCal: 菜单栏日历〔国区〕：4.2 → 4.2.1
-- 2Camera 双摄相机 DualShot Recorder〔国区〕：1.6.0 → 1.6.1
-- GenK：微学习与多元主题〔国区〕：2.6.6 → 2.6.7
-- Orca IDE〔国区〕：0.0.65 → 0.0.69
-- Flipin - 3分钟做成一本zine〔美区〕：1.2.4 → 1.2.7
-- HAPI: vibe coding anywhere〔美区〕：0.34.0 → 0.36.4
-- 文件〔国区〕：27.2 → 27.3
-- 框住了：3D截图套壳〔国区〕：1.6.3 → 1.6.4
-- iSpreadsheet™ : 电子计算表〔国区〕：27.1 → 27.2
-- Prodrafts - 无限笔记&草稿〔国区〕：5.1.9 → 5.2
-- FlipYear - 3D 翻页书相册清理〔国区〕：1.1.28 → 1.1.29
-- 云书阁-小说漫画阅读器〔国区〕：1.5.0 → 1.5.1
-- iTablaPro〔国区〕：12.2.0 → 12.2.1
-- 小微账单 - 离线收支记账〔美区〕：1.0.8 → 1.0.9
-- Halcyon Forecast〔美区〕：1.7.3 → 1.7.7
-- 装柜宝 - 集装箱装柜方案〔美区〕：2.1.0 → 2.2.0
-- Timely: AI时间日程管理＆计划清单＆专注番茄钟〔美区〕：3.0 → 3.0.3
-- Natchez Trace: An Ancient Road〔国区〕：1.5 → 1.6
-- StationWX〔国区〕：3.0 → 3.1
-- Squawster - Police Scanner〔美区〕：1.0.12 → 1.0.14
-- Duo Aquarium〔国区〕：2.1.1 → 2.1.2
-- SongBook Chordpro〔国区〕：7.0.3 → 7.0.4
-- Headroom: 远程桌面〔国区〕：1.5.1 → 1.5.2
-- 时光播放机〔美区〕：2.1.5 → 2.1.8
-- Alarmate: Date Alarm Clock〔国区〕：3.5 → 3.6
-- TrayMinder〔国区〕：15.10.3 → 15.10.4
-- 醒目视力表〔国区〕：4.0 → 4.0.1
-- Icon Goodies〔美区〕：1.11 → 1.14
-- Running Writings Lab〔美区〕：1.2.0 → 1.3.0
-- LAB Cam Pro〔美区〕：1.0.1 → 1.0.2
-- 健身记录、锻炼计划与重量追踪：Repio〔美区〕：首次获取该地区资料
-- 如实相机〔美区〕：首次获取该地区资料
-- k线跳动〔美区〕：首次获取该地区资料
-- Widget Bazaar〔国区〕：1.1 → 1.2
-- Ultimate Game Guide〔国区〕：6.0 → 6.0.1
-- QQ阅读〔美区〕：首次获取该地区资料
-- iStore — Store Region Browser〔国区〕：首次获取该地区资料
-- visualOS: Infinite Canvas〔国区〕：首次获取该地区资料
-- The Shelf - Reading Tracker〔国区〕：首次获取该地区资料
-- BBQ Buddy: Grill Log〔国区〕：首次获取该地区资料
+- PGA Tour〔美区〕：2026.4.3 → 2026.4.4
+- VLLO〔国区〕：15.4.0 → 15.4.1
+- 哔哩哔哩〔国区〕：9.20.0 → 9.21.0
+- 美团〔国区〕：12.69.201 → 12.69.401
+- 腾讯视频〔国区〕：9.04.85 → 9.04.90
+- 训记 - 训练计划专家〔国区〕：7.00.421 → 7.00.423
+- 谜底时钟〔国区〕：2.76 → 2.77
+- 精灵壁纸-折叠屏壁纸上线〔国区〕：2.4 → 2.5
+- 彩云天气-为您预报几点几分下雨〔国区〕：7.63.5 → 7.64.0
+- InstaCal: 菜单栏日历〔国区〕：4.2.1 → 4.2.2
+- 框住了：3D截图套壳〔美区〕：1.6.1 → 1.6.4
+- GymWatch-健身人专属表盘〔美区〕：3.1 → 3.1.1
+- AskZine〔美区〕：1.1 → 1.1.1
+- WPS协作〔国区〕：5.57.0 → 5.57.1
+- Clicker – Presentation Remote〔国区〕：1.0.0 → 1.1.0
+- iTanpura〔国区〕：9.6.1 → 9.6.2
+- 畅译 - 录音转文字·手表录音笔·会议纪要〔国区〕：2.2.0 → 2.3.0
+- Duo Aquarium〔美区〕：2.0 → 2.1.2
+- 时光播放机〔国区〕：2.1.7 → 2.1.8
+- TOTP Authenticator〔国区〕：2.8.8 → 2.8.9
+- ALL Accor 雅高 - 全球旅行住宿与酒店预订〔美区〕：13.99.1 → 13.100.1
+- TrayMinder〔国区〕：15.10.4 → 15.10.3
+- FoldWall〔美区〕：1.0.1 → 1.0.2
+- ToDesk远程控制〔国区〕：5.4.0 → 5.4.1
+- LITO: 物品管理〔美区〕：首次获取该地区资料
+- 清风提词〔美区〕：首次获取该地区资料
+- HTML Editor〔国区〕：27.0.1 → 27.0.2
+- visualOS: Infinite Canvas〔国区〕：1.7.1 → 1.7.2
+- JAM Legio〔国区〕：首次获取该地区资料
+- AllStar Node Control〔国区〕：首次获取该地区资料
+- PolyQuad〔国区〕：首次获取该地区资料
+- 3D Quick Viewer〔国区〕：首次获取该地区资料
+- Dry Log〔国区〕：首次获取该地区资料
 
-## 新增软件（11）
-- VideoTrans: 视频格式转换与压缩｜摄影与录像
-- 热榜剧场｜娱乐
-- Feelca Pop｜摄影与录像
-- ZenFocus: Attention Trainer｜健康健美
-- 班主任工作台｜效率
-- 胶片助手-胶片相机测光｜摄影与录像
-- JAM Legio｜教育
-- AllStar Node Control｜工具
-- PolyQuad｜音乐
-- 3D Quick Viewer｜图形与设计
-- Dry Log｜商务
+## 新增软件（8）
+- 100个俯卧撑：PushApe｜健康健美
+- 全民小剧场｜娱乐
+- 叠叠江南｜娱乐
+- Lume - Everyday Pro Camera｜摄影与录像
+- Go Narrow: Study Antibiotics｜医疗
+- Pagekin｜图书
+- IMG_0000: Lost Media｜摄影与录像
+- Shoal Organ｜音乐
 
-## 新增游戏（1）
-- Gravity Defied - Trial Racing｜游戏
+## 新增游戏（0）
+无。
 
 ## 新增类型待同步（0）
 无。
