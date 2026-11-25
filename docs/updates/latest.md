@@ -1,205 +1,173 @@
 # 本轮抓取报告
-2026-11-24T23:17:15+00:00
+2026-11-25T05:40:18+00:00
 
 新增收录、版本更新和适配线索分开统计；不代表本站实测。
 
 ## 国区扫描范围
-候选池 11911 个 ID；本轮计划检查 605 个；分类榜单成功 28/28。
+候选池 11953 个 ID；本轮计划检查 604 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
 
 ## 美区扫描范围
-候选池 17126 个 ID；本轮计划检查 600 个；分类榜单成功 28/28。
+候选池 17223 个 ID；本轮计划检查 600 个；分类榜单成功 28/28。
 候选池不等于适配数量，未完成的部分后续轮询。
 其中游戏子分类榜单成功 12/12。
-Lookup 返回 584/600 个条目；网页解析 29/30。
+Lookup 返回 595/600 个条目；网页解析 30/30。
 各地区的版本说明独立保存；美区声明不代表国区已适配。
 本轮部分计划目标未返回资料或来源未完成；保留候选继续轮询，不据此推断已下架或已适配。
 
-## 新增 App（12）
-- Better Ears - Ear Trainer〔国区〕｜4.1
-- Dive Log〔国区〕｜4.3
-- Loan Calculator Pro〔国区〕｜5.6
-- Wukong - Food Delivery〔国区〕｜1.0.7
-- 坛子〔国区〕｜3.6
-- 极无双2〔国区〕｜1.41.602
-- Counterglow: Linked Orbits〔美区〕｜1.0.1
-- SID Synth〔美区〕｜1.1
-- Dayclipse: Sun & Moon Tracker〔美区〕｜1.0.2(3)
-- Pocket Classic〔美区〕｜1.6
-- ChartMe: Family Chore Chart〔美区〕｜1.3
-- GTACity: Map & Guide for GTA 6〔美区〕｜1.1
+## 新增 App（10）
+- Awaken〔国区〕｜7.2
+- 点滴计算 - 静脉输液点滴速度计算和计时器管理〔国区〕｜4.3.0
+- FileBrowser - Document Manager〔国区〕｜26.9
+- Diptic: Photo Collage Maker〔国区〕｜11.1
+- 3D绳结大全 (Knots 3D)〔国区〕｜12.0.1
+- AeroWeather Lite〔美区〕｜3.16.3
+- CalenGoo Calendar〔美区〕｜1.5.106
+- Moon Atlas〔美区〕｜4.0.6
+- Mortgage Calculator Pro〔美区〕｜4.6
+- Lunar Silver Star Story Touch〔美区〕｜3.4.6
 
-## 已有 App 版本更新（35）
-- 小决定 - 大转盘抽签选择器〔国区〕｜26.14 → 26.15
-- TapTap - 发现好游戏〔国区〕｜5.56.1 → 5.57.0
-- Koco Widgets - 小组件，直接跳转〔国区〕｜1.28.7 → 1.28.8
-- AudioTools，dB，声音与音频〔国区〕｜18.16 → 18.17
-- 一秒笔记: 悬浮Markdown〔国区〕｜3.1.1 → 3.2.0
-- 钓鱼预录相机〔国区〕｜1.3.1 → 1.3.2
-- BaroWatch Barometer〔国区〕｜1.3.2 → 1.3.3
-- 随手网页-移动端 HTML 查看器〔国区〕｜1.16.1 → 1.16.2
-- 框住了：3D截图套壳〔国区〕｜1.6.4 → 1.6.5
-- 力扣 LeetCode〔国区〕｜2.19.5 → 2.19.6
-- 全民找茬 - 正版唯美画风〔国区〕｜2.1.4 → 2.1.5
-- 岚图汽车-中国高端新能源汽车领导者〔国区〕｜6.2.8 → 6.2.9
-- Sleeve - 专辑播放器〔国区〕｜2.3.2 → 2.3.3
-- iLehra〔国区〕｜10.1.5 → 10.1.6
-- Feelca〔国区〕｜3.3.4 → 3.3.5
-- 临床决策〔国区〕｜1.32 → 1.33
-- CalJimi-热量计算卡路里饮食记录体重管理拍照识别打卡〔国区〕｜3.1.1 → 3.1.2
-- HTML 编辑器 : HTML 查看器〔国区〕｜2.1.0 → 2.1.1
-- Listkit - 待办任务清单〔国区〕｜1.0.11 → 1.0.12
-- sobosuba: Jelly Merge〔美区〕｜1.3.0 → 1.3.1
-- Paprika食谱管理4〔国区〕｜4.0.24 → 4.0.25
-- 宝宝生活记录和育儿日记 - Piyo日志〔国区〕｜9.6.1 → 9.7.0
-- 动森圈圈〔国区〕｜2.2.3 → 2.2.5
-- 简忆相册 - 照片整理，相册分类〔国区〕｜6.0.1 → 6.0.3
-- AI约球〔国区〕｜2.2.1 → 2.2.2
-- 多重计时器：学习与专注〔国区〕｜3.1 → 3.2
-- 百度-AI智能搜索〔国区〕｜15.84.0 → 15.85.0
-- Gear 浏览器 - AI 智能翻译&独家支持扩展与油猴脚本〔国区〕｜7.5.1 → 7.5.2
-- 超级手机管家- 系统电池分析,清理助手,手机安全卫士〔国区〕｜10.0 → 10.1
-- 百度输入法-语音手写拼音打字皮肤〔国区〕｜13.3.22 → 13.3.23
-- a-Shell〔国区〕｜2.3.2 → 2.4.0
-- Lasso Tones〔美区〕｜1.0.1 → 1.1
-- 遥光 - 阿西西 PS串流〔国区〕｜1.2.8 → 1.2.9
-- UltraPod：复古音乐播放器·随身听〔国区〕｜3.0.6 → 3.1.0
-- a-Shell mini〔国区〕｜2.3.2 → 2.4.0
+## 已有 App 版本更新（14）
+- MLB〔美区〕｜26.21.0 → 26.22.0
+- 微博〔国区〕｜16.11.2 → 16.11.3
+- The Weather Channel - Radar〔美区〕｜16.31 → 16.32.2
+- FOX Sports: Watch Live Games〔美区〕｜5.163.0 → 5.163.1
+- Amazing Slow Downer〔美区〕｜7.1.3 → 7.1.4
+- Siddur Zmanim Luach Minyanim〔美区〕｜10.0.2 → 10.0.3
+- Congress Pro〔美区〕｜19.0.23 → 19.0.25
+- Yahoo News: Daily News For You〔美区〕｜100.1.1 → 101.0.0
+- Marvis Pro〔国区〕｜10.4 → 11
+- TrayMinder〔国区〕｜15.10.4 → 15.10.5
+- P-Toolkit〔美区〕｜1.0.1 → 1.0.4
+- eBay online shopping & selling〔美区〕｜6.282.0 → 6.283.0
+- 哔哩哔哩漫画-看漫画小说大全〔国区〕｜7.7.0 → 7.7.1
+- Console Remote〔国区〕｜28.0.11 → 28.0.12
 
-## 新增或变化的适配线索（18）
-- GuitarNotes〔美区〕｜4.2.0
-  证据版本：4.2.0；- Added support for iPhone Duo, with optimized layouts for folded and unfolded configurations. - Improved the user experience and fixed known issues.
-  https://apps.apple.com/us/app/id492150266
-- APTV〔国区〕｜1.5.13
-  证据版本：1.5.13；适配 iPhone Duo
-  https://apps.apple.com/cn/app/id1630403500
-- J-Notes: Lock Screen Notes〔国区〕｜1.1.3
-  证据版本：1.1.3；Support for iPhone Duo. Every locked note now locks on its own, and a note you are writing no longer gets lost. • iPhone Duo: open it like a book and the list fills the left page and the note the right, so the text never runs over the crease • Open or close the phone in the middle of writing…
-  https://apps.apple.com/cn/app/id1634043414
-- IMG_0000: Lost Media〔国区〕｜1.2
-  证据版本：1.2；Now with iPad AND iPhone Duo support and a UI that adapts to those larger screens. Happy reminiscing!
-  https://apps.apple.com/cn/app/img-0000-lost-media/id6818665586?uo=4
-- Shoal Organ〔国区〕｜1.2.3
-  证据版本：1.2.3；…ng them back to zero. Double tap the hand button to see the camera. • DARK mode (the moon button). • iPad and iPhone Duo: a new two-row layout with ten presets. • WIRE is off when Shoal opens – press it to let the four play each other. • Double tap on the picture now changes it reliably. • The manual explains more: what a pad does depends on each synth's patch.
-  https://apps.apple.com/cn/app/shoal-organ/id6822688544?uo=4
-- Better Ears - Ear Trainer〔国区〕｜4.1
+## 新增或变化的适配线索（26）
+- MLB〔美区〕｜26.22.0
+  证据版本：26.18.3；We’ve optimized the MLB app for iPhone Duo, introducing a redesigned tab bar along with dynamic Live Activities and scoreboard layouts adapted for every orientation.
+  https://apps.apple.com/us/app/id493619333
+- 法语助手〔国区〕｜26.11.2
+  证据版本：26.11.2；【本次更新】 - 全新 可以在Apple Watch上使用单词播放、AI口语对话和背单词 - 新增 文件阅读支持导出笔记，可自定义排版，并提供多种导出格式 - 新增 背单词顶部进度条，支持撤回上个单词 - 新增 适配 iPhone Duo 界面 - 新增「短视频学单词」可以查看所有点赞的视频 - 优化 查词自动发音支持复读，需要在发音设置中开启复读模式 - 新增 iPad单词列表支持显示到右侧 - 新增 词汇量测试支持「单词PK」 - 新增 AI解释问答新增丰富模板，支持自定义提示词 【近期更新】 - 全新 背单词支持创建「课本组」，同时学习多个课本 - 优化 背单词页面字体大小可以独立设置 - 新增 欧路AI翻译大模型开放使用 - 新增 单词导出支持导出高亮标记 - 新增 添加生词时，长按分组可以快速设置默认 - 改进 离线发音引擎音质大提升，支持更多音色
+  https://apps.apple.com/cn/app/%E6%B3%95%E8%AF%AD%E5%8A%A9%E6%89%8B/id327432856?uo=4
+- 德语助手 Dehelper德语词典翻译工具〔国区〕｜26.11.2
+  证据版本：26.11.2；【本次更新】 - 全新 可以在Apple Watch上使用单词播放、AI口语对话和背单词 - 新增 文件阅读支持导出笔记，可自定义排版，并提供多种导出格式 - 新增 背单词顶部进度条，支持撤回上个单词 - 新增 适配 iPhone Duo 界面 - 新增「短视频学单词」可以查看所有点赞的视频 - 优化 查词自动发音支持复读，需要在发音设置中开启复读模式 - 新增 iPad单词列表支持显示到右侧 - 新增 词汇量测试支持「单词PK」 - 新增 AI解释问答新增丰富模板，支持自定义提示词 【近期更新】 - 全新 背单词支持创建「课本组」，同时学习多个课本 - 优化 背单词页面字体大小可以独立设置 - 新增 欧路AI翻译大模型开放使用 - 新增 单词导出支持导出高亮标记 - 新增 添加生词时，长按分组可以快速设置默认 - 改进 离线发音引擎音质大提升，支持更多音色
+  https://apps.apple.com/cn/app/%E5%BE%B7%E8%AF%AD%E5%8A%A9%E6%89%8B-dehelper%E5%BE%B7%E8%AF%AD%E8%AF%8D%E5%85%B8%E7%BF%BB%E8%AF%91%E5%B7%A5%E5%85%B7/id340820736?uo=4
+- 欧路词典〔国区〕｜26.11.2
+  证据版本：26.11.2；【本次更新】 - 全新 可以在Apple Watch上使用单词播放、AI口语对话和背单词 - 新增 文件阅读支持导出笔记，可自定义排版，并提供多种导出格式 - 新增 背单词顶部进度条，支持撤回上个单词 - 新增 适配 iPhone Duo 界面 - 新增「短视频学单词」可以查看所有点赞的视频 - 优化 查词自动发音支持复读，需要在发音设置中开启复读模式 - 新增 iPad单词列表支持显示到右侧 - 新增 词汇量测试支持「单词PK」 - 新增 AI解释问答新增丰富模板，支持自定义提示词 - 优化 单词筛选后快速定位 【近期更新】 - 全新 背单词支持创建「课本组」，同时学习多个课本 - 优化 背单词页面字体大小可以独立设置 - 新增 欧路AI翻译大模型开放使用 - 新增 单词导出支持导出高亮标记 - 新增 添加生词时，长按分组可以快速设置默认 - 改进 离线发音引擎音质…
+  https://apps.apple.com/cn/app/%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8/id367278030?uo=4
+- 欧路词典 Eudic 增强版〔国区〕｜26.11.2
+  证据版本：26.11.2；【本次更新】 - 全新 可以在Apple Watch上使用单词播放、AI口语对话和背单词 - 新增 文件阅读支持导出笔记，可自定义排版，并提供多种导出格式 - 新增 背单词顶部进度条，支持撤回上个单词 - 新增 适配 iPhone Duo 界面 - 新增「短视频学单词」可以查看所有点赞的视频 - 优化 查词自动发音支持复读，需要在发音设置中开启复读模式 - 新增 iPad单词列表支持显示到右侧 - 新增 词汇量测试支持「单词PK」 - 新增 AI解释问答新增丰富模板，支持自定义提示词 - 优化 单词筛选后快速定位 【近期更新】 - 全新 背单词支持创建「课本组」，同时学习多个课本 - 优化 背单词页面字体大小可以独立设置 - 新增 欧路AI翻译大模型开放使用 - 新增 单词导出支持导出高亮标记 - 新增 添加生词时，长按分组可以快速设置默认 - 改进 离线发音引擎音质…
+  https://apps.apple.com/cn/app/%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8-eudic-%E5%A2%9E%E5%BC%BA%E7%89%88/id393670998?uo=4
+- 温湿度计〔美区〕｜7.5.5
+  证据版本：7.5.5；- Fixed layout issues on iPhone Duo. - Added expressive discomfort index icons to the app, widgets, Apple Watch app, and complications. - Added dedicated tinted icons for temperature, humidity, pressure, and discomfort index widgets. - Added an Easter egg label to the cat setting.
+  https://apps.apple.com/us/app/id495546638
+- iLehra〔国区〕｜10.1.6
+  证据版本：10.1.6；…iously in v10: ============= - NEW Audio engine for more natural sounding instrument play - Added support for iPhone Duo: the app now adapts to its wide, foldable screen as well as the smaller outside screen - Updated for iOS 26 and iOS 27, including the new Liquid Glass look for the tab bar, toolbars and buttons - Improved iPad layout for split view, etc. When the window is resized smal…
+  https://apps.apple.com/cn/app/ilehra/id333183750?uo=4
+- iTablaPro〔国区〕｜12.2.1
+  证据版本：12.2.1；…c code - Updated help files - Minor enhancements & fixes New in version 12: ============= - Added support for iPhone Duo: the app now adapts to its wide, foldable screen as well as the smaller outside screen - Updated for iOS 26 and iOS 27, including the new Liquid Glass look for the tab bar, toolbars and buttons - Improved iPad layout for split view, etc. When the window is resized smal…
+  https://apps.apple.com/cn/app/itablapro/id337350026?uo=4
+- Cloud Baby Monitor〔国区〕｜26.2
+  证据版本：26.2.1；Thank you for your feedback. New in this release: • Optimized for iPhone Duo. • Live monitoring from the Apple Watch. • Bug fixes and stability improvements.
+  https://apps.apple.com/cn/app/cloud-baby-monitor/id432791399?uo=4
+- Accounts 3 Checkbook〔国区〕｜3.16
+  证据版本：3.17；iPhone Duo optimizations Localization improvements Bug fixes
+  https://apps.apple.com/cn/app/id1638551535
+- iTanpura〔国区〕｜9.6.1
+  证据版本：9.6.3；…W: Added ability to create custom preset playlists (setlists) - Updated in-app Help files - Added support for iPhone Duo & iOS 27 - Added Presets for Raag Gavati & Raag Ahir-Lalit. To get the new presets tap the menu button at the top right of the presets screen and choose “Reload Original Presets” from the menu. - Minor UI enhancements & fixes
+  https://apps.apple.com/cn/app/itanpura/id326115058?uo=4
+- WomanLog Pro Calendar〔国区〕｜7.5.2
+  证据版本：7.5.3；iPhone Duo support: Enjoy an optimized app experience on iPhone Duo. Plans & Purchases: View all available purchase options in one place under Settings > Plans & Purchases. Bug fixes and improvements: Minor fixes and improvements for a smoother experience.
+  https://apps.apple.com/cn/app/womanlogpro%E6%97%A5%E5%8E%86/id429135422?uo=4
+- eBay online shopping & selling〔美区〕｜6.283.0
+  证据版本：6.283.0；The eBay app you love, now supporting iPhone Duo! Bug fixes and performance improvements. We are listening! Shake your phone if you experience a problem with the app or want to send us feedback about your experience on eBay.
+  https://apps.apple.com/us/app/ebay-online-shopping-selling/id282614216?uo=4
+- Better Ears - Ear Trainer〔美区〕｜4.1
   证据版本：4.1；• Now with iPhone Duo support: Folded, use Better Ears as usual on the outer display. Unfold it for the big layout with staff, answers and keyboard side by side. • Music Reading and Pitch Recognition: notes now appear in a clear grid, in portrait together with the keyboard. • Many small imp…
-  https://apps.apple.com/cn/app/better-ears-ear-trainer/id284444548?uo=4
-- Dive Log〔国区〕｜4.3
+  https://apps.apple.com/us/app/better-ears-ear-trainer/id284444548?uo=4
+- Dive Log〔美区〕｜4.3
   证据版本：4.3；• On iPhone Duo (unfolded) and iPhone Pro Max (landscape), Dive Log now uses a multi-column layout. • Consumption rates for CCR dives are now calculated differently. For oxygen tanks, depth is no longer included in the consumption rate calculation. For diluent tanks, only the consumpt…
-  https://apps.apple.com/cn/app/dive-log/id301049600?uo=4
-- Loan Calculator Pro〔国区〕｜5.6
+  https://apps.apple.com/us/app/dive-log/id301049600?uo=4
+- Loan Calculator Pro〔美区〕｜5.6
   证据版本：5.6；iPhone Duo Support Added FaceID and Dark Mode
-  https://apps.apple.com/cn/app/loan-calculator-pro/id304485729?uo=4
-- Wukong - Food Delivery〔国区〕｜1.0.7
-  证据版本：1.0.7；…片无法显示的问题。 • 修复首页商超店铺的跳转及页面展示逻辑。 • 修复商超店铺加购时误提示超出配送范围的问题。 • 补充超值换购商品的划线原价展示。 • 修复首页店铺卡片在部分情况下可能导致应用闪退的问题。 • 适配 iPhone Duo，优化折叠、半打开和展开状态下的页面布局与操作体验。
-  https://apps.apple.com/cn/app/wukong-food-delivery/id6825030652?uo=4
-- 坛子〔国区〕｜3.6
-  证据版本：3.6；3.6 版本新内容 【新增】 · 适配iPhone Duo 。针对 iPhone Duo 的开合、半折专门做了布局 · 支持更多论坛，在抽屉里随时切换；选论坛、切换论坛换成一个论坛一张大卡片，一眼分清、不易点错 · 小本本：随手记笔记，也能把帖子、某一楼一键收进来，支持搜索 · iCloud 同步：小本本和设置在你的 iPhone、iPad 之间同步（论坛账号和密码不同步，只存本机） · 游客模式：部分论坛不登录也能浏览 · iPad 两栏：列表和帖子并排，中间的分割线可以拖动调宽；支持外接键盘快捷键 【阅读与回帖】 · 点「回复 N#」直接查看对话 · 楼主标识，样式和颜色可以自选 · 回…
-  https://apps.apple.com/cn/app/%E5%9D%9B%E5%AD%90/id6827593589?uo=4
-- 坛子〔美区〕｜3.6
-  证据版本：3.6；3.6 版本新内容 【新增】 · 适配iPhone Duo 。针对 iPhone Duo 的开合、半折专门做了布局 · 支持更多论坛，在抽屉里随时切换；选论坛、切换论坛换成一个论坛一张大卡片，一眼分清、不易点错 · 小本本：随手记笔记，也能把帖子、某一楼一键收进来，支持搜索 · iCloud 同步：小本本和设置在你的 iPhone、iPad 之间同步（论坛账号和密码不同步，只存本机） · 游客模式：部分论坛不登录也能浏览 · iPad 两栏：列表和帖子并排，中间的分割线可以拖动调宽；支持外接键盘快捷键 【阅读与回帖】 · 点「回复 N#」直接查看对话 · 楼主标识，样式和颜色可以自选 · 回…
-  https://apps.apple.com/us/app/%E5%9D%9B%E5%AD%90/id6827593589?uo=4
-- 极无双2〔国区〕｜1.41.602
-  证据版本：1.40.602；修复iPhone Duo设备适配问题
-  https://apps.apple.com/cn/app/id1631069081
-- Counterglow: Linked Orbits〔美区〕｜1.0.1
-  证据版本：1.0.1；Improves layouts on iPhone Duo, including spacing around game controls. Makes the Done action in Settings clearer.
-  https://apps.apple.com/us/app/counterglow-linked-orbits/id6824747214?uo=4
-- SID Synth〔美区〕｜1.1
-  证据版本：1.1；- more sounds added - iPhone Duo layout added - bug fixes
-  https://apps.apple.com/us/app/sid-synth/id6825168734?uo=4
-- Dayclipse: Sun & Moon Tracker〔美区〕｜1.0.2(3)
-  证据版本：1.0.2(3)；Added support for iPhone Duo
-  https://apps.apple.com/us/app/dayclipse-sun-moon-tracker/id6825253145?uo=4
-- Pocket Classic〔美区〕｜1.6
-  证据版本：1.6；• Make more room for your music with a new unfolded landscape layout on iPhone Duo. • Place your player on the left or right, with a flip clock or Now Playing view beside it. • Customize your layout in Settings → Landscape. • Drag the song timeline to seek, and control playback directly from Now Playing. • Enjoy rounded player corners and clearer ela…
-  https://apps.apple.com/us/app/pocket-classic/id6830041681?uo=4
-- ChartMe: Family Chore Chart〔美区〕｜1.3
-  证据版本：1.3；… this month, or of all time, and follow this week's award races as they happen. • Works on iOS 16 and later • iPhone Duo support - Fits the foldable iPhone, folded or open • Plus smaller fixes and polish throughout. New in ChartMe 1.2: • Leaderboard filters. See who's ahead today, this week, this month, or of all time. • Award races. The leaderboard now shows every award your family has …
-  https://apps.apple.com/us/app/chartme-family-chore-chart/id6831974894?uo=4
-- GTACity: Map & Guide for GTA 6〔美区〕｜1.1
-  证据版本：1.1；…you open the app • Tap the current tab again to scroll back to the top • Layouts made for iPhone SE, iPad and iPhone Duo • A cleaner, more consistent design FIXES • Faster loading: nothing is downloaded again when it hasn't changed • More reliable when the servers are busy
-  https://apps.apple.com/us/app/gtacity-map-guide-for-gta-6/id6832487834?uo=4
+  https://apps.apple.com/us/app/loan-calculator-pro/id304485729?uo=4
+- Awaken〔国区〕｜7.2
+  证据版本：7.2；• 全面支持 iPhone Duo：Awaken 适用于各种姿态，无论是合上时使用外屏、展开后使用大尺寸内屏，还是半折叠状态 • 在内屏和 iPad 上，闹钟和计时器以网格排列，时钟和唤醒屏幕也会放大以充分利用空间 • iPad 和 iPhone Duo 上的时钟自定界面更大，更方便预览每种样式和主题 • 窗口尺寸变化时布局会随之调整，包括 iPad 上的分屏浏览和台前调度 • 更多内容现在会以你的语言显示，包括重复日期、稍后提醒次数限制、渐强时长，以及时钟样式和主题的名称
+  https://apps.apple.com/cn/app/awaken/id327767743?uo=4
+- 点滴计算 - 静脉输液点滴速度计算和计时器管理〔国区〕｜4.3.0
+  证据版本：4.3.0；新增对 iPhone Duo 的支持。
+  https://apps.apple.com/cn/app/%E7%82%B9%E6%BB%B4%E8%AE%A1%E7%AE%97-%E9%9D%99%E8%84%89%E8%BE%93%E6%B6%B2%E7%82%B9%E6%BB%B4%E9%80%9F%E5%BA%A6%E8%AE%A1%E7%AE%97%E5%92%8C%E8%AE%A1%E6%97%B6%E5%99%A8%E7%AE%A1%E7%90%86/id358073020?uo=4
+- FileBrowser - Document Manager〔国区〕｜26.9
+  证据版本：26.9；新功能 * 改进了对 iPhone Duo 的支持。 * 现在会显示缩略图占用的存储空间。 问题修复 * 修复了 iPhone 旋转时的布局问题。 * 修复了在多个窗口中删除项目时崩溃的问题。 * 修复了图片的隔空播放 (AirPlay) 支持。 感谢您协助我们改进应用。如果您愿意在 App Store 上进行评分或撰写评论，我们十分期待收到您的反馈。 与其他文件管理器应用不同，我们绝不会收集您的任何数据。我们也不要求您创建账户或登记电子邮件地址。
+  https://apps.apple.com/cn/app/filebrowser-document-manager/id364738545?uo=4
+- Diptic: Photo Collage Maker〔国区〕｜11.1
+  证据版本：11.1；HIGHLIGHTS • Duotic! (Diptic for iPhone Duo) ... Diptic adapts to iPhone Duo with controls and a canvas that adjust as you fold, unfold, and rotate. Have fun! • Diptic also comes back to the Mac … Already own Diptic on iPhone or iPad? Download the Mac version at no additional charge with the same Apple Account. …
+  https://apps.apple.com/cn/app/diptic-photo-collage-maker/id377989827?uo=4
+- 3D绳结大全 (Knots 3D)〔国区〕｜12.0.1
+  证据版本：12.0.1；v12.0.1 - 适配 iOS 27 和 iPhone Duo v12.0.0 我们非常高兴地为您带来本次更新，内容包括： - 动画分辨率更高，播放更流畅 - 可在打结动画的任意时刻旋转绳结 - 重新设计的动画控制按钮：打结动画与 360° 旋转动画可分别播放 - 新增手势：双指左右拖动可 360° 旋转绳结，全屏时可双指缩放 - 每种绳结都会记住各自的设置 - 可在“设置”中选择默认全屏显示或左手模式 - 翻译修正与内容更新
+  https://apps.apple.com/cn/app/3d%E7%BB%B3%E7%BB%93%E5%A4%A7%E5%85%A8-knots-3d/id453571750?uo=4
+- AeroWeather Lite〔美区〕｜3.16.3
+  证据版本：3.16.3；New: - Alarm group shows Space Weather and Volcanic Ash alerts Changed: - Support for iOS/iPadOS 27 and iPhone Duo - Minor bug fixing - Internal optimizations - Database update (2026-10-29)
+  https://apps.apple.com/us/app/aeroweather-lite/id288286079?uo=4
+- CalenGoo Calendar〔美区〕｜1.5.106
+  证据版本：1.5.106；…ch complication with all-day events - Flat and glass toolbar design options on iOS 27 - Half-open layouts for iPhone Duo - Bug fixes
+  https://apps.apple.com/us/app/calengoo-calendar/id300370871?uo=4
+- Moon Atlas〔美区〕｜4.0.6
+  证据版本：4.0.6；Improved handling of iPad windows and support for the iPhone Duo.
+  https://apps.apple.com/us/app/moon-atlas/id302171459?uo=4
+- Mortgage Calculator Pro〔美区〕｜4.6
+  证据版本：4.6；iPhone Duo, FaceID and Dark Mode Support
+  https://apps.apple.com/us/app/mortgage-calculator-pro/id315103123?uo=4
+- Lunar Silver Star Story Touch〔美区〕｜3.4.6
+  证据版本：3.4.6；Adds iPhone Duo support as well as resizable window support on iPad and macOS.
+  https://apps.apple.com/us/app/id492598036
 
 ## 地区商店资料变化（不等于新增 App 或已适配）
-- 小决定 - 大转盘抽签选择器〔国区〕：26.14 → 26.15
-- TapTap - 发现好游戏〔国区〕：5.56.1 → 5.57.0
-- Koco Widgets - 小组件，直接跳转〔国区〕：1.28.7 → 1.28.8
-- LumaFusion〔国区〕：5.6.1 → 5.6.2
-- AudioTools，dB，声音与音频〔国区〕：18.16 → 18.17
-- 一秒笔记: 悬浮Markdown〔国区〕：3.1.1 → 3.2.0
-- 钓鱼预录相机〔国区〕：1.3.1 → 1.3.2
-- BaroWatch Barometer〔国区〕：1.3.2 → 1.3.3
-- 随手网页-移动端 HTML 查看器〔国区〕：1.16.1 → 1.16.2
-- 婧音宝盒〔美区〕：1.0.2 → 1.0.4
-- 框住了：3D截图套壳〔国区〕：1.6.4 → 1.6.5
-- 力扣 LeetCode〔国区〕：2.19.5 → 2.19.6
-- 全民找茬 - 正版唯美画风〔国区〕：2.1.4 → 2.1.5
-- 岚图汽车-中国高端新能源汽车领导者〔国区〕：6.2.8 → 6.2.9
-- Sleeve - 专辑播放器〔国区〕：2.3.2 → 2.3.3
-- iLehra〔国区〕：10.1.5 → 10.1.6
-- Cloud Baby Monitor〔国区〕：26.2 → 26.2.1
-- Feelca〔国区〕：3.3.4 → 3.3.5
-- WidgetClub:Widget, Theme, Icon〔国区〕：4.17.43 → 4.17.44
-- Accounts 3 Checkbook〔国区〕：3.16 → 3.17
-- iTanpura〔国区〕：9.6.2 → 9.6.3
-- 临床决策〔国区〕：1.32 → 1.33
-- CalJimi-热量计算卡路里饮食记录体重管理拍照识别打卡〔国区〕：3.1.1 → 3.1.2
-- HTML 编辑器 : HTML 查看器〔国区〕：2.1.0 → 2.1.1
-- Listkit - 待办任务清单〔国区〕：1.0.11 → 1.0.12
-- sobosuba: Jelly Merge〔美区〕：1.3.0 → 1.3.1
-- Paprika食谱管理4〔国区〕：4.0.24 → 4.0.25
-- 宝宝生活记录和育儿日记 - Piyo日志〔国区〕：9.6.1 → 9.7.0
-- WomanLog Pro Calendar〔国区〕：7.5.2 → 7.5.3
-- 动森圈圈〔国区〕：2.2.3 → 2.2.5
-- 简忆相册 - 照片整理，相册分类〔国区〕：6.0.1 → 6.0.3
-- Church Center〔国区〕：2026.11.2 → 2026.11.3
-- Anime Wallpaper - Live Engine〔国区〕：5.2.1 → 5.2.2
-- Giftful - Wishlist & Registry〔国区〕：3.3.0 → 3.4.0
-- AI约球〔国区〕：2.2.1 → 2.2.2
-- 折叠屏壁纸 - Foldable Wallpaper〔美区〕：1.0.5 → 1.0.7
-- DuoFridge〔美区〕：1.1 → 2.0
-- 多重计时器：学习与专注〔国区〕：3.1 → 3.2
-- 百度-AI智能搜索〔国区〕：15.84.0 → 15.85.0
-- Gear 浏览器 - AI 智能翻译&独家支持扩展与油猴脚本〔国区〕：7.5.1 → 7.5.2
-- 超级手机管家- 系统电池分析,清理助手,手机安全卫士〔国区〕：10.0 → 10.1
-- 百度输入法-语音手写拼音打字皮肤〔国区〕：13.3.22 → 13.3.23
-- a-Shell〔国区〕：2.3.2 → 2.4.0
-- TrayMinder〔国区〕：15.10.3 → 15.10.4
-- SmartLess: Quiet Phone〔国区〕：1.6 → 1.6.1
-- Lasso Tones〔美区〕：1.0.1 → 1.1
-- P-Toolkit〔国区〕：1.0.3 → 1.0.4
-- iCatcher! Podcast App〔国区〕：15.3.1 → 15.3.2
-- Occasions 3 - Reminders〔国区〕：3.4.1 → 3.4.2
-- 遥光 - 阿西西 PS串流〔国区〕：1.2.8 → 1.2.9
-- UltraPod：复古音乐播放器·随身听〔国区〕：3.0.6 → 3.1.0
-- Mango IRC〔国区〕：3.1.4 → 3.1.5
-- DecHex - 开发者计算器〔美区〕：首次获取该地区资料
-- a-Shell mini〔国区〕：2.3.2 → 2.4.0
-- Infuse: Enterprise〔国区〕：8.5.10 → 8.5.11
-- AllStar Node Control〔国区〕：1.3 → 1.4
-- Lume - Everyday Pro Camera〔国区〕：首次获取该地区资料
-- Go Narrow: Study Antibiotics〔国区〕：首次获取该地区资料
-- IMG_0000: Lost Media〔国区〕：首次获取该地区资料
-- Shoal Organ〔国区〕：首次获取该地区资料
+- MLB〔美区〕：26.21.0 → 26.22.0
+- 微博〔国区〕：16.11.2 → 16.11.3
+- Shazam 音乐神搜〔美区〕：27.2 → 27.3
+- 同花顺-炒股、股票〔美区〕：12.16.01 → 12.17.00
+- Tempo - Metronome 节拍器〔美区〕：5.2 → 5.3
+- 文件〔美区〕：27.1 → 27.3
+- FFT〔美区〕：7.10 → 7.11
+- The Weather Channel - Radar〔美区〕：16.31 → 16.32.2
+- FOX Sports: Watch Live Games〔美区〕：5.163.0 → 5.163.1
+- Amazing Slow Downer〔美区〕：7.1.3 → 7.1.4
+- Siddur Zmanim Luach Minyanim〔美区〕：10.0.2 → 10.0.3
+- Congress Pro〔美区〕：19.0.23 → 19.0.25
+- Yahoo News: Daily News For You〔美区〕：100.1.1 → 101.0.0
+- Marvis Pro〔国区〕：10.4 → 11
+- TrayMinder〔国区〕：15.10.4 → 15.10.5
+- P-Toolkit〔美区〕：1.0.1 → 1.0.4
+- eBay online shopping & selling〔美区〕：6.282.0 → 6.283.0
+- Widget Bazaar〔美区〕：首次获取该地区资料
+- Luma: Events & Invites〔国区〕：2.18.3 → 2.18.4
+- 哔哩哔哩漫画-看漫画小说大全〔国区〕：7.7.0 → 7.7.1
+- Console Remote〔国区〕：28.0.11 → 28.0.12
+- Better Ears - Ear Trainer〔美区〕：首次获取该地区资料
+- Dive Log〔美区〕：首次获取该地区资料
+- Loan Calculator Pro〔美区〕：首次获取该地区资料
+- SID Synth〔国区〕：首次获取该地区资料
+- Dayclipse: Sun & Moon Tracker〔国区〕：首次获取该地区资料
+- Pocket Classic〔国区〕：首次获取该地区资料
+- ChartMe: Family Chore Chart〔国区〕：首次获取该地区资料
+- GTACity: Map & Guide for GTA 6〔国区〕：首次获取该地区资料
 
-## 新增软件（10）
-- Better Ears - Ear Trainer｜音乐
-- Dive Log｜体育
-- Loan Calculator Pro｜财务
-- Wukong - Food Delivery｜美食佳饮
-- 坛子｜社交
-- SID Synth｜音乐
-- Dayclipse: Sun & Moon Tracker｜天气
-- Pocket Classic｜音乐
-- ChartMe: Family Chore Chart｜效率
-- GTACity: Map & Guide for GTA 6｜参考资料
+## 新增软件（9）
+- Awaken｜效率
+- 点滴计算 - 静脉输液点滴速度计算和计时器管理｜医疗
+- FileBrowser - Document Manager｜工具
+- Diptic: Photo Collage Maker｜摄影与录像
+- 3D绳结大全 (Knots 3D)｜参考资料
+- AeroWeather Lite｜天气
+- CalenGoo Calendar｜效率
+- Moon Atlas｜参考资料
+- Mortgage Calculator Pro｜财务
 
-## 新增游戏（2）
-- 极无双2｜游戏
-- Counterglow: Linked Orbits｜游戏
+## 新增游戏（1）
+- Lunar Silver Star Story Touch｜游戏
 
 ## 新增类型待同步（0）
 无。
