@@ -1,5 +1,790 @@
 [
   {
+    "time": "2026-11-27T12:56:56+00:00",
+    "added": [
+      {
+        "id": "signal-1260980663",
+        "name": "Export Audio",
+        "version": "3.2.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/export-audio/id1260980663?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 1260980663,
+        "appType": "software",
+        "category": "音乐"
+      },
+      {
+        "id": "signal-6444015673",
+        "name": "Element Note：电子笔记本",
+        "version": "2.16.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id6444015673",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6444015673,
+        "appType": "software",
+        "category": "效率"
+      },
+      {
+        "id": "signal-740204574",
+        "name": "Ananda: Binaural Beats",
+        "version": "1.5.4",
+        "appStoreUrl": "https://apps.apple.com/us/app/ananda-binaural-beats/id740204574?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 740204574,
+        "appType": "software",
+        "category": "生活"
+      },
+      {
+        "id": "signal-779157948",
+        "name": "Threes!",
+        "version": "3.3.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/threes/id779157948?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 779157948,
+        "appType": "game",
+        "category": "游戏"
+      },
+      {
+        "id": "signal-849316734",
+        "name": "Dibs",
+        "version": "1.3.0",
+        "appStoreUrl": "https://apps.apple.com/us/app/dibs/id849316734?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 849316734,
+        "appType": "game",
+        "category": "游戏"
+      },
+      {
+        "id": "signal-506508166",
+        "name": "Santa Biblia Reina",
+        "version": "5.0.6",
+        "appStoreUrl": "https://apps.apple.com/us/app/id506508166",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 506508166,
+        "appType": "software",
+        "category": "图书"
+      }
+    ],
+    "updated": [
+      {
+        "id": "signal-1359055423",
+        "name": "网易大神",
+        "version": "4.27.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E7%BD%91%E6%98%93%E5%A4%A7%E7%A5%9E/id1359055423?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 1359055423,
+        "appType": "software",
+        "category": "社交",
+        "previousVersion": "4.27.0"
+      },
+      {
+        "id": "signal-835505449",
+        "name": "Metadata Pro: EXIF Editor",
+        "version": "11.4",
+        "appStoreUrl": "https://apps.apple.com/us/app/metadata-pro-exif-editor/id835505449?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 835505449,
+        "appType": "software",
+        "category": "摄影与录像",
+        "previousVersion": "11.3"
+      }
+    ],
+    "signals": [
+      {
+        "id": "signal-1271361459",
+        "name": "Draw on Endless Paper",
+        "version": "5.1.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/draw-on-endless-paper/id1271361459?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 1271361459,
+        "appType": "software",
+        "category": "图形与设计",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "5.1.2",
+          "excerpt": "Flow 5 来了，并已为 iPhone Duo 做好准备。装进口袋的无限笔记本。 但这次更新远不止 iPhone Duo。这是我们有史以来最大的一次更新，几乎花了今年一整年的时间打造，加入了大家呼声最高的功能：模板、完整的 PDF 支持、搜索、文本标签等等。 - iPhone Duo：在外屏上随手画草图，展开后即可获得更大的空间，并会根据你的握持方式自动适配 - 模板：可将任意 PDF 或图片导入为模板，包括带链接的多页计划本，还可将任意笔记本存储为模板 - 搜索：查找你手写或手绘的任何内容，以及照片和 PDF 中的文本。私密，且完全在设备上处理。 - 文本标签：真正可编辑的文本…",
+          "url": "https://apps.apple.com/cn/app/draw-on-endless-paper/id1271361459?uo=4",
+          "date": "2026-11-25"
+        }
+      },
+      {
+        "id": "signal-6444160154",
+        "name": "此刻心-心情日记情绪理解和调节",
+        "version": "3.2026.21",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id6444160154",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6444160154,
+        "appType": "software",
+        "category": "健康健美",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "3.2026.15",
+          "excerpt": "◆ 全面适配 iPhone Duo，开启书写新体验 iPhone Duo 折起时，随手记下片刻想法，快速浏览日常；展开后，静心写一篇日记，细细回看往日的记录。 ◆ 按日期，回看记录 首页新增日历选择。轻点右上角的日历，即可按日期回看记录，也能一键回到今天。 如果你遇到问题，或者有任何建议，可以在 App 设置中联系我们，或： 邮箱：help.health.if@hotmail.com 小红书：王嘉Jackson 公众号：无限感觉",
+          "url": "https://apps.apple.com/cn/app/id6444160154",
+          "date": "2026-10-23"
+        }
+      },
+      {
+        "id": "signal-506081667",
+        "name": "iDaily · 每日环球视野 -5分钟了解地球今天发生什么",
+        "version": "7.0.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/id506081667",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 506081667,
+        "appType": "software",
+        "category": "报刊杂志",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "7.0.1",
+          "excerpt": "全新支持 iPhone Duo 折叠屏，更震撼的视觉体验 - 展开模式可获得更广阔视野 - 支持 Liquid Glass 玻璃界面",
+          "url": "https://apps.apple.com/us/app/id506081667",
+          "date": "2026-11-09"
+        }
+      },
+      {
+        "id": "signal-6443946717",
+        "name": "KRSUOR",
+        "version": "4.2.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id6443946717",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6443946717,
+        "appType": "software",
+        "category": "参考资料",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "4.0",
+          "excerpt": "Added support for the iPhone Duo Updated Inchoate Charges – Added references for attempt, solicitation, and conspiracy offenses. Updated What's Arrestable – Revised arrest authority information for easier reference. PDF Reader Appearance Settings – New customization options for a more comfortable read…",
+          "url": "https://apps.apple.com/cn/app/id6443946717",
+          "date": "2026-11-02"
+        }
+      },
+      {
+        "id": "signal-6443996847",
+        "name": "Frame Crop – Art Mode",
+        "version": "12.0.50",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id6443996847",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6443996847,
+        "appType": "software",
+        "category": "工具",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "12.0.49",
+          "excerpt": "Support for iPhone Duo!",
+          "url": "https://apps.apple.com/cn/app/id6443996847",
+          "date": "2026-10-31"
+        }
+      },
+      {
+        "id": "signal-1359055423",
+        "name": "网易大神",
+        "version": "4.27.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E7%BD%91%E6%98%93%E5%A4%A7%E7%A5%9E/id1359055423?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 1359055423,
+        "appType": "software",
+        "category": "社交",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "4.27.1",
+          "excerpt": "-支持iPhone Duo，完整适配 iPad -修复了一些问题，优化了一些体验",
+          "url": "https://apps.apple.com/cn/app/%E7%BD%91%E6%98%93%E5%A4%A7%E7%A5%9E/id1359055423?uo=4",
+          "date": "2026-11-27"
+        }
+      },
+      {
+        "id": "signal-835505449",
+        "name": "Metadata Pro: EXIF Editor",
+        "version": "11.4",
+        "appStoreUrl": "https://apps.apple.com/us/app/metadata-pro-exif-editor/id835505449?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 835505449,
+        "appType": "software",
+        "category": "摄影与录像",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "11.4",
+          "excerpt": "…the Share button in Photos. • New library with albums, Select, and video playback. • New layouts for iPad and iPhone Duo, and dark mode. • New welcome screen and How To guide. What changed: • Exporting metadata is replaced by starting a template from a photo.",
+          "url": "https://apps.apple.com/us/app/metadata-pro-exif-editor/id835505449?uo=4",
+          "date": "2026-11-18"
+        }
+      },
+      {
+        "id": "signal-766858884",
+        "name": "Neutron Music Player",
+        "version": "2.30.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/neutron-music-player/id766858884?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 766858884,
+        "appType": "software",
+        "category": "音乐",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "2.30.1",
+          "excerpt": "…tials in Connections and Controls → Scrobble) - Reverberator DSP: I3DL2 compliant, with presets - Support for iPhone Duo - Support for Neutron widget * Improved quality of Pitch Shifter DSP * Show volume changes on mini-display in Controls screen * Add A-Z lookup for group entries on CarPlay display when list >20 entries ! Fix: - #EXT lines loaded as tracks from M3U playlists - UI slider…",
+          "url": "https://apps.apple.com/us/app/neutron-music-player/id766858884?uo=4",
+          "date": "2026-11-19"
+        }
+      },
+      {
+        "id": "signal-6443919232",
+        "name": "Pixel Pals Widget Pet Game",
+        "version": "2.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id6443919232",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 6443919232,
+        "appType": "software",
+        "category": "图形与设计",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "2.1",
+          "excerpt": "- iPhone Duo support and iPhone 18 Pro support, I loooove how these came out - [iPhone Duo] Palccordion, an all-new minigame to play with your pal so you can record and enjoy music together. Choose from the accordion, ocarina, pan flute, harp, or synth, and easily send your creatio…",
+          "url": "https://apps.apple.com/cn/app/id6443919232",
+          "date": "2026-11-13"
+        }
+      },
+      {
+        "id": "signal-854618029",
+        "name": "FileBrowser Professional",
+        "version": "26.9",
+        "appStoreUrl": "https://apps.apple.com/us/app/filebrowser-professional/id854618029?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 854618029,
+        "appType": "software",
+        "category": "商务",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "26.9",
+          "excerpt": "New Features * Improved support for iPhone Duo. * Storage space of thumbnails is now displayed. * Sync tasks can now optionally delete empty folders. Bug Fixes * Fixed iPhone layout issues on rotation. * Fixed crash when deleting an item in multiple windows. * Fixed Airplay support for images. * Fixed delay when cl…",
+          "url": "https://apps.apple.com/us/app/filebrowser-professional/id854618029?uo=4",
+          "date": "2026-11-20"
+        }
+      },
+      {
+        "id": "signal-1260980663",
+        "name": "Export Audio",
+        "version": "3.2.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/export-audio/id1260980663?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 1260980663,
+        "appType": "software",
+        "category": "音乐",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "3.2.0",
+          "excerpt": "■3.2.0 - Support iPhone Duo - if you have notice any bugs, please let me know - Updated SDKs and third-party libraries. - Minor improvements and bug fixes. If you have found a reproducible bug, please let me know via App Support → Scroll down to Contact.",
+          "url": "https://apps.apple.com/cn/app/export-audio/id1260980663?uo=4",
+          "date": "2026-11-25"
+        }
+      },
+      {
+        "id": "signal-6444015673",
+        "name": "Element Note：电子笔记本",
+        "version": "2.16.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/id6444015673",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 6444015673,
+        "appType": "software",
+        "category": "效率",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "2.14.0",
+          "excerpt": "新增 • 现已支持 iPhone Duo：在两块屏幕上，工具栏都会沿屏幕边缘排列。 • 每篇分页笔记末尾都有一张可直接书写的空白页。继续拖动即可添加新页面。",
+          "url": "https://apps.apple.com/cn/app/id6444015673",
+          "date": "2026-11-19"
+        }
+      },
+      {
+        "id": "signal-740204574",
+        "name": "Ananda: Binaural Beats",
+        "version": "1.5.4",
+        "appStoreUrl": "https://apps.apple.com/us/app/ananda-binaural-beats/id740204574?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 740204574,
+        "appType": "software",
+        "category": "生活",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.5.4",
+          "excerpt": "Ananda now supports iPhone Duo, with layouts adapted to its screens. Also includes stability improvements and bug fixes.",
+          "url": "https://apps.apple.com/us/app/ananda-binaural-beats/id740204574?uo=4",
+          "date": "2026-11-26"
+        }
+      },
+      {
+        "id": "signal-779157948",
+        "name": "Threes!",
+        "version": "3.3.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/threes/id779157948?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 779157948,
+        "appType": "game",
+        "category": "游戏",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "3.3.1",
+          "excerpt": "+ Added iPhone Duo Support + Updated links in credits page + Bug fixes",
+          "url": "https://apps.apple.com/us/app/threes/id779157948?uo=4",
+          "date": "2026-11-21"
+        }
+      },
+      {
+        "id": "signal-849316734",
+        "name": "Dibs",
+        "version": "1.3.0",
+        "appStoreUrl": "https://apps.apple.com/us/app/dibs/id849316734?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 849316734,
+        "appType": "game",
+        "category": "游戏",
+        "evidence": {
+          "type": "app_store_release_notes_mention",
+          "version": "1.3.0",
+          "excerpt": "- Added support for iPhone Duo - Bug fixes & improvements",
+          "url": "https://apps.apple.com/us/app/dibs/id849316734?uo=4",
+          "date": "2026-11-02"
+        }
+      },
+      {
+        "id": "signal-506508166",
+        "name": "Santa Biblia Reina",
+        "version": "5.0.6",
+        "appStoreUrl": "https://apps.apple.com/us/app/id506508166",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "us"
+        ],
+        "itunesId": 506508166,
+        "appType": "software",
+        "category": "图书",
+        "evidence": {
+          "type": "app_store_page_release_notes",
+          "version": "5.0",
+          "excerpt": "Compatibilidad con iPhone Duo.",
+          "url": "https://apps.apple.com/us/app/id506508166",
+          "date": "2026-11-04"
+        }
+      }
+    ],
+    "storeUpdates": [
+      {
+        "id": "apple-016",
+        "name": "VLLO",
+        "version": "15.5.0",
+        "appStoreUrl": "https://apps.apple.com/cn/app/vllo-ai%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91%E5%99%A8/id952050883?uo=4",
+        "status": "apple_featured",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 952050883,
+        "appType": "software",
+        "category": "摄影与录像",
+        "previousVersion": "15.4.2",
+        "change": "version"
+      },
+      {
+        "id": "signal-751096907",
+        "name": "Wego 机票搜索酒店预订 - 玩够旅行",
+        "version": "7.64.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/wego-flights-hotels-booking/id751096907?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 751096907,
+        "appType": "software",
+        "category": "旅游",
+        "previousVersion": "7.63.0",
+        "change": "version"
+      },
+      {
+        "id": "signal-718659370",
+        "name": "脉脉-找人脉找工作求职招聘职场社交平台",
+        "version": "6.7.74",
+        "appStoreUrl": "https://apps.apple.com/us/app/%E8%84%89%E8%84%89-1-1%E4%BA%BF%E5%85%AC%E5%8F%B8%E5%91%98%E5%B7%A5%E9%83%BD%E5%9C%A8%E7%94%A8/id718659370?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 718659370,
+        "appType": "software",
+        "category": "商务",
+        "previousVersion": "6.7.72",
+        "change": "version"
+      },
+      {
+        "id": "signal-731781859",
+        "name": "Oz Weather Plus",
+        "version": "4.8.3",
+        "appStoreUrl": "https://apps.apple.com/us/app/oz-weather-plus/id731781859?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 731781859,
+        "appType": "software",
+        "category": "天气",
+        "previousVersion": "4.8.1",
+        "change": "version"
+      },
+      {
+        "id": "signal-839537579",
+        "name": "Prêt à Template",
+        "version": "4.6.9",
+        "appStoreUrl": "https://apps.apple.com/us/app/pr%C3%AAt-%C3%A0-template/id839537579?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 839537579,
+        "appType": "software",
+        "category": "图形与设计",
+        "previousVersion": "4.6.8",
+        "change": "version"
+      },
+      {
+        "id": "signal-779656557",
+        "name": "宝宝生活记录",
+        "version": "6.07",
+        "appStoreUrl": "https://apps.apple.com/us/app/baby-tracker-newborn-log/id779656557?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 779656557,
+        "appType": "software",
+        "category": "医疗",
+        "previousVersion": "6.06",
+        "change": "version"
+      },
+      {
+        "id": "signal-845657206",
+        "name": "宝宝生活记录 Pro",
+        "version": "6.07",
+        "appStoreUrl": "https://apps.apple.com/us/app/baby-tracker-pro-newborn-log/id845657206?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 845657206,
+        "appType": "software",
+        "category": "医疗",
+        "previousVersion": "6.06",
+        "change": "version"
+      },
+      {
+        "id": "signal-429135422",
+        "name": "WomanLog Pro Calendar",
+        "version": "7.5.4",
+        "appStoreUrl": "https://apps.apple.com/cn/app/womanlogpro%E6%97%A5%E5%8E%86/id429135422?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 429135422,
+        "appType": "software",
+        "category": "健康健美",
+        "previousVersion": "7.5.3",
+        "change": "version"
+      },
+      {
+        "id": "signal-1359055423",
+        "name": "网易大神",
+        "version": "4.27.1",
+        "appStoreUrl": "https://apps.apple.com/cn/app/%E7%BD%91%E6%98%93%E5%A4%A7%E7%A5%9E/id1359055423?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn"
+        ],
+        "itunesId": 1359055423,
+        "appType": "software",
+        "category": "社交",
+        "previousVersion": "4.27.0",
+        "change": "version"
+      },
+      {
+        "id": "signal-835505449",
+        "name": "Metadata Pro: EXIF Editor",
+        "version": "11.4",
+        "appStoreUrl": "https://apps.apple.com/us/app/metadata-pro-exif-editor/id835505449?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 835505449,
+        "appType": "software",
+        "category": "摄影与录像",
+        "previousVersion": "11.3",
+        "change": "version"
+      },
+      {
+        "id": "signal-802041071",
+        "name": "超级手机管家- 系统电池分析,清理助手,手机安全卫士",
+        "version": "10.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/device-care-system-health/id802041071?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 802041071,
+        "appType": "software",
+        "category": "生活",
+        "previousVersion": "9.8",
+        "change": "version"
+      },
+      {
+        "id": "signal-766858884",
+        "name": "Neutron Music Player",
+        "version": "2.30.1",
+        "appStoreUrl": "https://apps.apple.com/us/app/neutron-music-player/id766858884?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 766858884,
+        "appType": "software",
+        "category": "音乐",
+        "previousVersion": "",
+        "change": "first_seen"
+      },
+      {
+        "id": "signal-854618029",
+        "name": "FileBrowser Professional",
+        "version": "26.9",
+        "appStoreUrl": "https://apps.apple.com/us/app/filebrowser-professional/id854618029?uo=4",
+        "status": "unverified",
+        "storefront": "us",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 854618029,
+        "appType": "software",
+        "category": "商务",
+        "previousVersion": "",
+        "change": "first_seen"
+      },
+      {
+        "id": "signal-581258186",
+        "name": "Hue Disco",
+        "version": "4.2",
+        "appStoreUrl": "https://apps.apple.com/cn/app/hue-disco/id581258186?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 581258186,
+        "appType": "software",
+        "category": "娱乐",
+        "previousVersion": "",
+        "change": "first_seen"
+      },
+      {
+        "id": "signal-585270521",
+        "name": "Gaana Music - Songs & Podcasts",
+        "version": "9.26.4",
+        "appStoreUrl": "https://apps.apple.com/cn/app/gaana-music-songs-podcasts/id585270521?uo=4",
+        "status": "unverified",
+        "storefront": "cn",
+        "storefronts": [
+          "cn",
+          "us"
+        ],
+        "itunesId": 585270521,
+        "appType": "software",
+        "category": "音乐",
+        "previousVersion": "",
+        "change": "first_seen"
+      }
+    ],
+    "addedCounts": {
+      "software": 4,
+      "game": 2,
+      "unknown": 0
+    },
+    "coverageCN": {
+      "poolSize": 12216,
+      "lookupScheduled": 604,
+      "priorityScheduled": 5,
+      "lookupReturned": 591,
+      "categoryFeedsSucceeded": 28,
+      "categoryFeedsAttempted": 28,
+      "gameFeedsSucceeded": 12,
+      "gameFeedsAttempted": 12,
+      "gameGenreIds": [
+        7007,
+        7008,
+        7009,
+        7011,
+        7012,
+        7013
+      ],
+      "genreIds": [
+        6023,
+        6024,
+        6026,
+        6027,
+        6000,
+        6001,
+        6002,
+        6003
+      ],
+      "time": "2026-11-27T12:49:10+00:00"
+    },
+    "coverageUS": {
+      "time": "2026-11-27T12:53:27+00:00",
+      "poolSize": 17846,
+      "lookupScheduled": 600,
+      "lookupAttempted": 600,
+      "lookupReturned": 594,
+      "lookupRequestsSucceeded": 20,
+      "categoryFeedsAttempted": 28,
+      "categoryFeedsSucceeded": 28,
+      "gameFeedsAttempted": 12,
+      "gameFeedsSucceeded": 12,
+      "sourceRequestsAttempted": 34,
+      "sourceRequestsFailed": 1,
+      "pagesAttempted": 30,
+      "pagesParsed": 30,
+      "pagesFailed": 0,
+      "timeBudgetReached": false,
+      "status": "partial"
+    },
+    "scanOutcomes": {
+      "time": "2026-11-27T12:56:55+00:00",
+      "storefronts": {
+        "cn": "completed",
+        "us": "partial"
+      }
+    }
+  },
+  {
     "time": "2026-11-27T03:06:53+00:00",
     "added": [
       {
@@ -125056,411 +125841,6 @@
         6001
       ],
       "time": "2026-10-31T21:44:57+00:00"
-    }
-  },
-  {
-    "time": "2026-10-31T17:55:17+00:00",
-    "added": [
-      {
-        "id": "signal-635717885",
-        "name": "YACReader - Comic Reader",
-        "version": "3.42.0",
-        "appStoreUrl": "https://apps.apple.com/cn/app/yacreader-comic-reader/id635717885?uo=4",
-        "status": "unverified",
-        "itunesId": 635717885,
-        "appType": "software",
-        "category": "娱乐"
-      },
-      {
-        "id": "signal-910513149",
-        "name": "全民K歌-你其实很会唱歌",
-        "version": "11.3.38",
-        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%85%A8%E6%B0%91k%E6%AD%8C-%E4%BD%A0%E5%85%B6%E5%AE%9E%E5%BE%88%E4%BC%9A%E5%94%B1%E6%AD%8C/id910513149?uo=4",
-        "status": "unverified",
-        "itunesId": 910513149,
-        "appType": "software",
-        "category": "娱乐"
-      },
-      {
-        "id": "signal-932687167",
-        "name": "iSpreadsheet™ : 电子计算表",
-        "version": "27.1",
-        "appStoreUrl": "https://apps.apple.com/cn/app/ispreadsheet-%E7%94%B5%E5%AD%90%E8%AE%A1%E7%AE%97%E8%A1%A8/id932687167?uo=4",
-        "status": "unverified",
-        "itunesId": 932687167,
-        "appType": "software",
-        "category": "财务"
-      },
-      {
-        "id": "signal-897422059",
-        "name": "iMuseum 每日环球展览 · iDaily Museum",
-        "version": "1.2.2",
-        "appStoreUrl": "https://apps.apple.com/cn/app/id897422059",
-        "status": "unverified",
-        "itunesId": 897422059,
-        "appType": "software",
-        "category": "报刊杂志"
-      }
-    ],
-    "updated": [
-      {
-        "id": "signal-6749835845",
-        "name": "飓风相机 - 实时电影感拍摄",
-        "version": "2.0.2",
-        "appStoreUrl": "https://apps.apple.com/cn/app/%E9%A3%93%E9%A3%8E%E7%9B%B8%E6%9C%BA-%E5%AE%9E%E6%97%B6%E7%94%B5%E5%BD%B1%E6%84%9F%E6%8B%8D%E6%91%84/id6749835845?uo=4",
-        "status": "unverified",
-        "itunesId": 6749835845,
-        "appType": "software",
-        "category": "摄影与录像",
-        "previousVersion": "2.0.1"
-      },
-      {
-        "id": "signal-6757520656",
-        "name": "咖啡人 · 每日咖啡记录",
-        "version": "1.3.8",
-        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%92%96%E5%95%A1%E4%BA%BA-%E6%AF%8F%E6%97%A5%E5%92%96%E5%95%A1%E8%AE%B0%E5%BD%95/id6757520656?uo=4",
-        "status": "unverified",
-        "itunesId": 6757520656,
-        "appType": "software",
-        "category": "美食佳饮",
-        "previousVersion": "1.3.7"
-      },
-      {
-        "id": "signal-6803329435",
-        "name": "Chromagraph Camera",
-        "version": "1.2.0",
-        "appStoreUrl": "https://apps.apple.com/cn/app/chromagraph-camera/id6803329435?uo=4",
-        "status": "unverified",
-        "itunesId": 6803329435,
-        "appType": "software",
-        "category": "摄影与录像",
-        "previousVersion": "1.1.3"
-      }
-    ],
-    "signals": [
-      {
-        "id": "apple-009",
-        "name": "Fantastical",
-        "version": "4.2.4",
-        "appStoreUrl": "https://apps.apple.com/cn/app/fantastical-calendar/id718043190?uo=4",
-        "status": "apple_featured",
-        "itunesId": 718043190,
-        "appType": "software",
-        "category": "效率",
-        "evidence": {
-          "type": "app_store_release_notes_mention",
-          "version": "4.2.4",
-          "excerpt": "- Added support for iPhone Duo - Improved duration handling for Todoist tasks created with the natural language parser - The parser no longer erases manually set due dates when the new sentence doesn't include dates - Fixed an issue where creating a task in Todoist would add an extra alarm - Fixed a…",
-          "url": "https://apps.apple.com/cn/app/fantastical-calendar/id718043190?uo=4",
-          "date": "2026-10-23"
-        }
-      },
-      {
-        "id": "apple-011",
-        "name": "Things",
-        "version": "3.25.1",
-        "appStoreUrl": "https://apps.apple.com/cn/app/things-3/id904237743?uo=4",
-        "status": "apple_featured",
-        "itunesId": 904237743,
-        "appType": "software",
-        "category": "效率",
-        "evidence": {
-          "type": "app_store_page_release_notes",
-          "version": "3.25.1",
-          "excerpt": "Things 已准备好迎接 iPhone Duo！我们为这款新设备量身调整了 App，带来适应各种姿态的动态布局、显示列表的边栏，还有更多。 iPhone Duo 上的动态布局 在 iPhone Duo 上，Things 会自行调整布局，充分发挥每种姿态的优势——无论是合上、展开、像书本一样半折叠，还是在分屏浏览中与另一个 App 共用屏幕。展开后，新增的边栏会显示你的所有列表，让你在列表之间轻松切换。 iPhone Duo 上的侧边控件 在 iPhone Duo 上，App 的控件会沿屏幕右侧排成一列，拇指可以轻松够到。其中包括“神奇加号”按钮，你可以将它拖入列表，在想要的确切位…",
-          "url": "https://apps.apple.com/cn/app/id904237743",
-          "date": "2026-10-22"
-        }
-      },
-      {
-        "id": "apple-018",
-        "name": "WPS Office",
-        "version": "26.10.1",
-        "appStoreUrl": "https://apps.apple.com/cn/app/wps-office-%E6%99%BA%E8%83%BDai%E5%8A%9E%E5%85%AC%E5%8A%A9%E6%89%8B/id599852710?uo=4",
-        "status": "apple_featured",
-        "itunesId": 599852710,
-        "appType": "software",
-        "category": "效率",
-        "evidence": {
-          "type": "app_store_release_notes_mention",
-          "version": "26.10.1",
-          "excerpt": "【iPhone Duo 全面适配】 • 首页全形态自适应：随折叠状态适配自动切换的导航和 UI 能力，内屏外屏、横屏竖屏顺滑切换；展开后布局重新排布，重点优化可视化效果。 • 大屏高效办公：表格支持多行列同屏呈现；PDF一站式处理；PPT 支持跨应用一键拖入图片素材；同屏处理多文档、元素随心拖拽。 • AI 全程随行：支持文档和AI 问答分屏处理、边聊边看；AI 写作一键成稿；AI 听记实时转写。 【iPad AI 侧栏升级】 • 侧边栏新增 WPS AI 入口，首页可一键跳转全屏 WPS AI • 优化 Word、PDF、Excel 内 AI 文档问答形…",
-          "url": "https://apps.apple.com/cn/app/wps-office-%E6%99%BA%E8%83%BDai%E5%8A%9E%E5%85%AC%E5%8A%A9%E6%89%8B/id599852710?uo=4",
-          "date": "2026-10-23"
-        }
-      },
-      {
-        "id": "signal-608834326",
-        "name": "Calendars – 日历、待办事项列表和日程表",
-        "version": "5.41.2",
-        "appStoreUrl": "https://apps.apple.com/cn/app/calendars-%E6%97%A5%E5%8E%86-%E5%BE%85%E5%8A%9E%E4%BA%8B%E9%A1%B9%E5%88%97%E8%A1%A8%E5%92%8C%E6%97%A5%E7%A8%8B%E8%A1%A8/id608834326?uo=4",
-        "status": "unverified",
-        "itunesId": 608834326,
-        "appType": "software",
-        "category": "效率",
-        "evidence": {
-          "type": "app_store_release_notes_mention",
-          "version": "5.41.2",
-          "excerpt": "Calendars 登陆 iPhone Duo。 更大的屏幕，全新的规划方式。Calendars 首日即支持 iPhone Duo，充分利用展开后的大屏。探索宽敞的周、月和年视图，并排查看日程与时间线，还可以通过便捷的侧边栏轻松切换不同生活场景。清晰掌握日程安排，规划空间也更加充裕。",
-          "url": "https://apps.apple.com/cn/app/calendars-%E6%97%A5%E5%8E%86-%E5%BE%85%E5%8A%9E%E4%BA%8B%E9%A1%B9%E5%88%97%E8%A1%A8%E5%92%8C%E6%97%A5%E7%A8%8B%E8%A1%A8/id608834326?uo=4",
-          "date": "2026-10-30"
-        }
-      },
-      {
-        "id": "signal-743974925",
-        "name": "PDF 点睛  - 文件编辑器、阅读器和转换器",
-        "version": "7.26.3",
-        "appStoreUrl": "https://apps.apple.com/cn/app/pdf-%E7%82%B9%E7%9D%9B-%E6%96%87%E4%BB%B6%E7%BC%96%E8%BE%91%E5%99%A8-%E9%98%85%E8%AF%BB%E5%99%A8%E5%92%8C%E8%BD%AC%E6%8D%A2%E5%99%A8/id743974925?uo=4",
-        "status": "unverified",
-        "itunesId": 743974925,
-        "appType": "software",
-        "category": "效率",
-        "evidence": {
-          "type": "app_store_release_notes_mention",
-          "version": "7.26.3",
-          "excerpt": "自 iPhone Duo 发布第一天，PDF 点睛即率先适配！ 尽情享受 Liquid Glass 液态玻璃视觉盛宴。在记笔记时，手写识别更准确。已有受管理设备的商业用户在“设置”内登录更便捷。即刻更新并与我们分享您的体验！",
-          "url": "https://apps.apple.com/cn/app/pdf-%E7%82%B9%E7%9D%9B-%E6%96%87%E4%BB%B6%E7%BC%96%E8%BE%91%E5%99%A8-%E9%98%85%E8%AF%BB%E5%99%A8%E5%92%8C%E8%BD%AC%E6%8D%A2%E5%99%A8/id743974925?uo=4",
-          "date": "2026-10-22"
-        }
-      },
-      {
-        "id": "signal-751096907",
-        "name": "Wego 机票搜索酒店预订 - 玩够旅行",
-        "version": "7.62.0",
-        "appStoreUrl": "https://apps.apple.com/cn/app/wego-%E6%9C%BA%E7%A5%A8%E6%90%9C%E7%B4%A2%E9%85%92%E5%BA%97%E9%A2%84%E8%AE%A2-%E7%8E%A9%E5%A4%9F%E6%97%85%E8%A1%8C/id751096907?uo=4",
-        "status": "unverified",
-        "itunesId": 751096907,
-        "appType": "software",
-        "category": "旅游",
-        "evidence": {
-          "type": "app_store_release_notes_mention",
-          "version": "7.62.0",
-          "excerpt": "7.62.0 中的新功能： - 本次更新新增对 iPhone Duo 的支持。展开您的 iPhone Duo，一次查看更多行程信息。比较更多航班和酒店，浏览更大的照片，轻松规划下一次旅行。",
-          "url": "https://apps.apple.com/cn/app/wego-%E6%9C%BA%E7%A5%A8%E6%90%9C%E7%B4%A2%E9%85%92%E5%BA%97%E9%A2%84%E8%AE%A2-%E7%8E%A9%E5%A4%9F%E6%97%85%E8%A1%8C/id751096907?uo=4",
-          "date": "2026-10-21"
-        }
-      },
-      {
-        "id": "signal-648518560",
-        "name": "Gymaholic: Workout Tracker",
-        "version": "16.7",
-        "appStoreUrl": "https://apps.apple.com/cn/app/gymaholic-%E5%81%A5%E8%BA%AB%E5%A2%9E%E8%82%8C%E8%AE%B0%E5%BD%95/id648518560?uo=4",
-        "status": "unverified",
-        "itunesId": 648518560,
-        "appType": "software",
-        "category": "健康健美",
-        "evidence": {
-          "type": "app_store_release_notes_mention",
-          "version": "16.7",
-          "excerpt": "- 针对 iPhone Duo 优化：精心适配全新折叠式设计，带来更直观、流畅且沉浸式的使用体验。 - 性能与稳定性：修复了已知问题并进行了多项优化，让应用运行更快速、流畅且可靠。",
-          "url": "https://apps.apple.com/cn/app/gymaholic-%E5%81%A5%E8%BA%AB%E5%A2%9E%E8%82%8C%E8%AE%B0%E5%BD%95/id648518560?uo=4",
-          "date": "2026-10-15"
-        }
-      },
-      {
-        "id": "signal-900833042",
-        "name": "Fliqlo",
-        "version": "2.4",
-        "appStoreUrl": "https://apps.apple.com/cn/app/fliqlo/id900833042?uo=4",
-        "status": "unverified",
-        "itunesId": 900833042,
-        "appType": "software",
-        "category": "生活",
-        "evidence": {
-          "type": "app_store_page_release_notes",
-          "version": "2.4",
-          "excerpt": "- 新增对 iPhone Duo 布局的支持 - 修复了轻微错误",
-          "url": "https://apps.apple.com/cn/app/id900833042",
-          "date": "2026-10-13"
-        }
-      },
-      {
-        "id": "signal-712286167",
-        "name": "Pedometer++",
-        "version": "8.2.1",
-        "appStoreUrl": "https://apps.apple.com/cn/app/pedometer/id712286167?uo=4",
-        "status": "unverified",
-        "itunesId": 712286167,
-        "appType": "software",
-        "category": "健康健美",
-        "evidence": {
-          "type": "app_store_release_notes_mention",
-          "version": "8.2.1",
-          "excerpt": "Support for the iPhone Duo.",
-          "url": "https://apps.apple.com/cn/app/pedometer/id712286167?uo=4",
-          "date": "2026-10-23"
-        }
-      },
-      {
-        "id": "signal-731781859",
-        "name": "Oz Weather Plus",
-        "version": "4.7.5",
-        "appStoreUrl": "https://apps.apple.com/cn/app/oz-weather-plus/id731781859?uo=4",
-        "status": "unverified",
-        "itunesId": 731781859,
-        "appType": "software",
-        "category": "天气",
-        "evidence": {
-          "type": "app_store_release_notes_mention",
-          "version": "4.7.5",
-          "excerpt": "v4.7.5 * FIXED - Crash on startup on iPhone Duo. Optimisation for iPhone Duo screens and poses is in planning.",
-          "url": "https://apps.apple.com/cn/app/oz-weather-plus/id731781859?uo=4",
-          "date": "2026-10-27"
-        }
-      },
-      {
-        "id": "signal-754105884",
-        "name": "NightCap 相机：长曝光",
-        "version": "10.2",
-        "appStoreUrl": "https://apps.apple.com/cn/app/nightcap-%E7%9B%B8%E6%9C%BA-%E9%95%BF%E6%9B%9D%E5%85%89/id754105884?uo=4",
-        "status": "unverified",
-        "itunesId": 754105884,
-        "appType": "software",
-        "category": "摄影与录像",
-        "evidence": {
-          "type": "app_store_release_notes_mention",
-          "version": "10.2",
-          "excerpt": "10.2 新增对 iPhone Duo 的支持。 - NightCap 适配展开和闭合状态的 iPhone Duo，并为每种状态提供专属布局。 - 高 ISO 色彩改进：使用“ISO增强”拍摄的照片能保持自然色彩。 - 更可靠的对焦系统。 - 大型图库的性能提升。 - 其他修复与改进。",
-          "url": "https://apps.apple.com/cn/app/nightcap-%E7%9B%B8%E6%9C%BA-%E9%95%BF%E6%9B%9D%E5%85%89/id754105884?uo=4",
-          "date": "2026-10-27"
-        }
-      },
-      {
-        "id": "signal-847764912",
-        "name": "彩云天气-为您预报几点几分下雨",
-        "version": "7.63.5",
-        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%BD%A9%E4%BA%91%E5%A4%A9%E6%B0%94-%E4%B8%BA%E6%82%A8%E9%A2%84%E6%8A%A5%E5%87%A0%E7%82%B9%E5%87%A0%E5%88%86%E4%B8%8B%E9%9B%A8/id847764912?uo=4",
-        "status": "unverified",
-        "itunesId": 847764912,
-        "appType": "software",
-        "category": "天气",
-        "evidence": {
-          "type": "app_store_release_notes_mention",
-          "version": "7.63.5",
-          "excerpt": "1. 新增 iPhone Duo 适配，使用更流畅 2. 修复了一些已知问题",
-          "url": "https://apps.apple.com/cn/app/%E5%BD%A9%E4%BA%91%E5%A4%A9%E6%B0%94-%E4%B8%BA%E6%82%A8%E9%A2%84%E6%8A%A5%E5%87%A0%E7%82%B9%E5%87%A0%E5%88%86%E4%B8%8B%E9%9B%A8/id847764912?uo=4",
-          "date": "2026-10-30"
-        }
-      },
-      {
-        "id": "signal-899247664",
-        "name": "TestFlight",
-        "version": "4.4.1",
-        "appStoreUrl": "https://apps.apple.com/cn/app/testflight/id899247664?uo=4",
-        "status": "unverified",
-        "itunesId": 899247664,
-        "appType": "software",
-        "category": "软件开发工具",
-        "evidence": {
-          "type": "app_store_page_release_notes",
-          "version": "4.4.1",
-          "excerpt": "通过本更新，TestFlight 包含： • iPhone Duo 支持。 • 稳定性提升和错误修复。",
-          "url": "https://apps.apple.com/cn/app/id899247664",
-          "date": "2026-10-22"
-        }
-      },
-      {
-        "id": "signal-635717885",
-        "name": "YACReader - Comic Reader",
-        "version": "3.42.0",
-        "appStoreUrl": "https://apps.apple.com/cn/app/yacreader-comic-reader/id635717885?uo=4",
-        "status": "unverified",
-        "itunesId": 635717885,
-        "appType": "software",
-        "category": "娱乐",
-        "evidence": {
-          "type": "app_store_release_notes_mention",
-          "version": "3.42.0",
-          "excerpt": "- Updated library, remote browsing, import, settings and reader layouts for iPhone Duo. - Improved live translation accuracy. - “Continue Reading” now hides automatically when there is nothing to resume. - Fixed content being cut off in the remote library browser. - Fixed a widget issue that could leave it displaying a black screen. - Improved reader con…",
-          "url": "https://apps.apple.com/cn/app/yacreader-comic-reader/id635717885?uo=4",
-          "date": "2026-10-29"
-        }
-      },
-      {
-        "id": "signal-910513149",
-        "name": "全民K歌-你其实很会唱歌",
-        "version": "11.3.38",
-        "appStoreUrl": "https://apps.apple.com/cn/app/%E5%85%A8%E6%B0%91k%E6%AD%8C-%E4%BD%A0%E5%85%B6%E5%AE%9E%E5%BE%88%E4%BC%9A%E5%94%B1%E6%AD%8C/id910513149?uo=4",
-        "status": "unverified",
-        "itunesId": 910513149,
-        "appType": "software",
-        "category": "娱乐",
-        "evidence": {
-          "type": "app_store_release_notes_mention",
-          "version": "11.3.38",
-          "excerpt": "「iPhone Duo全新适配」Duo一面，唱歌多一面：一屏发现更多好歌 「iPhone Duo全新适配」大屏刷，佳作满屏来：海量作品随心刷 「iPhone Duo全新适配」展开点，情绪更足点：词曲铺满 主角即刻就位 「iPhone Duo全新适配」KTV，大点更沉浸：大屏看 MV，状态开口就来",
-          "url": "https://apps.apple.com/cn/app/%E5%85%A8%E6%B0%91k%E6%AD%8C-%E4%BD%A0%E5%85%B6%E5%AE%9E%E5%BE%88%E4%BC%9A%E5%94%B1%E6%AD%8C/id910513149?uo=4",
-          "date": "2026-10-30"
-        }
-      },
-      {
-        "id": "signal-932687167",
-        "name": "iSpreadsheet™ : 电子计算表",
-        "version": "27.1",
-        "appStoreUrl": "https://apps.apple.com/cn/app/ispreadsheet-%E7%94%B5%E5%AD%90%E8%AE%A1%E7%AE%97%E8%A1%A8/id932687167?uo=4",
-        "status": "unverified",
-        "itunesId": 932687167,
-        "appType": "software",
-        "category": "财务",
-        "evidence": {
-          "type": "app_store_release_notes_mention",
-          "version": "27.1",
-          "excerpt": "iPhone Duo Support",
-          "url": "https://apps.apple.com/cn/app/ispreadsheet-%E7%94%B5%E5%AD%90%E8%AE%A1%E7%AE%97%E8%A1%A8/id932687167?uo=4",
-          "date": "2026-10-30"
-        }
-      },
-      {
-        "id": "signal-897422059",
-        "name": "iMuseum 每日环球展览 · iDaily Museum",
-        "version": "1.2.2",
-        "appStoreUrl": "https://apps.apple.com/cn/app/id897422059",
-        "status": "unverified",
-        "itunesId": 897422059,
-        "appType": "software",
-        "category": "报刊杂志",
-        "evidence": {
-          "type": "app_store_page_release_notes",
-          "version": "1.2.1",
-          "excerpt": "- 现已适配 iPhone Duo",
-          "url": "https://apps.apple.com/cn/app/id897422059",
-          "date": "2026-10-29"
-        }
-      }
-    ],
-    "addedCounts": {
-      "software": 4,
-      "game": 0,
-      "unknown": 0
-    },
-    "coverageCN": {
-      "poolSize": 7689,
-      "lookupScheduled": 605,
-      "priorityScheduled": 5,
-      "lookupReturned": 600,
-      "categoryFeedsSucceeded": 28,
-      "categoryFeedsAttempted": 28,
-      "gameFeedsSucceeded": 12,
-      "gameFeedsAttempted": 12,
-      "gameGenreIds": [
-        7014,
-        7015,
-        7016,
-        7017,
-        7018,
-        7019
-      ],
-      "genreIds": [
-        6012,
-        6013,
-        6014,
-        6015,
-        6016,
-        6017,
-        6018,
-        6020
-      ],
-      "time": "2026-10-31T17:49:58+00:00"
     }
   }
 ]
